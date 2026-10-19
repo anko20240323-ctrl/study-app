@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="240" height="180">
+  <rect width="240" height="180" fill="#fdf3e1"/>
+  <polygon points="72,62 84,22 108,52" fill="#f0a35e"/>
+  <polygon points="168,62 156,22 132,52" fill="#f0a35e"/>
+  <ellipse cx="120" cy="92" rx="56" ry="48" fill="#f0a35e"/>
+  <circle cx="100" cy="86" r="7" fill="#333"/>
+  <circle cx="140" cy="86" r="7" fill="#333"/>
+  <polygon points="114,102 126,102 120,109" fill="#d9605b"/>
+  <path d="M120 109 q-8 10 -16 4 M120 109 q8 10 16 4" stroke="#333" stroke-width="3" fill="none"/>
+  <path d="M60 100 h28 M60 110 h28 M152 100 h28 M152 110 h28" stroke="#333" stroke-width="2"/>
+  <text x="120" y="166" font-size="16" text-anchor="middle" font-family="sans-serif" fill="#7a5a33">neko</text>
+</svg>

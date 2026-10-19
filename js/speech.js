@@ -81,43 +81,76 @@
     }
     return new Promise((resolve) => {
       if (gen !== generation) return resolve(false);
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = lang === 'en' ? 'en-US' : 'ja-JP';
-      const v = pickVoice(lang);
-      try {
-        if (v) u.voice = v;
-      } catch (e) { /* 声を選べなくても、ふつうの声で読む */ }
       const base = Number(Store.settings.rate) || 1;
-      u.rate = Math.max(0.5, Math.min(2, base * (opts.rateScale || 1)));
-      u.pitch = 1;
+      const rate = Math.max(0.5, Math.min(2, base * (opts.rateScale || 1)));
+
+      const make = () => {
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = lang === 'en' ? 'en-US' : 'ja-JP';
+        const v = pickVoice(lang);
+        try {
+          if (v) u.voice = v;
+        } catch (e) { /* 声を選べなくても、ふつうの声で読む */ }
+        u.rate = rate;
+        u.pitch = 1;
+        return u;
+      };
 
       let finished = false;
+      let started = false;
+      let retried = false;
+      let current = null;
+      let guard = null;
       const finish = (ok) => {
         if (finished) return;
         finished = true;
         clearInterval(guard);
+        if (current) current.onend = current.onerror = current.onstart = null;
         resolve(ok && gen === generation);
       };
-      u.onend = () => finish(true);
-      u.onerror = (e) => finish(e && e.error === 'interrupted' ? false : true);
+
+      const speakNow = () => {
+        if (gen !== generation) return finish(false);
+        current = make();
+        current.onstart = () => { started = true; };
+        current.onend = () => finish(true);
+        current.onerror = (e) => finish(!(e && (e.error === 'interrupted' || e.error === 'canceled')));
+        synth.speak(current);
+        // iPhone などで一時停止のまま止まってしまうことへの対策
+        if (synth.paused) synth.resume();
+      };
 
       // スマホによっては「読み終わった」の合図が来ないことがあるので、見張り役をつける
-      const limit = Date.now() + 6000 + (text.length * 350) / u.rate;
-      const guard = setInterval(() => {
+      const t0 = Date.now();
+      const limit = t0 + 6000 + (text.length * 350) / rate;
+      guard = setInterval(() => {
         if (gen !== generation) return finish(false);
+        // iPhone で、止めた直後に読み始めると、声が出ないまま止まることがある。そのときは1回だけ読み直す
+        if (!started && !retried && Date.now() - t0 > 2500 && !synth.speaking) {
+          retried = true;
+          if (current) current.onend = current.onerror = current.onstart = null;
+          synth.cancel();
+          setTimeout(speakNow, 250);
+          return;
+        }
         if (Date.now() > limit && !synth.speaking) finish(true);
         if (Date.now() > limit + 15000) finish(true);
       }, 500);
 
-      synth.speak(u);
-      // iPhone などで一時停止のまま止まってしまうことへの対策
-      if (synth.paused) synth.resume();
+      // 止めた直後は、少し待ってから読み始める（iPhone で声が出なくなるのを防ぐ）
+      const sinceCancel = Date.now() - lastCancel;
+      if (sinceCancel < 250) setTimeout(speakNow, 250 - sinceCancel);
+      else speakNow();
     });
   }
 
+  let lastCancel = 0;
   function stop() {
     generation++;
-    if (supported) synth.cancel();
+    if (supported) {
+      synth.cancel();
+      lastCancel = Date.now();
+    }
   }
 
   window.Speech = {

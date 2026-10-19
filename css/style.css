@@ -319,3 +319,16 @@ h1, h2 { line-height: 1.4; }
   * { transition: none !important; scroll-behavior: auto !important; }
 }
 .tab-name { margin: 0 0 6px; padding: 6px 12px; background: var(--accent); border-radius: 10px 10px 0 0; font-size: 15px; width: fit-content; max-width: 100%; overflow-wrap: anywhere; }
+
+/* 止める・続きから（どの場面でも、いちばん左） */
+.btn-pause {
+  flex: 0 0 72px; flex-direction: column; gap: 0; padding: 4px 6px;
+  font-size: 13px; line-height: 1.2;
+}
+.pause-icon { font-size: 20px; line-height: 1.1; }
+.bottom-bar .btn-ask { font-size: 15px; line-height: 1.3; padding: 6px 8px; }
+.bottom-bar .btn-primary { padding: 6px 10px; }
+.q-text { cursor: pointer; }
+.player { flex-wrap: wrap; }
+.player .btn-small { flex: 1 1 0; min-width: 0; padding: 8px 6px; font-size: 15px; }
+.counter { white-space: nowrap; }

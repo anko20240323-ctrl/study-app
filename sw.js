@@ -1,7 +1,7 @@
 // 電波がない所でも、前に開いたページが動くようにする係（service worker）。
 // 教材や画面を直したら、下の VERSION の数字を1つ上げてください（古い保存が入れかわります）。
 
-const VERSION = 'v1';
+const VERSION = 'v3';
 const CACHE = `manabi-${VERSION}`;
 
 const PRECACHE = [
@@ -22,6 +22,9 @@ const PRECACHE = [
   'lessons/html-05.js',
   'lessons/html-06.js',
   'lessons/html-07.js',
+  'lessons/talk-01.js',
+  'lessons/talk-02.js',
+  'lessons/talk-03.js',
   'img/cat.svg',
   'icons/icon.svg',
   'icons/icon-192.png',
@@ -41,20 +44,21 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// 保存してあるものをすぐ出しつつ、電波があれば裏で新しいものに入れかえる
+// 電波があれば新しいものを取りにいき（直した内容がすぐ届くように）、
+// 電波がない・遅いときは保存してあるものを出す
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
   event.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const cached = await cache.match(req, { ignoreSearch: true });
-      const fresh = fetch(req)
-        .then((res) => {
-          if (res && res.ok) cache.put(req, res.clone());
-          return res;
-        })
-        .catch(() => cached);
-      return cached || fresh;
+      const fresh = fetch(req).then((res) => {
+        if (res && res.ok) cache.put(req, res.clone());
+        return res;
+      });
+      if (!cached) return fresh;
+      const slow = new Promise((resolve) => setTimeout(() => resolve(cached), 3000));
+      return Promise.race([fresh.catch(() => cached), slow]);
     }),
   );
 });

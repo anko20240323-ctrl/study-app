@@ -10,6 +10,7 @@
     quiz: '短い問題',
     practice: '打ってみる',
     words: '英語',
+    talk: '会話を聞く',
     done: 'おしまい',
   };
 
@@ -43,8 +44,17 @@
     return window.LESSONS.find((l) => l.id === id);
   }
 
+  function courseTitle(l) {
+    const c = (window.COURSES || []).find((x) => x.id === l.course);
+    return c ? c.title : '';
+  }
+
   function lessonLabel(l) {
-    return `第${l.no}回 ${l.title}`;
+    return `${courseTitle(l)} 第${l.no}回 ${l.title}`;
+  }
+
+  function isTalk(l) {
+    return l.course === 'talk';
   }
 
   function shuffle(arr) {
@@ -74,9 +84,11 @@
     return out;
   }
 
-  function wordQuestion(w) {
+  function wordQuestion(w, course) {
+    // まちがいの選択肢は、同じコースの単語から選ぶ
     const others = shuffle(
-      window.LESSONS.flatMap((l) => l.words).filter((x) => x.ja !== w.ja).map((x) => x.ja),
+      window.LESSONS.filter((l) => l.course === course)
+        .flatMap((l) => l.words).filter((x) => x.ja !== w.ja).map((x) => x.ja),
     );
     const uniq = [...new Set(others)].slice(0, 3);
     const choices = shuffle([w.ja, ...uniq]);
@@ -100,11 +112,14 @@
       this.root = root;
       this.handsFree = !!Store.settings.handsFree;
       this.reviewItems = buildReviewItems();
-      this.steps = ['explain', 'quiz', 'practice', 'words', 'done'];
+      this.steps = isTalk(this.lesson)
+        ? ['talk', 'quiz', 'words', 'done']
+        : ['explain', 'quiz', 'practice', 'words', 'done'];
       if (this.reviewItems.length) this.steps.unshift('review');
       this.index = 0;
       this.current = null;
       this.finished = false;
+      this.paused = false;
     }
 
     start() {
@@ -132,7 +147,41 @@
     autoNext(gen) {
       if (this.handsFree && Speech.alive(gen)) {
         Speech.wait(800, gen).then((ok) => { if (ok) this.next(); });
+      } else if (Speech.alive(gen)) {
+        this.setIdle();
       }
+    }
+
+    // ---- 止める・続きから ----
+    // 声を流し始めるときは、かならずこれを使う（止めるボタンの表示もそろえる）
+    begin() {
+      this.paused = false;
+      this.updatePauseBtn();
+      return Speech.begin();
+    }
+
+    // 読み終わって、何も流れていない状態
+    setIdle() {
+      this.paused = true;
+      this.updatePauseBtn('▶', 'もう一度');
+    }
+
+    togglePause() {
+      if (this.paused) {
+        if (this.current && this.current.resume) this.current.resume();
+      } else {
+        Speech.stop();
+        this.paused = true;
+        this.updatePauseBtn();
+      }
+    }
+
+    updatePauseBtn(icon, label) {
+      if (!this.pauseBtn) return;
+      const i = icon || (this.paused ? '▶' : '⏸');
+      const t = label || (this.paused ? '続きから' : '止める');
+      this.pauseBtn.replaceChildren(h('span', { class: 'pause-icon', 'aria-hidden': 'true' }, i), h('span', null, t));
+      this.pauseBtn.setAttribute('aria-label', t);
     }
 
     render() {
@@ -148,9 +197,13 @@
 
       const body = h('section', { class: 'step-body' });
       const nextBtn = h('button', { class: 'btn btn-primary', onclick: () => this.onNextClick() }, '次へ →');
-      const askBtn = h('button', { class: 'btn btn-ask', onclick: () => this.ask() }, '？ わからないを聞く');
-      const bar = h('div', { class: 'bottom-bar' }, askBtn, nextBtn);
+      const askBtn = h('button', { class: 'btn btn-ask', onclick: () => this.ask() }, '？ わからない を聞く');
+      const pauseBtn = h('button', { class: 'btn btn-pause', onclick: () => this.togglePause() });
+      const bar = h('div', { class: 'bottom-bar' }, pauseBtn, askBtn, nextBtn);
       this.nextBtn = nextBtn;
+      this.pauseBtn = pauseBtn;
+      this.paused = false;
+      this.updatePauseBtn();
 
       const head = h('div', { class: 'session-head' },
         h('div', { class: 'session-title' },
@@ -166,6 +219,7 @@
       const builder = {
         review: () => this.stepReview(body),
         explain: () => this.stepExplain(body),
+        talk: () => this.stepTalk(body),
         quiz: () => this.stepQuiz(body),
         practice: () => this.stepPractice(body),
         words: () => this.stepWords(body),
@@ -190,11 +244,13 @@
       const lines = [
         ASK_HEAD,
         '',
-        `■ レッスン：${lessonLabel(this.lesson)}（HTMLの基礎）`,
+        `■ レッスン：${lessonLabel(this.lesson)}`,
         `■ 場面：${STEP_NAMES[this.stepName]}`,
         ...ctx,
         '',
-        '（学習アプリ「まなびノート」から送っています。コードはほぼ初めてです。）',
+        isTalk(this.lesson)
+          ? '（学習アプリ「まなびノート」から送っています。英語は単語からやり直し中です。）'
+          : '（学習アプリ「まなびノート」から送っています。コードはほぼ初めてです。）',
       ];
       const text = lines.join('\n');
       const ok = await copyText(text);
@@ -202,10 +258,11 @@
     }
 
     // ---- 共通：選ぶ問題 ----
-    question(container, item, { onResult, gen, label }) {
+    question(container, item, { onResult, label, onAuto }) {
       const handsFree = this.handsFree;
       let answered = false;
       let picked = -1;
+      let lastResult;
 
       const fb = h('div', { class: 'feedback', 'aria-live': 'polite' });
       const buttons = item.choices.map((c, i) => h('button', {
@@ -215,22 +272,34 @@
 
       container.append(
         label ? h('p', { class: 'muted' }, label) : null,
-        h('p', { class: 'q-text' }, item.q),
+        h('p', { class: 'q-text', onclick: () => replay(), title: 'タップすると、もう一度読みます' }, item.q),
         h('div', { class: 'choices' }, buttons),
         fb,
       );
 
+      // 選択肢が英語のときは、英語の声で読む
+      const enChoices = item.choicesLang === 'en';
+      const sayChoice = async (i, g) => {
+        if (!enChoices) return Speech.say(`${i + 1}番、${toSpeech(item.choices[i])}`, { gen: g });
+        if (!(await Speech.say(`${i + 1}番`, { gen: g }))) return false;
+        return Speech.say(item.choices[i], { lang: 'en', gen: g });
+      };
+
       const sayWhy = async (g, correct) => {
         const ans = item.choices[item.answer];
+        const head = correct === true ? '正解です。'
+          : correct === false ? 'おしいです。正しい答えは、' : '答えは、';
         if (correct === true) {
-          if (!(await Speech.say('正解です。', { gen: g }))) return false;
-        } else if (correct === false) {
-          if (!(await Speech.say(`おしいです。正しい答えは、${item.answer + 1}番、${toSpeech(ans)}、です。`, { gen: g }))) return false;
-        } else {
-          if (!(await Speech.say(`答えは、${item.answer + 1}番、${toSpeech(ans)}、です。`, { gen: g }))) return false;
-        }
+          if (!(await Speech.say(head, { gen: g }))) return false;
+        } else if (enChoices) {
+          if (!(await Speech.say(`${head}${item.answer + 1}番です。`, { gen: g }))) return false;
+          if (!(await Speech.say(ans, { lang: 'en', gen: g }))) return false;
+        } else if (!(await Speech.say(`${head}${item.answer + 1}番、${toSpeech(ans)}、です。`, { gen: g }))) return false;
         if (item.whyParts) {
-          for (const p of item.whyParts) {
+          // 答えを英語で読んだすぐあとに、同じ英語をくり返さない
+          const parts = enChoices && correct !== true && item.whyParts[0] && item.whyParts[0].text === ans
+            ? item.whyParts.slice(1) : item.whyParts;
+          for (const p of parts) {
             if (!(await Speech.say(p.lang === 'en' ? p.text : toSpeech(p.text), { lang: p.lang, gen: g }))) return false;
           }
           return true;
@@ -240,6 +309,7 @@
 
       const reveal = (correct) => {
         answered = true;
+        lastResult = correct;
         buttons.forEach((b, i) => {
           b.disabled = true;
           if (i === item.answer) b.classList.add('right');
@@ -258,12 +328,12 @@
         const correct = i === item.answer;
         reveal(correct);
         onResult(correct, true);
-        const g = Speech.begin();
-        await sayWhy(g, correct);
+        const g = this.begin();
+        if (await sayWhy(g, correct)) this.setIdle();
       };
 
       // 問題を読み上げる（聞くだけモードなら、少し待って答えも読む）
-      const read = async () => {
+      const read = async (gen) => {
         if (item.sayParts) {
           for (const p of item.sayParts) {
             if (!(await Speech.say(p.lang === 'en' ? p.text : toSpeech(p.text), { lang: p.lang, gen }))) return false;
@@ -271,7 +341,7 @@
         } else if (!(await Speech.say(toSpeech(item.say || item.q), { gen }))) return false;
         for (let i = 0; i < item.choices.length; i++) {
           if (answered) return true;
-          if (!(await Speech.say(`${i + 1}番、${toSpeech(item.choices[i])}`, { gen }))) return false;
+          if (!(await sayChoice(i, gen))) return false;
           await Speech.wait(250, gen);
         }
         if (handsFree && !answered) {
@@ -285,8 +355,24 @@
         return true;
       };
 
+      // 問題を読んで、聞くだけモードなら次へ。止めたあとの「続きから」や、問題文のタップでも使う
+      const run = async () => {
+        const gen = this.begin();
+        const ok = answered ? await sayWhy(gen, lastResult) : await read(gen);
+        if (!ok || !Speech.alive(gen)) return;
+        if (handsFree && answered) {
+          await Speech.wait(1200, gen);
+          if (Speech.alive(gen) && onAuto) onAuto();
+        } else if (!handsFree || !answered) {
+          this.setIdle();
+        }
+      };
+      const replay = () => run();
+
+
       return {
         read,
+        run,
         get answered() { return answered; },
         ctx() {
           const out = [
@@ -319,10 +405,9 @@
       const show = async () => {
         const it = items[i];
         area.replaceChildren();
-        const item = it.kind === 'quiz' ? it.q : wordQuestion(it.w);
-        const gen = Speech.begin();
+        const item = it.kind === 'quiz' ? it.q : wordQuestion(it.w, it.lesson.course);
         q = this.question(area, item, {
-          gen,
+          onAuto: () => this.onNextClick(),
           label: `${i + 1} / ${items.length}　（${lessonLabel(it.lesson)}${it.kind === 'word' ? 'の単語' : 'の問題'}）`,
           onResult: (correct, byTap) => {
             if (!byTap) return; // 聞くだけモードの自動回答は記録しない
@@ -331,17 +416,17 @@
           },
         });
         this.setNextLabel(i < items.length - 1 ? '次の問題 →' : '次へ →');
-        if (i === 0) await Speech.say('まずは、前回の復習です。', { gen });
-        const ok = await q.read();
-        if (ok && this.handsFree && Speech.alive(gen)) {
-          await Speech.wait(1200, gen);
-          if (Speech.alive(gen)) this.onNextClick();
+        if (i === 0) {
+          const gen = this.begin();
+          if (!(await Speech.say('まずは、前回の復習です。', { gen }))) return;
         }
+        q.run();
       };
       show();
 
       return {
         ctx: () => (q ? q.ctx() : []),
+        resume: () => q && q.run(),
         onNext: () => {
           if (i < items.length - 1) {
             i++;
@@ -357,7 +442,7 @@
     stepExplain(body) {
       const segs = this.lesson.explain;
       let cur = 0;
-      let playing = false;
+      let ended = false;
 
       const items = segs.map((s, i) => h('li', {
         class: 'seg',
@@ -368,50 +453,40 @@
       ));
       const list = h('ol', { class: 'segs' }, items);
 
-      const playBtn = h('button', { class: 'btn btn-play', onclick: () => (playing ? pause() : play(cur)) }, '▶ 聞く');
-      const prevBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.max(0, cur - 1)), 'aria-label': '前の文' }, '⏮ 前');
-      const nextBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.min(segs.length - 1, cur + 1)), 'aria-label': '次の文' }, '次 ⏭');
+      const prevBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.max(0, cur - 1)), 'aria-label': '前の文' }, '⏮ 前の文');
+      const againBtn = h('button', { class: 'btn btn-small', onclick: () => play(cur), 'aria-label': 'この文をもう一度' }, '↻ もう一度');
+      const nextBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.min(segs.length - 1, cur + 1)), 'aria-label': '次の文' }, '次の文 ⏭');
       const counter = h('span', { class: 'counter' });
 
       body.append(
         h('h2', { class: 'step-h' }, '聞く解説'),
         h('p', { class: 'lead' }, `今日のテーマ：${this.lesson.goal}`),
-        h('div', { class: 'player' }, prevBtn, playBtn, nextBtn, counter),
-        h('p', { class: 'muted small' }, '文をタップすると、そこから聞けます。'),
+        h('div', { class: 'player' }, prevBtn, againBtn, nextBtn),
+        h('p', { class: 'muted small' }, '文をタップすると、そこから聞き直せます。　', counter),
         list,
       );
 
       const mark = (i) => {
         cur = i;
         items.forEach((el, k) => el.classList.toggle('active', k === i));
-        counter.textContent = `${i + 1} / ${segs.length}`;
-        if (playing) items[i].scrollIntoView({ block: 'center', behavior: 'smooth' });
-      };
-
-      const setPlaying = (p) => {
-        playing = p;
-        playBtn.textContent = p ? '⏸ 止める' : '▶ 聞く';
+        counter.textContent = `（${i + 1} / ${segs.length}）`;
+        items[i].scrollIntoView({ block: 'center', behavior: 'smooth' });
       };
 
       const play = async (from) => {
-        const gen = Speech.begin();
-        setPlaying(true);
+        const gen = this.begin();
+        ended = false;
         for (let i = from; i < segs.length; i++) {
           mark(i);
           const s = segs[i];
           if (!(await Speech.say(s.say || toSpeech(s.text), { gen }))) return;
           if (!(await Speech.wait(s.pause || 450, gen))) return;
         }
-        setPlaying(false);
+        ended = true;
         if (Speech.alive(gen)) {
-          await Speech.say('解説はここまでです。次は、短い問題です。', { gen });
+          if (!(await Speech.say('解説はここまでです。次は、短い問題です。', { gen }))) return;
           this.autoNext(gen);
         }
-      };
-
-      const pause = () => {
-        Speech.stop();
-        setPlaying(false);
       };
 
       mark(0);
@@ -420,7 +495,7 @@
       return {
         ctx: () => [`■ いま聞いていた説明：「${segs[cur].text}」`]
           .concat(segs[cur].code ? [`■ 説明のコード：\n${segs[cur].code}`] : []),
-        leave: () => setPlaying(false),
+        resume: () => play(ended ? 0 : cur),
       };
     }
 
@@ -435,9 +510,8 @@
 
       const show = async () => {
         area.replaceChildren();
-        const gen = Speech.begin();
         q = this.question(area, qs[i], {
-          gen,
+          onAuto: () => this.onNextClick(),
           label: `${i + 1} / ${qs.length}`,
           onResult: (correct, byTap) => {
             if (!byTap) return;
@@ -446,17 +520,17 @@
           },
         });
         this.setNextLabel(i < qs.length - 1 ? '次の問題 →' : '次へ →');
-        if (i === 0) await Speech.say(`問題は${qs.length}問です。`, { gen });
-        const ok = await q.read();
-        if (ok && this.handsFree && Speech.alive(gen)) {
-          await Speech.wait(1200, gen);
-          if (Speech.alive(gen)) this.onNextClick();
+        if (i === 0) {
+          const gen = this.begin();
+          if (!(await Speech.say(`問題は${qs.length}問です。`, { gen }))) return;
         }
+        q.run();
       };
       show();
 
       return {
         ctx: () => (q ? q.ctx() : []),
+        resume: () => q && q.run(),
         onNext: () => {
           if (i < qs.length - 1) {
             i++;
@@ -470,6 +544,92 @@
           }
           return true;
         },
+      };
+    }
+
+    // ---- 会話を聞く（日常会話のレッスン） ----
+    // 1セリフずつ「英語 → 日本語の意味 → もう一度英語」。最後に英語だけで通して聞く
+    stepTalk(body) {
+      const l = this.lesson;
+      const lines = l.dialogue;
+      let cur = 0;
+      let ended = false;
+
+      const items = lines.map((ln, i) => h('li', {
+        class: `line line-${ln.who}`,
+        onclick: () => play(i),
+      },
+      h('span', { class: 'who' }, l.roles[ln.who] || ln.who),
+      h('p', { class: 'line-en', lang: 'en' }, ln.en),
+      h('p', { class: 'line-ja' }, ln.ja),
+      ));
+
+      const prevBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.max(0, cur - 1)), 'aria-label': '前のセリフ' }, '⏮ 前');
+      const againBtn = h('button', { class: 'btn btn-small', onclick: () => play(cur), 'aria-label': 'このセリフをもう一度' }, '↻ もう一度');
+      const nextBtn = h('button', { class: 'btn btn-small', onclick: () => play(Math.min(lines.length - 1, cur + 1)), 'aria-label': '次のセリフ' }, '次 ⏭');
+      const counter = h('span', { class: 'counter' });
+
+      body.append(
+        h('h2', { class: 'step-h' }, '会話を聞く'),
+        h('p', { class: 'lead' }, `場面：${l.goal}`),
+        h('div', { class: 'player' }, prevBtn, againBtn, nextBtn),
+        h('p', { class: 'muted small' }, '英語 → 日本語の意味 → もう一度英語 の順に読みます。セリフをタップすると、そこから聞き直せます。　', counter),
+        h('ol', { class: 'lines' }, items),
+      );
+
+      const mark = (i) => {
+        cur = i;
+        items.forEach((el, k) => el.classList.toggle('active', k === i));
+        counter.textContent = `（${i + 1} / ${lines.length}）`;
+        items[i].scrollIntoView({ block: 'center', behavior: 'smooth' });
+      };
+
+      // 2人の声を聞き分けやすいように、声の高さを少し変える
+      const pitchOf = (who) => (who === 'B' ? 1.15 : 0.95);
+
+      const readLine = async (ln, gen) => {
+        const en = { lang: 'en', gen, pitch: pitchOf(ln.who) };
+        if (!(await Speech.say(ln.en, en))) return false;
+        if (!(await Speech.wait(400, gen))) return false;
+        if (!(await Speech.say(ln.ja, { gen }))) return false;
+        if (!(await Speech.wait(400, gen))) return false;
+        if (!(await Speech.say(ln.en, en))) return false;
+        return Speech.wait(800, gen);
+      };
+
+      const play = async (from) => {
+        const gen = this.begin();
+        ended = false;
+        if (from === 0) {
+          for (const t of l.intro || []) {
+            if (!(await Speech.say(t, { gen }))) return;
+            if (!(await Speech.wait(300, gen))) return;
+          }
+        }
+        for (let i = from; i < lines.length; i++) {
+          mark(i);
+          if (!(await readLine(lines[i], gen))) return;
+        }
+        if (!(await Speech.say('最後に、英語だけで、通して聞いてみましょう。', { gen }))) return;
+        for (let i = 0; i < lines.length; i++) {
+          mark(i);
+          if (!(await Speech.say(lines[i].en, { lang: 'en', gen, pitch: pitchOf(lines[i].who) }))) return;
+          if (!(await Speech.wait(500, gen))) return;
+        }
+        ended = true;
+        if (!(await Speech.say('会話はここまでです。次は、短い問題です。', { gen }))) return;
+        this.autoNext(gen);
+      };
+
+      mark(0);
+      play(0);
+
+      return {
+        ctx: () => {
+          const ln = lines[cur];
+          return [`■ いま聞いていたセリフ：${l.roles[ln.who] || ln.who}「${ln.en}」（${ln.ja}）`];
+        },
+        resume: () => play(ended ? 0 : cur),
       };
     }
 
@@ -520,13 +680,13 @@
         });
         if (misses.length === 0) {
           result.replaceChildren(h('p', { class: 'fb-title right-text' }, '◎ できました！'), h('p', null, p.done || '上の結果を見てみましょう。'));
-          Speech.say('できました。すばらしいです。');
+          Speech.say('できました。すばらしいです。', { gen: this.begin() }).then((ok) => ok && this.setIdle());
         } else {
           result.replaceChildren(
             h('p', { class: 'fb-title wrong-text' }, 'あと少しです'),
             h('ul', null, misses.map((m) => h('li', null, m.msg))),
           );
-          Speech.say(`あと少しです。${toSpeech(misses[0].msg)}`);
+          Speech.say(`あと少しです。${toSpeech(misses[0].msg)}`, { gen: this.begin() }).then((ok) => ok && this.setIdle());
         }
       };
 
@@ -551,16 +711,18 @@
       );
       update();
 
-      (async () => {
-        const gen = Speech.begin();
+      const readTask = async () => {
+        const gen = this.begin();
         if (!(await Speech.say(p.say || toSpeech(p.task), { gen }))) return;
         if (this.handsFree) {
-          await Speech.say('打つ課題は、画面を見られるときに、やってみてください。次に進みます。', { gen });
-          this.autoNext(gen);
+          if (!(await Speech.say('打つ課題は、画面を見られるときに、やってみてください。次に進みます。', { gen }))) return;
         }
-      })();
+        this.autoNext(gen);
+      };
+      readTask();
 
       return {
+        resume: readTask,
         ctx: () => [
           `■ 課題：${p.task}`,
           `■ 打ったコード：\n\`\`\`html\n${ta.value || '（まだ何も打っていません）'}\n\`\`\``,
@@ -573,7 +735,7 @@
       const words = this.lesson.words;
       const marks = {}; // en → 'ok' | 'unsure'
       let cur = 0;
-      let playing = false;
+      let ended = false;
 
       const cards = words.map((w, i) => {
         const okBtn = h('button', { class: 'mark', onclick: (e) => { e.stopPropagation(); setMark(i, 'ok'); } }, '覚えた');
@@ -599,20 +761,14 @@
         cards[i]._ng.classList.toggle('on', v === 'unsure');
       };
 
-      const playBtn = h('button', { class: 'btn btn-play', onclick: () => (playing ? pause() : playAll(cur)) }, '▶ 全部聞く');
-
       body.append(
         h('h2', { class: 'step-h' }, '英語'),
-        h('p', { class: 'lead' }, '単語 → 意味 → 例文 の順に読みます。カードをタップすると、その単語だけ聞けます。'),
-        h('div', { class: 'player' }, playBtn),
+        h('p', { class: 'lead' }, isTalk(this.lesson)
+          ? 'フレーズ → 意味 → 使い方の例 の順に読みます。カードをタップすると、そのフレーズをもう一度聞けます。'
+          : '単語 → 意味 → 例文 の順に読みます。カードをタップすると、その単語をもう一度聞けます。'),
         h('ol', { class: 'words' }, cards),
-        h('p', { class: 'muted small' }, '「あやしい」にした単語は、次の回の復習に出てきます。'),
+        h('p', { class: 'muted small' }, '「あやしい」にしたものは、次の回の復習に出てきます。'),
       );
-
-      const setPlaying = (p) => {
-        playing = p;
-        playBtn.textContent = p ? '⏸ 止める' : '▶ 全部聞く';
-      };
 
       const mark = (i) => {
         cur = i;
@@ -634,37 +790,33 @@
       };
 
       const playOne = async (i) => {
-        const gen = Speech.begin();
-        setPlaying(false);
+        const gen = this.begin();
         mark(i);
-        await readWord(words[i], gen);
+        if (await readWord(words[i], gen)) this.setIdle();
       };
 
       const playAll = async (from) => {
-        const gen = Speech.begin();
-        setPlaying(true);
+        const gen = this.begin();
+        ended = false;
         if (from === 0) {
-          if (!(await Speech.say(`今日の英単語は、${words.length}個です。`, { gen }))) return;
+          const what = isTalk(this.lesson) ? 'フレーズ' : '英単語';
+          if (!(await Speech.say(`今日の${what}は、${words.length}個です。`, { gen }))) return;
         }
         for (let i = from; i < words.length; i++) {
           mark(i);
           if (!(await readWord(words[i], gen))) return;
         }
-        setPlaying(false);
+        ended = true;
         if (Speech.alive(gen)) {
-          await Speech.say('英語はここまでです。', { gen });
+          if (!(await Speech.say('英語はここまでです。', { gen }))) return;
           this.autoNext(gen);
         }
-      };
-
-      const pause = () => {
-        Speech.stop();
-        setPlaying(false);
       };
 
       playAll(0);
 
       return {
+        resume: () => playAll(ended ? 0 : cur),
         ctx: () => {
           const w = words[cur];
           return [`■ 英単語：${w.en}（意味：${w.ja}）`, `■ 例文：${w.ex}（${w.exJa}）`];
@@ -688,7 +840,7 @@
       keepAwake(false);
       const streak = Store.streak();
       const total = Store.totalDays();
-      const nextLesson = window.LESSONS.find((l) => l.no === this.lesson.no + 1);
+      const nextLesson = window.LESSONS.find((l) => l.course === this.lesson.course && l.no === this.lesson.no + 1);
 
       body.append(
         h('div', { class: 'done' },
@@ -709,5 +861,5 @@
   }
 
   window.Session = Session;
-  window.SessionHelpers = { findLesson, lessonLabel, toSpeech };
+  window.SessionHelpers = { findLesson, lessonLabel, toSpeech, isTalk };
 })();

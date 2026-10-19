@@ -1,7 +1,7 @@
 // 電波がない所でも、前に開いたページが動くようにする係（service worker）。
 // 教材や画面を直したら、下の VERSION の数字を1つ上げてください（古い保存が入れかわります）。
 
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = `manabi-${VERSION}`;
 
 const PRECACHE = [
@@ -22,6 +22,9 @@ const PRECACHE = [
   'lessons/html-05.js',
   'lessons/html-06.js',
   'lessons/html-07.js',
+  'lessons/talk-01.js',
+  'lessons/talk-02.js',
+  'lessons/talk-03.js',
   'img/cat.svg',
   'icons/icon.svg',
   'icons/icon-192.png',

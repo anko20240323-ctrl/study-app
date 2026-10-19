@@ -18,11 +18,25 @@
 
   async function loadLessons() {
     for (const f of window.LESSON_FILES) await loadScript(f);
-    window.LESSONS.sort((a, b) => a.no - b.no);
+    const order = (l) => window.COURSES.findIndex((c) => c.id === l.course);
+    window.LESSONS.sort((a, b) => order(a) - order(b) || a.no - b.no);
   }
 
-  function nextLesson() {
-    return window.LESSONS.find((l) => Store.doneCount(l.id) === 0) || window.LESSONS[0];
+  // そのコースで、まだ終えていない最初の回（全部終えていたら第1回）
+  function nextLesson(courseId) {
+    const list = window.LESSONS.filter((l) => l.course === courseId);
+    return list.find((l) => Store.doneCount(l.id) === 0) || list[0];
+  }
+
+  function lessonListItem(l) {
+    const n = Store.doneCount(l.id);
+    return h('li', null,
+      h('a', { href: `#/lesson/${l.id}`, class: n ? 'done' : '' },
+        h('span', { class: 'lesson-no' }, `第${l.no}回`),
+        h('span', { class: 'lesson-title' }, l.title),
+        h('span', { class: 'lesson-count' }, n ? `✓ ${n}回` : ''),
+      ),
+    );
   }
 
   function handsFreeToggle() {
@@ -53,9 +67,9 @@
     else if (Store.studiedToday()) greet = '今日の分はもう終わっています。もう1回やっても、休んでも大丈夫です。';
     else greet = '今日も、15分だけ。いっしょに進めましょう。';
 
-    const nl = nextLesson();
+    const courses = window.COURSES.filter((c) => window.LESSONS.some((l) => l.course === c.id));
 
-    app.replaceChildren(
+    app.replaceChildren(...[ // コースの数だけ並べるので、入れ子の配列を平らにしてから渡す
       h('section', { class: 'card hello' },
         h('p', { class: 'greet' }, greet),
         h('div', { class: 'stats' },
@@ -64,27 +78,24 @@
           h('div', { class: 'stat-box' }, h('b', null, reviewN), '個 復習待ち'),
         ),
       ),
-      nl ? h('a', { class: 'btn btn-primary btn-big', href: `#/lesson/${nl.id}` },
-        h('span', { class: 'small' }, Store.doneCount(nl.id) ? 'もう一度' : '次のレッスン'),
-        h('br'),
-        `▶ 第${nl.no}回 ${nl.title}`,
-      ) : h('p', null, '教材が読みこめませんでした。'),
+      courses.length ? courses.map((c, k) => {
+        const nl = nextLesson(c.id);
+        return h('a', { class: `btn btn-big ${k === 0 ? 'btn-primary' : 'btn-second'}`, href: `#/lesson/${nl.id}` },
+          h('span', { class: 'small' }, `${c.title}　${Store.doneCount(nl.id) ? 'もう一度' : '次のレッスン'}`),
+          h('br'),
+          `▶ 第${nl.no}回 ${nl.title}`,
+        );
+      }) : h('p', null, '教材が読みこめませんでした。'),
       h('section', { class: 'card' }, handsFreeToggle()),
-      h('h2', { class: 'list-h' }, 'HTMLの基礎（全7回）'),
-      h('ol', { class: 'lesson-list' },
-        window.LESSONS.map((l) => {
-          const n = Store.doneCount(l.id);
-          return h('li', null,
-            h('a', { href: `#/lesson/${l.id}`, class: n ? 'done' : '' },
-              h('span', { class: 'lesson-no' }, `第${l.no}回`),
-              h('span', { class: 'lesson-title' }, l.title),
-              h('span', { class: 'lesson-count' }, n ? `✓ ${n}回` : ''),
-            ),
-          );
-        }),
-      ),
-      h('p', { class: 'muted small center' }, 'CSS・JavaScript のレッスンは、これから増えます。'),
-    );
+      courses.map((c) => {
+        const list = window.LESSONS.filter((l) => l.course === c.id);
+        return [
+          h('h2', { class: 'list-h' }, `${c.title}（全${list.length}回）`),
+          h('ol', { class: 'lesson-list' }, list.map(lessonListItem)),
+        ];
+      }),
+      h('p', { class: 'muted small center' }, 'CSS・JavaScript や、お店の英会話のレッスンは、これから増えます。'),
+    ].flat(2));
   }
 
   // ---- レッスンの入口 ----
@@ -97,16 +108,23 @@
     const reviewN = Math.min(3, Store.mistakes.length);
     app.replaceChildren(
       h('section', { class: 'card' },
-        h('p', { class: 'lesson-no' }, `第${l.no}回`),
+        h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
         h('h1', { class: 'intro-title' }, l.title),
         h('p', { class: 'lead' }, l.goal),
-        h('ol', { class: 'plan' },
-          reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
-          h('li', null, `聞く解説（${l.explain.length}文）`),
-          h('li', null, `短い問題（${l.quiz.length}問）`),
-          h('li', null, '打ってみる（1つ）'),
-          h('li', null, `英語（${l.words.length}語）`),
-        ),
+        SessionHelpers.isTalk(l)
+          ? h('ol', { class: 'plan' },
+            reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
+            h('li', null, `会話を聞く（${l.dialogue.length}セリフ）`),
+            h('li', null, `短い問題（${l.quiz.length}問）`),
+            h('li', null, `英語のフレーズ（${l.words.length}個）`),
+          )
+          : h('ol', { class: 'plan' },
+            reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
+            h('li', null, `聞く解説（${l.explain.length}文）`),
+            h('li', null, `短い問題（${l.quiz.length}問）`),
+            h('li', null, '打ってみる（1つ）'),
+            h('li', null, `英語（${l.words.length}語）`),
+          ),
         h('p', { class: 'muted small' }, 'およそ15分です。画面はつけたままで聞いてください（画面を消すと、声が止まることがあります）。'),
       ),
       h('section', { class: 'card' }, handsFreeToggle()),
@@ -196,7 +214,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：2（2026-10-19　止める・続きから を追加）'),
+        h('p', { class: 'muted small' }, 'アプリの版：3（2026-10-19　止める・続きから、日常会話 を追加）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),

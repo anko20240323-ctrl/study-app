@@ -332,3 +332,16 @@ h1, h2 { line-height: 1.4; }
 .player { flex-wrap: wrap; }
 .player .btn-small { flex: 1 1 0; min-width: 0; padding: 8px 6px; font-size: 15px; }
 .counter { white-space: nowrap; }
+
+/* 会話を聞く */
+.lines { list-style: none; padding: 0; margin: 8px 0 0; }
+.line {
+  background: var(--card); border: 2px solid var(--line); border-radius: 14px;
+  padding: 10px 14px; margin-bottom: 8px; cursor: pointer; max-width: 92%;
+}
+.line-B { margin-left: auto; background: var(--accent); }
+.line.active { border-color: var(--primary); }
+.who { display: inline-block; font-size: 13px; font-weight: 700; color: var(--primary); }
+.line-en { margin: 2px 0 0; font-size: 20px; font-weight: 600; font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
+.line-ja { margin: 0; color: var(--muted); font-size: 16px; }
+.btn-second { border: 2px solid var(--primary); color: var(--primary); }

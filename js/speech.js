@@ -92,7 +92,7 @@
           if (v) u.voice = v;
         } catch (e) { /* 声を選べなくても、ふつうの声で読む */ }
         u.rate = rate;
-        u.pitch = 1;
+        u.pitch = opts.pitch || 1;
         return u;
       };
 

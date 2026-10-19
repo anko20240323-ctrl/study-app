@@ -5,6 +5,12 @@
 //   3. sw.js の PRECACHE にも同じファイル名を足す（電波がない所でも開けるように）
 // の3つだけで大丈夫です。画面の仕組み（js/）はさわらなくてよいです。
 
+// コース（ホーム画面での見出し）。レッスンの course と同じ id を書きます。
+window.COURSES = [
+  { id: 'html', title: 'HTMLの基礎' },
+  { id: 'talk', title: '英語の日常会話' },
+];
+
 window.LESSON_FILES = [
   'lessons/html-01.js',
   'lessons/html-02.js',
@@ -13,10 +19,15 @@ window.LESSON_FILES = [
   'lessons/html-05.js',
   'lessons/html-06.js',
   'lessons/html-07.js',
+  'lessons/talk-01.js',
+  'lessons/talk-02.js',
+  'lessons/talk-03.js',
 ];
 
 // レッスンのファイルは、この関数を呼んで自分を登録します。
 window.LESSONS = [];
 window.registerLesson = function (lesson) {
+  // course を書いていないレッスンは、HTMLの基礎のレッスンとして扱う
+  if (!lesson.course) lesson.course = 'html';
   window.LESSONS.push(lesson);
 };

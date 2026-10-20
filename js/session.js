@@ -11,6 +11,7 @@
     practice: '打ってみる',
     words: '英語',
     talk: '会話を聞く',
+    recap: 'まとめ',
     done: 'おしまい',
   };
 
@@ -66,7 +67,10 @@
     return a;
   }
 
-  // 前に間違えたものから、古い順に3つまで
+  // 復習に出す数（前に間違えたものから、古い順に）
+  const REVIEW_MAX = 5;
+
+  // 前に間違えたものから、古い順に REVIEW_MAX 個まで
   function buildReviewItems() {
     const out = [];
     for (const m of Store.mistakes) {
@@ -79,7 +83,7 @@
         const w = l.words.find((x) => x.en === m.key);
         if (w) out.push({ kind: 'word', lesson: l, key: m.key, w });
       }
-      if (out.length >= 3) break;
+      if (out.length >= REVIEW_MAX) break;
     }
     return out;
   }
@@ -114,7 +118,7 @@
       this.reviewItems = buildReviewItems();
       this.steps = isTalk(this.lesson)
         ? ['talk', 'quiz', 'words', 'done']
-        : ['explain', 'quiz', 'practice', 'words', 'done'];
+        : ['explain', 'quiz', 'practice', 'words', 'recap', 'done'];
       if (this.reviewItems.length) this.steps.unshift('review');
       this.index = 0;
       this.current = null;
@@ -220,6 +224,7 @@
         review: () => this.stepReview(body),
         explain: () => this.stepExplain(body),
         talk: () => this.stepTalk(body),
+        recap: () => this.stepRecap(body),
         quiz: () => this.stepQuiz(body),
         practice: () => this.stepPractice(body),
         words: () => this.stepWords(body),
@@ -500,8 +505,11 @@
     }
 
     // ---- 3. 短い問題 ----
+    // 1周目のあと、順番を変えてもう1周（くり返して覚える）。記録するのは1周目の答えだけ
     stepQuiz(body) {
       const qs = this.lesson.quiz;
+      const n = qs.length;
+      const order = [...qs.keys(), ...shuffle([...qs.keys()])];
       let i = 0;
       let q = null;
       let right = 0;
@@ -510,19 +518,22 @@
 
       const show = async () => {
         area.replaceChildren();
-        q = this.question(area, qs[i], {
+        const idx = order[i];
+        const round = i < n ? 1 : 2;
+        q = this.question(area, qs[idx], {
           onAuto: () => this.onNextClick(),
-          label: `${i + 1} / ${qs.length}`,
+          label: round === 1 ? `1周目　${i + 1} / ${n}` : `2周目（順番を変えて）　${i - n + 1} / ${n}`,
           onResult: (correct, byTap) => {
-            if (!byTap) return;
+            if (!byTap || round !== 1) return;
             if (correct) right++;
-            else Store.addMistake('quiz', this.lesson.id, i);
+            else Store.addMistake('quiz', this.lesson.id, idx);
           },
         });
-        this.setNextLabel(i < qs.length - 1 ? '次の問題 →' : '次へ →');
-        if (i === 0) {
+        this.setNextLabel(i < order.length - 1 ? '次の問題 →' : '次へ →');
+        if (i === 0 || i === n) {
           const gen = this.begin();
-          if (!(await Speech.say(`問題は${qs.length}問です。`, { gen }))) return;
+          const intro = i === 0 ? `問題は${n}問です。` : 'もう一度、順番を変えて出します。';
+          if (!(await Speech.say(intro, { gen }))) return;
         }
         q.run();
       };
@@ -532,14 +543,14 @@
         ctx: () => (q ? q.ctx() : []),
         resume: () => q && q.run(),
         onNext: () => {
-          if (i < qs.length - 1) {
+          if (i < order.length - 1) {
             i++;
             show();
             return false;
           }
           if (!this.handsFree) {
             toast(right > 0
-              ? `${qs.length}問中 ${right}問 正解でした。間違えた問題は、次の回の復習に出ます`
+              ? `1周目は ${n}問中 ${right}問 正解でした。間違えた問題は、次の回の復習に出ます`
               : '間違えた問題は、次の回の復習でもう一度出ます。だいじょうぶです');
           }
           return true;
@@ -795,16 +806,38 @@
         if (await readWord(words[i], gen)) this.setIdle();
       };
 
-      const playAll = async (from) => {
+      // 2周目：英語を聞いて、意味を思い出す練習（少し間をあけてから答えを読む）
+      const recallWord = async (w, gen) => {
+        if (!(await Speech.say(w.en, { lang: 'en', gen }))) return false;
+        if (!(await Speech.wait(3000, gen))) return false;
+        if (!(await Speech.say(w.ja, { gen }))) return false;
+        if (!(await Speech.say(w.en, { lang: 'en', gen }))) return false;
+        return Speech.wait(900, gen);
+      };
+
+      let pass = 1;
+      const playAll = async (from, startPass = 1) => {
         const gen = this.begin();
         ended = false;
+        pass = startPass;
+        if (pass === 1) {
+          if (from === 0) {
+            const what = isTalk(this.lesson) ? 'フレーズ' : '英単語';
+            if (!(await Speech.say(`今日の${what}は、${words.length}個です。`, { gen }))) return;
+          }
+          for (let i = from; i < words.length; i++) {
+            mark(i);
+            if (!(await readWord(words[i], gen))) return;
+          }
+          pass = 2;
+          from = 0;
+        }
         if (from === 0) {
-          const what = isTalk(this.lesson) ? 'フレーズ' : '英単語';
-          if (!(await Speech.say(`今日の${what}は、${words.length}個です。`, { gen }))) return;
+          if (!(await Speech.say('次は、思い出す練習です。英語を聞いて、意味を思い出してみましょう。', { gen }))) return;
         }
         for (let i = from; i < words.length; i++) {
           mark(i);
-          if (!(await readWord(words[i], gen))) return;
+          if (!(await recallWord(words[i], gen))) return;
         }
         ended = true;
         if (Speech.alive(gen)) {
@@ -816,7 +849,7 @@
       playAll(0);
 
       return {
-        resume: () => playAll(ended ? 0 : cur),
+        resume: () => (ended ? playAll(0, 1) : playAll(cur, pass)),
         ctx: () => {
           const w = words[cur];
           return [`■ 英単語：${w.en}（意味：${w.ja}）`, `■ 例文：${w.ex}（${w.exJa}）`];
@@ -827,6 +860,56 @@
             if (marks[w.en] === 'ok') Store.removeMistake('word', this.lesson.id, w.en);
           }
         },
+      };
+    }
+
+    // ---- まとめ（HTMLのレッスン） ----
+    // 聞く解説の最後の「まとめ」の部分を、もう一度聞く
+    stepRecap(body) {
+      const segs = this.lesson.explain;
+      let start = -1;
+      segs.forEach((sg, k) => { if (/まとめ|覚えておきたい/.test(sg.text)) start = k; });
+      if (start < 0) start = Math.max(0, segs.length - 4);
+      const list = segs.slice(start);
+      let cur = 0;
+      let ended = false;
+
+      const items = list.map((sg, k) => h('li', { class: 'seg', onclick: () => play(k) },
+        h('p', null, sg.text),
+        sg.code ? h('pre', { class: 'code' }, h('code', null, sg.code)) : null,
+      ));
+      body.append(
+        h('h2', { class: 'step-h' }, 'まとめ'),
+        h('p', { class: 'lead' }, '今日のだいじな所を、もう一度聞きます。'),
+        h('ol', { class: 'segs' }, items),
+      );
+
+      const mark = (k) => {
+        cur = k;
+        items.forEach((el, x) => el.classList.toggle('active', x === k));
+      };
+
+      const play = async (from) => {
+        const gen = this.begin();
+        ended = false;
+        if (from === 0) {
+          if (!(await Speech.say('最後に、今日のまとめを、もう一度聞きましょう。', { gen }))) return;
+        }
+        for (let k = from; k < list.length; k++) {
+          mark(k);
+          if (!(await Speech.say(list[k].say || toSpeech(list[k].text), { gen }))) return;
+          if (!(await Speech.wait(500, gen))) return;
+        }
+        ended = true;
+        this.autoNext(gen);
+      };
+
+      mark(0);
+      play(0);
+
+      return {
+        ctx: () => [`■ まとめの文：「${list[cur].text}」`],
+        resume: () => play(ended ? 0 : cur),
       };
     }
 

@@ -105,7 +105,7 @@
       location.hash = '#/';
       return;
     }
-    const reviewN = Math.min(3, Store.mistakes.length);
+    const reviewN = Math.min(5, Store.mistakes.length);
     app.replaceChildren(
       h('section', { class: 'card' },
         h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
@@ -115,15 +115,16 @@
           ? h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `会話を聞く（${l.dialogue.length}セリフ）`),
-            h('li', null, `短い問題（${l.quiz.length}問）`),
-            h('li', null, `英語のフレーズ（${l.words.length}個）`),
+            h('li', null, `短い問題（${l.quiz.length}問×2周）`),
+            h('li', null, `英語のフレーズ（${l.words.length}個・思い出す練習つき）`),
           )
           : h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `聞く解説（${l.explain.length}文）`),
-            h('li', null, `短い問題（${l.quiz.length}問）`),
-            h('li', null, '打ってみる（1つ）'),
-            h('li', null, `英語（${l.words.length}語）`),
+            h('li', null, `短い問題（${l.quiz.length}問×2周）`),
+            h('li', null, '打ってみる（1つ・聞くだけモードでは飛ばします）'),
+            h('li', null, `英語（${l.words.length}語・思い出す練習つき）`),
+            h('li', null, 'まとめ'),
           ),
         h('p', { class: 'muted small' }, 'およそ15分です。画面はつけたままで聞いてください（画面を消すと、声が止まることがあります）。'),
       ),
@@ -214,7 +215,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：3（2026-10-19　止める・続きから、日常会話 を追加）'),
+        h('p', { class: 'muted small' }, 'アプリの版：4（2026-10-20　問題2周・思い出す練習・まとめ を追加）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -261,6 +262,13 @@
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+    // 新しい版が届いたら、レッスン中でなければ自動で読みこみ直す
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController) return; // はじめて開いたときは何もしない
+      if (session) return;
+      location.reload();
     });
   }
 })();

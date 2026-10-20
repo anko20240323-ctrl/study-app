@@ -26,7 +26,14 @@ window.LESSON_FILES = [
   'lessons/grammar-01.js',
   'lessons/grammar-02.js',
   'lessons/grammar-03.js',
+  'lessons/html-drills.js',
 ];
+
+// 書く練習の問題。registerDrills('html-01', [ ... ]) で、その回の問題を足します。
+window.DRILLS = {};
+window.registerDrills = function (lessonId, list) {
+  window.DRILLS[lessonId] = (window.DRILLS[lessonId] || []).concat(list);
+};
 
 // レッスンのファイルは、この関数を呼んで自分を登録します。
 window.LESSONS = [];

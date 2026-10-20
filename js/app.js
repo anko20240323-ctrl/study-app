@@ -100,6 +100,11 @@
         );
       }) : h('p', null, '教材が読みこめませんでした。'),
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      h('a', { class: 'btn btn-big btn-second', href: '#/drill' },
+        h('span', { class: 'small' }, 'HTMLの基礎　学んだコードを何度でも'),
+        h('br'),
+        '✍ 書く練習',
+      ),
       courses.map((c) => {
         const list = window.LESSONS.filter((l) => l.course === c.id);
         return [
@@ -159,6 +164,9 @@
           session.start();
         },
       }, '▶ はじめる'),
+      l.course === 'html'
+        ? h('a', { class: 'btn btn-second', href: `#/drill/${l.id}` }, `✍ この回の書く練習（${Drill.count(l)}問）`)
+        : null,
       h('a', { class: 'btn btn-ghost', href: '#/' }, '← もどる'),
     );
   }
@@ -261,7 +269,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：5（2026-10-20　声で練習・ピコーン・英語の語順 を追加）'),
+        h('p', { class: 'muted small' }, 'アプリの版：6（2026-10-21　✍ 書く練習 を追加）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -294,7 +302,10 @@
     Speech.stop();
     const hash = location.hash || '#/';
     const m = hash.match(/^#\/lesson\/([\w-]+)/);
+    const d = hash.match(/^#\/drill\/([\w-]+)/);
     if (m) renderLessonIntro(m[1]);
+    else if (d) Drill.run(app, d[1]);
+    else if (hash.startsWith('#/drill')) Drill.menu(app);
     else if (hash.startsWith('#/settings')) renderSettings();
     else renderHome();
     window.scrollTo(0, 0);
@@ -313,7 +324,7 @@
     const hadController = !!navigator.serviceWorker.controller;
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (!hadController) return; // はじめて開いたときは何もしない
-      if (session) return;
+      if (session || location.hash.startsWith('#/drill')) return; // レッスン中・書く練習中は読みこみ直さない
       location.reload();
     });
   }

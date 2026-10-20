@@ -39,21 +39,34 @@
     );
   }
 
-  function handsFreeToggle() {
+  function toggle(key, title, note, disabled) {
     const cb = h('input', {
       type: 'checkbox',
-      checked: Store.settings.handsFree,
-      onchange: (e) => Store.setSetting('handsFree', e.target.checked),
+      checked: !!Store.settings[key] && !disabled,
+      disabled: !!disabled,
+      onchange: (e) => Store.setSetting(key, e.target.checked),
     });
     return h('label', { class: 'toggle' },
       cb,
       h('span', { class: 'toggle-ui', 'aria-hidden': 'true' }),
       h('span', null,
-        h('strong', null, '聞くだけモード'),
+        h('strong', null, title),
         h('br'),
-        h('span', { class: 'muted small' }, '画面を見なくても、声だけで最後まで進みます'),
+        h('span', { class: 'muted small' }, note),
       ),
     );
+  }
+
+  function handsFreeToggle() {
+    return toggle('handsFree', '聞くだけモード', '画面を見なくても、声だけで最後まで進みます');
+  }
+
+  function voiceToggle() {
+    return toggle('voice', '声で練習する（ためし）',
+      Listen.supported
+        ? '問題に番号を声で答えたり、英語を言ってみて伝わるかを確かめたりします。声は文字にするために Apple（Android は Google）へ送られることがあります'
+        : 'このブラウザでは、声の聞き取りが使えません',
+      !Listen.supported);
   }
 
   // ---- ホーム ----
@@ -86,7 +99,7 @@
           `▶ 第${nl.no}回 ${nl.title}`,
         );
       }) : h('p', null, '教材が読みこめませんでした。'),
-      h('section', { class: 'card' }, handsFreeToggle()),
+      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
       courses.map((c) => {
         const list = window.LESSONS.filter((l) => l.course === c.id);
         return [
@@ -105,33 +118,44 @@
       location.hash = '#/';
       return;
     }
-    const reviewN = Math.min(3, Store.mistakes.length);
+    const reviewN = Math.min(5, Store.mistakes.length);
     app.replaceChildren(
       h('section', { class: 'card' },
         h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
         h('h1', { class: 'intro-title' }, l.title),
         h('p', { class: 'lead' }, l.goal),
-        SessionHelpers.isTalk(l)
+        l.course === 'grammar'
+          ? h('ol', { class: 'plan' },
+            reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
+            h('li', null, `聞く解説（${l.explain.length}文）`),
+            h('li', null, `短い問題（${l.quiz.length}問×2周）`),
+            h('li', null, `語順パズル（${l.order.length}問・声でも練習できます）`),
+            h('li', null, `英語（${l.words.length}語・思い出す練習つき）`),
+            h('li', null, 'まとめ'),
+          )
+          : SessionHelpers.isTalk(l)
           ? h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `会話を聞く（${l.dialogue.length}セリフ）`),
-            h('li', null, `短い問題（${l.quiz.length}問）`),
-            h('li', null, `英語のフレーズ（${l.words.length}個）`),
+            h('li', null, `短い問題（${l.quiz.length}問×2周）`),
+            h('li', null, `英語のフレーズ（${l.words.length}個・思い出す練習つき）`),
           )
           : h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `聞く解説（${l.explain.length}文）`),
-            h('li', null, `短い問題（${l.quiz.length}問）`),
-            h('li', null, '打ってみる（1つ）'),
-            h('li', null, `英語（${l.words.length}語）`),
+            h('li', null, `短い問題（${l.quiz.length}問×2周）`),
+            h('li', null, '打ってみる（1つ・聞くだけモードでは飛ばします）'),
+            h('li', null, `英語（${l.words.length}語・思い出す練習つき）`),
+            h('li', null, 'まとめ'),
           ),
         h('p', { class: 'muted small' }, 'およそ15分です。画面はつけたままで聞いてください（画面を消すと、声が止まることがあります）。'),
       ),
-      h('section', { class: 'card' }, handsFreeToggle()),
+      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
       h('button', {
         class: 'btn btn-primary btn-big',
         onclick: () => {
           session = new Session(l.id, app);
+          Sound.unlock();
           session.start();
         },
       }, '▶ はじめる'),
@@ -157,8 +181,25 @@
     return { sel, list, chosen };
   }
 
+  const testOut = h('p', { class: 'say-result', 'aria-live': 'polite' });
+  async function testListen() {
+    Sound.unlock();
+    Speech.stop();
+    testOut.textContent = '聞いています…（5秒）';
+    await Sound.cue();
+    const heard = await Listen.hear({ lang: 'en', ms: 5000 });
+    if (!heard.length) {
+      testOut.textContent = '聞き取れませんでした。マイクの許可や、まわりの音を確かめてください。';
+      return;
+    }
+    const res = Listen.best('Hello, nice to meet you.', heard);
+    testOut.textContent = `こう聞こえました：「${res.heard}」　${res.score >= 0.8 ? '◎ 伝わりました' : '△ もう少し'}`;
+    if (res.score >= 0.8) Sound.right();
+  }
+
   function renderSettings() {
     Speech.loadVoices();
+    testOut.textContent = '';
     const ja = voiceSelect('ja');
     const en = voiceSelect('en');
 
@@ -206,7 +247,13 @@
         h('div', { class: 'rate-row' }, h('span', { class: 'small' }, 'ゆっくり'), rate, h('span', { class: 'small' }, 'はやい')),
         rateOut,
       ),
-      h('section', { class: 'card' }, handsFreeToggle()),
+      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      Listen.supported ? h('section', { class: 'card' },
+        h('h2', null, '声の聞き取りをためす'),
+        h('p', { class: 'muted small' }, 'ボタンを押して、英語で「Hello, nice to meet you.」と言ってみてください。初めてのときは、マイクの許可を聞かれます。'),
+        h('button', { class: 'btn', onclick: testListen }, '🎤 ためしに話す'),
+        testOut,
+      ) : null,
       h('section', { class: 'card' },
         h('h2', null, '知っておいてほしいこと'),
         h('ul', { class: 'notes' },
@@ -214,7 +261,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：3（2026-10-19　止める・続きから、日常会話 を追加）'),
+        h('p', { class: 'muted small' }, 'アプリの版：5（2026-10-20　声で練習・ピコーン・英語の語順 を追加）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -261,6 +308,13 @@
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js').catch(() => {});
+    });
+    // 新しい版が届いたら、レッスン中でなければ自動で読みこみ直す
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController) return; // はじめて開いたときは何もしない
+      if (session) return;
+      location.reload();
     });
   }
 })();

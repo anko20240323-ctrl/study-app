@@ -10,6 +10,7 @@
       enVoice: '',
       rate: 1.0,
       handsFree: false, // 聞くだけモード
+      voice: false,     // 声で練習する（マイクを使う）
     },
     studyDays: [],      // 学んだ日 'YYYY-MM-DD'
     done: {},           // レッスンID → 終えた回数

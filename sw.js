@@ -1,7 +1,7 @@
 // 電波がない所でも、前に開いたページが動くようにする係（service worker）。
 // 教材や画面を直したら、下の VERSION の数字を1つ上げてください（古い保存が入れかわります）。
 
-const VERSION = 'v3';
+const VERSION = 'v5';
 const CACHE = `manabi-${VERSION}`;
 
 const PRECACHE = [
@@ -12,6 +12,7 @@ const PRECACHE = [
   'js/storage.js',
   'js/ui.js',
   'js/speech.js',
+  'js/listen.js',
   'js/session.js',
   'js/app.js',
   'lessons/catalog.js',
@@ -25,6 +26,9 @@ const PRECACHE = [
   'lessons/talk-01.js',
   'lessons/talk-02.js',
   'lessons/talk-03.js',
+  'lessons/grammar-01.js',
+  'lessons/grammar-02.js',
+  'lessons/grammar-03.js',
   'img/cat.svg',
   'icons/icon.svg',
   'icons/icon-192.png',
@@ -52,7 +56,8 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const cached = await cache.match(req, { ignoreSearch: true });
-      const fresh = fetch(req).then((res) => {
+      // ブラウザの一時保存を通さずに、いつも最新を取りにいく
+      const fresh = fetch(req, { cache: 'no-cache' }).then((res) => {
         if (res && res.ok) cache.put(req, res.clone());
         return res;
       });

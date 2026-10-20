@@ -345,3 +345,24 @@ h1, h2 { line-height: 1.4; }
 .line-en { margin: 2px 0 0; font-size: 20px; font-weight: 600; font-family: system-ui, sans-serif; overflow-wrap: anywhere; }
 .line-ja { margin: 0; color: var(--muted); font-size: 16px; }
 .btn-second { border: 2px solid var(--primary); color: var(--primary); }
+
+/* 声で練習 */
+.sep { border: none; border-top: 1px solid var(--line); margin: 14px 0; }
+.say-result { margin: 8px 0 0; padding: 8px 10px; border-radius: 10px; background: var(--bg); font-size: 16px; overflow-wrap: anywhere; }
+.say-result:empty { display: none; }
+.w-ok { color: var(--right); font-weight: 600; }
+.w-ng { color: var(--wrong); font-weight: 700; text-decoration: underline; }
+
+/* 語順パズル */
+.seg-en { margin: 4px 0 0; font-family: system-ui, sans-serif; font-weight: 600; font-size: 19px; color: var(--primary); }
+.order-line {
+  min-height: 60px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  padding: 10px; border: 2px dashed var(--line); border-radius: 12px; margin: 8px 0; font-size: 20px;
+}
+.order-pool { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.chip-word {
+  min-height: 48px; padding: 6px 14px; border-radius: 999px; border: 2px solid var(--primary);
+  background: var(--card); color: var(--text); font: inherit; font-family: system-ui, sans-serif; font-size: 19px;
+  touch-action: manipulation;
+}
+.chip-word.on { background: var(--primary); color: var(--primary-ink); }

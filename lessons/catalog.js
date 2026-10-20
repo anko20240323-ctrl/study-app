@@ -9,6 +9,7 @@
 window.COURSES = [
   { id: 'html', title: 'HTMLの基礎' },
   { id: 'talk', title: '英語の日常会話' },
+  { id: 'grammar', title: '英語の語順' },
 ];
 
 window.LESSON_FILES = [
@@ -22,6 +23,9 @@ window.LESSON_FILES = [
   'lessons/talk-01.js',
   'lessons/talk-02.js',
   'lessons/talk-03.js',
+  'lessons/grammar-01.js',
+  'lessons/grammar-02.js',
+  'lessons/grammar-03.js',
 ];
 
 // レッスンのファイルは、この関数を呼んで自分を登録します。

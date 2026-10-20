@@ -684,80 +684,19 @@
     // ---- 4. 打ってみる ----
     stepPractice(body) {
       const p = this.lesson.practice;
-      const ta = h('textarea', {
-        class: 'editor', rows: 7, spellcheck: 'false', autocapitalize: 'off',
-        autocomplete: 'off', autocorrect: 'off', 'aria-label': 'コードを打つ場所',
+      const editor = CodeEditor(p, {
+        onResult: async (ok, misses) => {
+          const gen = this.begin();
+          if (ok) await Sound.right();
+          const said = await Speech.say(ok ? 'できました。すばらしいです。' : `あと少しです。${toSpeech(misses[0].msg)}`, { gen });
+          if (said) this.setIdle();
+        },
       });
-      ta.value = p.starter || '';
-      const frame = h('iframe', { class: 'preview', sandbox: '', title: '打った結果' });
-      const result = h('div', { class: 'feedback', 'aria-live': 'polite' });
-      const sample = h('pre', { class: 'code sample', hidden: true }, h('code', null, p.sample));
-      const tab = h('p', { class: 'tab-name', hidden: true });
-
-      const update = () => {
-        // title は画面に出ないので、「タブの名前」として見せる
-        const t = ta.value.match(/<title>([\s\S]*?)<\/title>/i);
-        tab.hidden = !t;
-        if (t) tab.textContent = `📑 タブの名前：${t[1].trim()}`;
-        frame.srcdoc = `<!doctype html><html lang="ja"><head><meta charset="utf-8"><base target="_blank">
-<style>body{font-family:sans-serif;font-size:18px;line-height:1.6;margin:12px;color:#222;word-break:break-word}img{max-width:100%}</style>
-</head><body>${ta.value}</body></html>`;
-      };
-      let timer;
-      ta.addEventListener('input', () => {
-        clearTimeout(timer);
-        timer = setTimeout(update, 250);
-      });
-
-      const insert = (s) => {
-        const start = ta.selectionStart;
-        const end = ta.selectionEnd;
-        ta.setRangeText(s, start, end, 'end');
-        ta.focus();
-        update();
-      };
-      const keys = ['<', '>', '/', '"', '=', '<p>', '</p>'].map((k) => h('button', {
-        class: 'key', type: 'button', onclick: () => insert(k),
-      }, k));
-
-      const check = () => {
-        const code = ta.value.toLowerCase().replace(/\s+/g, ' ');
-        const misses = (p.checks || []).filter((c) => {
-          if (c.re) return !new RegExp(c.re, 'i').test(ta.value);
-          return !code.includes(c.has.toLowerCase());
-        });
-        if (misses.length === 0) {
-          result.replaceChildren(h('p', { class: 'fb-title right-text' }, '◎ できました！'), h('p', null, p.done || '上の結果を見てみましょう。'));
-          Speech.say('できました。すばらしいです。', { gen: this.begin() }).then((ok) => ok && this.setIdle());
-        } else {
-          result.replaceChildren(
-            h('p', { class: 'fb-title wrong-text' }, 'あと少しです'),
-            h('ul', null, misses.map((m) => h('li', null, m.msg))),
-          );
-          Speech.say(`あと少しです。${toSpeech(misses[0].msg)}`, { gen: this.begin() }).then((ok) => ok && this.setIdle());
-        }
-      };
-
       body.append(
         h('h2', { class: 'step-h' }, '打ってみる'),
-        h('p', { class: 'task' }, p.task),
-        h('details', { class: 'hint' }, h('summary', null, 'ヒントを見る'), h('p', null, p.hint)),
-        h('div', { class: 'keys', 'aria-label': '記号を入れるボタン' }, keys),
-        ta,
-        h('div', { class: 'row' },
-          h('button', { class: 'btn', onclick: check }, '✓ 確かめる'),
-          h('button', {
-            class: 'btn btn-ghost',
-            onclick: () => { sample.hidden = !sample.hidden; },
-          }, 'お手本'),
-        ),
-        sample,
-        result,
-        h('p', { class: 'muted small' }, '▼ 打った結果（打つとすぐ変わります）'),
-        tab,
-        frame,
+        editor.el,
+        h('p', { class: 'muted small' }, 'もっと書いて覚えたいときは、ホームの「✍ 書く練習」で、この回の問題を何度でも練習できます。'),
       );
-      update();
 
       const readTask = async () => {
         const gen = this.begin();
@@ -771,10 +710,7 @@
 
       return {
         resume: readTask,
-        ctx: () => [
-          `■ 課題：${p.task}`,
-          `■ 打ったコード：\n\`\`\`html\n${ta.value || '（まだ何も打っていません）'}\n\`\`\``,
-        ],
+        ctx: editor.ctx,
       };
     }
 
@@ -1142,6 +1078,9 @@
           h('div', { class: 'col' },
             h('a', { class: 'btn btn-primary', href: '#/' }, 'ホームへ'),
             nextLesson ? h('a', { class: 'btn', href: `#/lesson/${nextLesson.id}` }, `次の回へ：${nextLesson.title}`) : null,
+            this.lesson.course === 'html'
+              ? h('a', { class: 'btn btn-second', href: `#/drill/${this.lesson.id}` }, '✍ この回の書く練習をする')
+              : null,
           ),
         ),
       );

@@ -15,6 +15,7 @@
     studyDays: [],      // 学んだ日 'YYYY-MM-DD'
     done: {},           // レッスンID → 終えた回数
     mistakes: [],       // { kind:'quiz'|'word', lessonId, key, at }
+    drills: {},         // レッスンID → 書く練習で「できました」になった回数
     lastVisit: '',
   };
 
@@ -105,6 +106,12 @@
     doneCount(id) { return state.done[id] || 0; },
     markDone(id) {
       state.done[id] = (state.done[id] || 0) + 1;
+      save();
+    },
+    drillCount(id) { return (state.drills || {})[id] || 0; },
+    addDrill(id) {
+      state.drills = state.drills || {};
+      state.drills[id] = (state.drills[id] || 0) + 1;
       save();
     },
     get mistakes() { return state.mistakes; },

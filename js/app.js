@@ -205,6 +205,34 @@
     if (res.score >= 0.8) Sound.right();
   }
 
+  // 前もって作った音声ファイル（画面を消しても止まりにくい声）の状態
+  function audioCard() {
+    const info = h('p', { class: 'small' }, '確かめています…');
+    const prog = h('p', { class: 'muted small' });
+    const btn = h('button', {
+      class: 'btn',
+      hidden: true,
+      onclick: async () => {
+        btn.disabled = true;
+        const ids = ['common', ...window.LESSONS.map((l) => l.id)];
+        const n = await Speech.prefetch(ids, (d, all) => { prog.textContent = `保存中… ${d} / ${all}`; });
+        prog.textContent = `${n}個の音声を保存しました。電波がない所でも聞けます。`;
+        btn.disabled = false;
+      },
+    }, '📥 すべての音声を保存する');
+    Speech.manifestReady.then(() => {
+      const { count, bytes } = Speech.audioInfo;
+      if (!count) {
+        info.textContent = 'まだ音声ファイルはありません。いまはブラウザの読み上げを使っています（画面を消すと止まることがあります）。';
+        return;
+      }
+      info.textContent = `音声ファイル：${count}個（${(bytes / 1024 / 1024).toFixed(1)}MB）。この声は、画面を消しても止まりにくくなっています。音声ファイルがない文だけ、ブラウザの読み上げを使います。`;
+      btn.hidden = false;
+      prog.textContent = 'レッスンを始めると、その回の音声は自動で保存されます。まとめて保存しておくと、電波がない所でも全部聞けます。';
+    });
+    return h('section', { class: 'card' }, h('h2', null, '声のファイル'), info, btn, prog);
+  }
+
   function renderSettings() {
     Speech.loadVoices();
     testOut.textContent = '';
@@ -256,6 +284,7 @@
         rateOut,
       ),
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      audioCard(),
       Listen.supported ? h('section', { class: 'card' },
         h('h2', null, '声の聞き取りをためす'),
         h('p', { class: 'muted small' }, 'ボタンを押して、英語で「Hello, nice to meet you.」と言ってみてください。初めてのときは、マイクの許可を聞かれます。'),
@@ -269,7 +298,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：6（2026-10-21　✍ 書く練習 を追加）'),
+        h('p', { class: 'muted small' }, 'アプリの版：7（2026-10-21　答え合わせを見やすく・声のファイルに対応）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -316,7 +345,7 @@
   loadLessons().then(route);
 
   // 電波がなくても開けるようにする係（service worker）を登録
-  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('./sw.js').catch(() => {});
     });

@@ -18,29 +18,8 @@
 
   const ASK_HEAD = 'ここがわからないので、ほぼ初めての人向けにやさしく説明してください：';
 
-  // ---- 読み上げ用に、コードの記号を読みやすい言葉に置きかえる ----
-  const TAG_YOMI = {
-    html: 'エイチティーエムエル', head: 'ヘッド', body: 'ボディ', title: 'タイトル',
-    meta: 'メタ', h1: 'エイチワン', h2: 'エイチツー', h3: 'エイチスリー', p: 'ピー',
-    a: 'エー', img: 'イメージ', ul: 'ユーエル', ol: 'オーエル', li: 'エルアイ',
-    button: 'ボタン', br: 'ビーアール', div: 'ディブ', strong: 'ストロング',
-  };
-  const ATTR_YOMI = { href: 'エイチレフ', src: 'ソース', alt: 'オルト', lang: 'ラング', charset: 'キャラセット', type: 'タイプ' };
-
-  function toSpeech(text) {
-    return String(text)
-      // 「head（ヘッド）」のように書いてあれば、カタカナのほうだけ読む
-      .replace(/[\x21-\x7e]+(?: [\x21-\x7e]+)*（([゠-ヿ・ー\s]+)）/g, '$1')
-      .replace(/<!doctype html>/gi, ' ドクタイプ宣言 ')
-      .replace(/<\/(\w+)>/g, (_, t) => ` ${TAG_YOMI[t.toLowerCase()] || t}の閉じタグ `)
-      .replace(/<(\w+)([^>]*)>/g, (_, t, rest) => {
-        const attrs = (rest.match(/\b(\w+)=/g) || [])
-          .map((a) => ATTR_YOMI[a.slice(0, -1).toLowerCase()] || a.slice(0, -1));
-        const name = TAG_YOMI[t.toLowerCase()] || t;
-        return attrs.length ? ` ${name}タグ（${attrs.join('、')}つき） ` : ` ${name}タグ `;
-      })
-      .replace(/```[\s\S]*?```/g, '');
-  }
+  // 読み上げ用の言葉づくりは js/phrases.js（音声ファイルを作るスクリプトと共通）
+  const { toSpeech } = Phrases;
 
   function findLesson(id) {
     return window.LESSONS.find((l) => l.id === id);
@@ -138,11 +117,15 @@
 
     start() {
       keepAwake(true);
+      // 音声ファイルがあれば、画面を消しても止まりにくくする（ロック画面から止める・続きからもできる）
+      Speech.keepAlive(true, lessonLabel(this.lesson), () => this.togglePause());
+      Speech.prefetch([this.lesson.id, 'common']);
       this.render();
     }
 
     stop() {
       Speech.stop();
+      Speech.keepAlive(false);
       keepAwake(false);
     }
 
@@ -296,8 +279,9 @@
       // 選択肢が英語のときは、英語の声で読む
       const enChoices = item.choicesLang === 'en';
       const sayChoice = async (i, g) => {
-        if (!enChoices) return Speech.say(`${i + 1}番、${toSpeech(item.choices[i])}`, { gen: g });
+        // 「1番」と選択肢を分けて読む（決まった文にしておくと、音声ファイルを前もって作れる）
         if (!(await Speech.say(`${i + 1}番`, { gen: g }))) return false;
+        if (!enChoices) return Speech.say(toSpeech(item.choices[i]), { gen: g });
         return Speech.say(item.choices[i], { lang: 'en', gen: g });
       };
 
@@ -310,7 +294,10 @@
         } else if (enChoices) {
           if (!(await Speech.say(`${head}${item.answer + 1}番です。`, { gen: g }))) return false;
           if (!(await Speech.say(ans, { lang: 'en', gen: g }))) return false;
-        } else if (!(await Speech.say(`${head}${item.answer + 1}番、${toSpeech(ans)}、です。`, { gen: g }))) return false;
+        } else {
+          if (!(await Speech.say(`${head}${item.answer + 1}番。`, { gen: g }))) return false;
+          if (!(await Speech.say(toSpeech(ans), { gen: g }))) return false;
+        }
         if (item.whyParts) {
           // 答えを英語で読んだすぐあとに、同じ英語をくり返さない
           const parts = enChoices && correct !== true && item.whyParts[0] && item.whyParts[0].text === ans
@@ -687,9 +674,14 @@
       const editor = CodeEditor(p, {
         onResult: async (ok, misses) => {
           const gen = this.begin();
-          if (ok) await Sound.right();
-          const said = await Speech.say(ok ? 'できました。すばらしいです。' : `あと少しです。${toSpeech(misses[0].msg)}`, { gen });
-          if (said) this.setIdle();
+          if (ok) {
+            await Sound.right();
+            if (await Speech.say('できました。すばらしいです。', { gen })) this.setIdle();
+            return;
+          }
+          await Sound.wrong();
+          if (!(await Speech.say('あと少しです。', { gen }))) return;
+          if (await Speech.say(toSpeech(misses[0].msg), { gen })) this.setIdle();
         },
       });
       body.append(
@@ -1064,6 +1056,7 @@
         Store.markStudied();
       }
       keepAwake(false);
+      Speech.keepAlive(false);
       const streak = Store.streak();
       const total = Store.totalDays();
       const nextLesson = window.LESSONS.find((l) => l.course === this.lesson.course && l.no === this.lesson.no + 1);

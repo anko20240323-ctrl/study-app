@@ -52,21 +52,34 @@
       class: 'key', type: 'button', onclick: () => insert(k),
     }, k));
 
+    let checked = false;
+    // 答え合わせ：結果を、色のついた大きな箱で見せる（正解は緑、まだのときは赤）
     const check = () => {
+      checked = true;
       const misses = findMisses(p, ta.value);
-      if (misses.length === 0) {
-        result.replaceChildren(h('p', { class: 'fb-title right-text' }, '◎ できました！'), h('p', null, p.done || '上の結果を見てみましょう。'));
+      const ok = misses.length === 0;
+      result.className = `result-box ${ok ? 'ok' : 'ng'}`;
+      if (ok) {
+        result.replaceChildren(
+          h('p', { class: 'result-head' }, '◎ 正解！できました'),
+          h('p', null, p.done || '下の結果を見てみましょう。'),
+        );
       } else {
         result.replaceChildren(
-          h('p', { class: 'fb-title wrong-text' }, 'あと少しです'),
+          h('p', { class: 'result-head' }, '△ まだです。ここを直しましょう'),
           h('ul', null, misses.map((m) => h('li', null, m.msg))),
+          h('p', { class: 'small' }, '直したら、もう一度「答え合わせ」を押してください。'),
         );
       }
-      if (onResult) onResult(misses.length === 0, misses);
+      result.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      if (onResult) onResult(ok, misses);
+      return ok;
     };
 
     const reset = () => {
       ta.value = p.starter || '';
+      checked = false;
+      result.className = 'feedback';
       result.replaceChildren();
       sample.hidden = true;
       update();
@@ -78,7 +91,7 @@
       h('div', { class: 'keys', 'aria-label': '記号を入れるボタン' }, keys),
       ta,
       h('div', { class: 'row' },
-        h('button', { class: 'btn', onclick: check }, '✓ 確かめる'),
+        h('button', { class: 'btn btn-primary btn-check', onclick: check }, '✓ 答え合わせ'),
         h('button', { class: 'btn btn-ghost', onclick: () => { sample.hidden = !sample.hidden; } }, 'お手本'),
       ),
       sample,
@@ -92,6 +105,8 @@
     return {
       el,
       reset,
+      check,
+      get checked() { return checked; },
       get value() { return ta.value; },
       // 「わからないを聞く」で使う
       ctx: () => [

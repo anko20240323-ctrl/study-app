@@ -1,5 +1,5513 @@
 {
-  "note": "tools/make_audio.py が作る一覧です。手で書きかえないでください。",
-  "files": {},
-  "lessons": {}
+ "note": "tools/make_audio.py が作る一覧です。手で書きかえないでください。",
+ "files": {
+  "en|-0.9|Anything to drink?": {
+   "f": "en/b14d412cca7be697.mp3",
+   "b": 11136
+  },
+  "en|-0.9|Good morning, Tatsuya!": {
+   "f": "en/3fa961d04b796108.mp3",
+   "b": 15744
+  },
+  "en|-0.9|Hi, can I help you?": {
+   "f": "en/b6b4814aef87fb68.mp3",
+   "b": 15360
+  },
+  "en|-0.9|Hi! How many people?": {
+   "f": "en/46a72ed5a2fd0910.mp3",
+   "b": 14976
+  },
+  "en|-0.9|How about this one? It's very popular.": {
+   "f": "en/7403c2842735296e.mp3",
+   "b": 22464
+  },
+  "en|-0.9|I'm good, thanks. And you?": {
+   "f": "en/7717d49dbaff896d.mp3",
+   "b": 19776
+  },
+  "en|-0.9|It's 5,000 yen.": {
+   "f": "en/0a8ac83c16326c74.mp3",
+   "b": 13056
+  },
+  "en|-0.9|Nice! Have a good day.": {
+   "f": "en/d890d739b5b894d3.mp3",
+   "b": 16704
+  },
+  "en|-0.9|Of course.": {
+   "f": "en/b1656871094ae49a.mp3",
+   "b": 8640
+  },
+  "en|-0.9|Sure. Anything else?": {
+   "f": "en/dd1d30e8485ab543.mp3",
+   "b": 15168
+  },
+  "en|-0.9|Sure. The fitting room is over there.": {
+   "f": "en/24b82eb0b843a8a9.mp3",
+   "b": 20736
+  },
+  "en|-0.9|Thank you. Have a nice evening!": {
+   "f": "en/d6c101ee4f083111.mp3",
+   "b": 18240
+  },
+  "en|-0.9|The tomato pasta is very popular.": {
+   "f": "en/ca52d37c44de2bc5.mp3",
+   "b": 20928
+  },
+  "en|-0.9|This way, please. Here are your menus.": {
+   "f": "en/112f384390c70f8d.mp3",
+   "b": 23232
+  },
+  "en|-0.9|Yes, it is. Did you have a good weekend?": {
+   "f": "en/a1b770fae768cd50.mp3",
+   "b": 25344
+  },
+  "en|-0.9|Yes. Here you are.": {
+   "f": "en/8578cd374d042b6c.mp3",
+   "b": 14592
+  },
+  "en|0|a cheap shirt": {
+   "f": "en/fb15992c3eea72c9.mp3",
+   "b": 10560
+  },
+  "en|0|a red bag": {
+   "f": "en/6ed3bbab6928b698.mp3",
+   "b": 9984
+  },
+  "en|0|a shirt cheap": {
+   "f": "en/311838754d114c80.mp3",
+   "b": 10752
+  },
+  "en|0|Add a heading to the report.": {
+   "f": "en/b0722ce15a45a0b9.mp3",
+   "b": 15168
+  },
+  "en|0|address": {
+   "f": "en/27cb0435d2fd9f67.mp3",
+   "b": 8256
+  },
+  "en|0|alternative": {
+   "f": "en/a0c2a899e43cf785.mp3",
+   "b": 8640
+  },
+  "en|0|Am I Tatsuya.": {
+   "f": "en/1a761f3d0ecd0e19.mp3",
+   "b": 12672
+  },
+  "en|0|Anything else?": {
+   "f": "en/dc27eb8a30ecbd2f.mp3",
+   "b": 9792
+  },
+  "en|0|Are you available tomorrow?": {
+   "f": "en/ebde48e523676e47.mp3",
+   "b": 13248
+  },
+  "en|0|available": {
+   "f": "en/157f76667b448778.mp3",
+   "b": 8256
+  },
+  "en|0|big": {
+   "f": "en/5d82939419099b76.mp3",
+   "b": 5568
+  },
+  "en|0|body": {
+   "f": "en/fcb4e7f10036a058.mp3",
+   "b": 6528
+  },
+  "en|0|break": {
+   "f": "en/79fd2bcf68726a2d.mp3",
+   "b": 6144
+  },
+  "en|0|button": {
+   "f": "en/ea6f24654638ffe0.mp3",
+   "b": 6336
+  },
+  "en|0|buy": {
+   "f": "en/8c19a861a677c1b5.mp3",
+   "b": 5376
+  },
+  "en|0|Can I get some water?": {
+   "f": "en/59b6a537e5414af3.mp3",
+   "b": 12288
+  },
+  "en|0|Can I have the check, please?": {
+   "f": "en/63350238b0e5317b.mp3",
+   "b": 16512
+  },
+  "en|0|Can I have the check?": {
+   "f": "en/4e2d3a3ac8606a80.mp3",
+   "b": 11712
+  },
+  "en|0|Can I help you?": {
+   "f": "en/780cde84ff21f0a2.mp3",
+   "b": 9024
+  },
+  "en|0|Can I pay by card, or is it cash only?": {
+   "f": "en/859a8ab6a4e96a72.mp3",
+   "b": 23616
+  },
+  "en|0|Can I pay by card?": {
+   "f": "en/adcd09b51b53c650.mp3",
+   "b": 12672
+  },
+  "en|0|Can I try it on?": {
+   "f": "en/924092594ecd058b.mp3",
+   "b": 11904
+  },
+  "en|0|Can you check the price?": {
+   "f": "en/5c1c9df4922fd9f6.mp3",
+   "b": 13440
+  },
+  "en|0|cancel": {
+   "f": "en/4f0134a51eb11041.mp3",
+   "b": 7488
+  },
+  "en|0|cheap": {
+   "f": "en/1a5fe5c65bf42927.mp3",
+   "b": 6336
+  },
+  "en|0|check": {
+   "f": "en/eccb40f1ec177e4f.mp3",
+   "b": 6144
+  },
+  "en|0|Check the price tag, please.": {
+   "f": "en/1f0b6c856ae4b006.mp3",
+   "b": 18048
+  },
+  "en|0|Check the width of the shelf.": {
+   "f": "en/f9b7e027149279e4.mp3",
+   "b": 15360
+  },
+  "en|0|click": {
+   "f": "en/6965f4e0620973f0.mp3",
+   "b": 5952
+  },
+  "en|0|Click the link to see the price.": {
+   "f": "en/ca27d92357d69667.mp3",
+   "b": 17088
+  },
+  "en|0|Coffee likes me.": {
+   "f": "en/1256d5397c951c3c.mp3",
+   "b": 10944
+  },
+  "en|0|confirm": {
+   "f": "en/954916abe1d50b0e.mp3",
+   "b": 7872
+  },
+  "en|0|contact": {
+   "f": "en/18791e12653c303b.mp3",
+   "b": 8640
+  },
+  "en|0|customer": {
+   "f": "en/9873c7e57643dc8b.mp3",
+   "b": 7680
+  },
+  "en|0|Customers buy many things here.": {
+   "f": "en/ba1cdb91e2334798.mp3",
+   "b": 17088
+  },
+  "en|0|Do you have a small bag?": {
+   "f": "en/cd522b7d1ba30b1a.mp3",
+   "b": 13248
+  },
+  "en|0|Do you have a smaller one?": {
+   "f": "en/3b894292dc2f7189.mp3",
+   "b": 13632
+  },
+  "en|0|Do you have an alternative plan?": {
+   "f": "en/bacd59b2dee58ee7.mp3",
+   "b": 16128
+  },
+  "en|0|document": {
+   "f": "en/fcdf2a6185455d38.mp3",
+   "b": 8640
+  },
+  "en|0|Don't forget to save the file.": {
+   "f": "en/8335871195341c29.mp3",
+   "b": 15936
+  },
+  "en|0|drive": {
+   "f": "en/bd29a1eb88bb4a99.mp3",
+   "b": 6336
+  },
+  "en|0|eat": {
+   "f": "en/3fbe9e7248b41c8b.mp3",
+   "b": 5568
+  },
+  "en|0|every day": {
+   "f": "en/760d3bb0ae197c4e.mp3",
+   "b": 8448
+  },
+  "en|0|Everything looks good. What do you recommend?": {
+   "f": "en/3a0db07ea76b9daf.mp3",
+   "b": 22464
+  },
+  "en|0|Excuse me, can I get some water?": {
+   "f": "en/2070bfb6b25157e2.mp3",
+   "b": 19392
+  },
+  "en|0|Excuse me, can I have the check, please?": {
+   "f": "en/60cbc33de355c83e.mp3",
+   "b": 23808
+  },
+  "en|0|experience": {
+   "f": "en/5f791ec27ba9ac10.mp3",
+   "b": 10176
+  },
+  "en|0|file": {
+   "f": "en/98a2ff19ed520ae2.mp3",
+   "b": 6336
+  },
+  "en|0|Fill out this form, please.": {
+   "f": "en/cdc2a0c81a197b5d.mp3",
+   "b": 17664
+  },
+  "en|0|Follow these steps.": {
+   "f": "en/a18c414dd4a5e835.mp3",
+   "b": 12288
+  },
+  "en|0|form": {
+   "f": "en/347a78b7470006b1.mp3",
+   "b": 6336
+  },
+  "en|0|Good morning, everyone.": {
+   "f": "en/4aa1a3de8c29bc1e.mp3",
+   "b": 14208
+  },
+  "en|0|Good morning.": {
+   "f": "en/99a791191bc0477d.mp3",
+   "b": 8448
+  },
+  "en|0|Good night.": {
+   "f": "en/bb7ab7bddc2b7fa4.mp3",
+   "b": 7680
+  },
+  "en|0|Have a good day.": {
+   "f": "en/a4741f7b8f4d05da.mp3",
+   "b": 10176
+  },
+  "en|0|head": {
+   "f": "en/d4379dce3956b319.mp3",
+   "b": 5760
+  },
+  "en|0|heading": {
+   "f": "en/5aa0a2ff8af966cc.mp3",
+   "b": 6528
+  },
+  "en|0|height": {
+   "f": "en/fc7931c9ab6873a9.mp3",
+   "b": 6144
+  },
+  "en|0|Hello! Let's learn together.": {
+   "f": "en/da9cc5e337dc2deb.mp3",
+   "b": 17472
+  },
+  "en|0|Here is a short summary.": {
+   "f": "en/7143b0c2a15e12b2.mp3",
+   "b": 14784
+  },
+  "en|0|Here you are.": {
+   "f": "en/52b0712758110943.mp3",
+   "b": 8256
+  },
+  "en|0|Hi, I'm Tatsuya. Nice to meet you.": {
+   "f": "en/1ff7f793f05b49ad.mp3",
+   "b": 25152
+  },
+  "en|0|Hi, Sam. How are you?": {
+   "f": "en/2e578a4c49742a6f.mp3",
+   "b": 19200
+  },
+  "en|0|Hi, table for two, please.": {
+   "f": "en/e0f32ab23e31489b.mp3",
+   "b": 22656
+  },
+  "en|0|hobby": {
+   "f": "en/d30984c3277e7c4c.mp3",
+   "b": 6720
+  },
+  "en|0|How are you?": {
+   "f": "en/aeec94d4c84b6c7c.mp3",
+   "b": 7872
+  },
+  "en|0|How many people?": {
+   "f": "en/861e21d835b9c87e.mp3",
+   "b": 9984
+  },
+  "en|0|How much is it?": {
+   "f": "en/e4f6cbf2295f961a.mp3",
+   "b": 9792
+  },
+  "en|0|How much is this lamp?": {
+   "f": "en/161ca87675916b0f.mp3",
+   "b": 13632
+  },
+  "en|0|I am Tatsuya.": {
+   "f": "en/176241e9dbd00b17.mp3",
+   "b": 12096
+  },
+  "en|0|I at a shop work every day.": {
+   "f": "en/1416e9d533b7c9f9.mp3",
+   "b": 16512
+  },
+  "en|0|I check the inventory every day.": {
+   "f": "en/58abd072d8c2a20d.mp3",
+   "b": 18240
+  },
+  "en|0|I coffee like.": {
+   "f": "en/61293b89590edd91.mp3",
+   "b": 10560
+  },
+  "en|0|I drive a car.": {
+   "f": "en/290a462763817bf5.mp3",
+   "b": 10176
+  },
+  "en|0|I drive to work.": {
+   "f": "en/39046ce44e5fe43d.mp3",
+   "b": 10560
+  },
+  "en|0|I eat rice.": {
+   "f": "en/fd2cb6c6470d0181.mp3",
+   "b": 10560
+  },
+  "en|0|I every day at a shop work.": {
+   "f": "en/e0841620f2ed5372.mp3",
+   "b": 16320
+  },
+  "en|0|I have five years of experience in sales.": {
+   "f": "en/f3ea6f7b0b55af16.mp3",
+   "b": 23232
+  },
+  "en|0|I have three tasks today.": {
+   "f": "en/03aaa40106072d4c.mp3",
+   "b": 15936
+  },
+  "en|0|I have to go now. See you later!": {
+   "f": "en/bda75c784f91da68.mp3",
+   "b": 20928
+  },
+  "en|0|I like coffee.": {
+   "f": "en/34484a9919ae4fe0.mp3",
+   "b": 10368
+  },
+  "en|0|I like old cameras.": {
+   "f": "en/e37ecd4c6aef4a72.mp3",
+   "b": 13440
+  },
+  "en|0|I like this shirt. Can I try it on?": {
+   "f": "en/bacc1f0cd1ada392.mp3",
+   "b": 22656
+  },
+  "en|0|I meet my friend at the station.": {
+   "f": "en/5c753f6e44ec8bbe.mp3",
+   "b": 16896
+  },
+  "en|0|I on Sunday watch soccer.": {
+   "f": "en/c58318b17220741c.mp3",
+   "b": 17280
+  },
+  "en|0|I saved the file on my phone.": {
+   "f": "en/79af681434f77f77.mp3",
+   "b": 16896
+  },
+  "en|0|I soccer watch on Sunday.": {
+   "f": "en/05c652a3e28a8f4e.mp3",
+   "b": 16320
+  },
+  "en|0|I study English every morning.": {
+   "f": "en/b91079f4f887bed9.mp3",
+   "b": 17856
+  },
+  "en|0|I study English in the car every morning.": {
+   "f": "en/7be479a1733575d4.mp3",
+   "b": 21696
+  },
+  "en|0|I study English in the car.": {
+   "f": "en/f0ca2dde48cbc476.mp3",
+   "b": 16128
+  },
+  "en|0|I Tatsuya am.": {
+   "f": "en/bb4a33c12daafbbd.mp3",
+   "b": 12480
+  },
+  "en|0|I TV watch.": {
+   "f": "en/8d48bd4bed760abc.mp3",
+   "b": 12864
+  },
+  "en|0|I watch movies on weekends.": {
+   "f": "en/040b72bbc3b8cb16.mp3",
+   "b": 17280
+  },
+  "en|0|I watch soccer on Sunday.": {
+   "f": "en/9b70309f8f70caab.mp3",
+   "b": 16896
+  },
+  "en|0|I watch TV.": {
+   "f": "en/bef476069f07c7bc.mp3",
+   "b": 12096
+  },
+  "en|0|I will send the sales report today.": {
+   "f": "en/3b78b70e51ca59d3.mp3",
+   "b": 18048
+  },
+  "en|0|I will send you the link.": {
+   "f": "en/f580617b4fa1fc75.mp3",
+   "b": 13440
+  },
+  "en|0|I will share the page with my team.": {
+   "f": "en/5a9f14d9b45f6878.mp3",
+   "b": 17088
+  },
+  "en|0|I will upload the photos tonight.": {
+   "f": "en/b270da4c28fa1b9d.mp3",
+   "b": 16704
+  },
+  "en|0|I work at a recycle shop.": {
+   "f": "en/fd3132ce18d66257.mp3",
+   "b": 16512
+  },
+  "en|0|I work at a shop every day.": {
+   "f": "en/ec7cc97ec6357253.mp3",
+   "b": 16320
+  },
+  "en|0|I'll have ...": {
+   "f": "en/005c9784bcfc6670.mp3",
+   "b": 7296
+  },
+  "en|0|I'll have the curry, please.": {
+   "f": "en/21972e33377c89b2.mp3",
+   "b": 17088
+  },
+  "en|0|I'll take it.": {
+   "f": "en/fa670565e57a24cd.mp3",
+   "b": 8832
+  },
+  "en|0|I'm good, thanks.": {
+   "f": "en/4a38ef0a9541048c.mp3",
+   "b": 13824
+  },
+  "en|0|I'm good, thanks. And you?": {
+   "f": "en/85238ad9be6833e8.mp3",
+   "b": 19968
+  },
+  "en|0|I'm just looking, thanks.": {
+   "f": "en/2d93c4af6386ed6a.mp3",
+   "b": 17280
+  },
+  "en|0|I'm just looking.": {
+   "f": "en/c417f884600a7c51.mp3",
+   "b": 10368
+  },
+  "en|0|I'm looking for ...": {
+   "f": "en/828f29165262dd06.mp3",
+   "b": 9792
+  },
+  "en|0|I'm looking for a black bag.": {
+   "f": "en/3fa4499b777b045e.mp3",
+   "b": 15744
+  },
+  "en|0|image": {
+   "f": "en/8a291bcb83f53e96.mp3",
+   "b": 6720
+  },
+  "en|0|introduce": {
+   "f": "en/b1da6b72ddd4ecf3.mp3",
+   "b": 9408
+  },
+  "en|0|inventory": {
+   "f": "en/b215e5dd75677352.mp3",
+   "b": 8832
+  },
+  "en|0|It was delicious.": {
+   "f": "en/b57873082d2e0cc1.mp3",
+   "b": 11520
+  },
+  "en|0|It's too big. Do you have a smaller one?": {
+   "f": "en/f89af2fe3b0b9272.mp3",
+   "b": 22464
+  },
+  "en|0|item": {
+   "f": "en/ffb6dcfc45436063.mp3",
+   "b": 6144
+  },
+  "en|0|language": {
+   "f": "en/7ba5d1b997f273f4.mp3",
+   "b": 7872
+  },
+  "en|0|Let me confirm the date.": {
+   "f": "en/1633cce39745dcc0.mp3",
+   "b": 13824
+  },
+  "en|0|Let me introduce myself.": {
+   "f": "en/0a57c55c1d888b82.mp3",
+   "b": 14784
+  },
+  "en|0|Let me see a preview first.": {
+   "f": "en/632385bf8c1c0a68.mp3",
+   "b": 16512
+  },
+  "en|0|Let's take a short break.": {
+   "f": "en/f752446612738c75.mp3",
+   "b": 15168
+  },
+  "en|0|like": {
+   "f": "en/edaf96a5a1812c90.mp3",
+   "b": 6336
+  },
+  "en|0|Like I coffee.": {
+   "f": "en/c8a1e496e3402a74.mp3",
+   "b": 10176
+  },
+  "en|0|line": {
+   "f": "en/a7aaf421a7f56734.mp3",
+   "b": 6336
+  },
+  "en|0|link": {
+   "f": "en/5be0852183606c1b.mp3",
+   "b": 6144
+  },
+  "en|0|list": {
+   "f": "en/11e56fdfc27a343d.mp3",
+   "b": 7104
+  },
+  "en|0|Long time no see! How have you been?": {
+   "f": "en/292d1ad80d07b1d3.mp3",
+   "b": 21312
+  },
+  "en|0|Long time no see.": {
+   "f": "en/abb901e232b09a3b.mp3",
+   "b": 12480
+  },
+  "en|0|Me too.": {
+   "f": "en/ec2a93a25e7cf8e1.mp3",
+   "b": 7872
+  },
+  "en|0|meet": {
+   "f": "en/e2ce56a73fb1e304.mp3",
+   "b": 6144
+  },
+  "en|0|My hobby is making videos.": {
+   "f": "en/92461a7b3bb77f29.mp3",
+   "b": 17088
+  },
+  "en|0|new": {
+   "f": "en/65adcb2ab77c8a75.mp3",
+   "b": 5952
+  },
+  "en|0|nice": {
+   "f": "en/9a884bb30b0d983e.mp3",
+   "b": 7104
+  },
+  "en|0|Nice to meet you.": {
+   "f": "en/a3e7a564721da57c.mp3",
+   "b": 9984
+  },
+  "en|0|No, that's all. Thank you.": {
+   "f": "en/f0d0321b9742f97e.mp3",
+   "b": 19200
+  },
+  "en|0|OK, I'll take it.": {
+   "f": "en/192139a4faea8a3f.mp3",
+   "b": 15744
+  },
+  "en|0|old": {
+   "f": "en/8ed98e2a97b1fe31.mp3",
+   "b": 5952
+  },
+  "en|0|order": {
+   "f": "en/352b195ed3a1328b.mp3",
+   "b": 6528
+  },
+  "en|0|Our store has a new website.": {
+   "f": "en/88af5ce7067764ad.mp3",
+   "b": 17280
+  },
+  "en|0|paragraph": {
+   "f": "en/2b44f7da77234038.mp3",
+   "b": 8832
+  },
+  "en|0|Please contact me by email.": {
+   "f": "en/d839ad95c9a8ce4c.mp3",
+   "b": 16896
+  },
+  "en|0|Please make a list of new items.": {
+   "f": "en/d0f657b242b860ae.mp3",
+   "b": 17664
+  },
+  "en|0|Please read the first line.": {
+   "f": "en/88ab8fd3db5587f6.mp3",
+   "b": 14976
+  },
+  "en|0|Please read this document.": {
+   "f": "en/3a9097b4a692616b.mp3",
+   "b": 14784
+  },
+  "en|0|Please submit the form by Friday.": {
+   "f": "en/990cf7623968ba49.mp3",
+   "b": 18240
+  },
+  "en|0|Please update your profile.": {
+   "f": "en/948e6f3358f999d2.mp3",
+   "b": 14592
+  },
+  "en|0|Please upload the product image.": {
+   "f": "en/591877d89bd85505.mp3",
+   "b": 17088
+  },
+  "en|0|Please write your email address.": {
+   "f": "en/cd2396c48146484f.mp3",
+   "b": 16704
+  },
+  "en|0|Press the red button.": {
+   "f": "en/37c143e63db0fd5c.mp3",
+   "b": 11520
+  },
+  "en|0|preview": {
+   "f": "en/ed16818087631091.mp3",
+   "b": 7296
+  },
+  "en|0|profile": {
+   "f": "en/8223ca75620ff2ce.mp3",
+   "b": 7680
+  },
+  "en|0|Put the boxes in order.": {
+   "f": "en/efad8f17411ba62e.mp3",
+   "b": 14976
+  },
+  "en|0|reference": {
+   "f": "en/91894e0690056a6a.mp3",
+   "b": 8448
+  },
+  "en|0|report": {
+   "f": "en/223aa59dc0ea1978.mp3",
+   "b": 7872
+  },
+  "en|0|save": {
+   "f": "en/75053734f34405fc.mp3",
+   "b": 6528
+  },
+  "en|0|See you later.": {
+   "f": "en/65135830cff68e09.mp3",
+   "b": 9792
+  },
+  "en|0|sell": {
+   "f": "en/1b93662ee7e38aef.mp3",
+   "b": 6336
+  },
+  "en|0|share": {
+   "f": "en/99f102f67df1444a.mp3",
+   "b": 6144
+  },
+  "en|0|shirt a cheap": {
+   "f": "en/f00c913db50dcf6a.mp3",
+   "b": 10176
+  },
+  "en|0|small": {
+   "f": "en/12b21ade1bdfb87c.mp3",
+   "b": 6720
+  },
+  "en|0|source": {
+   "f": "en/f4c0dc88f06fd327.mp3",
+   "b": 7872
+  },
+  "en|0|station": {
+   "f": "en/0928119ea40acc11.mp3",
+   "b": 7680
+  },
+  "en|0|step": {
+   "f": "en/9153d70e3b499313.mp3",
+   "b": 6528
+  },
+  "en|0|structure": {
+   "f": "en/a3b87095306eabd1.mp3",
+   "b": 8256
+  },
+  "en|0|study": {
+   "f": "en/073fb84767e843c6.mp3",
+   "b": 6912
+  },
+  "en|0|submit": {
+   "f": "en/c5c2188914648fda.mp3",
+   "b": 7680
+  },
+  "en|0|summary": {
+   "f": "en/82c4f95abec57f59.mp3",
+   "b": 7488
+  },
+  "en|0|Table for two, please.": {
+   "f": "en/c6a617628f9c6797.mp3",
+   "b": 16896
+  },
+  "en|0|tag": {
+   "f": "en/ddaa52438001fd47.mp3",
+   "b": 6144
+  },
+  "en|0|task": {
+   "f": "en/ec7e368429057b0a.mp3",
+   "b": 7680
+  },
+  "en|0|text": {
+   "f": "en/5815163b46237544.mp3",
+   "b": 8064
+  },
+  "en|0|Thank you. It was delicious!": {
+   "f": "en/c450779e879cc45f.mp3",
+   "b": 17856
+  },
+  "en|0|Thanks for coming. Have a good day!": {
+   "f": "en/03aeef8759d243f3.mp3",
+   "b": 19392
+  },
+  "en|0|That clock is very old.": {
+   "f": "en/e0bc3a8914583e16.mp3",
+   "b": 15744
+  },
+  "en|0|That's all.": {
+   "f": "en/2a06e200f24a8f1f.mp3",
+   "b": 8256
+  },
+  "en|0|The bag is red.": {
+   "f": "en/bcbc77ef87865c83.mp3",
+   "b": 10368
+  },
+  "en|0|The customer is waiting at the counter.": {
+   "f": "en/a4a3486db390c171.mp3",
+   "b": 18432
+  },
+  "en|0|The customer wants to cancel the order.": {
+   "f": "en/f22010b090615745.mp3",
+   "b": 19200
+  },
+  "en|0|The height of this table is 70 centimeters.": {
+   "f": "en/532b79c07d103bf5.mp3",
+   "b": 23616
+  },
+  "en|0|The shop is near the station.": {
+   "f": "en/6a94cc5adc904a37.mp3",
+   "b": 15552
+  },
+  "en|0|The sofa is too big for my room.": {
+   "f": "en/3dc7aca638412c24.mp3",
+   "b": 18240
+  },
+  "en|0|The structure of the page is simple.": {
+   "f": "en/06be14a6cc18470a.mp3",
+   "b": 18048
+  },
+  "en|0|The text is too small.": {
+   "f": "en/084bc3b5a2b940f7.mp3",
+   "b": 14976
+  },
+  "en|0|The title goes in the head.": {
+   "f": "en/0e96ff7de56f00f9.mp3",
+   "b": 14592
+  },
+  "en|0|This is a cheap shirt.": {
+   "f": "en/8bb0b0a8735a6065.mp3",
+   "b": 13824
+  },
+  "en|0|This is a nice chair.": {
+   "f": "en/965b28f266a1e44f.mp3",
+   "b": 13248
+  },
+  "en|0|This is a nice table.": {
+   "f": "en/f65aeafea589a2a9.mp3",
+   "b": 13632
+  },
+  "en|0|This is a red bag.": {
+   "f": "en/6682b068d50b0f97.mp3",
+   "b": 12864
+  },
+  "en|0|This is for your reference.": {
+   "f": "en/d6d0c9703a154b49.mp3",
+   "b": 14400
+  },
+  "en|0|This is TV new.": {
+   "f": "en/73b0600fc85ea865.mp3",
+   "b": 13632
+  },
+  "en|0|This item is very popular.": {
+   "f": "en/ad58b9c99bc00e5e.mp3",
+   "b": 16896
+  },
+  "en|0|This lamp is very cheap.": {
+   "f": "en/7d4d9130aa89439a.mp3",
+   "b": 15552
+  },
+  "en|0|This page is in the Japanese language.": {
+   "f": "en/d287773ee9285817.mp3",
+   "b": 21120
+  },
+  "en|0|This paragraph is too long.": {
+   "f": "en/ff09290c21fd4659.mp3",
+   "b": 17088
+  },
+  "en|0|This phone is almost new.": {
+   "f": "en/15880eb716748390.mp3",
+   "b": 15360
+  },
+  "en|0|This shirt is cheap.": {
+   "f": "en/357381fe4653be65.mp3",
+   "b": 11712
+  },
+  "en|0|This TV is new.": {
+   "f": "en/ccd6e06d08a3fe5e.mp3",
+   "b": 13440
+  },
+  "en|0|This TV new is.": {
+   "f": "en/bc32afd8f1c74b83.mp3",
+   "b": 14400
+  },
+  "en|0|title": {
+   "f": "en/1d7119b9e062e26c.mp3",
+   "b": 6528
+  },
+  "en|0|TV I watch.": {
+   "f": "en/d2a53e5b1e08ecab.mp3",
+   "b": 13056
+  },
+  "en|0|Two o'clock.": {
+   "f": "en/ac871f0e9358ef8d.mp3",
+   "b": 9216
+  },
+  "en|0|Two years old.": {
+   "f": "en/d71e02c281d0860d.mp3",
+   "b": 9984
+  },
+  "en|0|Two, please.": {
+   "f": "en/04da8cb2f17eb14d.mp3",
+   "b": 11520
+  },
+  "en|0|type": {
+   "f": "en/d690132669f2da4f.mp3",
+   "b": 6144
+  },
+  "en|0|upload": {
+   "f": "en/e60dac850f95d461.mp3",
+   "b": 7296
+  },
+  "en|0|watch": {
+   "f": "en/5a5087edda0b7c82.mp3",
+   "b": 7296
+  },
+  "en|0|We are busy on the weekend.": {
+   "f": "en/e8a25a15ce3b4d66.mp3",
+   "b": 15360
+  },
+  "en|0|We check the inventory every Monday.": {
+   "f": "en/27c95b4fd2587c38.mp3",
+   "b": 19392
+  },
+  "en|0|We eat lunch at noon.": {
+   "f": "en/634a21886d54e217.mp3",
+   "b": 13440
+  },
+  "en|0|We sell furniture on Saturday.": {
+   "f": "en/b58ce6ee58aa5ee7.mp3",
+   "b": 17856
+  },
+  "en|0|We sell furniture.": {
+   "f": "en/23431c41c0bb8821.mp3",
+   "b": 11520
+  },
+  "en|0|We sell used games.": {
+   "f": "en/3370aaf5030ace5f.mp3",
+   "b": 13440
+  },
+  "en|0|website": {
+   "f": "en/fb685f193e5959b4.mp3",
+   "b": 8064
+  },
+  "en|0|weekend": {
+   "f": "en/532adf717dc69285.mp3",
+   "b": 7488
+  },
+  "en|0|What do you recommend?": {
+   "f": "en/3feda70bd09fb201.mp3",
+   "b": 11328
+  },
+  "en|0|What is the source of this information?": {
+   "f": "en/0224a9c8f0463f79.mp3",
+   "b": 17856
+  },
+  "en|0|What is the title of this report?": {
+   "f": "en/d5467d869d3c3c7b.mp3",
+   "b": 16896
+  },
+  "en|0|What type of chair is this?": {
+   "f": "en/599c8764c4da7f83.mp3",
+   "b": 15360
+  },
+  "en|0|Where is it?": {
+   "f": "en/b8a71bbdae7e388d.mp3",
+   "b": 8064
+  },
+  "en|0|width": {
+   "f": "en/d794d3dedbb897f7.mp3",
+   "b": 6528
+  },
+  "en|0|work": {
+   "f": "en/ea5a773be544eae1.mp3",
+   "b": 6144
+  },
+  "en|0|Write the message in the body.": {
+   "f": "en/ba97becd5179d64d.mp3",
+   "b": 15552
+  },
+  "en|0|You too.": {
+   "f": "en/a1803acc186e670f.mp3",
+   "b": 7872
+  },
+  "en|2.4|Can I get some water, please?": {
+   "f": "en/c660cba889002ee1.mp3",
+   "b": 17280
+  },
+  "en|2.4|Good morning, Sam. How are you?": {
+   "f": "en/b83c13694e6ae86c.mp3",
+   "b": 20736
+  },
+  "en|2.4|I'll take it. Can I pay by card?": {
+   "f": "en/a06f145834503e79.mp3",
+   "b": 20928
+  },
+  "en|2.4|It looks nice. Can I try it on?": {
+   "f": "en/df81f2d327fbcc20.mp3",
+   "b": 21888
+  },
+  "en|2.4|It was delicious. Can I have the check, please?": {
+   "f": "en/7a1361425dc7a65b.mp3",
+   "b": 27264
+  },
+  "en|2.4|It's a little big. Do you have a smaller one?": {
+   "f": "en/595cd75eff24b11e.mp3",
+   "b": 23808
+  },
+  "en|2.4|No, that's all. Thank you.": {
+   "f": "en/2cf40e5021edc9f4.mp3",
+   "b": 19200
+  },
+  "en|2.4|OK, I'll have the tomato pasta.": {
+   "f": "en/faa01be421a2f3b6.mp3",
+   "b": 21888
+  },
+  "en|2.4|Perfect. How much is it?": {
+   "f": "en/e45cd93c9442db7e.mp3",
+   "b": 16512
+  },
+  "en|2.4|Pretty good. It's cold today, isn't it?": {
+   "f": "en/fe69c38ba7c50ae9.mp3",
+   "b": 24192
+  },
+  "en|2.4|Thank you. What do you recommend?": {
+   "f": "en/7d313051e46b6afa.mp3",
+   "b": 17664
+  },
+  "en|2.4|Two, please.": {
+   "f": "en/b7f8c54586600f33.mp3",
+   "b": 11328
+  },
+  "en|2.4|Yes, I'm looking for a jacket.": {
+   "f": "en/aeb3128ce6cb4d96.mp3",
+   "b": 19392
+  },
+  "en|2.4|Yes. I went to see a movie.": {
+   "f": "en/f7456b03a783a8e4.mp3",
+   "b": 19392
+  },
+  "en|2.4|You too. See you later.": {
+   "f": "en/a55a2ad2b578f12d.mp3",
+   "b": 17088
+  },
+  "ja|0| h6タグ ": {
+   "f": "ja/43dfa8355092dc3d.mp3",
+   "b": 12288
+  },
+  "ja|0| imageタグ ": {
+   "f": "ja/fc5b771a5d32f3b9.mp3",
+   "b": 9408
+  },
+  "ja|0| linkタグ ": {
+   "f": "ja/caf3b93a14624323.mp3",
+   "b": 8448
+  },
+  "ja|0| pictureタグ ": {
+   "f": "ja/e49ad482e9ab25c5.mp3",
+   "b": 9024
+  },
+  "ja|0| pushタグ ": {
+   "f": "ja/d19b54471aa6640b.mp3",
+   "b": 8640
+  },
+  "ja|0| イメージタグ ": {
+   "f": "ja/9e79cc83bcae541e.mp3",
+   "b": 9408
+  },
+  "ja|0| イメージタグ  の説明で正しいのは？": {
+   "f": "ja/d11c5676c9ec598f.mp3",
+   "b": 23232
+  },
+  "ja|0| イメージの閉じタグ  が必要": {
+   "f": "ja/fc8783120ea425ab.mp3",
+   "b": 19584
+  },
+  "ja|0| エータグ ": {
+   "f": "ja/d5782e7229b2e295.mp3",
+   "b": 6912
+  },
+  "ja|0| エータグ href=\"https://example.com\" エーの閉じタグ ": {
+   "f": "ja/1e70329b8d2e4f90.mp3",
+   "b": 72192
+  },
+  "ja|0| エータグ（エイチレフつき） ": {
+   "f": "ja/b06edb5439d1d6a5.mp3",
+   "b": 18624
+  },
+  "ja|0| エイチワンタグ ": {
+   "f": "ja/e32a4f3329f96cef.mp3",
+   "b": 9984
+  },
+  "ja|0| エイチワンタグ  と  エイチワンの閉じタグ  のあいだに、名前を入れましょう。": {
+   "f": "ja/764b1847e2727b11.mp3",
+   "b": 41664
+  },
+  "ja|0| エルアイタグ ": {
+   "f": "ja/62f4b51da401b58f.mp3",
+   "b": 9408
+  },
+  "ja|0| エルアイタグ  の中に、好きなことを2つ入れましょう。": {
+   "f": "ja/2b292a9515e4a52b.mp3",
+   "b": 35328
+  },
+  "ja|0| エルアイタグ テレビ エルアイの閉じタグ  がまだありません。": {
+   "f": "ja/3f7db1a28743e8d9.mp3",
+   "b": 32640
+  },
+  "ja|0| エルアイタグ 冷蔵庫 エルアイの閉じタグ  がまだありません。": {
+   "f": "ja/3ff7761364173259.mp3",
+   "b": 34560
+  },
+  "ja|0| エルアイタグ 洗濯機 エルアイの閉じタグ  がまだありません。": {
+   "f": "ja/ffb2c5b72f993bad.mp3",
+   "b": 34752
+  },
+  "ja|0| オーエルタグ ": {
+   "f": "ja/2a8f3a7f80e810b7.mp3",
+   "b": 9408
+  },
+  "ja|0| オーエルタグ  だけ": {
+   "f": "ja/070c05d6e858ebbe.mp3",
+   "b": 11520
+  },
+  "ja|0| タイトルタグ ": {
+   "f": "ja/d3bb005391a035f8.mp3",
+   "b": 8832
+  },
+  "ja|0| タイトルの閉じタグ ": {
+   "f": "ja/00ac381cc6c7bc7b.mp3",
+   "b": 12288
+  },
+  "ja|0| ビーアールタグ ": {
+   "f": "ja/bd20645ab5fa8e15.mp3",
+   "b": 10944
+  },
+  "ja|0| ビーアールタグ  の説明で正しいのは？": {
+   "f": "ja/5cc67bf05b98193b.mp3",
+   "b": 24384
+  },
+  "ja|0| ビーアールタグ  をたくさん": {
+   "f": "ja/37d0b36b0c5cea7c.mp3",
+   "b": 16896
+  },
+  "ja|0| ピータグ ": {
+   "f": "ja/50a1e4d83becd064.mp3",
+   "b": 7104
+  },
+  "ja|0| ピータグ  と  ピーの閉じタグ  のあいだに、ひとことを入れましょう。": {
+   "f": "ja/c1b0e68ad46af969.mp3",
+   "b": 36864
+  },
+  "ja|0| ボタンタグ ": {
+   "f": "ja/0bbb16068f3a71a5.mp3",
+   "b": 8832
+  },
+  "ja|0| ユーエルタグ ": {
+   "f": "ja/bd8936c1751503da.mp3",
+   "b": 9216
+  },
+  "ja|0| ユーエルタグ  と  エルアイタグ ": {
+   "f": "ja/5de7bd2e6e4cc052.mp3",
+   "b": 18432
+  },
+  "ja|0| ユーエルタグ  と  ユーエルの閉じタグ  で、リストを包みましょう。": {
+   "f": "ja/f24f96b97b772a53.mp3",
+   "b": 38208
+  },
+  "ja|0|〜にします（注文するとき）": {
+   "f": "ja/bc0e57c809513acb.mp3",
+   "b": 19200
+  },
+  "ja|0|〜を探しています": {
+   "f": "ja/7fb31712b30d756d.mp3",
+   "b": 12288
+  },
+  "ja|0|「〜は〜です」は、「だれが、am・are・is、なに・どんな」。": {
+   "f": "ja/c306c7a867850366.mp3",
+   "b": 44160
+  },
+  "ja|0|「OK」よりも、「保存する」や「注文を取り消す」のほうが、押す前に安心できます。": {
+   "f": "ja/5ee12cfebc4f2ac1.mp3",
+   "b": 60864
+  },
+  "ja|0|「いつ」は、ふつう文のうしろ。前に置くこともありますが、まずは「うしろ」と覚えましょう。": {
+   "f": "ja/adff251a852d967b.mp3",
+   "b": 60864
+  },
+  "ja|0|「いつ」を、文のいちばん前に置くこともできますが、まずは「うしろ」と覚えておけば大丈夫です。": {
+   "f": "ja/9f207676c3c62bda.mp3",
+   "b": 58560
+  },
+  "ja|0|「いつ」を表す言葉は、ふつう文のどこに置く？": {
+   "f": "ja/b4c2ec9164a915e5.mp3",
+   "b": 36672
+  },
+  "ja|0|「エコモール」を  エイチワンタグ  と  エイチワンの閉じタグ  ではさみましょう。": {
+   "f": "ja/bb540e1382da6766.mp3",
+   "b": 39936
+  },
+  "ja|0|「ここ」や「こちら」だけだと、読み上げで聞いたときに、どこへ行くのかわかりません。": {
+   "f": "ja/1c8fb68e2670840b.mp3",
+   "b": 55680
+  },
+  "ja|0|「このテレビは 新しいです」の英語は？": {
+   "f": "ja/eee9f488049da5b8.mp3",
+   "b": 24960
+  },
+  "ja|0|「このテレビは（This TV）、です（is）、新しい（new）」の順番です。": {
+   "f": "ja/4663d101e1cb1ee7.mp3",
+   "b": 51456
+  },
+  "ja|0|「これは、すてきなテーブルです。」": {
+   "f": "ja/c9105e305d9ca771.mp3",
+   "b": 19200
+  },
+  "ja|0|「これは、安いシャツです。」": {
+   "f": "ja/b931ead24e3c4048.mp3",
+   "b": 17280
+  },
+  "ja|0|「たつやのページ」という文字を、タグではさみましょう。": {
+   "f": "ja/47f8eba1230d09bf.mp3",
+   "b": 32832
+  },
+  "ja|0|「だれが、どうする（watch）、なにを（soccer）、いつ（on Sunday）」の順番です。": {
+   "f": "ja/fc2315b2b718ec19.mp3",
+   "b": 60480
+  },
+  "ja|0|「だれが、どうする（work）、どこで（at a shop）、いつ（every day）」の順番です。": {
+   "f": "ja/ab3d2352d2eb707b.mp3",
+   "b": 62592
+  },
+  "ja|0|「だれが（I）、です（am）、なに（Tatsuya）」の順番です。": {
+   "f": "ja/b7162effa37eb8b2.mp3",
+   "b": 44544
+  },
+  "ja|0|「だれが（I）、どうする（like）、なにを（coffee）」の順番です。": {
+   "f": "ja/49ab1837e3fa8a12.mp3",
+   "b": 49920
+  },
+  "ja|0|「だれが（I）、どうする（watch）、なにを（TV）」の順番です。": {
+   "f": "ja/22e88c2abbab35a5.mp3",
+   "b": 48192
+  },
+  "ja|0|「だれが」や「なにを」に入る、ものや人の名前を、めいしと言います。コーヒーや ライスは名詞です。": {
+   "f": "ja/0990e5ad2aea696b.mp3",
+   "b": 67008
+  },
+  "ja|0|「です」の言葉は、だれの話かで形が変わります。": {
+   "f": "ja/f35fa38012f3d086.mp3",
+   "b": 37248
+  },
+  "ja|0|「どうする」が、2番目に来るのがポイントです。": {
+   "f": "ja/6723783213552244.mp3",
+   "b": 33600
+  },
+  "ja|0|「どうする」に入る、動きを表す言葉を、どうしと言います。ライクや イートは動詞です。": {
+   "f": "ja/be4333335245c3ed.mp3",
+   "b": 60096
+  },
+  "ja|0|「どうする」の前": {
+   "f": "ja/64b1a4dcc65883e0.mp3",
+   "b": 14016
+  },
+  "ja|0|「どうする」は2番目。順番を変えると、意味が変わる。今日はここまでです。": {
+   "f": "ja/69d906d3fe1c4fad.mp3",
+   "b": 51840
+  },
+  "ja|0|「どこで」と「いつ」が両方あるときは、「どこで」が先、「いつ」が最後が基本です。": {
+   "f": "ja/36f66b3012ccb65f.mp3",
+   "b": 62208
+  },
+  "ja|0|「どこで」と「いつ」は、文のうしろにつける。今日はここまでです。": {
+   "f": "ja/990fd83069fc7611.mp3",
+   "b": 49152
+  },
+  "ja|0|「なにを」の サッカーのあと、最後に「いつ」の オン・サンデーです。": {
+   "f": "ja/dbb530c1f5bf5985.mp3",
+   "b": 41664
+  },
+  "ja|0|「リサイクルのお店です。」を  ピータグ  と  ピーの閉じタグ  ではさみましょう。": {
+   "f": "ja/b486cccb9fe95575.mp3",
+   "b": 41280
+  },
+  "ja|0|「わたし」のときは アム。「あなた」や、2つ以上のときは アー。それ以外の、ひとつのものは イズです。": {
+   "f": "ja/a184e89984b199aa.mp3",
+   "b": 64896
+  },
+  "ja|0|「わたしは コーヒーが 好きです」の英語は？": {
+   "f": "ja/ff6c1610c2962f55.mp3",
+   "b": 25344
+  },
+  "ja|0|「わたしは たつやです」の英語は？": {
+   "f": "ja/e972a2538176ee1f.mp3",
+   "b": 20544
+  },
+  "ja|0|「わたしは テレビを 見ます」の英語は？": {
+   "f": "ja/53fab9e8c90be7b1.mp3",
+   "b": 23424
+  },
+  "ja|0|「わたしは 日曜日に サッカーを 見ます」の英語は？": {
+   "f": "ja/f1d80c1d0223fbe3.mp3",
+   "b": 31872
+  },
+  "ja|0|「わたしは 毎日 お店で 働きます」の英語は？": {
+   "f": "ja/48d48e808980031d.mp3",
+   "b": 32448
+  },
+  "ja|0|「わたしは、たつやです。」英語では、こうです。": {
+   "f": "ja/50399e4770a9f663.mp3",
+   "b": 30336
+  },
+  "ja|0|「わたしは、日曜日に、サッカーを見ます。」": {
+   "f": "ja/5e4767a0c4e9667e.mp3",
+   "b": 27840
+  },
+  "ja|0|「わたしは、毎日、お店で、働きます。」英語では、こうです。": {
+   "f": "ja/945829bd70b498c1.mp3",
+   "b": 44928
+  },
+  "ja|0|「わたしは、毎朝、車の中で、英語を勉強します。」": {
+   "f": "ja/ac40da2d44dbf0f7.mp3",
+   "b": 42624
+  },
+  "ja|0|「わたしは、駅で、友だちに会います。」": {
+   "f": "ja/02691dd04ead6b51.mp3",
+   "b": 24768
+  },
+  "ja|0|「会社案内のページへ行く」なら、どちらを使う？": {
+   "f": "ja/31f97e0a88bbe665.mp3",
+   "b": 37056
+  },
+  "ja|0|「保存する」を、始まりのタグと  ボタンの閉じタグ  ではさみましょう。": {
+   "f": "ja/ee5bb3a73edaa211.mp3",
+   "b": 42240
+  },
+  "ja|0|「営業時間を見る」のように、行き先がわかる言葉が親切です。": {
+   "f": "ja/17a1ded003226724.mp3",
+   "b": 44544
+  },
+  "ja|0|「好きなこと」を箇条書きにするなら？": {
+   "f": "ja/1e9802e23a13c65a.mp3",
+   "b": 23616
+  },
+  "ja|0|「安いシャツ」の英語は？": {
+   "f": "ja/0169689f68302a77.mp3",
+   "b": 15936
+  },
+  "ja|0|「英語は語順が大事」とよく言われるのは、この並べ方のことです。": {
+   "f": "ja/2587725eb2f87029.mp3",
+   "b": 43776
+  },
+  "ja|0|「見本のサイト」を、始まりのタグと  エーの閉じタグ  ではさみましょう。": {
+   "f": "ja/b90aaf90c6dc7a29.mp3",
+   "b": 41856
+  },
+  "ja|0|<a のあとに、半角スペースをあけて href を書きましょう。": {
+   "f": "ja/3471e267c339026f.mp3",
+   "b": 47040
+  },
+  "ja|0|<button で始めましょう。": {
+   "f": "ja/2339fc8c617cbc81.mp3",
+   "b": 14592
+  },
+  "ja|0|<img のあとに、半角スペースをあけて属性を書きましょう。": {
+   "f": "ja/20ea8defe198ff9b.mp3",
+   "b": 43392
+  },
+  "ja|0|<title/": {
+   "f": "ja/47600cc76fb48eeb.mp3",
+   "b": 12096
+  },
+  "ja|0|1つ1つの項目は エルアイ。入れ物の中に書く。": {
+   "f": "ja/89e7b135e0580bb1.mp3",
+   "b": 35904
+  },
+  "ja|0|1つ目。タグは、始まりと終わりで、文字をはさむ。": {
+   "f": "ja/2be3f64543bd6e10.mp3",
+   "b": 39552
+  },
+  "ja|0|1つ目。始まりのタグと、終わりのタグが、両方あるか。": {
+   "f": "ja/2e1559ab3cf7ced9.mp3",
+   "b": 43392
+  },
+  "ja|0|1つ目の部屋は、ヘッドです。英語で「頭」という意味です。": {
+   "f": "ja/42b6fc36d2912a2f.mp3",
+   "b": 42624
+  },
+  "ja|0|1つ目は、ソースです。ソースの略で、「出どころ」という意味です。": {
+   "f": "ja/dfc34c2de33c8f8c.mp3",
+   "b": 44160
+  },
+  "ja|0|1つ目は、順番に意味がないリスト。頭に黒い点がつく、箇条書きです。": {
+   "f": "ja/a603e9112b84b9dd.mp3",
+   "b": 52608
+  },
+  "ja|0|1回目のテーマは、「ページの骨組み」です。": {
+   "f": "ja/fed4d1dd391854c7.mp3",
+   "b": 32640
+  },
+  "ja|0|1回目は、あいさつです。": {
+   "f": "ja/d2efc86f5c6fc8ee.mp3",
+   "b": 18240
+  },
+  "ja|0|1番": {
+   "f": "ja/d2cdf28d21e65b50.mp3",
+   "b": 7104
+  },
+  "ja|0|2つの形を、並べてみましょう。「そのかばんは、赤いです。」": {
+   "f": "ja/0d0521f29cebab6b.mp3",
+   "b": 43200
+  },
+  "ja|0|2つ目。ヘッドは見えない情報、ボディは見える中身。": {
+   "f": "ja/4b80aa72f2771df8.mp3",
+   "b": 37056
+  },
+  "ja|0|2つ目。終わりのタグに、スラッシュがついているか。": {
+   "f": "ja/788c605e29294062.mp3",
+   "b": 32832
+  },
+  "ja|0|2つ目の部屋は、ボディです。英語で「体」という意味です。": {
+   "f": "ja/0bfea74aeb28acdf.mp3",
+   "b": 42432
+  },
+  "ja|0|2つ目は、オルトです。オルタナティブの略で、「代わりの」という意味です。": {
+   "f": "ja/6a7038634fa17be7.mp3",
+   "b": 48384
+  },
+  "ja|0|2つ目は、順番に意味があるリスト。頭に、1、2、3と番号がつきます。": {
+   "f": "ja/da74cde0c7c69f96.mp3",
+   "b": 63552
+  },
+  "ja|0|2人です。": {
+   "f": "ja/9f3514701907d1a3.mp3",
+   "b": 7872
+  },
+  "ja|0|2人です。人数に、プリーズ、をつけるだけで通じます。": {
+   "f": "ja/1cfe0f18db7d5771.mp3",
+   "b": 37632
+  },
+  "ja|0|2人です（2人の席をお願いします）": {
+   "f": "ja/d31fa311b8251992.mp3",
+   "b": 29184
+  },
+  "ja|0|2回目は、「〜は、〜です」という文と、ようすを表す言葉の場所です。": {
+   "f": "ja/c2099839330c92fc.mp3",
+   "b": 49920
+  },
+  "ja|0|2回目は、買い物です。": {
+   "f": "ja/7cdf8d41cb23c0bb.mp3",
+   "b": 18048
+  },
+  "ja|0|2番": {
+   "f": "ja/28b035ad4b22452d.mp3",
+   "b": 5952
+  },
+  "ja|0|3つ目。全体は エイチティーエムエルタグで包む。": {
+   "f": "ja/2ac0d781dfbe864b.mp3",
+   "b": 33024
+  },
+  "ja|0|3つ目。記号が、全角ではなく半角になっているか。日本語入力のまま打つと、全角になりやすいです。": {
+   "f": "ja/bbfcbdbe1fde055b.mp3",
+   "b": 76416
+  },
+  "ja|0|3回目は、「どこで」と「いつ」の場所です。": {
+   "f": "ja/fc13aa203ba490a2.mp3",
+   "b": 35328
+  },
+  "ja|0|3回目は、食事です。": {
+   "f": "ja/6c83aa75c80c9dd7.mp3",
+   "b": 18432
+  },
+  "ja|0|3番": {
+   "f": "ja/5ce267a4d3c8a0ec.mp3",
+   "b": 7680
+  },
+  "ja|0|4番": {
+   "f": "ja/6c6c8630dbb71214.mp3",
+   "b": 6912
+  },
+  "ja|0|5000円です。": {
+   "f": "ja/b65d97a666bf1100.mp3",
+   "b": 10176
+  },
+  "ja|0|alt": {
+   "f": "ja/d31787c2c142a328.mp3",
+   "b": 6144
+  },
+  "ja|0|alt に書くのは？": {
+   "f": "ja/8d606292a9c10bc8.mp3",
+   "b": 13440
+  },
+  "ja|0|alt は画像の代わりの文です。読み上げのときにも読まれます。": {
+   "f": "ja/35025b1f22d2acf8.mp3",
+   "b": 38976
+  },
+  "ja|0|alt=\"ねこの絵\" で、画像の説明を書きましょう。": {
+   "f": "ja/b1df903fdaca3ae5.mp3",
+   "b": 40320
+  },
+  "ja|0|body": {
+   "f": "ja/e2d86d4ac82b26eb.mp3",
+   "b": 5376
+  },
+  "ja|0|body の外に書く": {
+   "f": "ja/927b6c8571d72f81.mp3",
+   "b": 13824
+  },
+  "ja|0|body（体）に書いたものが画面に出ます。head は見えない情報を書く部屋です。": {
+   "f": "ja/479306eb66554dcd.mp3",
+   "b": 53952
+  },
+  "ja|0|br は中に何もはさまないので、終わりのタグがありません。": {
+   "f": "ja/4e8b77028acda3fc.mp3",
+   "b": 40704
+  },
+  "ja|0|head": {
+   "f": "ja/4181cf427ca94de6.mp3",
+   "b": 6528
+  },
+  "ja|0|href に行き先を書きます。はさんだ文字は、画面に出る押せる文字です。": {
+   "f": "ja/bdeef470d6f25a0b.mp3",
+   "b": 53184
+  },
+  "ja|0|href 属性": {
+   "f": "ja/b488fff7ef7f9472.mp3",
+   "b": 19968
+  },
+  "ja|0|href=\"https://example.com\" の形で、行き先を書きましょう。": {
+   "f": "ja/22632c0a25b038fa.mp3",
+   "b": 78528
+  },
+  "ja|0|HTMLだけで作ったボタンを押すと？": {
+   "f": "ja/f017de6dec7eecc0.mp3",
+   "b": 30336
+  },
+  "ja|0|HTMLでは、「タグ」という目印を使います。": {
+   "f": "ja/fd2c49705063aa7f.mp3",
+   "b": 37056
+  },
+  "ja|0|HTMLは、「ここは見出しです」「ここは文章です」と、ブラウザに伝えるための書き方です。": {
+   "f": "ja/da95c86206456e51.mp3",
+   "b": 59712
+  },
+  "ja|0|img は中に文字をはさまないので、終わりのタグがいりません。": {
+   "f": "ja/3310b89d97b84db6.mp3",
+   "b": 42432
+  },
+  "ja|0|lang は language（言語）の略です。ja は日本語のことです。": {
+   "f": "ja/6415aeb2f509af87.mp3",
+   "b": 45504
+  },
+  "ja|0|lang=\"ja\" は、何を伝えている？": {
+   "f": "ja/61666a4cf659c0f0.mp3",
+   "b": 27456
+  },
+  "ja|0|li は list item（一覧の項目）です。ul や ol の中に書きます。": {
+   "f": "ja/397d549598a1528d.mp3",
+   "b": 56832
+  },
+  "ja|0|OK": {
+   "f": "ja/6a25625a28722314.mp3",
+   "b": 7104
+  },
+  "ja|0|ol の中の li には、ブラウザが自動で番号をつけます。": {
+   "f": "ja/67c9b82c78dfc1c4.mp3",
+   "b": 41856
+  },
+  "ja|0|ol の番号について正しいのは？": {
+   "f": "ja/219cdf97498c4ce7.mp3",
+   "b": 24000
+  },
+  "ja|0|ol は ordered list（順番のある一覧）です。番号が自動でつきます。": {
+   "f": "ja/7d273f4a3ab1447f.mp3",
+   "b": 52032
+  },
+  "ja|0|p は paragraph（段落）の頭文字です。": {
+   "f": "ja/7bd151f7412cfd1e.mp3",
+   "b": 30336
+  },
+  "ja|0|src": {
+   "f": "ja/53f517388501ed94.mp3",
+   "b": 11712
+  },
+  "ja|0|src（source＝出どころ）に、画像のファイルの場所を書きます。": {
+   "f": "ja/ec0fb8287d7a2183.mp3",
+   "b": 50880
+  },
+  "ja|0|src=\"img/cat.svg\" で、画像の場所を書きましょう。": {
+   "f": "ja/8a689de1502ae1ae.mp3",
+   "b": 57984
+  },
+  "ja|0|title": {
+   "f": "ja/0f507233261c1a94.mp3",
+   "b": 6912
+  },
+  "ja|0|title タグに書いた文字は、どこに出る？": {
+   "f": "ja/76898d987aec1f30.mp3",
+   "b": 26496
+  },
+  "ja|0|title はタブやブックマークの名前になります。ページの中には出ません。": {
+   "f": "ja/8ca1c5eeff705033.mp3",
+   "b": 44160
+  },
+  "ja|0|Webサイト": {
+   "f": "ja/f9dc93567c7fddb3.mp3",
+   "b": 8832
+  },
+  "ja|0|Webページの文字を押すと、別のページに飛ぶことがありますよね。あれがリンクです。": {
+   "f": "ja/b477b3d5689757e5.mp3",
+   "b": 50880
+  },
+  "ja|0|Webページも同じです。エイチティーエムエルでは、見出しと文章を、別のタグで書き分けます。": {
+   "f": "ja/8f0ca3453e733227.mp3",
+   "b": 60288
+  },
+  "ja|0|width": {
+   "f": "ja/f8258523c4eaffb1.mp3",
+   "b": 5952
+  },
+  "ja|0|アイは「わたしは」。ライクは「好き」。コーヒーは「コーヒーを」。": {
+   "f": "ja/bb68b3034a3b01f3.mp3",
+   "b": 43392
+  },
+  "ja|0|アット・ザ・ステーション、駅で、が最後に来ています。": {
+   "f": "ja/712ddfd162533deb.mp3",
+   "b": 34176
+  },
+  "ja|0|アップロードする（上げる）": {
+   "f": "ja/f6b3e887ef862576.mp3",
+   "b": 15936
+  },
+  "ja|0|あとで来ます。": {
+   "f": "ja/d0342b8c357f8eb6.mp3",
+   "b": 9792
+  },
+  "ja|0|あと少しです。": {
+   "f": "ja/7cf7437b05db1888.mp3",
+   "b": 10368
+  },
+  "ja|0|あなたはだれですか？": {
+   "f": "ja/cfc6c675ee0f4c42.mp3",
+   "b": 13632
+  },
+  "ja|0|あなたもね、と返します。": {
+   "f": "ja/c3bce1f829172ffe.mp3",
+   "b": 18048
+  },
+  "ja|0|あの時計はとても古いです。": {
+   "f": "ja/8255c7ebdc470c3b.mp3",
+   "b": 19584
+  },
+  "ja|0|アプリやWebページには、「送信」や「保存」など、押せるボタンがたくさんありますね。": {
+   "f": "ja/92c89b4a98c77771.mp3",
+   "b": 54144
+  },
+  "ja|0|アムは、「です」のような役わりの言葉です。": {
+   "f": "ja/fe77e33100d54dba.mp3",
+   "b": 31296
+  },
+  "ja|0|ありがとう。おいしかったです！": {
+   "f": "ja/6835a1646ed174c7.mp3",
+   "b": 17664
+  },
+  "ja|0|ありがとう。おすすめは何ですか？": {
+   "f": "ja/231b4ce6808dd961.mp3",
+   "b": 22272
+  },
+  "ja|0|ありがとうございました。よい夜を！": {
+   "f": "ja/6df6387cdb2519dc.mp3",
+   "b": 21504
+  },
+  "ja|0|いいえ、以上です。ありがとう。": {
+   "f": "ja/fd99aed8ad5f56a9.mp3",
+   "b": 20160
+  },
+  "ja|0|いいね！よい一日を。": {
+   "f": "ja/edbc541b02105782.mp3",
+   "b": 17280
+  },
+  "ja|0|いくらですか、と聞くときに使います。": {
+   "f": "ja/3ae60f6ffcdf98c6.mp3",
+   "b": 23808
+  },
+  "ja|0|いくらですか？": {
+   "f": "ja/429d29a7b3bee0b7.mp3",
+   "b": 9408
+  },
+  "ja|0|いちばん上に、名前の見出し。エイチワンを使います。": {
+   "f": "ja/85e04abfa2768307.mp3",
+   "b": 36480
+  },
+  "ja|0|いちばん上には、ドクタイプ、という一行を書きます。「これはHTMLのページです」という宣言です。": {
+   "f": "ja/7c97a2d556ebf000.mp3",
+   "b": 66432
+  },
+  "ja|0|いちばん前だけ": {
+   "f": "ja/11e5d5bc19de0323.mp3",
+   "b": 11520
+  },
+  "ja|0|いちばん大きい（大事な）見出しは？": {
+   "f": "ja/5ea98f3b2d157bff.mp3",
+   "b": 26880
+  },
+  "ja|0|いつ、だれが、なにを、どうする、どこで": {
+   "f": "ja/c28984b36624eb26.mp3",
+   "b": 34560
+  },
+  "ja|0|いつも全部を使うわけではありません。使うものだけを、この順番で並べます。": {
+   "f": "ja/7989d6a163e0735b.mp3",
+   "b": 49728
+  },
+  "ja|0|イメージスラッシュ、キャット、ドット、エスブイジー、という画像を、オルト、ねこの絵、でのせてみましょう。": {
+   "f": "ja/6409367f7ca3fb0e.mp3",
+   "b": 68544
+  },
+  "ja|0|イメージは、イメージを短くした名前です。image は「画像」という意味です。": {
+   "f": "ja/ee231081aba22c25.mp3",
+   "b": 50112
+  },
+  "ja|0|いらっしゃいませ！何名様ですか？": {
+   "f": "ja/517efcb70f9609fe.mp3",
+   "b": 22848
+  },
+  "ja|0|いらっしゃいませ。何かお探しですか？": {
+   "f": "ja/14e49a4821766866.mp3",
+   "b": 24960
+  },
+  "ja|0|ウィズに120と書くと、横の幅が120ピクセルになります。ピクセルは、画面の点の数のことです。": {
+   "f": "ja/7ca797390ae33474.mp3",
+   "b": 70656
+  },
+  "ja|0|うしろのほう": {
+   "f": "ja/c3af22d4b70c9776.mp3",
+   "b": 9984
+  },
+  "ja|0|うちの店に、新しいWebサイトができました。": {
+   "f": "ja/0dcf355566c8f7c3.mp3",
+   "b": 32064
+  },
+  "ja|0|うまく聞き取れませんでした。": {
+   "f": "ja/55714cb830017472.mp3",
+   "b": 16704
+  },
+  "ja|0|うまく表示されないときは、次の3つを確かめてみてください。": {
+   "f": "ja/307940d28d15162f.mp3",
+   "b": 40512
+  },
+  "ja|0|うん。映画を見に行ったよ。": {
+   "f": "ja/74f990dc68b33951.mp3",
+   "b": 18816
+  },
+  "ja|0|エーは、アンカーの頭文字です。anchor は、船の「いかり」という意味です。": {
+   "f": "ja/ec21bb144551e016.mp3",
+   "b": 52032
+  },
+  "ja|0|エイチツーは、章の見出し。エイチスリーは、その中の小見出し、という感じです。": {
+   "f": "ja/b24c854bda267608.mp3",
+   "b": 57024
+  },
+  "ja|0|エイチティーエムエルタグの中は、大きく2つの部屋に分かれています。": {
+   "f": "ja/e426d99c269bf236.mp3",
+   "b": 42432
+  },
+  "ja|0|エイチティーエムエルでは、コードの中で改行しても、画面では改行されません。": {
+   "f": "ja/3de5d69e4eb42a81.mp3",
+   "b": 50688
+  },
+  "ja|0|エイチティーエムエルでは、こうした一覧を「リスト」と呼びます。": {
+   "f": "ja/ed4108cc2f6dc4cf.mp3",
+   "b": 41472
+  },
+  "ja|0|エイチティーエムエルは、「ここにボタンがあります」と置くだけ。動きは、あとで JavaScript の回で学びます。": {
+   "f": "ja/daa4d776885cdcb9.mp3",
+   "b": 69120
+  },
+  "ja|0|エイチは、英語の ヘディングの頭文字です。heading は「見出し」という意味です。": {
+   "f": "ja/e0d0e55d698ea10f.mp3",
+   "b": 50880
+  },
+  "ja|0|エイチレフには、「どこへ飛ぶか」を書きます。飛び先の住所、つまりユーアールエルです。": {
+   "f": "ja/e06163f0e656521d.mp3",
+   "b": 56064
+  },
+  "ja|0|エイチワンタグで、エコモール。ピータグで、リサイクルのお店です。と打ってみましょう。": {
+   "f": "ja/718be870b824ee9d.mp3",
+   "b": 54528
+  },
+  "ja|0|エイチワンで自分の名前、ピーでひとこと、ユーエルとエルアイで好きなことを2つ書いて、自己紹介ページを作りましょう。": {
+   "f": "ja/d6d76bad189551e1.mp3",
+   "b": 73536
+  },
+  "ja|0|エイチワンは、本の題名のようなものです。1つのページに、ふつうは1つだけ使います。": {
+   "f": "ja/ed5330fe1df3a4f2.mp3",
+   "b": 62208
+  },
+  "ja|0|エラーになる": {
+   "f": "ja/7d5bfd336ed12d12.mp3",
+   "b": 9216
+  },
+  "ja|0|エルアイは、リスト アイテムの略です。「一覧の項目」という意味です。": {
+   "f": "ja/9be9a527b67d2049.mp3",
+   "b": 44736
+  },
+  "ja|0|エルアイは、必ず ユーエルか オーエルの中に書きます。li だけをぽつんと書くことはしません。": {
+   "f": "ja/4cd502374359a3a4.mp3",
+   "b": 63936
+  },
+  "ja|0|オーエルは、オーダード リストの略です。「順番のある一覧」という意味です。": {
+   "f": "ja/fafd5ba0780415f1.mp3",
+   "b": 47808
+  },
+  "ja|0|おいしかったです": {
+   "f": "ja/487452a2a1f0824f.mp3",
+   "b": 10176
+  },
+  "ja|0|おしい。": {
+   "f": "ja/5d691183cda0bd28.mp3",
+   "b": 6912
+  },
+  "ja|0|おしいです。正しい答えは、1番。": {
+   "f": "ja/8f3725dc5b3e7972.mp3",
+   "b": 27072
+  },
+  "ja|0|おしいです。正しい答えは、1番です。": {
+   "f": "ja/59d87bb8177a00fd.mp3",
+   "b": 28608
+  },
+  "ja|0|おしいです。正しい答えは、2番。": {
+   "f": "ja/06b988c5a30372c1.mp3",
+   "b": 26112
+  },
+  "ja|0|おしいです。正しい答えは、2番です。": {
+   "f": "ja/dcb55de73686354d.mp3",
+   "b": 27840
+  },
+  "ja|0|おしいです。正しい答えは、3番。": {
+   "f": "ja/a95e4a38c2e9da7a.mp3",
+   "b": 27264
+  },
+  "ja|0|おしいです。正しい答えは、3番です。": {
+   "f": "ja/0a16e64a48024553.mp3",
+   "b": 28800
+  },
+  "ja|0|おしいです。正しい答えは、4番。": {
+   "f": "ja/e60b647579191db8.mp3",
+   "b": 27072
+  },
+  "ja|0|おしいです。正しい答えは、4番です。": {
+   "f": "ja/11415b33fe0b1972.mp3",
+   "b": 28416
+  },
+  "ja|0|おしいです。答えは、": {
+   "f": "ja/e72a3666a7bbb95f.mp3",
+   "b": 14976
+  },
+  "ja|0|おすすめは何ですか？": {
+   "f": "ja/391c8cfed53eb251.mp3",
+   "b": 14784
+  },
+  "ja|0|おはよう、サム。元気？": {
+   "f": "ja/4d6e444e18d12474.mp3",
+   "b": 19776
+  },
+  "ja|0|おはよう、たつや！": {
+   "f": "ja/754b1c8dc43e4fff.mp3",
+   "b": 13440
+  },
+  "ja|0|おはようございます": {
+   "f": "ja/bb13f394cfc66743.mp3",
+   "b": 11904
+  },
+  "ja|0|オルトには、画像の代わりになる説明の文を書きます。": {
+   "f": "ja/bbfa73389926f766.mp3",
+   "b": 37440
+  },
+  "ja|0|オルトは、「ねこの絵」のように、短く、見たままを書けば十分です。": {
+   "f": "ja/4a950faded22ba71.mp3",
+   "b": 48768
+  },
+  "ja|0|お会いできてうれしいです。": {
+   "f": "ja/1065bae152b27d89.mp3",
+   "b": 15168
+  },
+  "ja|0|お会計をお願いしたいとき、何と言う？": {
+   "f": "ja/6384c17ee712fd6e.mp3",
+   "b": 29184
+  },
+  "ja|0|お会計をお願いします": {
+   "f": "ja/83a9fd290043c7cd.mp3",
+   "b": 17088
+  },
+  "ja|0|お会計をお願いします、と言うときに使います。": {
+   "f": "ja/3f45aec24755104a.mp3",
+   "b": 32064
+  },
+  "ja|0|お客さん": {
+   "f": "ja/75422f96e91b41a5.mp3",
+   "b": 8064
+  },
+  "ja|0|お客さんがレジで待っています。": {
+   "f": "ja/9ca28a444596bf36.mp3",
+   "b": 19200
+  },
+  "ja|0|お客さんが注文を取り消したいそうです。": {
+   "f": "ja/cf08b9a8689f5e6d.mp3",
+   "b": 24960
+  },
+  "ja|0|お客さんはここでたくさんの物を買います。": {
+   "f": "ja/042c68c6324dbe51.mp3",
+   "b": 28416
+  },
+  "ja|0|お店でも使えます。「このテレビは、新しいです。」": {
+   "f": "ja/1d5bbda59d07bcb6.mp3",
+   "b": 33600
+  },
+  "ja|0|お店に来るお客さんの気持ちも、少しわかるかもしれませんね。": {
+   "f": "ja/c87448998907e64f.mp3",
+   "b": 37632
+  },
+  "ja|0|お店の商品の一覧（順番に意味はない）に合うのは？": {
+   "f": "ja/e2679e8b46749683.mp3",
+   "b": 39552
+  },
+  "ja|0|お店は駅の近くです。": {
+   "f": "ja/5cae6b9f16ad93ed.mp3",
+   "b": 17088
+  },
+  "ja|0|お水をもらえますか？": {
+   "f": "ja/2cd9de549bcf5663.mp3",
+   "b": 15168
+  },
+  "ja|0|お礼を言うとき": {
+   "f": "ja/0ec69bebcd0d227b.mp3",
+   "b": 13248
+  },
+  "ja|0|カードで払えますか？": {
+   "f": "ja/0f0dc7f220c57da4.mp3",
+   "b": 15168
+  },
+  "ja|0|カードで払えますか？それとも現金だけですか？": {
+   "f": "ja/37af76918cfa813b.mp3",
+   "b": 32448
+  },
+  "ja|0|かしこまりました。ほかにはございますか？": {
+   "f": "ja/c5e0b855f067d8b4.mp3",
+   "b": 25152
+  },
+  "ja|0|カレーをお願いします。": {
+   "f": "ja/7dce2f705d226d71.mp3",
+   "b": 15936
+  },
+  "ja|0|きみもね。またあとで。": {
+   "f": "ja/03617cd1b491793c.mp3",
+   "b": 16320
+  },
+  "ja|0|クリックする・押す": {
+   "f": "ja/2a2ef3fa0ddd84ae.mp3",
+   "b": 13632
+  },
+  "ja|0|コードの中で Enter を押して改行すると、画面ではどうなる？": {
+   "f": "ja/aaca9b5ed0432051.mp3",
+   "b": 41472
+  },
+  "ja|0|こういう、終わりのタグがないタグを、「からようそ」と呼びます。今は名前を覚えなくて大丈夫です。": {
+   "f": "ja/a3ba070b75faf34b.mp3",
+   "b": 63744
+  },
+  "ja|0|こうして並べると、もう、たくさんのタグを知っていますね。": {
+   "f": "ja/147b20d0ac87fbff.mp3",
+   "b": 38208
+  },
+  "ja|0|こう聞こえました。": {
+   "f": "ja/9b91a9f81172051d.mp3",
+   "b": 11136
+  },
+  "ja|0|ここ": {
+   "f": "ja/a49515e8770b53c4.mp3",
+   "b": 5760
+  },
+  "ja|0|ここで、ひとつ不思議なことがあります。": {
+   "f": "ja/2d1761c395952552.mp3",
+   "b": 23808
+  },
+  "ja|0|ここで、前に学んだリンクと、ボタンのちがいを考えてみましょう。": {
+   "f": "ja/1fc541f50705b1e4.mp3",
+   "b": 45312
+  },
+  "ja|0|ここで、覚えておきたいことは3つです。": {
+   "f": "ja/0fb55be111ea4da1.mp3",
+   "b": 28416
+  },
+  "ja|0|ここで、言葉の種類の名前を、少しだけ紹介します。": {
+   "f": "ja/a297b66262ac35ed.mp3",
+   "b": 36672
+  },
+  "ja|0|ここまで続けてきたこと、本当にすばらしいです。今日はここまでです。": {
+   "f": "ja/dcf3f79c937e5d77.mp3",
+   "b": 46080
+  },
+  "ja|0|こちら": {
+   "f": "ja/186dca7af8fb236d.mp3",
+   "b": 6720
+  },
+  "ja|0|こちらはいかがですか？とても人気ですよ。": {
+   "f": "ja/b403d39ff41ce078.mp3",
+   "b": 26688
+  },
+  "ja|0|こちらへどうぞ。メニューです。": {
+   "f": "ja/1c32a39611beb4a1.mp3",
+   "b": 18240
+  },
+  "ja|0|この2つのタグで、文字をはさみます。はさまれた文字が、そのタグの中身になります。": {
+   "f": "ja/4e40cba47dbe462a.mp3",
+   "b": 55872
+  },
+  "ja|0|このシャツ、いいですね。試着できますか？": {
+   "f": "ja/b10d3fccd0abc9a7.mp3",
+   "b": 27072
+  },
+  "ja|0|このシャツは 安いです。": {
+   "f": "ja/23306da729cf879e.mp3",
+   "b": 14784
+  },
+  "ja|0|このスマホは、ほぼ新品です。": {
+   "f": "ja/a76af1bc9fd9d35c.mp3",
+   "b": 23232
+  },
+  "ja|0|このタグには、属性が2つついています。前回学んだ、名前イコール値の形ですね。": {
+   "f": "ja/4c468c6fce8e82ce.mp3",
+   "b": 60096
+  },
+  "ja|0|このテーブルの高さは70センチです。": {
+   "f": "ja/344e46061bb10965.mp3",
+   "b": 24768
+  },
+  "ja|0|このテレビは 新しいです。": {
+   "f": "ja/93d083df4a7cd9fd.mp3",
+   "b": 17664
+  },
+  "ja|0|このページは日本語で書かれています。": {
+   "f": "ja/c6ba79719c2e3c4f.mp3",
+   "b": 23040
+  },
+  "ja|0|このように、タグの中にタグを入れることを、「入れいれこ」と言います。": {
+   "f": "ja/c649b1660ffac394.mp3",
+   "b": 44736
+  },
+  "ja|0|このランプはいくらですか？": {
+   "f": "ja/fb87258224a21813.mp3",
+   "b": 16320
+  },
+  "ja|0|このランプはとても安いです。": {
+   "f": "ja/20c370e9f4db7412.mp3",
+   "b": 18816
+  },
+  "ja|0|この品物はとても人気です。": {
+   "f": "ja/d94d732e591f6838.mp3",
+   "b": 20544
+  },
+  "ja|0|この報告書の題名は何ですか？": {
+   "f": "ja/c154e4272952cf8f.mp3",
+   "b": 22464
+  },
+  "ja|0|この情報の出どころは何ですか？": {
+   "f": "ja/4980fe65c8d9b114.mp3",
+   "b": 21312
+  },
+  "ja|0|この手順のとおりにやってください。": {
+   "f": "ja/de611b07d5e8bed6.mp3",
+   "b": 20544
+  },
+  "ja|0|この書類を読んでください。": {
+   "f": "ja/bbe7de1978da5190.mp3",
+   "b": 17472
+  },
+  "ja|0|この段落は長すぎます。": {
+   "f": "ja/90f1274bd4f4f287.mp3",
+   "b": 18048
+  },
+  "ja|0|この用紙に記入してください。": {
+   "f": "ja/991d8645570cf244.mp3",
+   "b": 19392
+  },
+  "ja|0|これが短いまとめです。": {
+   "f": "ja/c2a23d7cba7ed63c.mp3",
+   "b": 17280
+  },
+  "ja|0|これだけで、画面に押せるボタンがあらわれます。": {
+   "f": "ja/a4e0ec79563e124c.mp3",
+   "b": 29376
+  },
+  "ja|0|これだと、「コーヒーが、わたしを好き」という意味になってしまいます。": {
+   "f": "ja/7869f4d4a9ce8bd5.mp3",
+   "b": 44160
+  },
+  "ja|0|これで、エイチティーエムエルの基礎の7回はおしまいです。": {
+   "f": "ja/fc9644f8b267f075.mp3",
+   "b": 37248
+  },
+  "ja|0|これにします。カードで払えますか？": {
+   "f": "ja/be5badf2c47e2d43.mp3",
+   "b": 24192
+  },
+  "ja|0|これにします（買います）": {
+   "f": "ja/d31233136c23455e.mp3",
+   "b": 16896
+  },
+  "ja|0|これにします（買います）。": {
+   "f": "ja/6f6aa4ac65559950.mp3",
+   "b": 16896
+  },
+  "ja|0|これは すてきなテーブルです。": {
+   "f": "ja/823b60de5c22d542.mp3",
+   "b": 17856
+  },
+  "ja|0|これは 赤いかばんです。": {
+   "f": "ja/41d3c2399a053bde.mp3",
+   "b": 15744
+  },
+  "ja|0|これは、オーエルというタグで作ります。": {
+   "f": "ja/e9a184e332760819.mp3",
+   "b": 24192
+  },
+  "ja|0|これは、たつやさんのことですね。": {
+   "f": "ja/767e2743627991d5.mp3",
+   "b": 20544
+  },
+  "ja|0|これは、ユーエルというタグで作ります。": {
+   "f": "ja/2f2f80980a2f59f0.mp3",
+   "b": 24576
+  },
+  "ja|0|これは、前回のリンクの文字と同じ考え方ですね。": {
+   "f": "ja/ce5b51165be75af6.mp3",
+   "b": 37056
+  },
+  "ja|0|これはすてきないすです。": {
+   "f": "ja/0f38375e1aa8121a.mp3",
+   "b": 15552
+  },
+  "ja|0|これは何の種類のいすですか？": {
+   "f": "ja/3b95b79b319532fe.mp3",
+   "b": 20928
+  },
+  "ja|0|これを「ぞくせい」と呼びます。属性は、タグにつける、追加の情報です。": {
+   "f": "ja/24886aabbec9730e.mp3",
+   "b": 50880
+  },
+  "ja|0|これをください。": {
+   "f": "ja/757e7c324fe716ce.mp3",
+   "b": 10176
+  },
+  "ja|0|こんにちは、2人です。": {
+   "f": "ja/53677c8529280164.mp3",
+   "b": 16704
+  },
+  "ja|0|こんにちは、たつやです。はじめまして。": {
+   "f": "ja/5db93faf9874dfd1.mp3",
+   "b": 24960
+  },
+  "ja|0|こんにちは。2回目のテーマは、「見出しと段落」です。": {
+   "f": "ja/6667f099d9824e2d.mp3",
+   "b": 40896
+  },
+  "ja|0|こんにちは。3回目のテーマは、「リンク」です。": {
+   "f": "ja/bab27488fe72eac4.mp3",
+   "b": 33408
+  },
+  "ja|0|こんにちは。4回目のテーマは、「画像」です。": {
+   "f": "ja/0814fbc620046955.mp3",
+   "b": 32832
+  },
+  "ja|0|こんにちは。5回目のテーマは、「リスト」です。": {
+   "f": "ja/53e96623d55f80d2.mp3",
+   "b": 32640
+  },
+  "ja|0|こんにちは。6回目のテーマは、「ボタン」です。": {
+   "f": "ja/ca50f24e2cdb9bb5.mp3",
+   "b": 32064
+  },
+  "ja|0|こんにちは。7回目は、これまでのまとめです。": {
+   "f": "ja/dd17be9f1a2d01ac.mp3",
+   "b": 31680
+  },
+  "ja|0|こんにちは。クレアです。今日も、いっしょに学びましょう。": {
+   "f": "ja/518eed365d37a29c.mp3",
+   "b": 36096
+  },
+  "ja|0|こんにちは。今日から、いっしょにWebページの作り方を学んでいきましょう。": {
+   "f": "ja/55217dfd6a15c5a9.mp3",
+   "b": 48000
+  },
+  "ja|0|こんにちは。今日から、英語の「語順」を学びます。": {
+   "f": "ja/651d52949bd7a3eb.mp3",
+   "b": 34944
+  },
+  "ja|0|こんにちは。今日から、英語の日常会話を始めます。": {
+   "f": "ja/ea766adfd0b1a2b9.mp3",
+   "b": 36288
+  },
+  "ja|0|ご参考までに。": {
+   "f": "ja/3a2c95f25b15bf3c.mp3",
+   "b": 11904
+  },
+  "ja|0|さて、イメージタグには、終わりのタグがありません。": {
+   "f": "ja/fdcde850eda9c01e.mp3",
+   "b": 33024
+  },
+  "ja|0|さて、このタグには、今までになかったものがついています。エイチレフという部分です。": {
+   "f": "ja/eedba04c62f3fc14.mp3",
+   "b": 54144
+  },
+  "ja|0|じつは、プロの人も、このまちがいをよくします。まちがえるのは、ふつうのことです。": {
+   "f": "ja/26184ae49fe47a9b.mp3",
+   "b": 55680
+  },
+  "ja|0|じつは、第1回の ラングも属性でした。「言語は日本語」という追加の情報でしたね。": {
+   "f": "ja/30d53756117e5b7f.mp3",
+   "b": 59328
+  },
+  "ja|0|じゃあ、トマトのパスタにします。": {
+   "f": "ja/11f3e9b71f1c67de.mp3",
+   "b": 20160
+  },
+  "ja|0|すてきですね。試着してもいいですか？": {
+   "f": "ja/390b1a8598c3f337.mp3",
+   "b": 24192
+  },
+  "ja|0|すてきな・いい": {
+   "f": "ja/027e451b3b2690b6.mp3",
+   "b": 9408
+  },
+  "ja|0|スマホを再起動する": {
+   "f": "ja/115d1103e52490ab.mp3",
+   "b": 16128
+  },
+  "ja|0|すみません、お会計をお願いします。": {
+   "f": "ja/aa72ad50afa263d9.mp3",
+   "b": 24000
+  },
+  "ja|0|すみません、お水をもらえますか？": {
+   "f": "ja/0df1f4ba0f398ba7.mp3",
+   "b": 22272
+  },
+  "ja|0|ソースに、画像の場所。オルトに、画像の説明の文。": {
+   "f": "ja/95ee622f3bff462a.mp3",
+   "b": 40896
+  },
+  "ja|0|ソースには、画像のファイルの場所を書きます。どの画像を出すか、という指定です。": {
+   "f": "ja/1911288fa9a3dfc6.mp3",
+   "b": 55296
+  },
+  "ja|0|そうだね。いい週末だった？": {
+   "f": "ja/4757476e174be0ea.mp3",
+   "b": 20544
+  },
+  "ja|0|そして、「赤いかばん」。": {
+   "f": "ja/b25541a2a9a3394b.mp3",
+   "b": 14400
+  },
+  "ja|0|そして、始まりのタグと終わりのタグではさんだ文字が、画面に出る、押せる文字になります。": {
+   "f": "ja/c9e691e137dbc34f.mp3",
+   "b": 57216
+  },
+  "ja|0|そのあとに、「どこで」の アット・ア・ショップ、お店で。最後に、「いつ」の エブリデイ、毎日。": {
+   "f": "ja/cf8cccb6a57bb0bf.mp3",
+   "b": 64704
+  },
+  "ja|0|そのソファは、わたしの部屋には大きすぎます。": {
+   "f": "ja/fdf34eed1722ce3d.mp3",
+   "b": 31296
+  },
+  "ja|0|そのまま改行される": {
+   "f": "ja/bccb6a959480ad54.mp3",
+   "b": 16320
+  },
+  "ja|0|その下に、ひとことの紹介文。ピーを使います。": {
+   "f": "ja/ccac672efd7bdcdb.mp3",
+   "b": 33408
+  },
+  "ja|0|その下に、好きなことの箇条書き。ユーエルと エルアイを使います。": {
+   "f": "ja/0f020bdcd80eb2ab.mp3",
+   "b": 43968
+  },
+  "ja|0|その中の、1つ1つの項目は、エルアイというタグではさみます。": {
+   "f": "ja/8c5d5a3fcc367301.mp3",
+   "b": 45696
+  },
+  "ja|0|それから、目の見えない人が、読み上げでページを聞くとき、オルトの文が読まれます。": {
+   "f": "ja/c45b6e58b4ca70ac.mp3",
+   "b": 53952
+  },
+  "ja|0|だいじょうぶ。次にいきましょう。": {
+   "f": "ja/36efbf302bbd9a65.mp3",
+   "b": 20928
+  },
+  "ja|0|タイトルタグを打って、ページの名前を、たつやのページ、にしてみましょう。始まりのタグと、終わりのタグで、文字をはさみます。": {
+   "f": "ja/8a41bded32805681.mp3",
+   "b": 80640
+  },
+  "ja|0|タイトルは head に入ります。": {
+   "f": "ja/509b068f150ce840.mp3",
+   "b": 19008
+  },
+  "ja|0|タイプは「種類」という意味です。ボタンと書くと、「ふつうのボタン」という意味になります。": {
+   "f": "ja/66060049634b1155.mp3",
+   "b": 58560
+  },
+  "ja|0|だから、段落を分けたいときは、ピータグを分けて書きます。": {
+   "f": "ja/a757d154d7dc8f47.mp3",
+   "b": 39552
+  },
+  "ja|0|だから英語では、順番がとても大事なのです。": {
+   "f": "ja/864c44c2f072c8e2.mp3",
+   "b": 32832
+  },
+  "ja|0|タグではさんだ文字": {
+   "f": "ja/d78a27d513100cf2.mp3",
+   "b": 14400
+  },
+  "ja|0|タグには、「始まりのタグ」と「終わりのタグ」があります。": {
+   "f": "ja/1e93d11750fde23f.mp3",
+   "b": 39744
+  },
+  "ja|0|タグの記号（< > / = \"）は、半角で打ちます。": {
+   "f": "ja/16401228ae14d1b4.mp3",
+   "b": 34752
+  },
+  "ja|0|タグは、小なり記号と、大なり記号で、言葉をはさんだものです。": {
+   "f": "ja/44dc10057cc53d60.mp3",
+   "b": 45504
+  },
+  "ja|0|タグを打ったのに表示がおかしい。まず確かめることは？": {
+   "f": "ja/de067820f3b7b28a.mp3",
+   "b": 35712
+  },
+  "ja|0|ただし、ビーアールを使いすぎるのはおすすめしません。段落を分けるなら、ピーを使いましょう。": {
+   "f": "ja/2d7e9876fbdf4da0.mp3",
+   "b": 62592
+  },
+  "ja|0|ただし、今の時点では、押しても何も起きません。": {
+   "f": "ja/dd2b957133602176.mp3",
+   "b": 35328
+  },
+  "ja|0|たとえば、「このシャツは、安いです。」": {
+   "f": "ja/6bdf15d8a2c67fa2.mp3",
+   "b": 23424
+  },
+  "ja|0|たとえば、「家電」という項目の中に、テレビ、冷蔵庫、という小さなリストを入れられます。": {
+   "f": "ja/81a0d8a921c582d4.mp3",
+   "b": 63168
+  },
+  "ja|0|たとえば、タイトルタグに書いた文字は、ブラウザのタブや、ブックマークの名前になります。": {
+   "f": "ja/50da48b7ce653546.mp3",
+   "b": 56064
+  },
+  "ja|0|ダブルクォーテーションは、上の方にある、点が2つの記号です。": {
+   "f": "ja/385ba8a71eeeea6c.mp3",
+   "b": 43200
+  },
+  "ja|0|だれが、アイ。どうする、イート、食べる。なにを、ライス、ごはん。": {
+   "f": "ja/c7fda3e39b021b3e.mp3",
+   "b": 49344
+  },
+  "ja|0|だれが、アイ。どうする、ワーク、働く。": {
+   "f": "ja/50775703957afe7e.mp3",
+   "b": 31872
+  },
+  "ja|0|だれが、いつ、どこで、なにを、どうする": {
+   "f": "ja/0189039fcc5f332b.mp3",
+   "b": 35136
+  },
+  "ja|0|だれが、どうする、なにを": {
+   "f": "ja/355c2625af6920ac.mp3",
+   "b": 20352
+  },
+  "ja|0|だれが、どうする、なにを、どこで、いつ": {
+   "f": "ja/4270a3a00fd33833.mp3",
+   "b": 34560
+  },
+  "ja|0|だれが、なにを、どうする": {
+   "f": "ja/82df921a7b1141ee.mp3",
+   "b": 20928
+  },
+  "ja|0|チープは「安い」。このような、ようすを表す言葉を、けいようしと言います。": {
+   "f": "ja/bf54be46ca95d090.mp3",
+   "b": 51648
+  },
+  "ja|0|チームにページを共有します。": {
+   "f": "ja/8a6b571ad8acbd5e.mp3",
+   "b": 20160
+  },
+  "ja|0|つなぐもの・リンク": {
+   "f": "ja/8dfca8bfeea60145.mp3",
+   "b": 12288
+  },
+  "ja|0|つまり、エイチレフは行き先。はさんだ文字は、看板。そう覚えると、わかりやすいです。": {
+   "f": "ja/1df479d30edb0710.mp3",
+   "b": 60672
+  },
+  "ja|0|つまり、ユーエルが「入れ物」で、エルアイが「中身」です。": {
+   "f": "ja/73077f593c2fb81b.mp3",
+   "b": 43392
+  },
+  "ja|0|できました。すばらしいです。": {
+   "f": "ja/3bae4c4c0cb700a9.mp3",
+   "b": 17472
+  },
+  "ja|0|では、ページ全体の骨組みを見てみましょう。": {
+   "f": "ja/7b68c9caa7ebdbe9.mp3",
+   "b": 32640
+  },
+  "ja|0|では、まとめです。": {
+   "f": "ja/dc76bf5fcd0197ac.mp3",
+   "b": 14208
+  },
+  "ja|0|では、自己紹介ページの設計図を考えましょう。いきなり書かずに、先に中身を決めるのがコツです。": {
+   "f": "ja/46f930bd01b74cfb.mp3",
+   "b": 71424
+  },
+  "ja|0|でも英語は、順番を入れかえると、意味が変わってしまいます。": {
+   "f": "ja/fdcb69f483e453f5.mp3",
+   "b": 42432
+  },
+  "ja|0|どうしても段落の中で改行したいときは、ビーアールというタグを使います。": {
+   "f": "ja/f063e046c4bcadc3.mp3",
+   "b": 48384
+  },
+  "ja|0|どうぞ。試着室はあちらです。": {
+   "f": "ja/9aa4ff0a4a7462c0.mp3",
+   "b": 23040
+  },
+  "ja|0|どこにも出ない": {
+   "f": "ja/f47e0fed91c5cfc4.mp3",
+   "b": 12288
+  },
+  "ja|0|どちらでもよい": {
+   "f": "ja/a07dd22deedc36b4.mp3",
+   "b": 10368
+  },
+  "ja|0|どちらも押せますが、役わりがちがいます。": {
+   "f": "ja/0f8abc0b01117b5f.mp3",
+   "b": 26496
+  },
+  "ja|0|どちらを使うか迷ったら、「順番を入れかえたら、意味が変わるかな」と考えてみてください。": {
+   "f": "ja/6d0672eb7588df76.mp3",
+   "b": 56448
+  },
+  "ja|0|とてもおいしかったです。お会計をお願いします。": {
+   "f": "ja/1aee1b4b7260f9e8.mp3",
+   "b": 30720
+  },
+  "ja|0|どの画像を出すかを書く属性は？": {
+   "f": "ja/ee3ba2274208960a.mp3",
+   "b": 23232
+  },
+  "ja|0|トマトのパスタがとても人気です。": {
+   "f": "ja/ef9136514bcfadfd.mp3",
+   "b": 21312
+  },
+  "ja|0|どれもおいしそう。おすすめは何ですか？": {
+   "f": "ja/4a55df6f6fc4b6dc.mp3",
+   "b": 26496
+  },
+  "ja|0|と聞かれたけど、見ているだけのときは、どれでしょう？": {
+   "f": "ja/a9c73c0f2ba722b7.mp3",
+   "b": 35712
+  },
+  "ja|0|と聞かれました。2人のときは、どれでしょう？": {
+   "f": "ja/dfd618fdec97a909.mp3",
+   "b": 30912
+  },
+  "ja|0|と聞かれました。もう注文はないときは、どれでしょう？": {
+   "f": "ja/fc9c7ba94a0b7835.mp3",
+   "b": 35904
+  },
+  "ja|0|と聞かれました。返事として自然なのは、どれでしょう？": {
+   "f": "ja/74c95fc00ee64dbe.mp3",
+   "b": 35520
+  },
+  "ja|0|と言われました。返事は、どれでしょう？": {
+   "f": "ja/4a1510ace57f7723.mp3",
+   "b": 28032
+  },
+  "ja|0|なにを、だれが、どうする": {
+   "f": "ja/4d4292232c6381b5.mp3",
+   "b": 20736
+  },
+  "ja|0|の意味は、どれでしょう？": {
+   "f": "ja/f2ba2cf69514d5ef.mp3",
+   "b": 18432
+  },
+  "ja|0|は、〜にします（注文するとき）、という意味です。": {
+   "f": "ja/516ad1b7e59ffcbc.mp3",
+   "b": 32448
+  },
+  "ja|0|は、〜を探しています、という意味です。": {
+   "f": "ja/81c3dc7250f0ceee.mp3",
+   "b": 26304
+  },
+  "ja|0|は、2人です（2人の席をお願いします）、という意味です。": {
+   "f": "ja/c2c37d9460c308d9.mp3",
+   "b": 40320
+  },
+  "ja|0|は、Webサイト、という意味です。": {
+   "f": "ja/0bbb05238c942edc.mp3",
+   "b": 21888
+  },
+  "ja|0|は、アップロードする（上げる）、という意味です。": {
+   "f": "ja/aaeb1b6d84418a7b.mp3",
+   "b": 28608
+  },
+  "ja|0|は、いくらですか？、という意味です。": {
+   "f": "ja/0af656a76d5d62e2.mp3",
+   "b": 23232
+  },
+  "ja|0|は、おいしかったです、という意味です。": {
+   "f": "ja/642e774093d60a9c.mp3",
+   "b": 22656
+  },
+  "ja|0|は、おすすめは何ですか、という意味です。": {
+   "f": "ja/52b21a0797475653.mp3",
+   "b": 28800
+  },
+  "ja|0|は、おすすめは何ですか？、という意味です。": {
+   "f": "ja/ea3cf98b79ff6341.mp3",
+   "b": 29568
+  },
+  "ja|0|は、おはようございます、という意味です。": {
+   "f": "ja/6265e0eb02b4f1af.mp3",
+   "b": 24192
+  },
+  "ja|0|は、お会計をお願いします、という意味です。": {
+   "f": "ja/c89cf7dccb4b546b.mp3",
+   "b": 30720
+  },
+  "ja|0|は、お客さん、という意味です。": {
+   "f": "ja/a35ba31b8d4bda95.mp3",
+   "b": 20352
+  },
+  "ja|0|は、お水をもらえますか？、という意味です。": {
+   "f": "ja/e9b6a4bdcce06e00.mp3",
+   "b": 29952
+  },
+  "ja|0|は、カードで払えますか？、という意味です。": {
+   "f": "ja/4994547ec8be380d.mp3",
+   "b": 29568
+  },
+  "ja|0|は、クリックする・押す、という意味です。": {
+   "f": "ja/193c317f75e2d9a4.mp3",
+   "b": 27072
+  },
+  "ja|0|は、これにします、という意味です。買うと決めたときの一言です。": {
+   "f": "ja/584d192df96cfdb6.mp3",
+   "b": 41088
+  },
+  "ja|0|は、これにします（買います）、という意味です。": {
+   "f": "ja/646bff91269848f6.mp3",
+   "b": 30720
+  },
+  "ja|0|は、すてきな・いい、という意味です。": {
+   "f": "ja/8ad96fa2ffa901bf.mp3",
+   "b": 22272
+  },
+  "ja|0|は、つなぐもの・リンク、という意味です。": {
+   "f": "ja/8b7844d2a09cc24c.mp3",
+   "b": 24576
+  },
+  "ja|0|は、どんなときに言うでしょう？": {
+   "f": "ja/6164970da0da808b.mp3",
+   "b": 20160
+  },
+  "ja|0|は、はじめまして（会えてうれしいです）、という意味です。": {
+   "f": "ja/df4df6ce1c56c418.mp3",
+   "b": 35328
+  },
+  "ja|0|は、ひさしぶり、という意味です。": {
+   "f": "ja/a95ede8b9cabdce0.mp3",
+   "b": 21312
+  },
+  "ja|0|は、ファイル、という意味です。": {
+   "f": "ja/19a3ef173185205b.mp3",
+   "b": 19968
+  },
+  "ja|0|は、ボタン、という意味です。": {
+   "f": "ja/36b098dca8e463dc.mp3",
+   "b": 19584
+  },
+  "ja|0|は、またあとで、という意味です。": {
+   "f": "ja/1d1f58caeb79ee59.mp3",
+   "b": 22272
+  },
+  "ja|0|は、またあとで。別れるときのあいさつです。": {
+   "f": "ja/4ab6cb017f13f7e1.mp3",
+   "b": 30336
+  },
+  "ja|0|は、まとめ・要約、という意味です。": {
+   "f": "ja/bcfc9c181607d1f6.mp3",
+   "b": 27072
+  },
+  "ja|0|は、もっと小さいのはありますか？、という意味です。": {
+   "f": "ja/d26f9b8873017555.mp3",
+   "b": 33792
+  },
+  "ja|0|は、よい一日を、という意味です。": {
+   "f": "ja/ca817b112fc18f09.mp3",
+   "b": 24192
+  },
+  "ja|0|は、わたしも、なので、ここでは合いません。": {
+   "f": "ja/4d95d96c30ee2b50.mp3",
+   "b": 31680
+  },
+  "ja|0|は、一覧・リスト、という意味です。": {
+   "f": "ja/ec31b8beb4824657.mp3",
+   "b": 25728
+  },
+  "ja|0|は、下見・プレビュー、という意味です。": {
+   "f": "ja/da6e137a3261c783.mp3",
+   "b": 24192
+  },
+  "ja|0|は、代わりの・別の案、という意味です。": {
+   "f": "ja/dacc98d0bd434c01.mp3",
+   "b": 28224
+  },
+  "ja|0|は、以上です、という意味です。": {
+   "f": "ja/72d68f6586eb7751.mp3",
+   "b": 20928
+  },
+  "ja|0|は、会う、という意味です。": {
+   "f": "ja/202eaa1754910df8.mp3",
+   "b": 18624
+  },
+  "ja|0|は、住所・アドレス、という意味です。": {
+   "f": "ja/2a5feb821bd3218c.mp3",
+   "b": 26304
+  },
+  "ja|0|は、体・本文、という意味です。": {
+   "f": "ja/5a96bf25a2059cd0.mp3",
+   "b": 25344
+  },
+  "ja|0|は、作業・仕事、という意味です。": {
+   "f": "ja/9106260b2aa5b93b.mp3",
+   "b": 26304
+  },
+  "ja|0|は、使える・手が空いている、という意味です。": {
+   "f": "ja/d57d9150f0ee0dde.mp3",
+   "b": 32064
+  },
+  "ja|0|は、保存する・ためる、という意味です。": {
+   "f": "ja/e559be238514519b.mp3",
+   "b": 26112
+  },
+  "ja|0|は、働く、という意味です。": {
+   "f": "ja/00d534787e67920d.mp3",
+   "b": 21120
+  },
+  "ja|0|は、元気です、ありがとう、という意味です。": {
+   "f": "ja/b6ab878ccbe424ca.mp3",
+   "b": 28608
+  },
+  "ja|0|は、元気ですか、という意味です。毎日のあいさつで、よく使います。": {
+   "f": "ja/9ca8f303f6f99d01.mp3",
+   "b": 46272
+  },
+  "ja|0|は、元気ですか？、という意味です。": {
+   "f": "ja/e2e44235ff344bc3.mp3",
+   "b": 23424
+  },
+  "ja|0|は、共有する・分ける、という意味です。": {
+   "f": "ja/31262e9e57c82a0a.mp3",
+   "b": 27840
+  },
+  "ja|0|は、出どころ・元、という意味です。": {
+   "f": "ja/01316ffe99cf2cc7.mp3",
+   "b": 25920
+  },
+  "ja|0|は、勉強する、という意味です。": {
+   "f": "ja/01b07ce61389fa0b.mp3",
+   "b": 22656
+  },
+  "ja|0|は、区切り・休けい、という意味です。": {
+   "f": "ja/fb2d88147d087f49.mp3",
+   "b": 26496
+  },
+  "ja|0|は、参照・参考、という意味です。": {
+   "f": "ja/273a237162d3b114.mp3",
+   "b": 28416
+  },
+  "ja|0|は、取り消す、という意味です。": {
+   "f": "ja/6ef721bec3f85f80.mp3",
+   "b": 20736
+  },
+  "ja|0|は、古い、という意味です。": {
+   "f": "ja/d4d9bb9152238aef.mp3",
+   "b": 19776
+  },
+  "ja|0|は、在庫、という意味です。": {
+   "f": "ja/865e598d47846a73.mp3",
+   "b": 20352
+  },
+  "ja|0|は、報告・報告書、という意味です。": {
+   "f": "ja/166624001eeb4750.mp3",
+   "b": 23616
+  },
+  "ja|0|は、売る、という意味です。": {
+   "f": "ja/046c8379e63c76d3.mp3",
+   "b": 18816
+  },
+  "ja|0|は、大きい、という意味です。": {
+   "f": "ja/7fe1bbca91d3a857.mp3",
+   "b": 20736
+  },
+  "ja|0|は、好き（好む）、という意味です。": {
+   "f": "ja/ae7a406fcbee0104.mp3",
+   "b": 22272
+  },
+  "ja|0|は、安い、という意味です。": {
+   "f": "ja/de6b7b1e1479b24f.mp3",
+   "b": 20160
+  },
+  "ja|0|は、小さい、という意味です。": {
+   "f": "ja/6380bdd0970fb465.mp3",
+   "b": 20736
+  },
+  "ja|0|は、幅、という意味です。": {
+   "f": "ja/eeb7d1223a7ec78c.mp3",
+   "b": 19584
+  },
+  "ja|0|は、手順・一歩、という意味です。": {
+   "f": "ja/fa82d2f70808a8c2.mp3",
+   "b": 24960
+  },
+  "ja|0|は、提出する・送信する、という意味です。": {
+   "f": "ja/35c3edddb35361b8.mp3",
+   "b": 28032
+  },
+  "ja|0|は、文字・文章、という意味です。": {
+   "f": "ja/8762d1ebb51bd269.mp3",
+   "b": 25920
+  },
+  "ja|0|は、文書・書類、という意味です。": {
+   "f": "ja/79ac77db69ea48cf.mp3",
+   "b": 25536
+  },
+  "ja|0|は、新しい、という意味です。": {
+   "f": "ja/f197e7f93d35fdd7.mp3",
+   "b": 21888
+  },
+  "ja|0|は、札・目印、という意味です。": {
+   "f": "ja/8dcf47a80ea39329.mp3",
+   "b": 26112
+  },
+  "ja|0|は、構造・組み立て、という意味です。": {
+   "f": "ja/899c3ad50f3b1326.mp3",
+   "b": 27072
+  },
+  "ja|0|は、段落、という意味です。": {
+   "f": "ja/79697ad1c2350174.mp3",
+   "b": 21504
+  },
+  "ja|0|は、毎日、という意味です。": {
+   "f": "ja/0f6c52e40cb07a94.mp3",
+   "b": 21504
+  },
+  "ja|0|は、用紙・入力欄、という意味です。": {
+   "f": "ja/8379310669fb6e53.mp3",
+   "b": 28800
+  },
+  "ja|0|は、画像、という意味です。": {
+   "f": "ja/9ce0ec0aa61ca737.mp3",
+   "b": 19968
+  },
+  "ja|0|は、確かめる・確定する、という意味です。": {
+   "f": "ja/2669e0154dd1f32d.mp3",
+   "b": 29568
+  },
+  "ja|0|は、確認する、という意味です。": {
+   "f": "ja/b946561e0fbb3811.mp3",
+   "b": 22272
+  },
+  "ja|0|は、種類・型、という意味です。": {
+   "f": "ja/c934e3c0d1cf74ba.mp3",
+   "b": 25344
+  },
+  "ja|0|は、紹介する、という意味です。": {
+   "f": "ja/3c9b538f7abed521.mp3",
+   "b": 22656
+  },
+  "ja|0|は、経験、という意味です。": {
+   "f": "ja/f1dd4b4884e63dc4.mp3",
+   "b": 21120
+  },
+  "ja|0|は、自己紹介・プロフィール、という意味です。": {
+   "f": "ja/4adc625ac18ba478.mp3",
+   "b": 27648
+  },
+  "ja|0|は、行・線、という意味です。": {
+   "f": "ja/4839b52782c03d69.mp3",
+   "b": 23232
+  },
+  "ja|0|は、見ているだけです、という意味です。": {
+   "f": "ja/6f34469c6703c5cc.mp3",
+   "b": 26688
+  },
+  "ja|0|は、見る（じっと見る）、という意味です。": {
+   "f": "ja/78e8f25cc09b593c.mp3",
+   "b": 25920
+  },
+  "ja|0|は、見出し、という意味です。": {
+   "f": "ja/77c2b0c65e04f4e2.mp3",
+   "b": 20736
+  },
+  "ja|0|は、言語・ことば、という意味です。": {
+   "f": "ja/caa4bc8a4da521d7.mp3",
+   "b": 25728
+  },
+  "ja|0|は、試着してもいいですか、という意味です。": {
+   "f": "ja/0fc98e621ef67da9.mp3",
+   "b": 29952
+  },
+  "ja|0|は、試着してもいいですか？、という意味です。": {
+   "f": "ja/73977afb7f763da1.mp3",
+   "b": 30528
+  },
+  "ja|0|は、買う、という意味です。": {
+   "f": "ja/107098e94d6841ee.mp3",
+   "b": 18432
+  },
+  "ja|0|は、趣味、という意味です。": {
+   "f": "ja/e860cfb79a9426f7.mp3",
+   "b": 19968
+  },
+  "ja|0|は、連絡する・連絡先、という意味です。": {
+   "f": "ja/d0b8bf99f5f3b351.mp3",
+   "b": 33792
+  },
+  "ja|0|は、週末、という意味です。": {
+   "f": "ja/7ad4f055a1c9faeb.mp3",
+   "b": 21120
+  },
+  "ja|0|は、運転する、という意味です。": {
+   "f": "ja/c0e31c0e1a4696fe.mp3",
+   "b": 22464
+  },
+  "ja|0|は、項目・品物、という意味です。": {
+   "f": "ja/03fd4897238f0c74.mp3",
+   "b": 27264
+  },
+  "ja|0|は、順番・注文、という意味です。": {
+   "f": "ja/6cd572d0f3d6aab5.mp3",
+   "b": 26688
+  },
+  "ja|0|は、頭・先頭、という意味です。": {
+   "f": "ja/f68355c8be3905bc.mp3",
+   "b": 26496
+  },
+  "ja|0|は、題名・タイトル、という意味です。": {
+   "f": "ja/8b0963625f0fe597.mp3",
+   "b": 26112
+  },
+  "ja|0|は、食べる、という意味です。": {
+   "f": "ja/97c2f01395fe9b0d.mp3",
+   "b": 19392
+  },
+  "ja|0|は、駅、という意味です。": {
+   "f": "ja/9894a14c1b50cfc7.mp3",
+   "b": 19200
+  },
+  "ja|0|は、高さ、という意味です。": {
+   "f": "ja/7fd4f9601856b540.mp3",
+   "b": 21120
+  },
+  "ja|0|はい": {
+   "f": "ja/185c5e5c1e733faf.mp3",
+   "b": 5184
+  },
+  "ja|0|はい、ジャケットを探しています。": {
+   "f": "ja/6b7e3895754df844.mp3",
+   "b": 20160
+  },
+  "ja|0|はい。こちらです。": {
+   "f": "ja/c96820b8f80835eb.mp3",
+   "b": 12672
+  },
+  "ja|0|はじめて会ったとき": {
+   "f": "ja/f622d787433aa7ec.mp3",
+   "b": 12864
+  },
+  "ja|0|はじめまして（会えてうれしいです）": {
+   "f": "ja/93a32cc844654ecf.mp3",
+   "b": 21696
+  },
+  "ja|0|ばっちりです。": {
+   "f": "ja/499a2aae2f1a23ed.mp3",
+   "b": 9024
+  },
+  "ja|0|ばっちり伝わりました。": {
+   "f": "ja/2033a4a8e7b20fd2.mp3",
+   "b": 14016
+  },
+  "ja|0|ビーアールには、終わりのタグがありません。中に何もはさまないからです。": {
+   "f": "ja/66f0eb3f6f2fdcf3.mp3",
+   "b": 48000
+  },
+  "ja|0|ビーアールは、ブレイクの略です。「区切る」という意味です。": {
+   "f": "ja/f890def82b56abb5.mp3",
+   "b": 38976
+  },
+  "ja|0|ピータグを2つ並べると、段落と段落のあいだに、少しすき間があきます。": {
+   "f": "ja/64b4a88aa8f23d64.mp3",
+   "b": 48960
+  },
+  "ja|0|ピーは、英語の パラグラフの頭文字です。paragraph は「段落」という意味です。": {
+   "f": "ja/a155bb4563384b6d.mp3",
+   "b": 52416
+  },
+  "ja|0|ひさしぶり": {
+   "f": "ja/f84cf0926f3c9af6.mp3",
+   "b": 8640
+  },
+  "ja|0|ひさしぶり！元気にしてた？": {
+   "f": "ja/371a8723113f06e8.mp3",
+   "b": 20736
+  },
+  "ja|0|ぴったりです。いくらですか？": {
+   "f": "ja/cf0f31f0642c38bb.mp3",
+   "b": 17664
+  },
+  "ja|0|ひとつ、気をつけたいことがあります。インターネットで見つけた画像を、勝手に使ってはいけません。": {
+   "f": "ja/735d4c07126caecc.mp3",
+   "b": 59136
+  },
+  "ja|0|ファイル": {
+   "f": "ja/8da6fdceb9dcdcf2.mp3",
+   "b": 6720
+  },
+  "ja|0|ファイルの保存を忘れないでね。": {
+   "f": "ja/3753378a7066bc39.mp3",
+   "b": 20160
+  },
+  "ja|0|ファイルをスマホに保存しました。": {
+   "f": "ja/15bea9f2ad13bea4.mp3",
+   "b": 19776
+  },
+  "ja|0|フォームは、もう少し先で学びます。今は、タイプで種類を決められる、と知っておけば大丈夫です。": {
+   "f": "ja/a30a54a9a853449f.mp3",
+   "b": 64704
+  },
+  "ja|0|フォルダの中にある画像なら、フォルダの名前、スラッシュ、ファイルの名前、と書きます。": {
+   "f": "ja/13f8c01ebf3e6784.mp3",
+   "b": 56064
+  },
+  "ja|0|ふだんスマホで見ているWebページは、エイチティーエムエルという言葉で書かれています。": {
+   "f": "ja/ad5c8781b3c24851.mp3",
+   "b": 48960
+  },
+  "ja|0|ブラウザが自動でつける": {
+   "f": "ja/3172768c841502a4.mp3",
+   "b": 16896
+  },
+  "ja|0|ブラウザとは、ChromeやSafariのような、Webページを見るためのアプリのことです。": {
+   "f": "ja/b4c4bd9550eb888d.mp3",
+   "b": 50688
+  },
+  "ja|0|ブラウザのタブの名前": {
+   "f": "ja/049daf5709e0705e.mp3",
+   "b": 16128
+  },
+  "ja|0|ブラウザは、改行やたくさんの空白を、1つの空白として扱うからです。": {
+   "f": "ja/89414d3cc9357763.mp3",
+   "b": 52032
+  },
+  "ja|0|ブラウザは改行を空白1つとして扱います。段落を分けるなら p を分けます。": {
+   "f": "ja/7c71c12193ba6e6f.mp3",
+   "b": 55680
+  },
+  "ja|0|プロフィールを新しくしてください。": {
+   "f": "ja/54ac2b8fe07ae0f5.mp3",
+   "b": 20544
+  },
+  "ja|0|ページが日本語であること": {
+   "f": "ja/8cfa34f32ffe6aca.mp3",
+   "b": 17856
+  },
+  "ja|0|ページでいちばん大事な見出しは h1 です。": {
+   "f": "ja/635a3e7fe6fa2e73.mp3",
+   "b": 26880
+  },
+  "ja|0|ページとページを、いかりでつなぎとめる、というイメージです。": {
+   "f": "ja/29645b89fe1e2399.mp3",
+   "b": 38592
+  },
+  "ja|0|ページの真ん中に大きく": {
+   "f": "ja/2820679befca7b90.mp3",
+   "b": 18048
+  },
+  "ja|0|ページの組み立ては、かんたんです。": {
+   "f": "ja/11aa9daec796eb86.mp3",
+   "b": 21696
+  },
+  "ja|0|ページの色": {
+   "f": "ja/b24cff34804bb31d.mp3",
+   "b": 9216
+  },
+  "ja|0|ヘッドには、ページの名前など、画面には直接出ない情報を書きます。": {
+   "f": "ja/864bd20c61bbb88f.mp3",
+   "b": 48576
+  },
+  "ja|0|ボタン": {
+   "f": "ja/2b5d51ff0a234fe7.mp3",
+   "b": 6144
+  },
+  "ja|0|ボタンにも、属性をつけることができます。よく使うのは、タイプという属性です。": {
+   "f": "ja/bb60fe131490ef1a.mp3",
+   "b": 52032
+  },
+  "ja|0|ボタンの文字として、いちばんわかりやすいのは？": {
+   "f": "ja/626c98cf3f3ded5b.mp3",
+   "b": 32256
+  },
+  "ja|0|ボタンの文字は、押すと何が起きるかが、すぐわかる言葉にしましょう。": {
+   "f": "ja/40f8c41a394e95d1.mp3",
+   "b": 46464
+  },
+  "ja|0|ボタンは button タグで作ります。": {
+   "f": "ja/9ccb9615f3826c2d.mp3",
+   "b": 19584
+  },
+  "ja|0|ボタンは ボタンタグ。はさんだ文字が、ボタンの上に出る。": {
+   "f": "ja/36c4936a07db01a7.mp3",
+   "b": 37248
+  },
+  "ja|0|ボタンは、「その場で何かをする」ためのもの。保存する、送る、消す、などの操作です。": {
+   "f": "ja/328e8ffea68ee4a5.mp3",
+   "b": 60288
+  },
+  "ja|0|ボタンは、そのまま ボタンというタグで作ります。": {
+   "f": "ja/ba9cfd55bce34477.mp3",
+   "b": 31488
+  },
+  "ja|0|ボタンを作るタグは？": {
+   "f": "ja/ef46a4b9e1835ded.mp3",
+   "b": 15744
+  },
+  "ja|0|ボタンを押したときに何をするかは、ジャバスクリプトという、別の言葉で書くからです。": {
+   "f": "ja/91c82b8afa2decb4.mp3",
+   "b": 51648
+  },
+  "ja|0|ボディに書いたものが、画面に表示されます。": {
+   "f": "ja/4308c6d61d028f0f.mp3",
+   "b": 29952
+  },
+  "ja|0|まあまあ元気。今日は寒いね。": {
+   "f": "ja/cda3cac813c70040.mp3",
+   "b": 21888
+  },
+  "ja|0|まず、6回で学んだことを、ふり返ってみましょう。": {
+   "f": "ja/5dc26e678d93b966.mp3",
+   "b": 36096
+  },
+  "ja|0|まず、日本語の文を見てみましょう。「わたしは、コーヒーが、好きです。」": {
+   "f": "ja/1bc9eaf344733f07.mp3",
+   "b": 49152
+  },
+  "ja|0|まずは、前回の復習です。": {
+   "f": "ja/c07608d6df9e6d3b.mp3",
+   "b": 21312
+  },
+  "ja|0|まずは見出しです。見出しは、エイチワンというタグで書きます。": {
+   "f": "ja/472718f95a750991.mp3",
+   "b": 37248
+  },
+  "ja|0|またあとで": {
+   "f": "ja/da2b5f7c24bd50b1.mp3",
+   "b": 8832
+  },
+  "ja|0|まちがいを見つけて直せることが、いちばん大事な力です。": {
+   "f": "ja/8c23d3bde0f918b0.mp3",
+   "b": 37440
+  },
+  "ja|0|まとめ・要約": {
+   "f": "ja/602050b94953c679.mp3",
+   "b": 14400
+  },
+  "ja|0|みなさん、おはようございます。": {
+   "f": "ja/59714efa351bee8d.mp3",
+   "b": 18240
+  },
+  "ja|0|メールアドレスを書いてください。": {
+   "f": "ja/5478b48b1dbe322a.mp3",
+   "b": 18816
+  },
+  "ja|0|メールで連絡してください。": {
+   "f": "ja/b0762e0b8bfc2cb8.mp3",
+   "b": 17664
+  },
+  "ja|0|メッセージは本文に書いてください。": {
+   "f": "ja/de5fc2d4014557a1.mp3",
+   "b": 21888
+  },
+  "ja|0|もうひとつ。「わたしは、ごはんを、食べます。」英語では、こうです。": {
+   "f": "ja/d8e255ef51354e01.mp3",
+   "b": 48000
+  },
+  "ja|0|もう一度、お手本のあとに言ってみましょう。": {
+   "f": "ja/63d5878a9a34be9d.mp3",
+   "b": 29952
+  },
+  "ja|0|もう一度、順番を変えて出します。": {
+   "f": "ja/ae862a7749236bce.mp3",
+   "b": 23424
+  },
+  "ja|0|もう行かなきゃ。またね！": {
+   "f": "ja/e3026f4155789d51.mp3",
+   "b": 16704
+  },
+  "ja|0|もちろんです。": {
+   "f": "ja/f1407824ed46807f.mp3",
+   "b": 9408
+  },
+  "ja|0|もっと小さいのはありますか？": {
+   "f": "ja/6430d32499ddcd9e.mp3",
+   "b": 19008
+  },
+  "ja|0|やあ、サム。元気？": {
+   "f": "ja/817012d022533dd6.mp3",
+   "b": 18240
+  },
+  "ja|0|ユーアールエルは、エイチティーティーピーエスから始まる、Webページの住所です。": {
+   "f": "ja/02e7f8a34691c585.mp3",
+   "b": 47808
+  },
+  "ja|0|ユーエルと、エルアイを使って、テレビ、冷蔵庫、洗濯機、の箇条書きを作りましょう。": {
+   "f": "ja/84d80a5b5aec9245.mp3",
+   "b": 64320
+  },
+  "ja|0|ユーエルは、アンオーダード リストの略です。「順番のない一覧」という意味です。": {
+   "f": "ja/5b406b1f1486c6f0.mp3",
+   "b": 49536
+  },
+  "ja|0|よい一日を": {
+   "f": "ja/b3ca4cb2e769b0ac.mp3",
+   "b": 11328
+  },
+  "ja|0|ようすを表す形容詞は、名詞の前。「安いシャツ」は ア・チープ・シャツ。今日はここまでです。": {
+   "f": "ja/ebd3bf7b2c3f1eb1.mp3",
+   "b": 64512
+  },
+  "ja|0|ようすを表す言葉（安い・赤い など）を、何と言う？": {
+   "f": "ja/c4dc30db014d6187.mp3",
+   "b": 44352
+  },
+  "ja|0|ようすを表す言葉はけいようし。cheap や red が形容詞です。": {
+   "f": "ja/9f5054f25c580bc5.mp3",
+   "b": 43200
+  },
+  "ja|0|ラングは、「このページは日本語です」という意味です。": {
+   "f": "ja/afacaddae7ca4efb.mp3",
+   "b": 33792
+  },
+  "ja|0|リストには、大きく2つの種類があります。": {
+   "f": "ja/2d118b45c4702067.mp3",
+   "b": 30912
+  },
+  "ja|0|リストの中に、さらにリストを入れることもできます。前回出てきた「入れ子」ですね。": {
+   "f": "ja/ef181dd306c738b7.mp3",
+   "b": 57792
+  },
+  "ja|0|リンク": {
+   "f": "ja/19b6fed6f6b31dc2.mp3",
+   "b": 6912
+  },
+  "ja|0|リンクの文字として、いちばん親切なのは？": {
+   "f": "ja/8c59254b4d9ca693.mp3",
+   "b": 30912
+  },
+  "ja|0|リンクの文字は、何のページに行くのかがわかる言葉にしましょう。": {
+   "f": "ja/c34e1e1c1652ae10.mp3",
+   "b": 42048
+  },
+  "ja|0|リンクの文字は、行き先がわかる言葉にする。今日はここまでです。": {
+   "f": "ja/40446d844e71d759.mp3",
+   "b": 42048
+  },
+  "ja|0|リンクは a（anchor）タグで作ります。": {
+   "f": "ja/442436b6543a2e1c.mp3",
+   "b": 26112
+  },
+  "ja|0|リンクは エータグ。行き先は エイチレフという属性に書く。": {
+   "f": "ja/985e7226735d65d6.mp3",
+   "b": 36864
+  },
+  "ja|0|リンクは、「別の場所へ行く」ためのもの。行き先がある、道案内です。": {
+   "f": "ja/949a19213831c5d1.mp3",
+   "b": 46272
+  },
+  "ja|0|リンクは、Webのいちばん大事な仕組みのひとつです。ページとページを、糸のようにつないでいます。": {
+   "f": "ja/a9970ec0d8d74867.mp3",
+   "b": 64512
+  },
+  "ja|0|リンクは、エーというタグで作ります。": {
+   "f": "ja/2d393f9f3e0f9be4.mp3",
+   "b": 23424
+  },
+  "ja|0|リンクは、文章の途中にも入れられます。ピータグの中に、エータグを入れます。": {
+   "f": "ja/dbe972136f7d8dc4.mp3",
+   "b": 50112
+  },
+  "ja|0|リンクを作るタグは？": {
+   "f": "ja/9c1fe609b10462c1.mp3",
+   "b": 14976
+  },
+  "ja|0|リンクを押すと、値段が見られます。": {
+   "f": "ja/818b7d6c3b873a7d.mp3",
+   "b": 23040
+  },
+  "ja|0|リンクを送りますね。": {
+   "f": "ja/02f07d129120363e.mp3",
+   "b": 14784
+  },
+  "ja|0|わかりました、これにします。": {
+   "f": "ja/54a3c4bed1857bba.mp3",
+   "b": 18240
+  },
+  "ja|0|わたしたちは 土曜日に 家具を 売ります。": {
+   "f": "ja/8f268c62bc757c90.mp3",
+   "b": 22848
+  },
+  "ja|0|わたしたちは 家具を 売ります。": {
+   "f": "ja/28f2884110619e83.mp3",
+   "b": 17856
+  },
+  "ja|0|わたしたちは中古のゲームを売っています。": {
+   "f": "ja/98b76568ba3cb528.mp3",
+   "b": 24768
+  },
+  "ja|0|わたしたちは正午にお昼ごはんを食べます。": {
+   "f": "ja/1fc331c1b98e2280.mp3",
+   "b": 25920
+  },
+  "ja|0|わたしは コーヒーが 好きです。": {
+   "f": "ja/d69688b1b5587117.mp3",
+   "b": 18624
+  },
+  "ja|0|わたしは ごはんを 食べます。": {
+   "f": "ja/b0c38c1a6fe54381.mp3",
+   "b": 16896
+  },
+  "ja|0|わたしは たつやです。": {
+   "f": "ja/50a283b0b1fea011.mp3",
+   "b": 12672
+  },
+  "ja|0|わたしは テレビを 見ます。": {
+   "f": "ja/cf776f6a0d63cf83.mp3",
+   "b": 16512
+  },
+  "ja|0|わたしは 日曜日に サッカーを 見ます。": {
+   "f": "ja/6e21e81eb6fcbe2d.mp3",
+   "b": 23040
+  },
+  "ja|0|わたしは 毎日 お店で 働きます。": {
+   "f": "ja/70a785afbae1ac88.mp3",
+   "b": 22848
+  },
+  "ja|0|わたしは 毎朝 英語を 勉強します。": {
+   "f": "ja/a38833f3cfb91fb6.mp3",
+   "b": 24192
+  },
+  "ja|0|わたしは 車を 運転します。": {
+   "f": "ja/fcaa0dc141e838c6.mp3",
+   "b": 20352
+  },
+  "ja|0|わたしは 駅で 友だちに 会います。": {
+   "f": "ja/a28e1f9e939adac7.mp3",
+   "b": 21120
+  },
+  "ja|0|わたしはリサイクルショップで働いています。": {
+   "f": "ja/b0087f1560a519af.mp3",
+   "b": 24384
+  },
+  "ja|0|わたしは古いカメラが好きです。": {
+   "f": "ja/14f963a5620455da.mp3",
+   "b": 20736
+  },
+  "ja|0|わたしは毎日、在庫を確認します。": {
+   "f": "ja/edb70ee4b55f60e8.mp3",
+   "b": 26496
+  },
+  "ja|0|わたしは車で仕事に行きます。": {
+   "f": "ja/8ce9f537abd4194b.mp3",
+   "b": 21888
+  },
+  "ja|0|わたしは車の中で英語を勉強します。": {
+   "f": "ja/c74545dc82581543.mp3",
+   "b": 26688
+  },
+  "ja|0|わたしは週末に映画を見ます。": {
+   "f": "ja/5fe2a7636c61b203.mp3",
+   "b": 21504
+  },
+  "ja|0|一覧・リスト": {
+   "f": "ja/1c45afc8fbe3bb7b.mp3",
+   "b": 13248
+  },
+  "ja|0|一覧の「1つ1つの項目」に使うタグは？": {
+   "f": "ja/ab50f2eb593b9b96.mp3",
+   "b": 34368
+  },
+  "ja|0|下見・プレビュー": {
+   "f": "ja/ceaed0a87898d316.mp3",
+   "b": 12864
+  },
+  "ja|0|中のタグを、少し右にずらして書いているのは、読みやすくするためです。ずらさなくても動きます。": {
+   "f": "ja/bb61935bf795b58e.mp3",
+   "b": 59520
+  },
+  "ja|0|中身の項目は、こちらも エルアイを使います。入れ物だけが ユーエルと オーエルでちがいます。": {
+   "f": "ja/691001454afc69f1.mp3",
+   "b": 58560
+  },
+  "ja|0|人の体にたとえると、わかりやすいです。頭で考えて、体で見せる、という感じです。": {
+   "f": "ja/b6452539df67e869.mp3",
+   "b": 61440
+  },
+  "ja|0|今夜、写真をアップロードします。": {
+   "f": "ja/86e8888fc503df67.mp3",
+   "b": 23232
+  },
+  "ja|0|今日、売上の報告書を送ります。": {
+   "f": "ja/3eea1510a033bf21.mp3",
+   "b": 24960
+  },
+  "ja|0|今日のフレーズは、7個です。": {
+   "f": "ja/8af8f7611451f984.mp3",
+   "b": 20160
+  },
+  "ja|0|今日の分は、おしまいです。おつかれさまでした。また明日、いっしょに学びましょう。": {
+   "f": "ja/caa5dde1a4777c6b.mp3",
+   "b": 53568
+  },
+  "ja|0|今日の英単語は、6個です。": {
+   "f": "ja/af829a35c780d6dd.mp3",
+   "b": 20544
+  },
+  "ja|0|今日の英単語は、7個です。": {
+   "f": "ja/1db76900c1d4fc49.mp3",
+   "b": 20544
+  },
+  "ja|0|今日は、その ボディの中に、文章を書いていきます。": {
+   "f": "ja/a4b677798bcaeadf.mp3",
+   "b": 36288
+  },
+  "ja|0|今日は、学んだタグを組み合わせて、小さな自己紹介のページを作ります。": {
+   "f": "ja/e2f65668070f5e2f.mp3",
+   "b": 49152
+  },
+  "ja|0|今日は作業が3つあります。": {
+   "f": "ja/51790cf7181815f0.mp3",
+   "b": 19776
+  },
+  "ja|0|代わりの・別の案": {
+   "f": "ja/0c6a93311517762b.mp3",
+   "b": 14016
+  },
+  "ja|0|以上です": {
+   "f": "ja/f7336b9ab67875f1.mp3",
+   "b": 8448
+  },
+  "ja|0|以上です、という意味です。": {
+   "f": "ja/b9b134ccff756d65.mp3",
+   "b": 17856
+  },
+  "ja|0|会う": {
+   "f": "ja/350bfff2ea2e874f.mp3",
+   "b": 4992
+  },
+  "ja|0|会話はここまでです。次は、短い問題です。": {
+   "f": "ja/e23abc9b0aec916f.mp3",
+   "b": 34368
+  },
+  "ja|0|住所・アドレス": {
+   "f": "ja/06f8d9b624c3cb8c.mp3",
+   "b": 13632
+  },
+  "ja|0|体・本文": {
+   "f": "ja/2887a423f9e284ef.mp3",
+   "b": 11328
+  },
+  "ja|0|何も起きない": {
+   "f": "ja/92b25ba48cb2acd9.mp3",
+   "b": 10944
+  },
+  "ja|0|何を食べましたか？": {
+   "f": "ja/8c424eb303f2071e.mp3",
+   "b": 14400
+  },
+  "ja|0|何時ですか？": {
+   "f": "ja/d3d150478a1fe482.mp3",
+   "b": 9600
+  },
+  "ja|0|作業・仕事": {
+   "f": "ja/ba300b8249f25692.mp3",
+   "b": 13248
+  },
+  "ja|0|作業の手順なら、順番が大事なので オーエル。お店の商品の一覧なら、ユーエルです。": {
+   "f": "ja/2f7c6fe5a3fc9ea5.mp3",
+   "b": 61824
+  },
+  "ja|0|使える・手が空いている": {
+   "f": "ja/8d2515972b45d68e.mp3",
+   "b": 18048
+  },
+  "ja|0|保存する・ためる": {
+   "f": "ja/8933304be6603269.mp3",
+   "b": 14016
+  },
+  "ja|0|保存する、と書かれたボタンを、タイプ、イコール、ボタン、つきで作ってみましょう。": {
+   "f": "ja/f932e386717bdfdd.mp3",
+   "b": 56832
+  },
+  "ja|0|値札を確認してください。": {
+   "f": "ja/42ac923f8eef11ec.mp3",
+   "b": 18048
+  },
+  "ja|0|値段を確認してもらえますか？": {
+   "f": "ja/818cb586da105e04.mp3",
+   "b": 20160
+  },
+  "ja|0|値段を聞きたいとき、何と言う？": {
+   "f": "ja/afb2faffaa616523.mp3",
+   "b": 23040
+  },
+  "ja|0|働く": {
+   "f": "ja/053b523d2349d71a.mp3",
+   "b": 7872
+  },
+  "ja|0|元気だよ、ありがとう。きみは？": {
+   "f": "ja/20badc679fac90c5.mp3",
+   "b": 23424
+  },
+  "ja|0|元気です、ありがとう": {
+   "f": "ja/11d7b50b31c569d0.mp3",
+   "b": 15552
+  },
+  "ja|0|元気です、ありがとう、と答えます。": {
+   "f": "ja/ee9790d2a3733566.mp3",
+   "b": 23808
+  },
+  "ja|0|元気です、ありがとう。あなたは？": {
+   "f": "ja/be90d121c64c2173.mp3",
+   "b": 22656
+  },
+  "ja|0|元気ですか？": {
+   "f": "ja/d162025ebbbe2669.mp3",
+   "b": 9792
+  },
+  "ja|0|先に下見させてください。": {
+   "f": "ja/0e05810fb0a608c2.mp3",
+   "b": 17664
+  },
+  "ja|0|入れ子にするときは、内側のタグから先に閉じます。箱の中の箱を、先に閉じるイメージです。": {
+   "f": "ja/4fa623c86d63806e.mp3",
+   "b": 66432
+  },
+  "ja|0|入れ子は、少しむずかしいので、今は「そういうこともできる」と知っておくだけで十分です。": {
+   "f": "ja/0aeb75a63cc80bf0.mp3",
+   "b": 52608
+  },
+  "ja|0|入れ物の  ユーエルタグ  がありません。": {
+   "f": "ja/04005c4188a349a5.mp3",
+   "b": 20736
+  },
+  "ja|0|入力の用紙、つまりフォームの中では、サブミットという種類もあります。「送信する」という意味です。": {
+   "f": "ja/e974185d97075a81.mp3",
+   "b": 62592
+  },
+  "ja|0|全体をつなげると、こうなります。": {
+   "f": "ja/f5299b887f153723.mp3",
+   "b": 22656
+  },
+  "ja|0|全体をまとめると、こうなります。": {
+   "f": "ja/7285a119fccbf0db.mp3",
+   "b": 22080
+  },
+  "ja|0|全角で打つ": {
+   "f": "ja/06b7aaf0664c3982.mp3",
+   "b": 11520
+  },
+  "ja|0|全部を一度に打たなくて大丈夫です。1行ずつ打って、結果を見ながら進めましょう。": {
+   "f": "ja/b5d6807b882fa4eb.mp3",
+   "b": 57024
+  },
+  "ja|0|共有する・分ける": {
+   "f": "ja/c4fc72a0d11c2a52.mp3",
+   "b": 15744
+  },
+  "ja|0|最初から全部覚えなくて大丈夫です。何回も見るうちに、自然になじんできます。": {
+   "f": "ja/917111254cb9b52b.mp3",
+   "b": 56448
+  },
+  "ja|0|最初の行を読んでください。": {
+   "f": "ja/2c750392f6707465.mp3",
+   "b": 18816
+  },
+  "ja|0|最後に  ユーエルの閉じタグ  で閉じましょう。": {
+   "f": "ja/551da23c24b1dc73.mp3",
+   "b": 25152
+  },
+  "ja|0|最後に、もっと知りたい人のためのリンク。エーを使います。": {
+   "f": "ja/8ad5c74fc5398079.mp3",
+   "b": 38976
+  },
+  "ja|0|最後に、今日のまとめを、もう一度聞きましょう。": {
+   "f": "ja/c05f798b66da1ad8.mp3",
+   "b": 34560
+  },
+  "ja|0|最後に、英語だけで、通して聞いてみましょう。": {
+   "f": "ja/6b5b677487b8249c.mp3",
+   "b": 32256
+  },
+  "ja|0|最後に、言ってみる練習です。お手本のあと、合図の音が鳴ったら、続けて言ってみましょう。": {
+   "f": "ja/1c4cd6dab8fc62a7.mp3",
+   "b": 61056
+  },
+  "ja|0|出どころ・元": {
+   "f": "ja/e816b6c2b9d918b0.mp3",
+   "b": 12864
+  },
+  "ja|0|別のページに行く": {
+   "f": "ja/019329315b733c9b.mp3",
+   "b": 14976
+  },
+  "ja|0|別の場所へ行くならリンク。その場で何かするならボタン。今日はここまでです。": {
+   "f": "ja/8f5b1879ac0bb38c.mp3",
+   "b": 50688
+  },
+  "ja|0|別の案はありますか？": {
+   "f": "ja/2c7b4187207bd928.mp3",
+   "b": 15936
+  },
+  "ja|0|別れるとき": {
+   "f": "ja/41560f5dfa9787a1.mp3",
+   "b": 9600
+  },
+  "ja|0|前回の「どうする」と、同じ場所です。英語は、2番目に「どうする」か「です」が来る、と覚えると楽です。": {
+   "f": "ja/dc6e742437e46d0d.mp3",
+   "b": 77376
+  },
+  "ja|0|前回は、ページの骨組みを学びました。画面に見えるものは、ボディの中に書くのでしたね。": {
+   "f": "ja/b3be660cfa79640b.mp3",
+   "b": 60864
+  },
+  "ja|0|勉強する": {
+   "f": "ja/c2f352cd4b01f693.mp3",
+   "b": 9600
+  },
+  "ja|0|動き（どうする）を表す言葉を、何と言う？": {
+   "f": "ja/09f650b979bb1f3d.mp3",
+   "b": 36864
+  },
+  "ja|0|動きを表す言葉はどうし。like や eat が動詞です。": {
+   "f": "ja/fc7e9b52ae8ecb37.mp3",
+   "b": 38976
+  },
+  "ja|0|動詞": {
+   "f": "ja/164f043ad06607d7.mp3",
+   "b": 7104
+  },
+  "ja|0|区切り・休けい": {
+   "f": "ja/0e00f28dbac8f43c.mp3",
+   "b": 13632
+  },
+  "ja|0|半角で打つ": {
+   "f": "ja/ae0516ca94942ac0.mp3",
+   "b": 10944
+  },
+  "ja|0|参照・参考": {
+   "f": "ja/f9cf945fd36aa239.mp3",
+   "b": 15168
+  },
+  "ja|0|友だちと2人で、レストランに入る場面です。": {
+   "f": "ja/c3c58f04b1e55748.mp3",
+   "b": 29568
+  },
+  "ja|0|取り消す": {
+   "f": "ja/f5e0db909c992f3c.mp3",
+   "b": 7872
+  },
+  "ja|0|古い": {
+   "f": "ja/af623e2e014c0d46.mp3",
+   "b": 6720
+  },
+  "ja|0|同じサイトの中の、別のページに飛ぶこともできます。そのときは、ファイルの名前だけを書きます。": {
+   "f": "ja/199f5be6becaa4cd.mp3",
+   "b": 62592
+  },
+  "ja|0|同じフォルダにある画像なら、ファイルの名前だけで大丈夫です。": {
+   "f": "ja/1dbaa41972b8121d.mp3",
+   "b": 39552
+  },
+  "ja|0|名前は、今は覚えなくて大丈夫です。「だれが、どうする、なにを」の順番だけ覚えましょう。": {
+   "f": "ja/746813bc4783ba78.mp3",
+   "b": 61632
+  },
+  "ja|0|名前を大きな見出しにするなら？": {
+   "f": "ja/45a18c9c53056a00.mp3",
+   "b": 21120
+  },
+  "ja|0|名詞": {
+   "f": "ja/7b8857f6f2a9e72e.mp3",
+   "b": 7104
+  },
+  "ja|0|商品の画像をアップロードしてください。": {
+   "f": "ja/2fbbb5d10c3e3b46.mp3",
+   "b": 23808
+  },
+  "ja|0|問題は4問です。": {
+   "f": "ja/e1092e1516407cb8.mp3",
+   "b": 14976
+  },
+  "ja|0|営業時間を見る": {
+   "f": "ja/361396a835d04931.mp3",
+   "b": 13632
+  },
+  "ja|0|在庫": {
+   "f": "ja/5936274daecd02c1.mp3",
+   "b": 6912
+  },
+  "ja|0|報告・報告書": {
+   "f": "ja/93aa7b4fce560d40.mp3",
+   "b": 13248
+  },
+  "ja|0|報告書に見出しをつけてください。": {
+   "f": "ja/8439895b35df1c26.mp3",
+   "b": 21312
+  },
+  "ja|0|声で聞いても、行き先がわかる言葉が親切です。": {
+   "f": "ja/c842136d89b1016c.mp3",
+   "b": 35904
+  },
+  "ja|0|売る": {
+   "f": "ja/cde340402e66aef4.mp3",
+   "b": 5376
+  },
+  "ja|0|大きい": {
+   "f": "ja/3ef8dc2d2985cc8b.mp3",
+   "b": 7680
+  },
+  "ja|0|大きさは ウィズで決められる。今日はここまでです。": {
+   "f": "ja/bae7811634870470.mp3",
+   "b": 31296
+  },
+  "ja|0|大きすぎます。小さいのはありますか？": {
+   "f": "ja/ef1c5b231e75649c.mp3",
+   "b": 24768
+  },
+  "ja|0|大事なのは、見た目の大きさではなく、「どれくらい大事な見出しか」で選ぶことです。": {
+   "f": "ja/9b09a0f482a63516.mp3",
+   "b": 52032
+  },
+  "ja|0|好き（好む）": {
+   "f": "ja/762704c6feef5a0c.mp3",
+   "b": 9408
+  },
+  "ja|0|始まりのタグ  タイトルタグ  がまだありません。": {
+   "f": "ja/cdc7241545154fb8.mp3",
+   "b": 25536
+  },
+  "ja|0|始まりのタグと終わりのタグではさんだ文字が、ボタンの上に出る文字になります。": {
+   "f": "ja/72b29f638aa5bca9.mp3",
+   "b": 49344
+  },
+  "ja|0|始まりのタグの中に type=\"button\" を書きましょう。": {
+   "f": "ja/8dbec8d4998024ca.mp3",
+   "b": 37824
+  },
+  "ja|0|始まりのタグの中に、名前=\"値\" の形で書きます。": {
+   "f": "ja/3084f6059de16d93.mp3",
+   "b": 43776
+  },
+  "ja|0|安い": {
+   "f": "ja/b0ee5c8849664e78.mp3",
+   "b": 7104
+  },
+  "ja|0|小さい": {
+   "f": "ja/7cc8327c70108738.mp3",
+   "b": 7680
+  },
+  "ja|0|小さいかばんはありますか？": {
+   "f": "ja/b2c41efb450a0880.mp3",
+   "b": 17664
+  },
+  "ja|0|小なり記号は、左がとがった山の形。大なり記号は、右がとがった山の形です。": {
+   "f": "ja/33b8d61ff562c59e.mp3",
+   "b": 65280
+  },
+  "ja|0|少し休けいしましょう。": {
+   "f": "ja/a7909cb114b1dfaf.mp3",
+   "b": 15744
+  },
+  "ja|0|少し大きいです。もっと小さいのはありますか？": {
+   "f": "ja/af5720bcc6c2741b.mp3",
+   "b": 30912
+  },
+  "ja|0|属性の書き方で正しいのは？": {
+   "f": "ja/3537bb2749d50c2b.mp3",
+   "b": 21696
+  },
+  "ja|0|属性は、名前イコール、ダブルクォーテーションで囲んだ値。始まりのタグの中に書く。": {
+   "f": "ja/af488d6e55ec30b5.mp3",
+   "b": 60480
+  },
+  "ja|0|属性は、始まりのタグの中に、名前、イコール、ダブルクォーテーションで囲んだ値、の形で書きます。": {
+   "f": "ja/4c786898afbc63fa.mp3",
+   "b": 70848
+  },
+  "ja|0|幅": {
+   "f": "ja/e574dce1ae519a40.mp3",
+   "b": 5760
+  },
+  "ja|0|形容詞": {
+   "f": "ja/ec7a5c24f7005c28.mp3",
+   "b": 8832
+  },
+  "ja|0|形容詞（cheap）は、名詞（shirt）の前。日本語と同じ順番です。": {
+   "f": "ja/327d28ebf8cf1012.mp3",
+   "b": 58752
+  },
+  "ja|0|形容詞は、「です」のあとにも、名詞の前にも置けます。": {
+   "f": "ja/e04d8cb5285ed8a4.mp3",
+   "b": 41088
+  },
+  "ja|0|形容詞は、名詞の前にも置けます。「安いシャツ」は、こうです。": {
+   "f": "ja/52063c57dee6306f.mp3",
+   "b": 43200
+  },
+  "ja|0|手順・一歩": {
+   "f": "ja/01c96a3fbf8e08c2.mp3",
+   "b": 12480
+  },
+  "ja|0|打ってみる時間では、この中から、エイチワンと ピーと、リストを打ってみます。": {
+   "f": "ja/f8d2af91e28ec992.mp3",
+   "b": 49344
+  },
+  "ja|0|打つ課題は、画面を見られるときに、やってみてください。次に進みます。": {
+   "f": "ja/05718fd184cbe653.mp3",
+   "b": 49728
+  },
+  "ja|0|押したときの動きは JavaScript で書きます。HTMLは「置く」だけです。": {
+   "f": "ja/8a7406bda27f974e.mp3",
+   "b": 50880
+  },
+  "ja|0|押したときの動きは、ジャバスクリプトで、あとから書く。": {
+   "f": "ja/19345d4e56d55120.mp3",
+   "b": 37248
+  },
+  "ja|0|押すと何が起きるかが、すぐわかる言葉が親切です。": {
+   "f": "ja/61bee54faf93ab83.mp3",
+   "b": 38400
+  },
+  "ja|0|提出する・送信する": {
+   "f": "ja/7a84444d3618947e.mp3",
+   "b": 15744
+  },
+  "ja|0|改行されない（空白1つになる）": {
+   "f": "ja/3717f7f4b906d5d5.mp3",
+   "b": 24192
+  },
+  "ja|0|数字が小さいほど、大事で大きな見出しです。エイチワンがいちばん大きい見出しです。": {
+   "f": "ja/4dbefb0654303fb1.mp3",
+   "b": 52800
+  },
+  "ja|0|数字が小さいほど大事な見出しです。h1 がいちばん上です。": {
+   "f": "ja/ebfed1b6152397fa.mp3",
+   "b": 43008
+  },
+  "ja|0|文字・文章": {
+   "f": "ja/f049b3c2427f9914.mp3",
+   "b": 13248
+  },
+  "ja|0|文字が小さすぎます。": {
+   "f": "ja/f21ca023ad04c27d.mp3",
+   "b": 15552
+  },
+  "ja|0|文字だけのページより、写真や絵があると、ぐっとわかりやすくなりますね。": {
+   "f": "ja/4de1a64fa79ae1cf.mp3",
+   "b": 47424
+  },
+  "ja|0|文字の大きさ": {
+   "f": "ja/e4821ad5b968bd9d.mp3",
+   "b": 11520
+  },
+  "ja|0|文字を全部消す": {
+   "f": "ja/71cec03133f7ffc2.mp3",
+   "b": 13632
+  },
+  "ja|0|文書・書類": {
+   "f": "ja/1ae2162b6b7bb719.mp3",
+   "b": 12672
+  },
+  "ja|0|文章のかたまり（段落）を書くタグは？": {
+   "f": "ja/b5109a788c5b1501.mp3",
+   "b": 30528
+  },
+  "ja|0|文章のかたまりは ピー。コードで改行しても、画面では改行されない。": {
+   "f": "ja/ebc39197913b63c2.mp3",
+   "b": 49536
+  },
+  "ja|0|新しい": {
+   "f": "ja/1eb807e73f463cd8.mp3",
+   "b": 8640
+  },
+  "ja|0|新しい商品の一覧を作ってください。": {
+   "f": "ja/7bf51123094181ac.mp3",
+   "b": 26688
+  },
+  "ja|0|新聞や雑誌には、大きな文字の見出しと、ふつうの大きさの文章がありますよね。": {
+   "f": "ja/74799bc4e252850e.mp3",
+   "b": 55104
+  },
+  "ja|0|日にちを確認させてください。": {
+   "f": "ja/cc46ccf42598714b.mp3",
+   "b": 20160
+  },
+  "ja|0|日本語では、「毎日」や「お店で」は前のほうに来ますが、英語では、うしろにつけます。": {
+   "f": "ja/e7c19b0da41ed687.mp3",
+   "b": 65280
+  },
+  "ja|0|日本語と同じで、「安い」が「シャツ」の前に来ます。ここは日本語と同じなので、安心ですね。": {
+   "f": "ja/e82b86c5259d097e.mp3",
+   "b": 68736
+  },
+  "ja|0|日本語は、「だれが」「なにを」「どうする」の順番です。いちばん大事な「好き」は、最後に来ます。": {
+   "f": "ja/4dc8bbe166c2c78f.mp3",
+   "b": 67200
+  },
+  "ja|0|日本語は、最後まで聞かないと、何をするのかわかりません。英語は、2番目で、すぐにわかります。": {
+   "f": "ja/7ab69de638d1e409.mp3",
+   "b": 71424
+  },
+  "ja|0|日本語は、順番を入れかえても通じることがあります。「コーヒーが、わたしは、好きです。」でも、わかりますよね。": {
+   "f": "ja/001880b60c311da5.mp3",
+   "b": 71616
+  },
+  "ja|0|明日は空いていますか？": {
+   "f": "ja/440185d5bc5a227d.mp3",
+   "b": 15360
+  },
+  "ja|0|服のお店で、ジャケットを買う場面です。": {
+   "f": "ja/6dd708062acaaba7.mp3",
+   "b": 23040
+  },
+  "ja|0|朝、職場で、同僚のサムに会った場面です。": {
+   "f": "ja/dc18ad4197433349.mp3",
+   "b": 33792
+  },
+  "ja|0|札・目印": {
+   "f": "ja/3a5c09f01b6f007c.mp3",
+   "b": 13248
+  },
+  "ja|0|来てくれてありがとう。よい一日を！": {
+   "f": "ja/53696a277647ec32.mp3",
+   "b": 24576
+  },
+  "ja|0|棚の幅を確認してください。": {
+   "f": "ja/fdbb94c2dd96f5c6.mp3",
+   "b": 20352
+  },
+  "ja|0|構造・組み立て": {
+   "f": "ja/65f00d5d254559d9.mp3",
+   "b": 14592
+  },
+  "ja|0|次に、「好きなこと」という小さな見出し。エイチツーを使います。": {
+   "f": "ja/e719e47b7dbf8e29.mp3",
+   "b": 41280
+  },
+  "ja|0|次に、エイチティーエムエルタグで、ページ全体を包みます。": {
+   "f": "ja/cae24d91861027a3.mp3",
+   "b": 40704
+  },
+  "ja|0|次は、シーエスエスで、色や大きさを変えて、ページを見やすくしていく予定です。": {
+   "f": "ja/db46fd42f4d5b9c9.mp3",
+   "b": 54912
+  },
+  "ja|0|次は、思い出す練習です。英語を聞いて、意味を思い出してみましょう。": {
+   "f": "ja/a23faae09bdad93b.mp3",
+   "b": 47616
+  },
+  "ja|0|次は、文章です。文章のかたまりは、ピーというタグで書きます。": {
+   "f": "ja/64f7e43d4c158db9.mp3",
+   "b": 46464
+  },
+  "ja|0|正しいタグを使うと、読み上げの機能を使う人にも、「これはボタンです」と、きちんと伝わります。": {
+   "f": "ja/b8b0d3965592f62b.mp3",
+   "b": 62208
+  },
+  "ja|0|正解です。": {
+   "f": "ja/4893396d10f2d08a.mp3",
+   "b": 8832
+  },
+  "ja|0|段落": {
+   "f": "ja/227e8fcb1b0c0c3a.mp3",
+   "b": 8256
+  },
+  "ja|0|段落とは、文章の中の、ひとまとまりのことです。": {
+   "f": "ja/a5f9617ac9622089.mp3",
+   "b": 37632
+  },
+  "ja|0|段落の中で改行したいときだけ、ビーアール。今日はここまでです。": {
+   "f": "ja/97c51162fd74b81c.mp3",
+   "b": 46656
+  },
+  "ja|0|毎日": {
+   "f": "ja/5fe95c3a9629f11f.mp3",
+   "b": 7680
+  },
+  "ja|0|毎週月曜日に在庫を確認します。": {
+   "f": "ja/dcb3827776cb5fe6.mp3",
+   "b": 25536
+  },
+  "ja|0|注文を取り消す": {
+   "f": "ja/73500d6c27fa57ee.mp3",
+   "b": 13440
+  },
+  "ja|0|用紙・入力欄": {
+   "f": "ja/30abac7cf2ceb2d2.mp3",
+   "b": 15360
+  },
+  "ja|0|画像": {
+   "f": "ja/340d4e673d99b42c.mp3",
+   "b": 7104
+  },
+  "ja|0|画像が読みこめなかったとき、この文が代わりに表示されます。": {
+   "f": "ja/7f40f54fe0f8250e.mp3",
+   "b": 39936
+  },
+  "ja|0|画像にも、作った人の権利があります。自分で撮った写真や、使ってよいと書かれた画像を使いましょう。": {
+   "f": "ja/15161171cdd66d7e.mp3",
+   "b": 72000
+  },
+  "ja|0|画像の大きさ": {
+   "f": "ja/459d96274a1ec387.mp3",
+   "b": 12672
+  },
+  "ja|0|画像の大きさは、ウィズという属性で決めることもできます。width は「幅」という意味です。": {
+   "f": "ja/56d60f0ee6f40506.mp3",
+   "b": 60672
+  },
+  "ja|0|画像の色": {
+   "f": "ja/f490c9c1588cbb39.mp3",
+   "b": 9984
+  },
+  "ja|0|画像の説明の文": {
+   "f": "ja/41b30ab385e960f8.mp3",
+   "b": 16320
+  },
+  "ja|0|画像は img タグでのせます。": {
+   "f": "ja/488847b89e15a763.mp3",
+   "b": 22464
+  },
+  "ja|0|画像は イメージタグ。終わりのタグはいらない。": {
+   "f": "ja/e970580671d4e10c.mp3",
+   "b": 29952
+  },
+  "ja|0|画像は、イメージというタグでのせます。": {
+   "f": "ja/ec2da44ec191ce47.mp3",
+   "b": 25920
+  },
+  "ja|0|画像をのせるタグは？": {
+   "f": "ja/d9da52e601b23720.mp3",
+   "b": 15936
+  },
+  "ja|0|画面に表示される中身を書くのは、どの部屋？": {
+   "f": "ja/86f52c1672e72c94.mp3",
+   "b": 33600
+  },
+  "ja|0|画面を見ないで聞く人にも、何の画像かが伝わるように。オルトは、そのための思いやりです。": {
+   "f": "ja/d595cf1f1b52901d.mp3",
+   "b": 62208
+  },
+  "ja|0|番号つきの一覧（手順など）に使うのは？": {
+   "f": "ja/aa1e72e60bfcd3be.mp3",
+   "b": 33792
+  },
+  "ja|0|番号で答えてください。": {
+   "f": "ja/47d298eefd654c83.mp3",
+   "b": 16128
+  },
+  "ja|0|番号は、ブラウザが自動でつけてくれます。自分で1、2、3と打たなくて大丈夫です。": {
+   "f": "ja/7bc77a6095c05430.mp3",
+   "b": 61440
+  },
+  "ja|0|番号は、ブラウザが自動でつけてくれる。今日はここまでです。": {
+   "f": "ja/083a56c700913386.mp3",
+   "b": 39744
+  },
+  "ja|0|番号はつけられない": {
+   "f": "ja/1aeabdb159287e04.mp3",
+   "b": 15744
+  },
+  "ja|0|確かめる・確定する": {
+   "f": "ja/85ac64d4df8b0682.mp3",
+   "b": 17088
+  },
+  "ja|0|確認する": {
+   "f": "ja/a1dc4859b87526f2.mp3",
+   "b": 9792
+  },
+  "ja|0|種類・型": {
+   "f": "ja/6159e26cb3120b91.mp3",
+   "b": 11712
+  },
+  "ja|0|第1回は、ページの骨組み。ヘッドは見えない情報、ボディは見える中身でした。": {
+   "f": "ja/e35c97acb61d76e7.mp3",
+   "b": 57024
+  },
+  "ja|0|第2回の ビーアールと同じです。中に文字をはさまないからです。": {
+   "f": "ja/d365dc719e0da9d5.mp3",
+   "b": 42816
+  },
+  "ja|0|第2回は、見出しと段落。見出しは エイチワン、文章のかたまりは ピーでした。": {
+   "f": "ja/0a4700c72bb3e525.mp3",
+   "b": 56256
+  },
+  "ja|0|第3回は、リンク。エータグと、行き先を書く エイチレフでした。": {
+   "f": "ja/6c3be315e2171195.mp3",
+   "b": 44928
+  },
+  "ja|0|第4回は、画像。イメージタグと、ソースと オルトでした。": {
+   "f": "ja/43b6663413c0a094.mp3",
+   "b": 41088
+  },
+  "ja|0|第5回は、リスト。ユーエルと オーエル、そして項目の エルアイでした。": {
+   "f": "ja/bde8d797877cb0f2.mp3",
+   "b": 50112
+  },
+  "ja|0|第6回は、ボタン。ボタンタグでした。": {
+   "f": "ja/395474480edf2e3f.mp3",
+   "b": 27840
+  },
+  "ja|0|答えは、": {
+   "f": "ja/3e0cb22c511998a5.mp3",
+   "b": 7680
+  },
+  "ja|0|答えは、1番。": {
+   "f": "ja/1d4be66ecf11e904.mp3",
+   "b": 15168
+  },
+  "ja|0|答えは、1番です。": {
+   "f": "ja/214f30b1721fd970.mp3",
+   "b": 17280
+  },
+  "ja|0|答えは、2番。": {
+   "f": "ja/6aea625a3f6fb2be.mp3",
+   "b": 14592
+  },
+  "ja|0|答えは、2番です。": {
+   "f": "ja/35e79594c24a7e2f.mp3",
+   "b": 16512
+  },
+  "ja|0|答えは、3番。": {
+   "f": "ja/342053c51b1a9631.mp3",
+   "b": 15552
+  },
+  "ja|0|答えは、3番です。": {
+   "f": "ja/dd82c29da0f86470.mp3",
+   "b": 17472
+  },
+  "ja|0|答えは、4番。": {
+   "f": "ja/9f420e13264eecd5.mp3",
+   "b": 15552
+  },
+  "ja|0|答えは、4番です。": {
+   "f": "ja/0604ae15f0247771.mp3",
+   "b": 17280
+  },
+  "ja|0|箱を順番に並べてください。": {
+   "f": "ja/785eac269c2015a7.mp3",
+   "b": 20160
+  },
+  "ja|0|紹介する": {
+   "f": "ja/2457efffe743885d.mp3",
+   "b": 9792
+  },
+  "ja|0|終わりのタグ  タイトルの閉じタグ  がまだありません。スラッシュを忘れずに。": {
+   "f": "ja/fd5f1051e86ac6da.mp3",
+   "b": 45312
+  },
+  "ja|0|終わりのタグ  ビーアールの閉じタグ  が必要": {
+   "f": "ja/811ca9cc82a5a382.mp3",
+   "b": 26112
+  },
+  "ja|0|終わりのタグがいらない": {
+   "f": "ja/9e30b6def8787161.mp3",
+   "b": 15360
+  },
+  "ja|0|終わりのタグとスラッシュがあるか": {
+   "f": "ja/eec823e05d96a3f0.mp3",
+   "b": 19968
+  },
+  "ja|0|終わりのタグには、名前の前に、ななめの線、スラッシュがつきます。": {
+   "f": "ja/127102f4588ac71d.mp3",
+   "b": 46464
+  },
+  "ja|0|終わりのタグの中": {
+   "f": "ja/10bef7ab5eeb2903.mp3",
+   "b": 13440
+  },
+  "ja|0|終わりのタグの書き忘れや、スラッシュの忘れがよくある原因です。": {
+   "f": "ja/9fdd59aefc33efa9.mp3",
+   "b": 41664
+  },
+  "ja|0|終わりのタグは、どれ？": {
+   "f": "ja/a53dea6ddee75363.mp3",
+   "b": 16128
+  },
+  "ja|0|終わりのタグは、名前の前にスラッシュ（/）がつきます。": {
+   "f": "ja/4621ce47d9112f31.mp3",
+   "b": 37056
+  },
+  "ja|0|経験": {
+   "f": "ja/27fbdb769a4a340c.mp3",
+   "b": 7104
+  },
+  "ja|0|考えてみましょう。": {
+   "f": "ja/4cc699b421b4b14e.mp3",
+   "b": 12480
+  },
+  "ja|0|自分で 1. 2. と打つ": {
+   "f": "ja/27a2d833881213ca.mp3",
+   "b": 21504
+  },
+  "ja|0|自動で保存される": {
+   "f": "ja/fa65400c11c84a16.mp3",
+   "b": 15552
+  },
+  "ja|0|自己紹介・プロフィール": {
+   "f": "ja/00b97dff561396ce.mp3",
+   "b": 15360
+  },
+  "ja|0|自己紹介させてください。": {
+   "f": "ja/2905828466719d0e.mp3",
+   "b": 17280
+  },
+  "ja|0|英語、日本語の意味、もう一度英語、の順に読みます。まずは、聞くだけで大丈夫です。": {
+   "f": "ja/7d01b1d15ce9ddbc.mp3",
+   "b": 64512
+  },
+  "ja|0|英語の文の順番で、正しいのは？": {
+   "f": "ja/0bb8a66a6a9f6f18.mp3",
+   "b": 25152
+  },
+  "ja|0|英語の文の順番は？": {
+   "f": "ja/3ac62f71b56f1bf1.mp3",
+   "b": 17280
+  },
+  "ja|0|英語の文は、「だれが、どうする、なにを、どこで、いつ」の順番です。": {
+   "f": "ja/9f3dd02efdfd615f.mp3",
+   "b": 54720
+  },
+  "ja|0|英語の順番で、言ってみましょう。": {
+   "f": "ja/ed1821d44999782e.mp3",
+   "b": 22464
+  },
+  "ja|0|英語は、「だれが、どうする、なにを、どこで、いつ」。": {
+   "f": "ja/aec94a8042a5196f.mp3",
+   "b": 42624
+  },
+  "ja|0|英語は、「だれが、どうする、なにを」の順番。": {
+   "f": "ja/8df656d4af835c78.mp3",
+   "b": 34560
+  },
+  "ja|0|英語は、「だれが」「どうする」「なにを」の順番です。": {
+   "f": "ja/4a08619216010675.mp3",
+   "b": 35712
+  },
+  "ja|0|英語は、ちがいます。英語では、こう言います。": {
+   "f": "ja/1dd7ef41cd4e94a9.mp3",
+   "b": 32448
+  },
+  "ja|0|英語は「だれが、どうする、なにを、どこで、いつ」。日本語とほぼ反対の順番です。": {
+   "f": "ja/0ccc66c6af037b33.mp3",
+   "b": 66048
+  },
+  "ja|0|英語は「どうする」が2番目。日本語は「どうする」が最後です。": {
+   "f": "ja/6968c21f2745aa25.mp3",
+   "b": 47232
+  },
+  "ja|0|英語はここまでです。": {
+   "f": "ja/92075522822b31b9.mp3",
+   "b": 14400
+  },
+  "ja|0|行・線": {
+   "f": "ja/cb1bd7687ce0e96b.mp3",
+   "b": 11136
+  },
+  "ja|0|行き先があるなら、リンク（a タグ）を使います。": {
+   "f": "ja/24731af9a28f0112.mp3",
+   "b": 35328
+  },
+  "ja|0|見た目がボタンのようでも、行き先があるならリンクを使う。これが、正しい使い分けです。": {
+   "f": "ja/864d75577830afb4.mp3",
+   "b": 58944
+  },
+  "ja|0|見ているだけです": {
+   "f": "ja/a2bd9b7542caf473.mp3",
+   "b": 12864
+  },
+  "ja|0|見ているだけです、ありがとう。": {
+   "f": "ja/24e1456978e71855.mp3",
+   "b": 19584
+  },
+  "ja|0|見ているだけです、ありがとう。やわらかく断れます。": {
+   "f": "ja/223d296564018c83.mp3",
+   "b": 33216
+  },
+  "ja|0|見ているだけです。": {
+   "f": "ja/c1d03e3eca4e9091.mp3",
+   "b": 12672
+  },
+  "ja|0|見る（じっと見る）": {
+   "f": "ja/c90d4d2bede278f1.mp3",
+   "b": 13824
+  },
+  "ja|0|見出し": {
+   "f": "ja/4ea342d141b9534e.mp3",
+   "b": 7296
+  },
+  "ja|0|見出しには、エイチワンから エイチシックスまで、6つの大きさがあります。": {
+   "f": "ja/bbf64410e3481909.mp3",
+   "b": 46080
+  },
+  "ja|0|見出しは エイチワンから エイチシックス。数字が小さいほど大事な見出し。": {
+   "f": "ja/6c49a43701ad623b.mp3",
+   "b": 46848
+  },
+  "ja|0|見出しも、文章も、画像も、ボタンも、ぜんぶ ボディの中に書きます。": {
+   "f": "ja/f80d8f6756355073.mp3",
+   "b": 51840
+  },
+  "ja|0|見出しを作るタグ": {
+   "f": "ja/45764f07af2970b9.mp3",
+   "b": 14016
+  },
+  "ja|0|見本のサイト、という文字で、エグザンプル・ドット・コムに飛ぶリンクを作ってみましょう。エータグと、エイチレフ属性を使います。": {
+   "f": "ja/ffdb7abe0e688788.mp3",
+   "b": 78144
+  },
+  "ja|0|解説はここまでです。次は、短い問題です。": {
+   "f": "ja/dc86fca919b16893.mp3",
+   "b": 35328
+  },
+  "ja|0|言語・ことば": {
+   "f": "ja/be1706e75b8b8486.mp3",
+   "b": 12480
+  },
+  "ja|0|記号について気をつけることは？": {
+   "f": "ja/0fc10bd55ca36825.mp3",
+   "b": 20544
+  },
+  "ja|0|試着してもいいですか？": {
+   "f": "ja/d380f98d81b41a57.mp3",
+   "b": 15552
+  },
+  "ja|0|語順とは、言葉を並べる順番のことです。": {
+   "f": "ja/a913e6336e104c77.mp3",
+   "b": 29184
+  },
+  "ja|0|販売の経験が5年あります。": {
+   "f": "ja/070a118fbdb037cf.mp3",
+   "b": 21504
+  },
+  "ja|0|買い物かごが ユーエルで、その中に入っている品物の1つ1つが エルアイ、という感じです。": {
+   "f": "ja/adafe8fdb02e67e6.mp3",
+   "b": 59136
+  },
+  "ja|0|買い物メモや、やることの一覧。箇条書きは、毎日の仕事でもよく使いますよね。": {
+   "f": "ja/3862498c34c0f519.mp3",
+   "b": 59136
+  },
+  "ja|0|買う": {
+   "f": "ja/f19ccda01c1180ef.mp3",
+   "b": 5568
+  },
+  "ja|0|赤いボタンを押してください。": {
+   "f": "ja/fddfc697013dd64e.mp3",
+   "b": 18048
+  },
+  "ja|0|趣味": {
+   "f": "ja/ae114b350f4c4a4b.mp3",
+   "b": 5952
+  },
+  "ja|0|趣味は動画づくりです。": {
+   "f": "ja/a0ca7c9e14ad405b.mp3",
+   "b": 15936
+  },
+  "ja|0|迷ったら、「押したら別のページに行くかな」と考えます。行くなら エー、その場で何かするなら ボタンです。": {
+   "f": "ja/0af72f0e09057491.mp3",
+   "b": 67776
+  },
+  "ja|0|途中に項目を足しても、番号は自動でずれてくれるので、便利です。": {
+   "f": "ja/e833f6b368077ab6.mp3",
+   "b": 47040
+  },
+  "ja|0|連絡する・連絡先": {
+   "f": "ja/b43aab3b2fb2acb4.mp3",
+   "b": 19776
+  },
+  "ja|0|週末": {
+   "f": "ja/29ed0f97ee14455b.mp3",
+   "b": 8256
+  },
+  "ja|0|週末は忙しいです。": {
+   "f": "ja/a67878b8c72496a3.mp3",
+   "b": 16512
+  },
+  "ja|0|運転する": {
+   "f": "ja/1c7e157fdd82aef0.mp3",
+   "b": 9216
+  },
+  "ja|0|金曜日までに用紙を提出してください。": {
+   "f": "ja/7fbd3f5f5ff551cd.mp3",
+   "b": 25728
+  },
+  "ja|0|項目・品物": {
+   "f": "ja/a66e261d24f283fd.mp3",
+   "b": 15168
+  },
+  "ja|0|順番・注文": {
+   "f": "ja/029f0dd4d26d939e.mp3",
+   "b": 14592
+  },
+  "ja|0|順番のない箇条書きは ユーエル。順番のある一覧は オーエル。": {
+   "f": "ja/06d1e4753ad094c4.mp3",
+   "b": 43008
+  },
+  "ja|0|順番のない箇条書きは、ul の中に li を書きます。": {
+   "f": "ja/c218c9dc2ad26444.mp3",
+   "b": 40512
+  },
+  "ja|0|順番は、「これは、です、安いシャツ」です。": {
+   "f": "ja/8cba64342d85f26a.mp3",
+   "b": 34944
+  },
+  "ja|0|順番は、「だれが、です、なに」。「です」が、また2番目に来ていますね。": {
+   "f": "ja/9c9f479adf72d821.mp3",
+   "b": 52032
+  },
+  "ja|0|順番を入れかえても意味が変わらないなら、ul を使います。": {
+   "f": "ja/d519a76a32ea6306.mp3",
+   "b": 39744
+  },
+  "ja|0|頭・先頭": {
+   "f": "ja/30c1d5f5ef1cb9b3.mp3",
+   "b": 13632
+  },
+  "ja|0|題名・タイトル": {
+   "f": "ja/5d39042e39d2a918.mp3",
+   "b": 14208
+  },
+  "ja|0|飛び先のURLは、どこに書く？": {
+   "f": "ja/4a650975ea943858.mp3",
+   "b": 25920
+  },
+  "ja|0|食べる": {
+   "f": "ja/b514662fcdca3e22.mp3",
+   "b": 6528
+  },
+  "ja|0|飲み物はいかがですか？": {
+   "f": "ja/f6dc380fb2445e59.mp3",
+   "b": 15744
+  },
+  "ja|0|駅": {
+   "f": "ja/7289cb10ce110bdc.mp3",
+   "b": 5952
+  },
+  "ja|0|高さ": {
+   "f": "ja/43e7156a943ada21.mp3",
+   "b": 6720
+  },
+  "ja|0|高さは、ハイトという属性です。幅だけ書けば、高さは、形をくずさずに合わせてくれます。": {
+   "f": "ja/34a103babe8d9297.mp3",
+   "b": 64320
+  },
+  "ja|0|黒いかばんを探しています。": {
+   "f": "ja/40cf7f2983004163.mp3",
+   "b": 18432
+  }
+ },
+ "lessons": {
+  "talk-03": [
+   "en/b14d412cca7be697.mp3",
+   "en/46a72ed5a2fd0910.mp3",
+   "en/dd1d30e8485ab543.mp3",
+   "en/d6c101ee4f083111.mp3",
+   "en/ca52d37c44de2bc5.mp3",
+   "en/112f384390c70f8d.mp3",
+   "en/dc27eb8a30ecbd2f.mp3",
+   "en/59b6a537e5414af3.mp3",
+   "en/63350238b0e5317b.mp3",
+   "en/4e2d3a3ac8606a80.mp3",
+   "en/924092594ecd058b.mp3",
+   "en/3a0db07ea76b9daf.mp3",
+   "en/2070bfb6b25157e2.mp3",
+   "en/60cbc33de355c83e.mp3",
+   "en/e0f32ab23e31489b.mp3",
+   "en/861e21d835b9c87e.mp3",
+   "en/005c9784bcfc6670.mp3",
+   "en/21972e33377c89b2.mp3",
+   "en/fa670565e57a24cd.mp3",
+   "en/b57873082d2e0cc1.mp3",
+   "en/abb901e232b09a3b.mp3",
+   "en/f0d0321b9742f97e.mp3",
+   "en/c6a617628f9c6797.mp3",
+   "en/c450779e879cc45f.mp3",
+   "en/2a06e200f24a8f1f.mp3",
+   "en/ac871f0e9358ef8d.mp3",
+   "en/d71e02c281d0860d.mp3",
+   "en/04da8cb2f17eb14d.mp3",
+   "en/3feda70bd09fb201.mp3",
+   "en/c660cba889002ee1.mp3",
+   "en/7a1361425dc7a65b.mp3",
+   "en/2cf40e5021edc9f4.mp3",
+   "en/faa01be421a2f3b6.mp3",
+   "en/7d313051e46b6afa.mp3",
+   "en/b7f8c54586600f33.mp3",
+   "ja/bc0e57c809513acb.mp3",
+   "ja/9f3514701907d1a3.mp3",
+   "ja/1cfe0f18db7d5771.mp3",
+   "ja/d31fa311b8251992.mp3",
+   "ja/6c83aa75c80c9dd7.mp3",
+   "ja/6835a1646ed174c7.mp3",
+   "ja/231b4ce6808dd961.mp3",
+   "ja/6df6387cdb2519dc.mp3",
+   "ja/fd99aed8ad5f56a9.mp3",
+   "ja/429d29a7b3bee0b7.mp3",
+   "ja/517efcb70f9609fe.mp3",
+   "ja/487452a2a1f0824f.mp3",
+   "ja/391c8cfed53eb251.mp3",
+   "ja/6384c17ee712fd6e.mp3",
+   "ja/83a9fd290043c7cd.mp3",
+   "ja/3f45aec24755104a.mp3",
+   "ja/2cd9de549bcf5663.mp3",
+   "ja/c5e0b855f067d8b4.mp3",
+   "ja/7dce2f705d226d71.mp3",
+   "ja/1c32a39611beb4a1.mp3",
+   "ja/53677c8529280164.mp3",
+   "ja/11f3e9b71f1c67de.mp3",
+   "ja/aa72ad50afa263d9.mp3",
+   "ja/0df1f4ba0f398ba7.mp3",
+   "ja/1aee1b4b7260f9e8.mp3",
+   "ja/ef9136514bcfadfd.mp3",
+   "ja/4a55df6f6fc4b6dc.mp3",
+   "ja/dfd618fdec97a909.mp3",
+   "ja/fc9c7ba94a0b7835.mp3",
+   "ja/f2ba2cf69514d5ef.mp3",
+   "ja/516ad1b7e59ffcbc.mp3",
+   "ja/c2c37d9460c308d9.mp3",
+   "ja/642e774093d60a9c.mp3",
+   "ja/52b21a0797475653.mp3",
+   "ja/ea3cf98b79ff6341.mp3",
+   "ja/c89cf7dccb4b546b.mp3",
+   "ja/e9b6a4bdcce06e00.mp3",
+   "ja/72d68f6586eb7751.mp3",
+   "ja/f7336b9ab67875f1.mp3",
+   "ja/b9b134ccff756d65.mp3",
+   "ja/8c424eb303f2071e.mp3",
+   "ja/c3c58f04b1e55748.mp3",
+   "ja/f6dc380fb2445e59.mp3"
+  ],
+  "talk-01": [
+   "en/3fa961d04b796108.mp3",
+   "en/7717d49dbaff896d.mp3",
+   "en/d890d739b5b894d3.mp3",
+   "en/a1b770fae768cd50.mp3",
+   "en/4aa1a3de8c29bc1e.mp3",
+   "en/99a791191bc0477d.mp3",
+   "en/bb7ab7bddc2b7fa4.mp3",
+   "en/a4741f7b8f4d05da.mp3",
+   "en/1ff7f793f05b49ad.mp3",
+   "en/2e578a4c49742a6f.mp3",
+   "en/aeec94d4c84b6c7c.mp3",
+   "en/bda75c784f91da68.mp3",
+   "en/4a38ef0a9541048c.mp3",
+   "en/85238ad9be6833e8.mp3",
+   "en/292d1ad80d07b1d3.mp3",
+   "en/abb901e232b09a3b.mp3",
+   "en/ec2a93a25e7cf8e1.mp3",
+   "en/a3e7a564721da57c.mp3",
+   "en/65135830cff68e09.mp3",
+   "en/03aeef8759d243f3.mp3",
+   "en/a1803acc186e670f.mp3",
+   "en/b83c13694e6ae86c.mp3",
+   "en/fe69c38ba7c50ae9.mp3",
+   "en/f7456b03a783a8e4.mp3",
+   "en/a55a2ad2b578f12d.mp3",
+   "ja/d2efc86f5c6fc8ee.mp3",
+   "ja/cfc6c675ee0f4c42.mp3",
+   "ja/c3bce1f829172ffe.mp3",
+   "ja/edbc541b02105782.mp3",
+   "ja/74f990dc68b33951.mp3",
+   "ja/4d6e444e18d12474.mp3",
+   "ja/754b1c8dc43e4fff.mp3",
+   "ja/bb13f394cfc66743.mp3",
+   "ja/0ec69bebcd0d227b.mp3",
+   "ja/03617cd1b491793c.mp3",
+   "ja/5db93faf9874dfd1.mp3",
+   "ja/ea766adfd0b1a2b9.mp3",
+   "ja/4757476e174be0ea.mp3",
+   "ja/74c95fc00ee64dbe.mp3",
+   "ja/4a1510ace57f7723.mp3",
+   "ja/f2ba2cf69514d5ef.mp3",
+   "ja/6265e0eb02b4f1af.mp3",
+   "ja/6164970da0da808b.mp3",
+   "ja/df4df6ce1c56c418.mp3",
+   "ja/a95ede8b9cabdce0.mp3",
+   "ja/1d1f58caeb79ee59.mp3",
+   "ja/4ab6cb017f13f7e1.mp3",
+   "ja/ca817b112fc18f09.mp3",
+   "ja/4d95d96c30ee2b50.mp3",
+   "ja/b6ab878ccbe424ca.mp3",
+   "ja/9ca8f303f6f99d01.mp3",
+   "ja/e2e44235ff344bc3.mp3",
+   "ja/f622d787433aa7ec.mp3",
+   "ja/93a32cc844654ecf.mp3",
+   "ja/f84cf0926f3c9af6.mp3",
+   "ja/371a8723113f06e8.mp3",
+   "ja/cda3cac813c70040.mp3",
+   "ja/da2b5f7c24bd50b1.mp3",
+   "ja/59714efa351bee8d.mp3",
+   "ja/e3026f4155789d51.mp3",
+   "ja/817012d022533dd6.mp3",
+   "ja/b3ca4cb2e769b0ac.mp3",
+   "ja/d3d150478a1fe482.mp3",
+   "ja/20badc679fac90c5.mp3",
+   "ja/11d7b50b31c569d0.mp3",
+   "ja/ee9790d2a3733566.mp3",
+   "ja/be90d121c64c2173.mp3",
+   "ja/d162025ebbbe2669.mp3",
+   "ja/41560f5dfa9787a1.mp3",
+   "ja/dc18ad4197433349.mp3",
+   "ja/53696a277647ec32.mp3",
+   "ja/7d01b1d15ce9ddbc.mp3"
+  ],
+  "talk-02": [
+   "en/b6b4814aef87fb68.mp3",
+   "en/7403c2842735296e.mp3",
+   "en/0a8ac83c16326c74.mp3",
+   "en/b1656871094ae49a.mp3",
+   "en/24b82eb0b843a8a9.mp3",
+   "en/8578cd374d042b6c.mp3",
+   "en/780cde84ff21f0a2.mp3",
+   "en/859a8ab6a4e96a72.mp3",
+   "en/adcd09b51b53c650.mp3",
+   "en/924092594ecd058b.mp3",
+   "en/3b894292dc2f7189.mp3",
+   "en/52b0712758110943.mp3",
+   "en/aeec94d4c84b6c7c.mp3",
+   "en/e4f6cbf2295f961a.mp3",
+   "en/161ca87675916b0f.mp3",
+   "en/bacc1f0cd1ada392.mp3",
+   "en/fa670565e57a24cd.mp3",
+   "en/2d93c4af6386ed6a.mp3",
+   "en/c417f884600a7c51.mp3",
+   "en/828f29165262dd06.mp3",
+   "en/3fa4499b777b045e.mp3",
+   "en/f89af2fe3b0b9272.mp3",
+   "en/192139a4faea8a3f.mp3",
+   "en/b8a71bbdae7e388d.mp3",
+   "en/a06f145834503e79.mp3",
+   "en/df81f2d327fbcc20.mp3",
+   "en/595cd75eff24b11e.mp3",
+   "en/e45cd93c9442db7e.mp3",
+   "en/aeb3128ce6cb4d96.mp3",
+   "ja/7fb31712b30d756d.mp3",
+   "ja/7cdf8d41cb23c0bb.mp3",
+   "ja/b65d97a666bf1100.mp3",
+   "ja/d0342b8c357f8eb6.mp3",
+   "ja/3ae60f6ffcdf98c6.mp3",
+   "ja/429d29a7b3bee0b7.mp3",
+   "ja/14e49a4821766866.mp3",
+   "ja/c87448998907e64f.mp3",
+   "ja/0f0dc7f220c57da4.mp3",
+   "ja/37af76918cfa813b.mp3",
+   "ja/b403d39ff41ce078.mp3",
+   "ja/b10d3fccd0abc9a7.mp3",
+   "ja/fb87258224a21813.mp3",
+   "ja/be5badf2c47e2d43.mp3",
+   "ja/d31233136c23455e.mp3",
+   "ja/6f6aa4ac65559950.mp3",
+   "ja/757e7c324fe716ce.mp3",
+   "ja/390b1a8598c3f337.mp3",
+   "ja/9aa4ff0a4a7462c0.mp3",
+   "ja/a9c73c0f2ba722b7.mp3",
+   "ja/f2ba2cf69514d5ef.mp3",
+   "ja/81c3dc7250f0ceee.mp3",
+   "ja/0af656a76d5d62e2.mp3",
+   "ja/4994547ec8be380d.mp3",
+   "ja/584d192df96cfdb6.mp3",
+   "ja/646bff91269848f6.mp3",
+   "ja/d26f9b8873017555.mp3",
+   "ja/6f34469c6703c5cc.mp3",
+   "ja/0fc98e621ef67da9.mp3",
+   "ja/73977afb7f763da1.mp3",
+   "ja/6b7e3895754df844.mp3",
+   "ja/c96820b8f80835eb.mp3",
+   "ja/cf0f31f0642c38bb.mp3",
+   "ja/f1407824ed46807f.mp3",
+   "ja/6430d32499ddcd9e.mp3",
+   "ja/54a3c4bed1857bba.mp3",
+   "ja/afb2faffaa616523.mp3",
+   "ja/ef1c5b231e75649c.mp3",
+   "ja/af5720bcc6c2741b.mp3",
+   "ja/6dd708062acaaba7.mp3",
+   "ja/a2bd9b7542caf473.mp3",
+   "ja/24e1456978e71855.mp3",
+   "ja/223d296564018c83.mp3",
+   "ja/c1d03e3eca4e9091.mp3",
+   "ja/d380f98d81b41a57.mp3",
+   "ja/40cf7f2983004163.mp3"
+  ],
+  "grammar-02": [
+   "en/fb15992c3eea72c9.mp3",
+   "en/6ed3bbab6928b698.mp3",
+   "en/311838754d114c80.mp3",
+   "en/1a761f3d0ecd0e19.mp3",
+   "en/5d82939419099b76.mp3",
+   "en/1a5fe5c65bf42927.mp3",
+   "en/cd522b7d1ba30b1a.mp3",
+   "en/176241e9dbd00b17.mp3",
+   "en/bb4a33c12daafbbd.mp3",
+   "en/65adcb2ab77c8a75.mp3",
+   "en/9a884bb30b0d983e.mp3",
+   "en/8ed98e2a97b1fe31.mp3",
+   "en/f00c913db50dcf6a.mp3",
+   "en/12b21ade1bdfb87c.mp3",
+   "en/e0bc3a8914583e16.mp3",
+   "en/bcbc77ef87865c83.mp3",
+   "en/3dc7aca638412c24.mp3",
+   "en/8bb0b0a8735a6065.mp3",
+   "en/965b28f266a1e44f.mp3",
+   "en/f65aeafea589a2a9.mp3",
+   "en/6682b068d50b0f97.mp3",
+   "en/73b0600fc85ea865.mp3",
+   "en/7d4d9130aa89439a.mp3",
+   "en/15880eb716748390.mp3",
+   "en/357381fe4653be65.mp3",
+   "en/ccd6e06d08a3fe5e.mp3",
+   "en/bc32afd8f1c74b83.mp3",
+   "ja/c306c7a867850366.mp3",
+   "ja/eee9f488049da5b8.mp3",
+   "ja/4663d101e1cb1ee7.mp3",
+   "ja/c9105e305d9ca771.mp3",
+   "ja/b931ead24e3c4048.mp3",
+   "ja/b7162effa37eb8b2.mp3",
+   "ja/f35fa38012f3d086.mp3",
+   "ja/a184e89984b199aa.mp3",
+   "ja/e972a2538176ee1f.mp3",
+   "ja/50399e4770a9f663.mp3",
+   "ja/0169689f68302a77.mp3",
+   "ja/0d0521f29cebab6b.mp3",
+   "ja/c2099839330c92fc.mp3",
+   "ja/8255c7ebdc470c3b.mp3",
+   "ja/fe77e33100d54dba.mp3",
+   "ja/1d5bbda59d07bcb6.mp3",
+   "ja/23306da729cf879e.mp3",
+   "ja/a76af1bc9fd9d35c.mp3",
+   "ja/93d083df4a7cd9fd.mp3",
+   "ja/20c370e9f4db7412.mp3",
+   "ja/823b60de5c22d542.mp3",
+   "ja/41d3c2399a053bde.mp3",
+   "ja/0f38375e1aa8121a.mp3",
+   "ja/027e451b3b2690b6.mp3",
+   "ja/b25541a2a9a3394b.mp3",
+   "ja/fdf34eed1722ce3d.mp3",
+   "ja/6bdf15d8a2c67fa2.mp3",
+   "ja/bf54be46ca95d090.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/8ad96fa2ffa901bf.mp3",
+   "ja/d4d9bb9152238aef.mp3",
+   "ja/7fe1bbca91d3a857.mp3",
+   "ja/de6b7b1e1479b24f.mp3",
+   "ja/6380bdd0970fb465.mp3",
+   "ja/f197e7f93d35fdd7.mp3",
+   "ja/ebd3bf7b2c3f1eb1.mp3",
+   "ja/c4dc30db014d6187.mp3",
+   "ja/9f5054f25c580bc5.mp3",
+   "ja/50a283b0b1fea011.mp3",
+   "ja/dc6e742437e46d0d.mp3",
+   "ja/164f043ad06607d7.mp3",
+   "ja/af623e2e014c0d46.mp3",
+   "ja/7b8857f6f2a9e72e.mp3",
+   "ja/3ef8dc2d2985cc8b.mp3",
+   "ja/b0ee5c8849664e78.mp3",
+   "ja/7cc8327c70108738.mp3",
+   "ja/b2c41efb450a0880.mp3",
+   "ja/ec7a5c24f7005c28.mp3",
+   "ja/327d28ebf8cf1012.mp3",
+   "ja/e04d8cb5285ed8a4.mp3",
+   "ja/52063c57dee6306f.mp3",
+   "ja/1eb807e73f463cd8.mp3",
+   "ja/e82b86c5259d097e.mp3",
+   "ja/8cba64342d85f26a.mp3",
+   "ja/9c9f479adf72d821.mp3"
+  ],
+  "html-02": [
+   "en/b0722ce15a45a0b9.mp3",
+   "en/79fd2bcf68726a2d.mp3",
+   "en/5aa0a2ff8af966cc.mp3",
+   "en/7143b0c2a15e12b2.mp3",
+   "en/3b78b70e51ca59d3.mp3",
+   "en/f752446612738c75.mp3",
+   "en/a7aaf421a7f56734.mp3",
+   "en/2b44f7da77234038.mp3",
+   "en/88ab8fd3db5587f6.mp3",
+   "en/223aa59dc0ea1978.mp3",
+   "en/82c4f95abec57f59.mp3",
+   "en/5815163b46237544.mp3",
+   "en/084bc3b5a2b940f7.mp3",
+   "en/ff09290c21fd4659.mp3",
+   "ja/43dfa8355092dc3d.mp3",
+   "ja/e32a4f3329f96cef.mp3",
+   "ja/bd20645ab5fa8e15.mp3",
+   "ja/5cc67bf05b98193b.mp3",
+   "ja/50a1e4d83becd064.mp3",
+   "ja/bb540e1382da6766.mp3",
+   "ja/b486cccb9fe95575.mp3",
+   "ja/4e8b77028acda3fc.mp3",
+   "ja/7bd151f7412cfd1e.mp3",
+   "ja/8f0ca3453e733227.mp3",
+   "ja/5ea98f3b2d157bff.mp3",
+   "ja/b24c854bda267608.mp3",
+   "ja/3de5d69e4eb42a81.mp3",
+   "ja/e0d0e55d698ea10f.mp3",
+   "ja/718be870b824ee9d.mp3",
+   "ja/ed5330fe1df3a4f2.mp3",
+   "ja/7d5bfd336ed12d12.mp3",
+   "ja/aaca9b5ed0432051.mp3",
+   "ja/a3ba070b75faf34b.mp3",
+   "ja/2d1761c395952552.mp3",
+   "ja/90f1274bd4f4f287.mp3",
+   "ja/c2a23d7cba7ed63c.mp3",
+   "ja/6667f099d9824e2d.mp3",
+   "ja/bccb6a959480ad54.mp3",
+   "ja/a757d154d7dc8f47.mp3",
+   "ja/2d7e9876fbdf4da0.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/f063e046c4bcadc3.mp3",
+   "ja/bcfc9c181607d1f6.mp3",
+   "ja/fb2d88147d087f49.mp3",
+   "ja/166624001eeb4750.mp3",
+   "ja/8762d1ebb51bd269.mp3",
+   "ja/79697ad1c2350174.mp3",
+   "ja/4839b52782c03d69.mp3",
+   "ja/77c2b0c65e04f4e2.mp3",
+   "ja/66f0eb3f6f2fdcf3.mp3",
+   "ja/f890def82b56abb5.mp3",
+   "ja/64b4a88aa8f23d64.mp3",
+   "ja/a155bb4563384b6d.mp3",
+   "ja/89414d3cc9357763.mp3",
+   "ja/7c71c12193ba6e6f.mp3",
+   "ja/472718f95a750991.mp3",
+   "ja/602050b94953c679.mp3",
+   "ja/3eea1510a033bf21.mp3",
+   "ja/a4b677798bcaeadf.mp3",
+   "ja/2c750392f6707465.mp3",
+   "ja/b3be660cfa79640b.mp3",
+   "ja/0e00f28dbac8f43c.mp3",
+   "ja/93aa7b4fce560d40.mp3",
+   "ja/8439895b35df1c26.mp3",
+   "ja/9b09a0f482a63516.mp3",
+   "ja/a7909cb114b1dfaf.mp3",
+   "ja/3717f7f4b906d5d5.mp3",
+   "ja/4dbefb0654303fb1.mp3",
+   "ja/ebfed1b6152397fa.mp3",
+   "ja/f049b3c2427f9914.mp3",
+   "ja/f21ca023ad04c27d.mp3",
+   "ja/b5109a788c5b1501.mp3",
+   "ja/ebc39197913b63c2.mp3",
+   "ja/74799bc4e252850e.mp3",
+   "ja/64f7e43d4c158db9.mp3",
+   "ja/227e8fcb1b0c0c3a.mp3",
+   "ja/a5f9617ac9622089.mp3",
+   "ja/97c51162fd74b81c.mp3",
+   "ja/811ca9cc82a5a382.mp3",
+   "ja/9e30b6def8787161.mp3",
+   "ja/cb1bd7687ce0e96b.mp3",
+   "ja/4ea342d141b9534e.mp3",
+   "ja/bbf64410e3481909.mp3",
+   "ja/6c49a43701ad623b.mp3",
+   "ja/45764f07af2970b9.mp3"
+  ],
+  "html-03": [
+   "en/27cb0435d2fd9f67.mp3",
+   "en/ebde48e523676e47.mp3",
+   "en/157f76667b448778.mp3",
+   "en/6965f4e0620973f0.mp3",
+   "en/ca27d92357d69667.mp3",
+   "en/18791e12653c303b.mp3",
+   "en/f580617b4fa1fc75.mp3",
+   "en/5be0852183606c1b.mp3",
+   "en/88af5ce7067764ad.mp3",
+   "en/d839ad95c9a8ce4c.mp3",
+   "en/cd2396c48146484f.mp3",
+   "en/91894e0690056a6a.mp3",
+   "en/d6d0c9703a154b49.mp3",
+   "en/fb685f193e5959b4.mp3",
+   "ja/caf3b93a14624323.mp3",
+   "ja/d5782e7229b2e295.mp3",
+   "ja/1e70329b8d2e4f90.mp3",
+   "ja/b06edb5439d1d6a5.mp3",
+   "ja/50a1e4d83becd064.mp3",
+   "ja/1c8fb68e2670840b.mp3",
+   "ja/17a1ded003226724.mp3",
+   "ja/b90aaf90c6dc7a29.mp3",
+   "ja/3471e267c339026f.mp3",
+   "ja/bdeef470d6f25a0b.mp3",
+   "ja/b488fff7ef7f9472.mp3",
+   "ja/22632c0a25b038fa.mp3",
+   "ja/f9dc93567c7fddb3.mp3",
+   "ja/b477b3d5689757e5.mp3",
+   "ja/0dcf355566c8f7c3.mp3",
+   "ja/ec21bb144551e016.mp3",
+   "ja/e06163f0e656521d.mp3",
+   "ja/2a2ef3fa0ddd84ae.mp3",
+   "ja/a49515e8770b53c4.mp3",
+   "ja/186dca7af8fb236d.mp3",
+   "ja/c649b1660ffac394.mp3",
+   "ja/24886aabbec9730e.mp3",
+   "ja/bab27488fe72eac4.mp3",
+   "ja/3a2c95f25b15bf3c.mp3",
+   "ja/eedba04c62f3fc14.mp3",
+   "ja/30d53756117e5b7f.mp3",
+   "ja/c9e691e137dbc34f.mp3",
+   "ja/d78a27d513100cf2.mp3",
+   "ja/385ba8a71eeeea6c.mp3",
+   "ja/8dfca8bfeea60145.mp3",
+   "ja/1df479d30edb0710.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/0bbb05238c942edc.mp3",
+   "ja/193c317f75e2d9a4.mp3",
+   "ja/8b7844d2a09cc24c.mp3",
+   "ja/2a5feb821bd3218c.mp3",
+   "ja/d57d9150f0ee0dde.mp3",
+   "ja/273a237162d3b114.mp3",
+   "ja/d0b8bf99f5f3b351.mp3",
+   "ja/29645b89fe1e2399.mp3",
+   "ja/5478b48b1dbe322a.mp3",
+   "ja/b0762e0b8bfc2cb8.mp3",
+   "ja/02e7f8a34691c585.mp3",
+   "ja/8c59254b4d9ca693.mp3",
+   "ja/c34e1e1c1652ae10.mp3",
+   "ja/40446d844e71d759.mp3",
+   "ja/442436b6543a2e1c.mp3",
+   "ja/985e7226735d65d6.mp3",
+   "ja/a9970ec0d8d74867.mp3",
+   "ja/2d393f9f3e0f9be4.mp3",
+   "ja/dbe972136f7d8dc4.mp3",
+   "ja/9c1fe609b10462c1.mp3",
+   "ja/818b7d6c3b873a7d.mp3",
+   "ja/02f07d129120363e.mp3",
+   "ja/06f8d9b624c3cb8c.mp3",
+   "ja/8d2515972b45d68e.mp3",
+   "ja/4fa623c86d63806e.mp3",
+   "ja/f9cf945fd36aa239.mp3",
+   "ja/199f5be6becaa4cd.mp3",
+   "ja/361396a835d04931.mp3",
+   "ja/c842136d89b1016c.mp3",
+   "ja/3084f6059de16d93.mp3",
+   "ja/3537bb2749d50c2b.mp3",
+   "ja/af488d6e55ec30b5.mp3",
+   "ja/4c786898afbc63fa.mp3",
+   "ja/440185d5bc5a227d.mp3",
+   "ja/10bef7ab5eeb2903.mp3",
+   "ja/ffdb7abe0e688788.mp3",
+   "ja/b43aab3b2fb2acb4.mp3",
+   "ja/4a650975ea943858.mp3"
+  ],
+  "html-04": [
+   "en/a0c2a899e43cf785.mp3",
+   "en/f9b7e027149279e4.mp3",
+   "en/bacd59b2dee58ee7.mp3",
+   "en/98a2ff19ed520ae2.mp3",
+   "en/fc7931c9ab6873a9.mp3",
+   "en/79af681434f77f77.mp3",
+   "en/b270da4c28fa1b9d.mp3",
+   "en/8a291bcb83f53e96.mp3",
+   "en/591877d89bd85505.mp3",
+   "en/f4c0dc88f06fd327.mp3",
+   "en/532b79c07d103bf5.mp3",
+   "en/e60dac850f95d461.mp3",
+   "en/0224a9c8f0463f79.mp3",
+   "en/d794d3dedbb897f7.mp3",
+   "ja/fc5b771a5d32f3b9.mp3",
+   "ja/e49ad482e9ab25c5.mp3",
+   "ja/9e79cc83bcae541e.mp3",
+   "ja/d11c5676c9ec598f.mp3",
+   "ja/fc8783120ea425ab.mp3",
+   "ja/20ea8defe198ff9b.mp3",
+   "ja/dfc34c2de33c8f8c.mp3",
+   "ja/6a7038634fa17be7.mp3",
+   "ja/d31787c2c142a328.mp3",
+   "ja/8d606292a9c10bc8.mp3",
+   "ja/35025b1f22d2acf8.mp3",
+   "ja/b1df903fdaca3ae5.mp3",
+   "ja/927b6c8571d72f81.mp3",
+   "ja/3310b89d97b84db6.mp3",
+   "ja/53f517388501ed94.mp3",
+   "ja/ec0fb8287d7a2183.mp3",
+   "ja/8a689de1502ae1ae.mp3",
+   "ja/f8258523c4eaffb1.mp3",
+   "ja/f6b3e887ef862576.mp3",
+   "ja/6409367f7ca3fb0e.mp3",
+   "ja/ee231081aba22c25.mp3",
+   "ja/7ca797390ae33474.mp3",
+   "ja/bbfa73389926f766.mp3",
+   "ja/4a950faded22ba71.mp3",
+   "ja/4c468c6fce8e82ce.mp3",
+   "ja/344e46061bb10965.mp3",
+   "ja/4980fe65c8d9b114.mp3",
+   "ja/0814fbc620046955.mp3",
+   "ja/fdcde850eda9c01e.mp3",
+   "ja/95ee622f3bff462a.mp3",
+   "ja/1911288fa9a3dfc6.mp3",
+   "ja/c45b6e58b4ca70ac.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/ee3ba2274208960a.mp3",
+   "ja/aaeb1b6d84418a7b.mp3",
+   "ja/19a3ef173185205b.mp3",
+   "ja/dacc98d0bd434c01.mp3",
+   "ja/01316ffe99cf2cc7.mp3",
+   "ja/eeb7d1223a7ec78c.mp3",
+   "ja/9ce0ec0aa61ca737.mp3",
+   "ja/7fd4f9601856b540.mp3",
+   "ja/735d4c07126caecc.mp3",
+   "ja/8da6fdceb9dcdcf2.mp3",
+   "ja/15bea9f2ad13bea4.mp3",
+   "ja/13f8c01ebf3e6784.mp3",
+   "ja/86e8888fc503df67.mp3",
+   "ja/0c6a93311517762b.mp3",
+   "ja/e816b6c2b9d918b0.mp3",
+   "ja/2c7b4187207bd928.mp3",
+   "ja/1dbaa41972b8121d.mp3",
+   "ja/2fbbb5d10c3e3b46.mp3",
+   "ja/bae7811634870470.mp3",
+   "ja/e574dce1ae519a40.mp3",
+   "ja/4de1a64fa79ae1cf.mp3",
+   "ja/fdbb94c2dd96f5c6.mp3",
+   "ja/340d4e673d99b42c.mp3",
+   "ja/7f40f54fe0f8250e.mp3",
+   "ja/15161171cdd66d7e.mp3",
+   "ja/459d96274a1ec387.mp3",
+   "ja/56d60f0ee6f40506.mp3",
+   "ja/f490c9c1588cbb39.mp3",
+   "ja/41b30ab385e960f8.mp3",
+   "ja/488847b89e15a763.mp3",
+   "ja/e970580671d4e10c.mp3",
+   "ja/ec2da44ec191ce47.mp3",
+   "ja/d9da52e601b23720.mp3",
+   "ja/d595cf1f1b52901d.mp3",
+   "ja/d365dc719e0da9d5.mp3",
+   "ja/9e30b6def8787161.mp3",
+   "ja/43e7156a943ada21.mp3",
+   "ja/34a103babe8d9297.mp3"
+  ],
+  "html-01": [
+   "en/fcb4e7f10036a058.mp3",
+   "en/1f0b6c856ae4b006.mp3",
+   "en/fcdf2a6185455d38.mp3",
+   "en/d4379dce3956b319.mp3",
+   "en/7ba5d1b997f273f4.mp3",
+   "en/3a9097b4a692616b.mp3",
+   "en/a3b87095306eabd1.mp3",
+   "en/ddaa52438001fd47.mp3",
+   "en/06be14a6cc18470a.mp3",
+   "en/0e96ff7de56f00f9.mp3",
+   "en/d287773ee9285817.mp3",
+   "en/1d7119b9e062e26c.mp3",
+   "en/d5467d869d3c3c7b.mp3",
+   "en/ba97becd5179d64d.mp3",
+   "ja/d3bb005391a035f8.mp3",
+   "ja/00ac381cc6c7bc7b.mp3",
+   "ja/47f8eba1230d09bf.mp3",
+   "ja/47600cc76fb48eeb.mp3",
+   "ja/2be3f64543bd6e10.mp3",
+   "ja/42b6fc36d2912a2f.mp3",
+   "ja/fed4d1dd391854c7.mp3",
+   "ja/4b80aa72f2771df8.mp3",
+   "ja/0bfea74aeb28acdf.mp3",
+   "ja/2ac0d781dfbe864b.mp3",
+   "ja/e2d86d4ac82b26eb.mp3",
+   "ja/479306eb66554dcd.mp3",
+   "ja/4181cf427ca94de6.mp3",
+   "ja/fd2c49705063aa7f.mp3",
+   "ja/da95c86206456e51.mp3",
+   "ja/6415aeb2f509af87.mp3",
+   "ja/61666a4cf659c0f0.mp3",
+   "ja/0f507233261c1a94.mp3",
+   "ja/76898d987aec1f30.mp3",
+   "ja/8ca1c5eeff705033.mp3",
+   "ja/7c97a2d556ebf000.mp3",
+   "ja/e426d99c269bf236.mp3",
+   "ja/0fb55be111ea4da1.mp3",
+   "ja/4e40cba47dbe462a.mp3",
+   "ja/c6ba79719c2e3c4f.mp3",
+   "ja/c154e4272952cf8f.mp3",
+   "ja/bbe7de1978da5190.mp3",
+   "ja/55217dfd6a15c5a9.mp3",
+   "ja/8a41bded32805681.mp3",
+   "ja/509b068f150ce840.mp3",
+   "ja/1e93d11750fde23f.mp3",
+   "ja/44dc10057cc53d60.mp3",
+   "ja/50da48b7ce653546.mp3",
+   "ja/7b68c9caa7ebdbe9.mp3",
+   "ja/f47e0fed91c5cfc4.mp3",
+   "ja/5a96bf25a2059cd0.mp3",
+   "ja/79ac77db69ea48cf.mp3",
+   "ja/8dcf47a80ea39329.mp3",
+   "ja/899c3ad50f3b1326.mp3",
+   "ja/caa4bc8a4da521d7.mp3",
+   "ja/f68355c8be3905bc.mp3",
+   "ja/8b0963625f0fe597.mp3",
+   "ja/ad5c8781b3c24851.mp3",
+   "ja/b4c4bd9550eb888d.mp3",
+   "ja/049daf5709e0705e.mp3",
+   "ja/8cfa34f32ffe6aca.mp3",
+   "ja/2820679befca7b90.mp3",
+   "ja/11aa9daec796eb86.mp3",
+   "ja/b24cff34804bb31d.mp3",
+   "ja/864bd20c61bbb88f.mp3",
+   "ja/4308c6d61d028f0f.mp3",
+   "ja/de5fc2d4014557a1.mp3",
+   "ja/afacaddae7ca4efb.mp3",
+   "ja/bb61935bf795b58e.mp3",
+   "ja/b6452539df67e869.mp3",
+   "ja/2887a423f9e284ef.mp3",
+   "ja/42ac923f8eef11ec.mp3",
+   "ja/7285a119fccbf0db.mp3",
+   "ja/917111254cb9b52b.mp3",
+   "ja/cdc7241545154fb8.mp3",
+   "ja/33b8d61ff562c59e.mp3",
+   "ja/e4821ad5b968bd9d.mp3",
+   "ja/1ae2162b6b7bb719.mp3",
+   "ja/3a5c09f01b6f007c.mp3",
+   "ja/65f00d5d254559d9.mp3",
+   "ja/cae24d91861027a3.mp3",
+   "ja/86f52c1672e72c94.mp3",
+   "ja/fd5f1051e86ac6da.mp3",
+   "ja/127102f4588ac71d.mp3",
+   "ja/a53dea6ddee75363.mp3",
+   "ja/4621ce47d9112f31.mp3",
+   "ja/f80d8f6756355073.mp3",
+   "ja/be1706e75b8b8486.mp3",
+   "ja/30c1d5f5ef1cb9b3.mp3",
+   "ja/5d39042e39d2a918.mp3"
+  ],
+  "html-06": [
+   "en/ea6f24654638ffe0.mp3",
+   "en/4f0134a51eb11041.mp3",
+   "en/954916abe1d50b0e.mp3",
+   "en/9873c7e57643dc8b.mp3",
+   "en/cdc2a0c81a197b5d.mp3",
+   "en/347a78b7470006b1.mp3",
+   "en/1633cce39745dcc0.mp3",
+   "en/990cf7623968ba49.mp3",
+   "en/37c143e63db0fd5c.mp3",
+   "en/c5c2188914648fda.mp3",
+   "en/a4a3486db390c171.mp3",
+   "en/f22010b090615745.mp3",
+   "en/d690132669f2da4f.mp3",
+   "en/599c8764c4da7f83.mp3",
+   "ja/d19b54471aa6640b.mp3",
+   "ja/d5782e7229b2e295.mp3",
+   "ja/62f4b51da401b58f.mp3",
+   "ja/0bbb16068f3a71a5.mp3",
+   "ja/5ee12cfebc4f2ac1.mp3",
+   "ja/31f97e0a88bbe665.mp3",
+   "ja/ee5bb3a73edaa211.mp3",
+   "ja/2339fc8c617cbc81.mp3",
+   "ja/f017de6dec7eecc0.mp3",
+   "ja/6a25625a28722314.mp3",
+   "ja/92c89b4a98c77771.mp3",
+   "ja/daa4d776885cdcb9.mp3",
+   "ja/75422f96e91b41a5.mp3",
+   "ja/9ca28a444596bf36.mp3",
+   "ja/cf08b9a8689f5e6d.mp3",
+   "ja/1fc541f50705b1e4.mp3",
+   "ja/991d8645570cf244.mp3",
+   "ja/a4e0ec79563e124c.mp3",
+   "ja/ce5b51165be75af6.mp3",
+   "ja/3b95b79b319532fe.mp3",
+   "ja/ca50f24e2cdb9bb5.mp3",
+   "ja/66060049634b1155.mp3",
+   "ja/dd2b957133602176.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/0f8abc0b01117b5f.mp3",
+   "ja/a35ba31b8d4bda95.mp3",
+   "ja/36b098dca8e463dc.mp3",
+   "ja/6ef721bec3f85f80.mp3",
+   "ja/35c3edddb35361b8.mp3",
+   "ja/8379310669fb6e53.mp3",
+   "ja/2669e0154dd1f32d.mp3",
+   "ja/c934e3c0d1cf74ba.mp3",
+   "ja/185c5e5c1e733faf.mp3",
+   "ja/a30a54a9a853449f.mp3",
+   "ja/2b5d51ff0a234fe7.mp3",
+   "ja/bb60fe131490ef1a.mp3",
+   "ja/626c98cf3f3ded5b.mp3",
+   "ja/40f8c41a394e95d1.mp3",
+   "ja/9ccb9615f3826c2d.mp3",
+   "ja/36c4936a07db01a7.mp3",
+   "ja/328e8ffea68ee4a5.mp3",
+   "ja/ba9cfd55bce34477.mp3",
+   "ja/ef46a4b9e1835ded.mp3",
+   "ja/91c82b8afa2decb4.mp3",
+   "ja/19b6fed6f6b31dc2.mp3",
+   "ja/949a19213831c5d1.mp3",
+   "ja/92b25ba48cb2acd9.mp3",
+   "ja/f932e386717bdfdd.mp3",
+   "ja/e974185d97075a81.mp3",
+   "ja/019329315b733c9b.mp3",
+   "ja/8f5b1879ac0bb38c.mp3",
+   "ja/f5e0db909c992f3c.mp3",
+   "ja/72b29f638aa5bca9.mp3",
+   "ja/8dbec8d4998024ca.mp3",
+   "ja/8a7406bda27f974e.mp3",
+   "ja/19345d4e56d55120.mp3",
+   "ja/61bee54faf93ab83.mp3",
+   "ja/7a84444d3618947e.mp3",
+   "ja/cc46ccf42598714b.mp3",
+   "ja/b8b0d3965592f62b.mp3",
+   "ja/73500d6c27fa57ee.mp3",
+   "ja/30abac7cf2ceb2d2.mp3",
+   "ja/85ac64d4df8b0682.mp3",
+   "ja/6159e26cb3120b91.mp3",
+   "ja/fa65400c11c84a16.mp3",
+   "ja/24731af9a28f0112.mp3",
+   "ja/864d75577830afb4.mp3",
+   "ja/fddfc697013dd64e.mp3",
+   "ja/0af72f0e09057491.mp3",
+   "ja/7fbd3f5f5ff551cd.mp3"
+  ],
+  "grammar-01": [
+   "en/8c19a861a677c1b5.mp3",
+   "en/1256d5397c951c3c.mp3",
+   "en/ba1cdb91e2334798.mp3",
+   "en/bd29a1eb88bb4a99.mp3",
+   "en/3fbe9e7248b41c8b.mp3",
+   "en/61293b89590edd91.mp3",
+   "en/290a462763817bf5.mp3",
+   "en/39046ce44e5fe43d.mp3",
+   "en/fd2cb6c6470d0181.mp3",
+   "en/34484a9919ae4fe0.mp3",
+   "en/e37ecd4c6aef4a72.mp3",
+   "en/8d48bd4bed760abc.mp3",
+   "en/040b72bbc3b8cb16.mp3",
+   "en/bef476069f07c7bc.mp3",
+   "en/edaf96a5a1812c90.mp3",
+   "en/c8a1e496e3402a74.mp3",
+   "en/1b93662ee7e38aef.mp3",
+   "en/d2a53e5b1e08ecab.mp3",
+   "en/5a5087edda0b7c82.mp3",
+   "en/634a21886d54e217.mp3",
+   "en/23431c41c0bb8821.mp3",
+   "en/3370aaf5030ace5f.mp3",
+   "ja/49ab1837e3fa8a12.mp3",
+   "ja/22e88c2abbab35a5.mp3",
+   "ja/0990e5ad2aea696b.mp3",
+   "ja/6723783213552244.mp3",
+   "ja/be4333335245c3ed.mp3",
+   "ja/69d906d3fe1c4fad.mp3",
+   "ja/ff6c1610c2962f55.mp3",
+   "ja/53fab9e8c90be7b1.mp3",
+   "ja/2587725eb2f87029.mp3",
+   "ja/bb68b3034a3b01f3.mp3",
+   "ja/042c68c6324dbe51.mp3",
+   "ja/a297b66262ac35ed.mp3",
+   "ja/7869f4d4a9ce8bd5.mp3",
+   "ja/651d52949bd7a3eb.mp3",
+   "ja/864c44c2f072c8e2.mp3",
+   "ja/c7fda3e39b021b3e.mp3",
+   "ja/355c2625af6920ac.mp3",
+   "ja/82df921a7b1141ee.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/fdcb69f483e453f5.mp3",
+   "ja/4d4292232c6381b5.mp3",
+   "ja/046c8379e63c76d3.mp3",
+   "ja/ae7a406fcbee0104.mp3",
+   "ja/78e8f25cc09b593c.mp3",
+   "ja/107098e94d6841ee.mp3",
+   "ja/c0e31c0e1a4696fe.mp3",
+   "ja/97c2f01395fe9b0d.mp3",
+   "ja/1bc9eaf344733f07.mp3",
+   "ja/d8e255ef51354e01.mp3",
+   "ja/28f2884110619e83.mp3",
+   "ja/98b76568ba3cb528.mp3",
+   "ja/1fc331c1b98e2280.mp3",
+   "ja/d69688b1b5587117.mp3",
+   "ja/b0c38c1a6fe54381.mp3",
+   "ja/cf776f6a0d63cf83.mp3",
+   "ja/fcaa0dc141e838c6.mp3",
+   "ja/14f963a5620455da.mp3",
+   "ja/8ce9f537abd4194b.mp3",
+   "ja/5fe2a7636c61b203.mp3",
+   "ja/09f650b979bb1f3d.mp3",
+   "ja/fc7e9b52ae8ecb37.mp3",
+   "ja/164f043ad06607d7.mp3",
+   "ja/746813bc4783ba78.mp3",
+   "ja/7b8857f6f2a9e72e.mp3",
+   "ja/cde340402e66aef4.mp3",
+   "ja/762704c6feef5a0c.mp3",
+   "ja/ec7a5c24f7005c28.mp3",
+   "ja/4dc8bbe166c2c78f.mp3",
+   "ja/7ab69de638d1e409.mp3",
+   "ja/001880b60c311da5.mp3",
+   "ja/3ac62f71b56f1bf1.mp3",
+   "ja/8df656d4af835c78.mp3",
+   "ja/4a08619216010675.mp3",
+   "ja/1dd7ef41cd4e94a9.mp3",
+   "ja/6968c21f2745aa25.mp3",
+   "ja/c90d4d2bede278f1.mp3",
+   "ja/a913e6336e104c77.mp3",
+   "ja/f19ccda01c1180ef.mp3",
+   "ja/1c7e157fdd82aef0.mp3",
+   "ja/b514662fcdca3e22.mp3"
+  ],
+  "html-05": [
+   "en/5c1c9df4922fd9f6.mp3",
+   "en/eccb40f1ec177e4f.mp3",
+   "en/a18c414dd4a5e835.mp3",
+   "en/03aaa40106072d4c.mp3",
+   "en/b215e5dd75677352.mp3",
+   "en/ffb6dcfc45436063.mp3",
+   "en/11e56fdfc27a343d.mp3",
+   "en/352b195ed3a1328b.mp3",
+   "en/d0f657b242b860ae.mp3",
+   "en/efad8f17411ba62e.mp3",
+   "en/9153d70e3b499313.mp3",
+   "en/ec7e368429057b0a.mp3",
+   "en/ad58b9c99bc00e5e.mp3",
+   "en/27c95b4fd2587c38.mp3",
+   "ja/e32a4f3329f96cef.mp3",
+   "ja/62f4b51da401b58f.mp3",
+   "ja/3f7db1a28743e8d9.mp3",
+   "ja/3ff7761364173259.mp3",
+   "ja/ffb2c5b72f993bad.mp3",
+   "ja/2a8f3a7f80e810b7.mp3",
+   "ja/50a1e4d83becd064.mp3",
+   "ja/bd8936c1751503da.mp3",
+   "ja/89e7b135e0580bb1.mp3",
+   "ja/a603e9112b84b9dd.mp3",
+   "ja/da74cde0c7c69f96.mp3",
+   "ja/397d549598a1528d.mp3",
+   "ja/67c9b82c78dfc1c4.mp3",
+   "ja/219cdf97498c4ce7.mp3",
+   "ja/7d273f4a3ab1447f.mp3",
+   "ja/ed4108cc2f6dc4cf.mp3",
+   "ja/9be9a527b67d2049.mp3",
+   "ja/4cd502374359a3a4.mp3",
+   "ja/fafd5ba0780415f1.mp3",
+   "ja/e2679e8b46749683.mp3",
+   "ja/d94d732e591f6838.mp3",
+   "ja/de611b07d5e8bed6.mp3",
+   "ja/e9a184e332760819.mp3",
+   "ja/2f2f80980a2f59f0.mp3",
+   "ja/53e96623d55f80d2.mp3",
+   "ja/8c5d5a3fcc367301.mp3",
+   "ja/81a0d8a921c582d4.mp3",
+   "ja/73077f593c2fb81b.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/6d0672eb7588df76.mp3",
+   "ja/ec31b8beb4824657.mp3",
+   "ja/9106260b2aa5b93b.mp3",
+   "ja/865e598d47846a73.mp3",
+   "ja/fa82d2f70808a8c2.mp3",
+   "ja/b946561e0fbb3811.mp3",
+   "ja/03fd4897238f0c74.mp3",
+   "ja/6cd572d0f3d6aab5.mp3",
+   "ja/3172768c841502a4.mp3",
+   "ja/84d80a5b5aec9245.mp3",
+   "ja/5b406b1f1486c6f0.mp3",
+   "ja/2d118b45c4702067.mp3",
+   "ja/ef181dd306c738b7.mp3",
+   "ja/1c45afc8fbe3bb7b.mp3",
+   "ja/ab50f2eb593b9b96.mp3",
+   "ja/691001454afc69f1.mp3",
+   "ja/51790cf7181815f0.mp3",
+   "ja/ba300b8249f25692.mp3",
+   "ja/2f7c6fe5a3fc9ea5.mp3",
+   "ja/818cb586da105e04.mp3",
+   "ja/0aeb75a63cc80bf0.mp3",
+   "ja/04005c4188a349a5.mp3",
+   "ja/551da23c24b1dc73.mp3",
+   "ja/5936274daecd02c1.mp3",
+   "ja/01c96a3fbf8e08c2.mp3",
+   "ja/7bf51123094181ac.mp3",
+   "ja/dcb3827776cb5fe6.mp3",
+   "ja/aa1e72e60bfcd3be.mp3",
+   "ja/7bc77a6095c05430.mp3",
+   "ja/083a56c700913386.mp3",
+   "ja/1aeabdb159287e04.mp3",
+   "ja/a1dc4859b87526f2.mp3",
+   "ja/785eac269c2015a7.mp3",
+   "ja/27a2d833881213ca.mp3",
+   "ja/adafe8fdb02e67e6.mp3",
+   "ja/3862498c34c0f519.mp3",
+   "ja/e833f6b368077ab6.mp3",
+   "ja/a66e261d24f283fd.mp3",
+   "ja/029f0dd4d26d939e.mp3",
+   "ja/06d1e4753ad094c4.mp3",
+   "ja/d519a76a32ea6306.mp3"
+  ],
+  "html-07": [
+   "en/8335871195341c29.mp3",
+   "en/5f791ec27ba9ac10.mp3",
+   "en/d30984c3277e7c4c.mp3",
+   "en/f3ea6f7b0b55af16.mp3",
+   "en/5a9f14d9b45f6878.mp3",
+   "en/b1da6b72ddd4ecf3.mp3",
+   "en/0a57c55c1d888b82.mp3",
+   "en/632385bf8c1c0a68.mp3",
+   "en/92461a7b3bb77f29.mp3",
+   "en/948e6f3358f999d2.mp3",
+   "en/ed16818087631091.mp3",
+   "en/8223ca75620ff2ce.mp3",
+   "en/75053734f34405fc.mp3",
+   "en/99f102f67df1444a.mp3",
+   "ja/e32a4f3329f96cef.mp3",
+   "ja/764b1847e2727b11.mp3",
+   "ja/62f4b51da401b58f.mp3",
+   "ja/2b292a9515e4a52b.mp3",
+   "ja/070c05d6e858ebbe.mp3",
+   "ja/37d0b36b0c5cea7c.mp3",
+   "ja/50a1e4d83becd064.mp3",
+   "ja/c1b0e68ad46af969.mp3",
+   "ja/5de7bd2e6e4cc052.mp3",
+   "ja/f24f96b97b772a53.mp3",
+   "ja/1e9802e23a13c65a.mp3",
+   "ja/2e1559ab3cf7ced9.mp3",
+   "ja/788c605e29294062.mp3",
+   "ja/bbfcbdbe1fde055b.mp3",
+   "ja/85e04abfa2768307.mp3",
+   "ja/307940d28d15162f.mp3",
+   "ja/d6d76bad189551e1.mp3",
+   "ja/147b20d0ac87fbff.mp3",
+   "ja/dcf3f79c937e5d77.mp3",
+   "ja/fc9644f8b267f075.mp3",
+   "ja/dd17be9f1a2d01ac.mp3",
+   "ja/26184ae49fe47a9b.mp3",
+   "ja/115d1103e52490ab.mp3",
+   "ja/ccac672efd7bdcdb.mp3",
+   "ja/0f020bdcd80eb2ab.mp3",
+   "ja/16401228ae14d1b4.mp3",
+   "ja/de067820f3b7b28a.mp3",
+   "ja/8a6b571ad8acbd5e.mp3",
+   "ja/46f930bd01b74cfb.mp3",
+   "ja/a07dd22deedc36b4.mp3",
+   "ja/da6e137a3261c783.mp3",
+   "ja/e559be238514519b.mp3",
+   "ja/31262e9e57c82a0a.mp3",
+   "ja/3c9b538f7abed521.mp3",
+   "ja/f1dd4b4884e63dc4.mp3",
+   "ja/4adc625ac18ba478.mp3",
+   "ja/e860cfb79a9426f7.mp3",
+   "ja/3753378a7066bc39.mp3",
+   "ja/54ac2b8fe07ae0f5.mp3",
+   "ja/635a3e7fe6fa2e73.mp3",
+   "ja/5dc26e678d93b966.mp3",
+   "ja/8c23d3bde0f918b0.mp3",
+   "ja/ceaed0a87898d316.mp3",
+   "ja/e2f65668070f5e2f.mp3",
+   "ja/8933304be6603269.mp3",
+   "ja/0e05810fb0a608c2.mp3",
+   "ja/f5299b887f153723.mp3",
+   "ja/06b7aaf0664c3982.mp3",
+   "ja/b5d6807b882fa4eb.mp3",
+   "ja/c4fc72a0d11c2a52.mp3",
+   "ja/8ad5c74fc5398079.mp3",
+   "ja/ae0516ca94942ac0.mp3",
+   "ja/45a18c9c53056a00.mp3",
+   "ja/f8d2af91e28ec992.mp3",
+   "ja/71cec03133f7ffc2.mp3",
+   "ja/e719e47b7dbf8e29.mp3",
+   "ja/db46fd42f4d5b9c9.mp3",
+   "ja/e35c97acb61d76e7.mp3",
+   "ja/0a4700c72bb3e525.mp3",
+   "ja/6c3be315e2171195.mp3",
+   "ja/43b6663413c0a094.mp3",
+   "ja/bde8d797877cb0f2.mp3",
+   "ja/395474480edf2e3f.mp3",
+   "ja/2457efffe743885d.mp3",
+   "ja/eec823e05d96a3f0.mp3",
+   "ja/9fdd59aefc33efa9.mp3",
+   "ja/27fbdb769a4a340c.mp3",
+   "ja/00b97dff561396ce.mp3",
+   "ja/2905828466719d0e.mp3",
+   "ja/0fc10bd55ca36825.mp3",
+   "ja/070a118fbdb037cf.mp3",
+   "ja/ae114b350f4c4a4b.mp3",
+   "ja/a0ca7c9e14ad405b.mp3",
+   "ja/c218c9dc2ad26444.mp3"
+  ],
+  "grammar-03": [
+   "en/760d3bb0ae197c4e.mp3",
+   "en/1416e9d533b7c9f9.mp3",
+   "en/58abd072d8c2a20d.mp3",
+   "en/e0841620f2ed5372.mp3",
+   "en/5c753f6e44ec8bbe.mp3",
+   "en/c58318b17220741c.mp3",
+   "en/05c652a3e28a8f4e.mp3",
+   "en/b91079f4f887bed9.mp3",
+   "en/7be479a1733575d4.mp3",
+   "en/f0ca2dde48cbc476.mp3",
+   "en/9b70309f8f70caab.mp3",
+   "en/fd3132ce18d66257.mp3",
+   "en/ec7cc97ec6357253.mp3",
+   "en/e2ce56a73fb1e304.mp3",
+   "en/a3e7a564721da57c.mp3",
+   "en/0928119ea40acc11.mp3",
+   "en/073fb84767e843c6.mp3",
+   "en/6a94cc5adc904a37.mp3",
+   "en/e8a25a15ce3b4d66.mp3",
+   "en/b58ce6ee58aa5ee7.mp3",
+   "en/532adf717dc69285.mp3",
+   "en/ea5a773be544eae1.mp3",
+   "ja/adff251a852d967b.mp3",
+   "ja/9f207676c3c62bda.mp3",
+   "ja/b4c2ec9164a915e5.mp3",
+   "ja/fc2315b2b718ec19.mp3",
+   "ja/ab3d2352d2eb707b.mp3",
+   "ja/64b1a4dcc65883e0.mp3",
+   "ja/36f66b3012ccb65f.mp3",
+   "ja/990fd83069fc7611.mp3",
+   "ja/dbb530c1f5bf5985.mp3",
+   "ja/f1d80c1d0223fbe3.mp3",
+   "ja/48d48e808980031d.mp3",
+   "ja/5e4767a0c4e9667e.mp3",
+   "ja/945829bd70b498c1.mp3",
+   "ja/ac40da2d44dbf0f7.mp3",
+   "ja/02691dd04ead6b51.mp3",
+   "ja/fc13aa203ba490a2.mp3",
+   "ja/712ddfd162533deb.mp3",
+   "ja/11e5d5bc19de0323.mp3",
+   "ja/c28984b36624eb26.mp3",
+   "ja/7989d6a163e0735b.mp3",
+   "ja/c3af22d4b70c9776.mp3",
+   "ja/1065bae152b27d89.mp3",
+   "ja/5cae6b9f16ad93ed.mp3",
+   "ja/767e2743627991d5.mp3",
+   "ja/cf8cccb6a57bb0bf.mp3",
+   "ja/50775703957afe7e.mp3",
+   "ja/0189039fcc5f332b.mp3",
+   "ja/4270a3a00fd33833.mp3",
+   "ja/dc76bf5fcd0197ac.mp3",
+   "ja/202eaa1754910df8.mp3",
+   "ja/00d534787e67920d.mp3",
+   "ja/01b07ce61389fa0b.mp3",
+   "ja/0f6c52e40cb07a94.mp3",
+   "ja/7ad4f055a1c9faeb.mp3",
+   "ja/9894a14c1b50cfc7.mp3",
+   "ja/8f268c62bc757c90.mp3",
+   "ja/6e21e81eb6fcbe2d.mp3",
+   "ja/70a785afbae1ac88.mp3",
+   "ja/a38833f3cfb91fb6.mp3",
+   "ja/a28e1f9e939adac7.mp3",
+   "ja/b0087f1560a519af.mp3",
+   "ja/edb70ee4b55f60e8.mp3",
+   "ja/c74545dc82581543.mp3",
+   "ja/350bfff2ea2e874f.mp3",
+   "ja/053b523d2349d71a.mp3",
+   "ja/c2f352cd4b01f693.mp3",
+   "ja/e7c19b0da41ed687.mp3",
+   "ja/5fe95c3a9629f11f.mp3",
+   "ja/0bb8a66a6a9f6f18.mp3",
+   "ja/9f3dd02efdfd615f.mp3",
+   "ja/aec94a8042a5196f.mp3",
+   "ja/0ccc66c6af037b33.mp3",
+   "ja/29ed0f97ee14455b.mp3",
+   "ja/a67878b8c72496a3.mp3",
+   "ja/7289cb10ce110bdc.mp3"
+  ],
+  "common": [
+   "en/da9cc5e337dc2deb.mp3",
+   "ja/d2cdf28d21e65b50.mp3",
+   "ja/28b035ad4b22452d.mp3",
+   "ja/5ce267a4d3c8a0ec.mp3",
+   "ja/6c6c8630dbb71214.mp3",
+   "ja/7cf7437b05db1888.mp3",
+   "ja/55714cb830017472.mp3",
+   "ja/5d691183cda0bd28.mp3",
+   "ja/8f3725dc5b3e7972.mp3",
+   "ja/59d87bb8177a00fd.mp3",
+   "ja/06b988c5a30372c1.mp3",
+   "ja/dcb55de73686354d.mp3",
+   "ja/a95e4a38c2e9da7a.mp3",
+   "ja/0a16e64a48024553.mp3",
+   "ja/e60b647579191db8.mp3",
+   "ja/11415b33fe0b1972.mp3",
+   "ja/e72a3666a7bbb95f.mp3",
+   "ja/9b91a9f81172051d.mp3",
+   "ja/518eed365d37a29c.mp3",
+   "ja/36efbf302bbd9a65.mp3",
+   "ja/3bae4c4c0cb700a9.mp3",
+   "ja/f2ba2cf69514d5ef.mp3",
+   "ja/499a2aae2f1a23ed.mp3",
+   "ja/2033a4a8e7b20fd2.mp3",
+   "ja/c07608d6df9e6d3b.mp3",
+   "ja/63d5878a9a34be9d.mp3",
+   "ja/ae862a7749236bce.mp3",
+   "ja/8af8f7611451f984.mp3",
+   "ja/caa5dde1a4777c6b.mp3",
+   "ja/af829a35c780d6dd.mp3",
+   "ja/1db76900c1d4fc49.mp3",
+   "ja/e23abc9b0aec916f.mp3",
+   "ja/c05f798b66da1ad8.mp3",
+   "ja/6b5b677487b8249c.mp3",
+   "ja/1c4cd6dab8fc62a7.mp3",
+   "ja/e1092e1516407cb8.mp3",
+   "ja/05718fd184cbe653.mp3",
+   "ja/a23faae09bdad93b.mp3",
+   "ja/4893396d10f2d08a.mp3",
+   "ja/47d298eefd654c83.mp3",
+   "ja/3e0cb22c511998a5.mp3",
+   "ja/1d4be66ecf11e904.mp3",
+   "ja/214f30b1721fd970.mp3",
+   "ja/6aea625a3f6fb2be.mp3",
+   "ja/35e79594c24a7e2f.mp3",
+   "ja/342053c51b1a9631.mp3",
+   "ja/dd82c29da0f86470.mp3",
+   "ja/9f420e13264eecd5.mp3",
+   "ja/0604ae15f0247771.mp3",
+   "ja/4cc699b421b4b14e.mp3",
+   "ja/ed1821d44999782e.mp3",
+   "ja/92075522822b31b9.mp3",
+   "ja/dc86fca919b16893.mp3"
+  ]
+ }
 }

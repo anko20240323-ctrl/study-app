@@ -70,11 +70,123 @@
     });
   }
 
+  // ---- 前もって作った音声ファイル（audio/）----
+  // audio/manifest.json に「どの文に、どのファイルがあるか」が書いてある。
+  // ファイルがある文はそれを再生し（画面を消しても止まりにくい）、ない文は今までどおりブラウザが読む。
+  let manifest = { files: {}, lessons: {} };
+  const manifestReady = fetch('audio/manifest.json')
+    .then((r) => (r.ok ? r.json() : null))
+    .then((m) => { if (m && m.files) manifest = m; })
+    .catch(() => {});
+
+  const player = typeof Audio !== 'undefined' ? new Audio() : null;
+  if (player) player.preload = 'auto';
+
+  function fileFor(lang, text, pitch) {
+    const e = manifest.files[Phrases.audioKey(lang, text, pitch)];
+    return e ? `audio/${e.f}` : null;
+  }
+
+  // 再生できたら true、止められたら false、再生できなかったら null（ブラウザの読み上げに切りかえる）
+  function playFile(src, rate, gen) {
+    return new Promise((resolve) => {
+      let done = false;
+      const finish = (v) => {
+        if (done) return;
+        done = true;
+        clearInterval(guard);
+        player.onended = player.onerror = null;
+        resolve(v);
+      };
+      const guard = setInterval(() => {
+        if (gen !== generation) {
+          player.pause();
+          finish(false);
+        }
+      }, 150);
+      player.onended = () => finish(gen === generation);
+      player.onerror = () => finish(null);
+      player.src = src;
+      player.playbackRate = rate;
+      player.preservesPitch = true;
+      player.webkitPreservesPitch = true;
+      const p = player.play();
+      if (p && p.catch) p.catch(() => finish(null));
+    });
+  }
+
+  // 画面を消しても止まらないように、レッスン中は無音の音を流し続ける（音声ファイルがあるときだけ）
+  let silence = null;
+  function silentWav() {
+    const rate = 8000;
+    const n = rate; // 1秒
+    const buf = new ArrayBuffer(44 + n * 2);
+    const v = new DataView(buf);
+    const w = (o, str) => { for (let i = 0; i < str.length; i++) v.setUint8(o + i, str.charCodeAt(i)); };
+    w(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); w(8, 'WAVE'); w(12, 'fmt ');
+    v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+    w(36, 'data'); v.setUint32(40, n * 2, true);
+    return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
+  }
+
+  function keepAlive(on, title, onToggle) {
+    if (!player) return;
+    const has = Object.keys(manifest.files).length > 0;
+    if (on && has) {
+      if (!silence) {
+        silence = new Audio(silentWav());
+        silence.loop = true;
+        silence.volume = 0.01;
+      }
+      silence.play().catch(() => {});
+      // ロック画面に、レッスン名と止める・続きからのボタンを出す
+      if ('mediaSession' in navigator && typeof MediaMetadata !== 'undefined') {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: title || 'まなびノート', artist: 'まなびノート' });
+        try {
+          navigator.mediaSession.setActionHandler('pause', onToggle || null);
+          navigator.mediaSession.setActionHandler('play', onToggle || null);
+        } catch (e) { /* 対応していない */ }
+      }
+    } else if (silence) {
+      silence.pause();
+    }
+  }
+
+  // その回の音声ファイルを、前もって保存しておく（電波がない所でも聞けるように）
+  async function prefetch(ids, onProgress) {
+    await manifestReady;
+    const files = new Set();
+    for (const id of ids) for (const f of manifest.lessons[id] || []) files.add(`audio/${f}`);
+    const list = [...files];
+    let doneN = 0;
+    const worker = async () => {
+      while (list.length) {
+        const url = list.shift();
+        try { await fetch(url); } catch (e) { /* あとでまた */ }
+        doneN++;
+        if (onProgress) onProgress(doneN, files.size);
+      }
+    };
+    await Promise.all([worker(), worker(), worker(), worker()]);
+    return files.size;
+  }
+
   // 1つの文を読む。読み終わったら true、止められたら false
-  function say(text, opts = {}) {
+  async function say(text, opts = {}) {
     const lang = opts.lang === 'en' ? 'en' : 'ja';
     const gen = opts.gen !== undefined ? opts.gen : generation;
-    if (!text) return Promise.resolve(true);
+    if (!text) return true;
+    const src = player && fileFor(lang, text, opts.pitch);
+    if (src) {
+      const base = Number(Store.settings.rate) || 1;
+      const r = await playFile(src, Math.max(0.5, Math.min(2, base * (opts.rateScale || 1))), gen);
+      if (r !== null) return r;
+    }
+    return speakTTS(text, lang, gen, opts);
+  }
+
+  function speakTTS(text, lang, gen, opts) {
     if (!supported) {
       // 読み上げが使えない環境では、読む時間だけ待つ
       return wait(Math.min(4000, text.length * 120), gen);
@@ -147,6 +259,7 @@
   let lastCancel = 0;
   function stop() {
     generation++;
+    if (player) player.pause();
     if (supported) {
       synth.cancel();
       lastCancel = Date.now();
@@ -155,6 +268,13 @@
 
   window.Speech = {
     supported,
+    keepAlive,
+    prefetch,
+    manifestReady,
+    get audioInfo() {
+      const files = Object.values(manifest.files);
+      return { count: files.length, bytes: files.reduce((a, e) => a + (e.b || 0), 0) };
+    },
     loadVoices,
     voicesFor,
     pickVoice,

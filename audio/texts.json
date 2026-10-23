@@ -1,0 +1,9845 @@
+{
+ "note": "tools/list_texts.mjs が作る一覧です。手で書きかえないでください。",
+ "count": 1090,
+ "chars": 22368,
+ "items": [
+  {
+   "key": "en|-0.9|Anything to drink?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Anything to drink?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|Good morning, Tatsuya!",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Good morning, Tatsuya!",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|-0.9|Hi, can I help you?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Hi, can I help you?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|-0.9|Hi! How many people?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Hi! How many people?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|How about this one? It's very popular.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "How about this one? It's very popular.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|-0.9|I'm good, thanks. And you?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "I'm good, thanks. And you?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|-0.9|It's 5,000 yen.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "It's 5,000 yen.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|-0.9|Nice! Have a good day.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Nice! Have a good day.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|-0.9|Of course.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Of course.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|-0.9|Sure. Anything else?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Sure. Anything else?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|Sure. The fitting room is over there.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Sure. The fitting room is over there.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|-0.9|Thank you. Have a nice evening!",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Thank you. Have a nice evening!",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|The tomato pasta is very popular.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "The tomato pasta is very popular.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|This way, please. Here are your menus.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "This way, please. Here are your menus.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|-0.9|Yes, it is. Did you have a good weekend?",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Yes, it is. Did you have a good weekend?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|-0.9|Yes. Here you are.",
+   "lang": "en",
+   "semi": -0.9,
+   "text": "Yes. Here you are.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|a cheap shirt",
+   "lang": "en",
+   "semi": 0,
+   "text": "a cheap shirt",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|a red bag",
+   "lang": "en",
+   "semi": 0,
+   "text": "a red bag",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|a shirt cheap",
+   "lang": "en",
+   "semi": 0,
+   "text": "a shirt cheap",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|Add a heading to the report.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Add a heading to the report.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|address",
+   "lang": "en",
+   "semi": 0,
+   "text": "address",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|alternative",
+   "lang": "en",
+   "semi": 0,
+   "text": "alternative",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|Am I Tatsuya.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Am I Tatsuya.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|Anything else?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Anything else?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Are you available tomorrow?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Are you available tomorrow?",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|available",
+   "lang": "en",
+   "semi": 0,
+   "text": "available",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|big",
+   "lang": "en",
+   "semi": 0,
+   "text": "big",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|body",
+   "lang": "en",
+   "semi": 0,
+   "text": "body",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|break",
+   "lang": "en",
+   "semi": 0,
+   "text": "break",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|button",
+   "lang": "en",
+   "semi": 0,
+   "text": "button",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|buy",
+   "lang": "en",
+   "semi": 0,
+   "text": "buy",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|Can I get some water?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I get some water?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Can I have the check, please?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I have the check, please?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Can I have the check?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I have the check?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Can I help you?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I help you?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|Can I pay by card, or is it cash only?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I pay by card, or is it cash only?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|Can I pay by card?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I pay by card?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|Can I try it on?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I try it on?",
+   "lessons": [
+    "talk-02",
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Can you check the price?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can you check the price?",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|cancel",
+   "lang": "en",
+   "semi": 0,
+   "text": "cancel",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|cheap",
+   "lang": "en",
+   "semi": 0,
+   "text": "cheap",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|check",
+   "lang": "en",
+   "semi": 0,
+   "text": "check",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|Check the price tag, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Check the price tag, please.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|Check the width of the shelf.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Check the width of the shelf.",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|click",
+   "lang": "en",
+   "semi": 0,
+   "text": "click",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|Click the link to see the price.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Click the link to see the price.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|Coffee likes me.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Coffee likes me.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|confirm",
+   "lang": "en",
+   "semi": 0,
+   "text": "confirm",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|contact",
+   "lang": "en",
+   "semi": 0,
+   "text": "contact",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|customer",
+   "lang": "en",
+   "semi": 0,
+   "text": "customer",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Customers buy many things here.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Customers buy many things here.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|Do you have a small bag?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Do you have a small bag?",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|Do you have a smaller one?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Do you have a smaller one?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|Do you have an alternative plan?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Do you have an alternative plan?",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|document",
+   "lang": "en",
+   "semi": 0,
+   "text": "document",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|Don't forget to save the file.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Don't forget to save the file.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|drive",
+   "lang": "en",
+   "semi": 0,
+   "text": "drive",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|eat",
+   "lang": "en",
+   "semi": 0,
+   "text": "eat",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|every day",
+   "lang": "en",
+   "semi": 0,
+   "text": "every day",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|Everything looks good. What do you recommend?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Everything looks good. What do you recommend?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Excuse me, can I get some water?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Excuse me, can I get some water?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Excuse me, can I have the check, please?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Excuse me, can I have the check, please?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|experience",
+   "lang": "en",
+   "semi": 0,
+   "text": "experience",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|file",
+   "lang": "en",
+   "semi": 0,
+   "text": "file",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|Fill out this form, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Fill out this form, please.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Follow these steps.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Follow these steps.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|form",
+   "lang": "en",
+   "semi": 0,
+   "text": "form",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Good morning, everyone.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Good morning, everyone.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Good morning.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Good morning.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Good night.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Good night.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Have a good day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Have a good day.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|head",
+   "lang": "en",
+   "semi": 0,
+   "text": "head",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|heading",
+   "lang": "en",
+   "semi": 0,
+   "text": "heading",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|height",
+   "lang": "en",
+   "semi": 0,
+   "text": "height",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|Hello! Let's learn together.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Hello! Let's learn together.",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "en|0|Here is a short summary.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Here is a short summary.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Here you are.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Here you are.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|Hi, I'm Tatsuya. Nice to meet you.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Hi, I'm Tatsuya. Nice to meet you.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Hi, Sam. How are you?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Hi, Sam. How are you?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Hi, table for two, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Hi, table for two, please.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|hobby",
+   "lang": "en",
+   "semi": 0,
+   "text": "hobby",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|How are you?",
+   "lang": "en",
+   "semi": 0,
+   "text": "How are you?",
+   "lessons": [
+    "talk-01",
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|How many people?",
+   "lang": "en",
+   "semi": 0,
+   "text": "How many people?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|How much is it?",
+   "lang": "en",
+   "semi": 0,
+   "text": "How much is it?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|How much is this lamp?",
+   "lang": "en",
+   "semi": 0,
+   "text": "How much is this lamp?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I am Tatsuya.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I am Tatsuya.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|I at a shop work every day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I at a shop work every day.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I check the inventory every day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I check the inventory every day.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I coffee like.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I coffee like.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I drive a car.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I drive a car.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I drive to work.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I drive to work.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I eat rice.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I eat rice.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I every day at a shop work.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I every day at a shop work.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I have five years of experience in sales.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I have five years of experience in sales.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|I have three tasks today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I have three tasks today.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|I have to go now. See you later!",
+   "lang": "en",
+   "semi": 0,
+   "text": "I have to go now. See you later!",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|I like coffee.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I like coffee.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I like old cameras.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I like old cameras.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I like this shirt. Can I try it on?",
+   "lang": "en",
+   "semi": 0,
+   "text": "I like this shirt. Can I try it on?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I meet my friend at the station.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I meet my friend at the station.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I on Sunday watch soccer.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I on Sunday watch soccer.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I saved the file on my phone.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I saved the file on my phone.",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|I soccer watch on Sunday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I soccer watch on Sunday.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I study English every morning.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I study English every morning.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I study English in the car every morning.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I study English in the car every morning.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I study English in the car.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I study English in the car.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I Tatsuya am.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I Tatsuya am.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|I TV watch.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I TV watch.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I watch movies on weekends.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I watch movies on weekends.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I watch soccer on Sunday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I watch soccer on Sunday.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I watch TV.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I watch TV.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|I will send the sales report today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I will send the sales report today.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|I will send you the link.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I will send you the link.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|I will share the page with my team.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I will share the page with my team.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|I will upload the photos tonight.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I will upload the photos tonight.",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|I work at a recycle shop.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I work at a recycle shop.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I work at a shop every day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I work at a shop every day.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I'll have ...",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'll have ...",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|I'll have the curry, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'll have the curry, please.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|I'll take it.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'll take it.",
+   "lessons": [
+    "talk-02",
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|I'm good, thanks.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm good, thanks.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|I'm good, thanks. And you?",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm good, thanks. And you?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|I'm just looking, thanks.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm just looking, thanks.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I'm just looking.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm just looking.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I'm looking for ...",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm looking for ...",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I'm looking for a black bag.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm looking for a black bag.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|image",
+   "lang": "en",
+   "semi": 0,
+   "text": "image",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|introduce",
+   "lang": "en",
+   "semi": 0,
+   "text": "introduce",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|inventory",
+   "lang": "en",
+   "semi": 0,
+   "text": "inventory",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|It was delicious.",
+   "lang": "en",
+   "semi": 0,
+   "text": "It was delicious.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|It's too big. Do you have a smaller one?",
+   "lang": "en",
+   "semi": 0,
+   "text": "It's too big. Do you have a smaller one?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|item",
+   "lang": "en",
+   "semi": 0,
+   "text": "item",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|language",
+   "lang": "en",
+   "semi": 0,
+   "text": "language",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|Let me confirm the date.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Let me confirm the date.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Let me introduce myself.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Let me introduce myself.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|Let me see a preview first.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Let me see a preview first.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|Let's take a short break.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Let's take a short break.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|like",
+   "lang": "en",
+   "semi": 0,
+   "text": "like",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|Like I coffee.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Like I coffee.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|line",
+   "lang": "en",
+   "semi": 0,
+   "text": "line",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|link",
+   "lang": "en",
+   "semi": 0,
+   "text": "link",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|list",
+   "lang": "en",
+   "semi": 0,
+   "text": "list",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|Long time no see! How have you been?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Long time no see! How have you been?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|Long time no see.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Long time no see.",
+   "lessons": [
+    "talk-01",
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Me too.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Me too.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|meet",
+   "lang": "en",
+   "semi": 0,
+   "text": "meet",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|My hobby is making videos.",
+   "lang": "en",
+   "semi": 0,
+   "text": "My hobby is making videos.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|new",
+   "lang": "en",
+   "semi": 0,
+   "text": "new",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|nice",
+   "lang": "en",
+   "semi": 0,
+   "text": "nice",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|Nice to meet you.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Nice to meet you.",
+   "lessons": [
+    "grammar-03",
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|No, that's all. Thank you.",
+   "lang": "en",
+   "semi": 0,
+   "text": "No, that's all. Thank you.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|OK, I'll take it.",
+   "lang": "en",
+   "semi": 0,
+   "text": "OK, I'll take it.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|old",
+   "lang": "en",
+   "semi": 0,
+   "text": "old",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|order",
+   "lang": "en",
+   "semi": 0,
+   "text": "order",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|Our store has a new website.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Our store has a new website.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|paragraph",
+   "lang": "en",
+   "semi": 0,
+   "text": "paragraph",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Please contact me by email.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please contact me by email.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|Please make a list of new items.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please make a list of new items.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|Please read the first line.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please read the first line.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Please read this document.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please read this document.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|Please submit the form by Friday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please submit the form by Friday.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Please update your profile.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please update your profile.",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|Please upload the product image.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please upload the product image.",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|Please write your email address.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please write your email address.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|Press the red button.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Press the red button.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|preview",
+   "lang": "en",
+   "semi": 0,
+   "text": "preview",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|profile",
+   "lang": "en",
+   "semi": 0,
+   "text": "profile",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|Put the boxes in order.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Put the boxes in order.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|reference",
+   "lang": "en",
+   "semi": 0,
+   "text": "reference",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|report",
+   "lang": "en",
+   "semi": 0,
+   "text": "report",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|save",
+   "lang": "en",
+   "semi": 0,
+   "text": "save",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|See you later.",
+   "lang": "en",
+   "semi": 0,
+   "text": "See you later.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|sell",
+   "lang": "en",
+   "semi": 0,
+   "text": "sell",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|share",
+   "lang": "en",
+   "semi": 0,
+   "text": "share",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "en|0|shirt a cheap",
+   "lang": "en",
+   "semi": 0,
+   "text": "shirt a cheap",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|small",
+   "lang": "en",
+   "semi": 0,
+   "text": "small",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|source",
+   "lang": "en",
+   "semi": 0,
+   "text": "source",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|station",
+   "lang": "en",
+   "semi": 0,
+   "text": "station",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|step",
+   "lang": "en",
+   "semi": 0,
+   "text": "step",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|structure",
+   "lang": "en",
+   "semi": 0,
+   "text": "structure",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|study",
+   "lang": "en",
+   "semi": 0,
+   "text": "study",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|submit",
+   "lang": "en",
+   "semi": 0,
+   "text": "submit",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|summary",
+   "lang": "en",
+   "semi": 0,
+   "text": "summary",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Table for two, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Table for two, please.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|tag",
+   "lang": "en",
+   "semi": 0,
+   "text": "tag",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|task",
+   "lang": "en",
+   "semi": 0,
+   "text": "task",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|text",
+   "lang": "en",
+   "semi": 0,
+   "text": "text",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Thank you. It was delicious!",
+   "lang": "en",
+   "semi": 0,
+   "text": "Thank you. It was delicious!",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Thanks for coming. Have a good day!",
+   "lang": "en",
+   "semi": 0,
+   "text": "Thanks for coming. Have a good day!",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|That clock is very old.",
+   "lang": "en",
+   "semi": 0,
+   "text": "That clock is very old.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|That's all.",
+   "lang": "en",
+   "semi": 0,
+   "text": "That's all.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|The bag is red.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The bag is red.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|The customer is waiting at the counter.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The customer is waiting at the counter.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|The customer wants to cancel the order.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The customer wants to cancel the order.",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|The height of this table is 70 centimeters.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The height of this table is 70 centimeters.",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|The shop is near the station.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The shop is near the station.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|The sofa is too big for my room.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The sofa is too big for my room.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|The structure of the page is simple.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The structure of the page is simple.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|The text is too small.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The text is too small.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|The title goes in the head.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The title goes in the head.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|This is a cheap shirt.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a cheap shirt.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This is a nice chair.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a nice chair.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This is a nice table.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a nice table.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This is a red bag.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a red bag.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This is for your reference.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is for your reference.",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|This is TV new.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is TV new.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This item is very popular.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This item is very popular.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|This lamp is very cheap.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This lamp is very cheap.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This page is in the Japanese language.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This page is in the Japanese language.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|This paragraph is too long.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This paragraph is too long.",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "en|0|This phone is almost new.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This phone is almost new.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This shirt is cheap.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This shirt is cheap.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This TV is new.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This TV is new.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This TV new is.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This TV new is.",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|title",
+   "lang": "en",
+   "semi": 0,
+   "text": "title",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|TV I watch.",
+   "lang": "en",
+   "semi": 0,
+   "text": "TV I watch.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|Two o'clock.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Two o'clock.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Two years old.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Two years old.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Two, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Two, please.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|type",
+   "lang": "en",
+   "semi": 0,
+   "text": "type",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|upload",
+   "lang": "en",
+   "semi": 0,
+   "text": "upload",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|watch",
+   "lang": "en",
+   "semi": 0,
+   "text": "watch",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|We are busy on the weekend.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We are busy on the weekend.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|We check the inventory every Monday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We check the inventory every Monday.",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "en|0|We eat lunch at noon.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We eat lunch at noon.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|We sell furniture on Saturday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We sell furniture on Saturday.",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|We sell furniture.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We sell furniture.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|We sell used games.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We sell used games.",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|website",
+   "lang": "en",
+   "semi": 0,
+   "text": "website",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "en|0|weekend",
+   "lang": "en",
+   "semi": 0,
+   "text": "weekend",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|What do you recommend?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What do you recommend?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|What is the source of this information?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What is the source of this information?",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|What is the title of this report?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What is the title of this report?",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|What type of chair is this?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What type of chair is this?",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Where is it?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Where is it?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|width",
+   "lang": "en",
+   "semi": 0,
+   "text": "width",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "en|0|work",
+   "lang": "en",
+   "semi": 0,
+   "text": "work",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|Write the message in the body.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Write the message in the body.",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "en|0|You too.",
+   "lang": "en",
+   "semi": 0,
+   "text": "You too.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|2.4|Can I get some water, please?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Can I get some water, please?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|Good morning, Sam. How are you?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Good morning, Sam. How are you?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|2.4|I'll take it. Can I pay by card?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "I'll take it. Can I pay by card?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|2.4|It looks nice. Can I try it on?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "It looks nice. Can I try it on?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|2.4|It was delicious. Can I have the check, please?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "It was delicious. Can I have the check, please?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|It's a little big. Do you have a smaller one?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "It's a little big. Do you have a smaller one?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|2.4|No, that's all. Thank you.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "No, that's all. Thank you.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|OK, I'll have the tomato pasta.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "OK, I'll have the tomato pasta.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|Perfect. How much is it?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Perfect. How much is it?",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|2.4|Pretty good. It's cold today, isn't it?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Pretty good. It's cold today, isn't it?",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|2.4|Thank you. What do you recommend?",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Thank you. What do you recommend?",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|Two, please.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Two, please.",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "en|2.4|Yes, I'm looking for a jacket.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Yes, I'm looking for a jacket.",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "en|2.4|Yes. I went to see a movie.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "Yes. I went to see a movie.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "en|2.4|You too. See you later.",
+   "lang": "en",
+   "semi": 2.4,
+   "text": "You too. See you later.",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0| h6タグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " h6タグ ",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0| imageタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " imageタグ ",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0| linkタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " linkタグ ",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0| pictureタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " pictureタグ ",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0| pushタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " pushタグ ",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0| イメージタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " イメージタグ ",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0| イメージタグ  の説明で正しいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": " イメージタグ  の説明で正しいのは？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0| イメージの閉じタグ  が必要",
+   "lang": "ja",
+   "semi": 0,
+   "text": " イメージの閉じタグ  が必要",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0| エータグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エータグ ",
+   "lessons": [
+    "html-03",
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0| エータグ href=\"https://example.com\" エーの閉じタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エータグ href=\"https://example.com\" エーの閉じタグ ",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0| エータグ（エイチレフつき） ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エータグ（エイチレフつき） ",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0| エイチワンタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エイチワンタグ ",
+   "lessons": [
+    "html-02",
+    "html-05",
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| エイチワンタグ  と  エイチワンの閉じタグ  のあいだに、名前を入れましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エイチワンタグ  と  エイチワンの閉じタグ  のあいだに、名前を入れましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| エルアイタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エルアイタグ ",
+   "lessons": [
+    "html-05",
+    "html-06",
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| エルアイタグ  の中に、好きなことを2つ入れましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エルアイタグ  の中に、好きなことを2つ入れましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| エルアイタグ テレビ エルアイの閉じタグ  がまだありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エルアイタグ テレビ エルアイの閉じタグ  がまだありません。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0| エルアイタグ 冷蔵庫 エルアイの閉じタグ  がまだありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エルアイタグ 冷蔵庫 エルアイの閉じタグ  がまだありません。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0| エルアイタグ 洗濯機 エルアイの閉じタグ  がまだありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " エルアイタグ 洗濯機 エルアイの閉じタグ  がまだありません。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0| オーエルタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " オーエルタグ ",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0| オーエルタグ  だけ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " オーエルタグ  だけ",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| タイトルタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " タイトルタグ ",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0| タイトルの閉じタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " タイトルの閉じタグ ",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0| ビーアールタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ビーアールタグ ",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0| ビーアールタグ  の説明で正しいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ビーアールタグ  の説明で正しいのは？",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0| ビーアールタグ  をたくさん",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ビーアールタグ  をたくさん",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| ピータグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ピータグ ",
+   "lessons": [
+    "html-02",
+    "html-03",
+    "html-05",
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| ピータグ  と  ピーの閉じタグ  のあいだに、ひとことを入れましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ピータグ  と  ピーの閉じタグ  のあいだに、ひとことを入れましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| ボタンタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ボタンタグ ",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0| ユーエルタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ユーエルタグ ",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0| ユーエルタグ  と  エルアイタグ ",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ユーエルタグ  と  エルアイタグ ",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0| ユーエルタグ  と  ユーエルの閉じタグ  で、リストを包みましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": " ユーエルタグ  と  ユーエルの閉じタグ  で、リストを包みましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|〜にします（注文するとき）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "〜にします（注文するとき）",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|〜を探しています",
+   "lang": "ja",
+   "semi": 0,
+   "text": "〜を探しています",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|「〜は〜です」は、「だれが、am・are・is、なに・どんな」。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「〜は〜です」は、「だれが、am・are・is、なに・どんな」。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「OK」よりも、「保存する」や「注文を取り消す」のほうが、押す前に安心できます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「OK」よりも、「保存する」や「注文を取り消す」のほうが、押す前に安心できます。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|「いつ」は、ふつう文のうしろ。前に置くこともありますが、まずは「うしろ」と覚えましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「いつ」は、ふつう文のうしろ。前に置くこともありますが、まずは「うしろ」と覚えましょう。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「いつ」を、文のいちばん前に置くこともできますが、まずは「うしろ」と覚えておけば大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「いつ」を、文のいちばん前に置くこともできますが、まずは「うしろ」と覚えておけば大丈夫です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「いつ」を表す言葉は、ふつう文のどこに置く？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「いつ」を表す言葉は、ふつう文のどこに置く？",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「エコモール」を  エイチワンタグ  と  エイチワンの閉じタグ  ではさみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「エコモール」を  エイチワンタグ  と  エイチワンの閉じタグ  ではさみましょう。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|「ここ」や「こちら」だけだと、読み上げで聞いたときに、どこへ行くのかわかりません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「ここ」や「こちら」だけだと、読み上げで聞いたときに、どこへ行くのかわかりません。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|「このテレビは 新しいです」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「このテレビは 新しいです」の英語は？",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「このテレビは（This TV）、です（is）、新しい（new）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「このテレビは（This TV）、です（is）、新しい（new）」の順番です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「これは、すてきなテーブルです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「これは、すてきなテーブルです。」",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「これは、安いシャツです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「これは、安いシャツです。」",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「たつやのページ」という文字を、タグではさみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「たつやのページ」という文字を、タグではさみましょう。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが、どうする（watch）、なにを（soccer）、いつ（on Sunday）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが、どうする（watch）、なにを（soccer）、いつ（on Sunday）」の順番です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが、どうする（work）、どこで（at a shop）、いつ（every day）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが、どうする（work）、どこで（at a shop）、いつ（every day）」の順番です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが（I）、です（am）、なに（Tatsuya）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが（I）、です（am）、なに（Tatsuya）」の順番です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが（I）、どうする（like）、なにを（coffee）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが（I）、どうする（like）、なにを（coffee）」の順番です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが（I）、どうする（watch）、なにを（TV）」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが（I）、どうする（watch）、なにを（TV）」の順番です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「だれが」や「なにを」に入る、ものや人の名前を、めいしと言います。コーヒーや ライスは名詞です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「だれが」や「なにを」に入る、ものや人の名前を、めいしと言います。コーヒーや ライスは名詞です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「です」の言葉は、だれの話かで形が変わります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「です」の言葉は、だれの話かで形が変わります。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「どうする」が、2番目に来るのがポイントです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どうする」が、2番目に来るのがポイントです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「どうする」に入る、動きを表す言葉を、どうしと言います。ライクや イートは動詞です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どうする」に入る、動きを表す言葉を、どうしと言います。ライクや イートは動詞です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「どうする」の前",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どうする」の前",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「どうする」は2番目。順番を変えると、意味が変わる。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どうする」は2番目。順番を変えると、意味が変わる。今日はここまでです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「どこで」と「いつ」が両方あるときは、「どこで」が先、「いつ」が最後が基本です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どこで」と「いつ」が両方あるときは、「どこで」が先、「いつ」が最後が基本です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「どこで」と「いつ」は、文のうしろにつける。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「どこで」と「いつ」は、文のうしろにつける。今日はここまでです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「なにを」の サッカーのあと、最後に「いつ」の オン・サンデーです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「なにを」の サッカーのあと、最後に「いつ」の オン・サンデーです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「リサイクルのお店です。」を  ピータグ  と  ピーの閉じタグ  ではさみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「リサイクルのお店です。」を  ピータグ  と  ピーの閉じタグ  ではさみましょう。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|「わたし」のときは アム。「あなた」や、2つ以上のときは アー。それ以外の、ひとつのものは イズです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたし」のときは アム。「あなた」や、2つ以上のときは アー。それ以外の、ひとつのものは イズです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは コーヒーが 好きです」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは コーヒーが 好きです」の英語は？",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは たつやです」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは たつやです」の英語は？",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは テレビを 見ます」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは テレビを 見ます」の英語は？",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは 日曜日に サッカーを 見ます」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは 日曜日に サッカーを 見ます」の英語は？",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは 毎日 お店で 働きます」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは 毎日 お店で 働きます」の英語は？",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは、たつやです。」英語では、こうです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは、たつやです。」英語では、こうです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは、日曜日に、サッカーを見ます。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは、日曜日に、サッカーを見ます。」",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは、毎日、お店で、働きます。」英語では、こうです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは、毎日、お店で、働きます。」英語では、こうです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは、毎朝、車の中で、英語を勉強します。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは、毎朝、車の中で、英語を勉強します。」",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「わたしは、駅で、友だちに会います。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「わたしは、駅で、友だちに会います。」",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|「会社案内のページへ行く」なら、どちらを使う？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「会社案内のページへ行く」なら、どちらを使う？",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|「保存する」を、始まりのタグと  ボタンの閉じタグ  ではさみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「保存する」を、始まりのタグと  ボタンの閉じタグ  ではさみましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|「営業時間を見る」のように、行き先がわかる言葉が親切です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「営業時間を見る」のように、行き先がわかる言葉が親切です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|「好きなこと」を箇条書きにするなら？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「好きなこと」を箇条書きにするなら？",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|「安いシャツ」の英語は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「安いシャツ」の英語は？",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|「英語は語順が大事」とよく言われるのは、この並べ方のことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「英語は語順が大事」とよく言われるのは、この並べ方のことです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|「見本のサイト」を、始まりのタグと  エーの閉じタグ  ではさみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "「見本のサイト」を、始まりのタグと  エーの閉じタグ  ではさみましょう。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|<a のあとに、半角スペースをあけて href を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "<a のあとに、半角スペースをあけて href を書きましょう。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|<button で始めましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "<button で始めましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|<img のあとに、半角スペースをあけて属性を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "<img のあとに、半角スペースをあけて属性を書きましょう。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|<title/",
+   "lang": "ja",
+   "semi": 0,
+   "text": "<title/",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|1つ1つの項目は エルアイ。入れ物の中に書く。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ1つの項目は エルアイ。入れ物の中に書く。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|1つ目。タグは、始まりと終わりで、文字をはさむ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ目。タグは、始まりと終わりで、文字をはさむ。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|1つ目。始まりのタグと、終わりのタグが、両方あるか。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ目。始まりのタグと、終わりのタグが、両方あるか。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|1つ目の部屋は、ヘッドです。英語で「頭」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ目の部屋は、ヘッドです。英語で「頭」という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|1つ目は、ソースです。ソースの略で、「出どころ」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ目は、ソースです。ソースの略で、「出どころ」という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|1つ目は、順番に意味がないリスト。頭に黒い点がつく、箇条書きです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1つ目は、順番に意味がないリスト。頭に黒い点がつく、箇条書きです。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|1回目のテーマは、「ページの骨組み」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1回目のテーマは、「ページの骨組み」です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|1回目は、あいさつです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1回目は、あいさつです。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|1番",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1番",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|2つの形を、並べてみましょう。「そのかばんは、赤いです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つの形を、並べてみましょう。「そのかばんは、赤いです。」",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|2つ目。ヘッドは見えない情報、ボディは見える中身。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つ目。ヘッドは見えない情報、ボディは見える中身。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|2つ目。終わりのタグに、スラッシュがついているか。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つ目。終わりのタグに、スラッシュがついているか。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|2つ目の部屋は、ボディです。英語で「体」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つ目の部屋は、ボディです。英語で「体」という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|2つ目は、オルトです。オルタナティブの略で、「代わりの」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つ目は、オルトです。オルタナティブの略で、「代わりの」という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|2つ目は、順番に意味があるリスト。頭に、1、2、3と番号がつきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2つ目は、順番に意味があるリスト。頭に、1、2、3と番号がつきます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|2人です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2人です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|2人です。人数に、プリーズ、をつけるだけで通じます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2人です。人数に、プリーズ、をつけるだけで通じます。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|2人です（2人の席をお願いします）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2人です（2人の席をお願いします）",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|2回目は、「〜は、〜です」という文と、ようすを表す言葉の場所です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2回目は、「〜は、〜です」という文と、ようすを表す言葉の場所です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|2回目は、買い物です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2回目は、買い物です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|2番",
+   "lang": "ja",
+   "semi": 0,
+   "text": "2番",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|3つ目。全体は エイチティーエムエルタグで包む。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3つ目。全体は エイチティーエムエルタグで包む。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|3つ目。記号が、全角ではなく半角になっているか。日本語入力のまま打つと、全角になりやすいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3つ目。記号が、全角ではなく半角になっているか。日本語入力のまま打つと、全角になりやすいです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|3回目は、「どこで」と「いつ」の場所です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3回目は、「どこで」と「いつ」の場所です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|3回目は、食事です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3回目は、食事です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|3番",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3番",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|4番",
+   "lang": "ja",
+   "semi": 0,
+   "text": "4番",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|5000円です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "5000円です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|alt",
+   "lang": "ja",
+   "semi": 0,
+   "text": "alt",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|alt に書くのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "alt に書くのは？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|alt は画像の代わりの文です。読み上げのときにも読まれます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "alt は画像の代わりの文です。読み上げのときにも読まれます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|alt=\"ねこの絵\" で、画像の説明を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "alt=\"ねこの絵\" で、画像の説明を書きましょう。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|body",
+   "lang": "ja",
+   "semi": 0,
+   "text": "body",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|body の外に書く",
+   "lang": "ja",
+   "semi": 0,
+   "text": "body の外に書く",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|body（体）に書いたものが画面に出ます。head は見えない情報を書く部屋です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "body（体）に書いたものが画面に出ます。head は見えない情報を書く部屋です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|br は中に何もはさまないので、終わりのタグがありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "br は中に何もはさまないので、終わりのタグがありません。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|head",
+   "lang": "ja",
+   "semi": 0,
+   "text": "head",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|href に行き先を書きます。はさんだ文字は、画面に出る押せる文字です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "href に行き先を書きます。はさんだ文字は、画面に出る押せる文字です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|href 属性",
+   "lang": "ja",
+   "semi": 0,
+   "text": "href 属性",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|href=\"https://example.com\" の形で、行き先を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "href=\"https://example.com\" の形で、行き先を書きましょう。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|HTMLだけで作ったボタンを押すと？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "HTMLだけで作ったボタンを押すと？",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|HTMLでは、「タグ」という目印を使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "HTMLでは、「タグ」という目印を使います。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|HTMLは、「ここは見出しです」「ここは文章です」と、ブラウザに伝えるための書き方です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "HTMLは、「ここは見出しです」「ここは文章です」と、ブラウザに伝えるための書き方です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|img は中に文字をはさまないので、終わりのタグがいりません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "img は中に文字をはさまないので、終わりのタグがいりません。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|lang は language（言語）の略です。ja は日本語のことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "lang は language（言語）の略です。ja は日本語のことです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|lang=\"ja\" は、何を伝えている？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "lang=\"ja\" は、何を伝えている？",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|li は list item（一覧の項目）です。ul や ol の中に書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "li は list item（一覧の項目）です。ul や ol の中に書きます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|OK",
+   "lang": "ja",
+   "semi": 0,
+   "text": "OK",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ol の中の li には、ブラウザが自動で番号をつけます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ol の中の li には、ブラウザが自動で番号をつけます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|ol の番号について正しいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ol の番号について正しいのは？",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|ol は ordered list（順番のある一覧）です。番号が自動でつきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ol は ordered list（順番のある一覧）です。番号が自動でつきます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|p は paragraph（段落）の頭文字です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "p は paragraph（段落）の頭文字です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|src",
+   "lang": "ja",
+   "semi": 0,
+   "text": "src",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|src（source＝出どころ）に、画像のファイルの場所を書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "src（source＝出どころ）に、画像のファイルの場所を書きます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|src=\"img/cat.svg\" で、画像の場所を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "src=\"img/cat.svg\" で、画像の場所を書きましょう。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|title",
+   "lang": "ja",
+   "semi": 0,
+   "text": "title",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|title タグに書いた文字は、どこに出る？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "title タグに書いた文字は、どこに出る？",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|title はタブやブックマークの名前になります。ページの中には出ません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "title はタブやブックマークの名前になります。ページの中には出ません。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|Webサイト",
+   "lang": "ja",
+   "semi": 0,
+   "text": "Webサイト",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|Webページの文字を押すと、別のページに飛ぶことがありますよね。あれがリンクです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "Webページの文字を押すと、別のページに飛ぶことがありますよね。あれがリンクです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|Webページも同じです。エイチティーエムエルでは、見出しと文章を、別のタグで書き分けます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "Webページも同じです。エイチティーエムエルでは、見出しと文章を、別のタグで書き分けます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|width",
+   "lang": "ja",
+   "semi": 0,
+   "text": "width",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|アイは「わたしは」。ライクは「好き」。コーヒーは「コーヒーを」。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アイは「わたしは」。ライクは「好き」。コーヒーは「コーヒーを」。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|アット・ザ・ステーション、駅で、が最後に来ています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アット・ザ・ステーション、駅で、が最後に来ています。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|アップロードする（上げる）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アップロードする（上げる）",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|あとで来ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あとで来ます。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|あと少しです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あと少しです。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|あなたはだれですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あなたはだれですか？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|あなたもね、と返します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あなたもね、と返します。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|あの時計はとても古いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あの時計はとても古いです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|アプリやWebページには、「送信」や「保存」など、押せるボタンがたくさんありますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アプリやWebページには、「送信」や「保存」など、押せるボタンがたくさんありますね。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|アムは、「です」のような役わりの言葉です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アムは、「です」のような役わりの言葉です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|ありがとう。おいしかったです！",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ありがとう。おいしかったです！",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|ありがとう。おすすめは何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ありがとう。おすすめは何ですか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|ありがとうございました。よい夜を！",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ありがとうございました。よい夜を！",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|いいえ、以上です。ありがとう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いいえ、以上です。ありがとう。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|いいね！よい一日を。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いいね！よい一日を。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|いくらですか、と聞くときに使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いくらですか、と聞くときに使います。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|いくらですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いくらですか？",
+   "lessons": [
+    "talk-02",
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|いちばん上に、名前の見出し。エイチワンを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いちばん上に、名前の見出し。エイチワンを使います。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|いちばん上には、ドクタイプ、という一行を書きます。「これはHTMLのページです」という宣言です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いちばん上には、ドクタイプ、という一行を書きます。「これはHTMLのページです」という宣言です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|いちばん前だけ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いちばん前だけ",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|いちばん大きい（大事な）見出しは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いちばん大きい（大事な）見出しは？",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|いつ、だれが、なにを、どうする、どこで",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いつ、だれが、なにを、どうする、どこで",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|いつも全部を使うわけではありません。使うものだけを、この順番で並べます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いつも全部を使うわけではありません。使うものだけを、この順番で並べます。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|イメージスラッシュ、キャット、ドット、エスブイジー、という画像を、オルト、ねこの絵、でのせてみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "イメージスラッシュ、キャット、ドット、エスブイジー、という画像を、オルト、ねこの絵、でのせてみましょう。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|イメージは、イメージを短くした名前です。image は「画像」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "イメージは、イメージを短くした名前です。image は「画像」という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|いらっしゃいませ！何名様ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いらっしゃいませ！何名様ですか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|いらっしゃいませ。何かお探しですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いらっしゃいませ。何かお探しですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|ウィズに120と書くと、横の幅が120ピクセルになります。ピクセルは、画面の点の数のことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ウィズに120と書くと、横の幅が120ピクセルになります。ピクセルは、画面の点の数のことです。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|うしろのほう",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うしろのほう",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|うちの店に、新しいWebサイトができました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うちの店に、新しいWebサイトができました。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|うまく聞き取れませんでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うまく聞き取れませんでした。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|うまく表示されないときは、次の3つを確かめてみてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うまく表示されないときは、次の3つを確かめてみてください。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|うん。映画を見に行ったよ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うん。映画を見に行ったよ。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|エーは、アンカーの頭文字です。anchor は、船の「いかり」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エーは、アンカーの頭文字です。anchor は、船の「いかり」という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|エイチツーは、章の見出し。エイチスリーは、その中の小見出し、という感じです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチツーは、章の見出し。エイチスリーは、その中の小見出し、という感じです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エイチティーエムエルタグの中は、大きく2つの部屋に分かれています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチティーエムエルタグの中は、大きく2つの部屋に分かれています。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|エイチティーエムエルでは、コードの中で改行しても、画面では改行されません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチティーエムエルでは、コードの中で改行しても、画面では改行されません。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エイチティーエムエルでは、こうした一覧を「リスト」と呼びます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチティーエムエルでは、こうした一覧を「リスト」と呼びます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|エイチティーエムエルは、「ここにボタンがあります」と置くだけ。動きは、あとで JavaScript の回で学びます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチティーエムエルは、「ここにボタンがあります」と置くだけ。動きは、あとで JavaScript の回で学びます。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|エイチは、英語の ヘディングの頭文字です。heading は「見出し」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチは、英語の ヘディングの頭文字です。heading は「見出し」という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エイチレフには、「どこへ飛ぶか」を書きます。飛び先の住所、つまりユーアールエルです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチレフには、「どこへ飛ぶか」を書きます。飛び先の住所、つまりユーアールエルです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|エイチワンタグで、エコモール。ピータグで、リサイクルのお店です。と打ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチワンタグで、エコモール。ピータグで、リサイクルのお店です。と打ってみましょう。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エイチワンで自分の名前、ピーでひとこと、ユーエルとエルアイで好きなことを2つ書いて、自己紹介ページを作りましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチワンで自分の名前、ピーでひとこと、ユーエルとエルアイで好きなことを2つ書いて、自己紹介ページを作りましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|エイチワンは、本の題名のようなものです。1つのページに、ふつうは1つだけ使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エイチワンは、本の題名のようなものです。1つのページに、ふつうは1つだけ使います。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エラーになる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エラーになる",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|エルアイは、リスト アイテムの略です。「一覧の項目」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エルアイは、リスト アイテムの略です。「一覧の項目」という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|エルアイは、必ず ユーエルか オーエルの中に書きます。li だけをぽつんと書くことはしません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エルアイは、必ず ユーエルか オーエルの中に書きます。li だけをぽつんと書くことはしません。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|オーエルは、オーダード リストの略です。「順番のある一覧」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "オーエルは、オーダード リストの略です。「順番のある一覧」という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|おいしかったです",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おいしかったです",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|おしい。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしい。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、1番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、1番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、1番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、1番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、2番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、2番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、2番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、2番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、3番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、3番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、3番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、3番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、4番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、4番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。正しい答えは、4番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。正しい答えは、4番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おしいです。答えは、",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おしいです。答えは、",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|おすすめは何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おすすめは何ですか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|おはよう、サム。元気？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おはよう、サム。元気？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|おはよう、たつや！",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おはよう、たつや！",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|おはようございます",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おはようございます",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|オルトには、画像の代わりになる説明の文を書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "オルトには、画像の代わりになる説明の文を書きます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|オルトは、「ねこの絵」のように、短く、見たままを書けば十分です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "オルトは、「ねこの絵」のように、短く、見たままを書けば十分です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|お会いできてうれしいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会いできてうれしいです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|お会計をお願いしたいとき、何と言う？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計をお願いしたいとき、何と言う？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|お会計をお願いします",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計をお願いします",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|お会計をお願いします、と言うときに使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計をお願いします、と言うときに使います。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|お客さん",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お客さん",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|お客さんがレジで待っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お客さんがレジで待っています。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|お客さんが注文を取り消したいそうです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お客さんが注文を取り消したいそうです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|お客さんはここでたくさんの物を買います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お客さんはここでたくさんの物を買います。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|お店でも使えます。「このテレビは、新しいです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お店でも使えます。「このテレビは、新しいです。」",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|お店に来るお客さんの気持ちも、少しわかるかもしれませんね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お店に来るお客さんの気持ちも、少しわかるかもしれませんね。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|お店の商品の一覧（順番に意味はない）に合うのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お店の商品の一覧（順番に意味はない）に合うのは？",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|お店は駅の近くです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お店は駅の近くです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|お水をもらえますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お水をもらえますか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|お礼を言うとき",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お礼を言うとき",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|カードで払えますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カードで払えますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|カードで払えますか？それとも現金だけですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カードで払えますか？それとも現金だけですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|かしこまりました。ほかにはございますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "かしこまりました。ほかにはございますか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|カレーをお願いします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カレーをお願いします。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|きみもね。またあとで。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "きみもね。またあとで。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|クリックする・押す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "クリックする・押す",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|コードの中で Enter を押して改行すると、画面ではどうなる？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "コードの中で Enter を押して改行すると、画面ではどうなる？",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|こういう、終わりのタグがないタグを、「からようそ」と呼びます。今は名前を覚えなくて大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こういう、終わりのタグがないタグを、「からようそ」と呼びます。今は名前を覚えなくて大丈夫です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|こうして並べると、もう、たくさんのタグを知っていますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こうして並べると、もう、たくさんのタグを知っていますね。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|こう聞こえました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こう聞こえました。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|ここ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここ",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|ここで、ひとつ不思議なことがあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここで、ひとつ不思議なことがあります。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ここで、前に学んだリンクと、ボタンのちがいを考えてみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここで、前に学んだリンクと、ボタンのちがいを考えてみましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ここで、覚えておきたいことは3つです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここで、覚えておきたいことは3つです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ここで、言葉の種類の名前を、少しだけ紹介します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここで、言葉の種類の名前を、少しだけ紹介します。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|ここまで続けてきたこと、本当にすばらしいです。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここまで続けてきたこと、本当にすばらしいです。今日はここまでです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|こちら",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こちら",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|こちらはいかがですか？とても人気ですよ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こちらはいかがですか？とても人気ですよ。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|こちらへどうぞ。メニューです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こちらへどうぞ。メニューです。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|この2つのタグで、文字をはさみます。はさまれた文字が、そのタグの中身になります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この2つのタグで、文字をはさみます。はさまれた文字が、そのタグの中身になります。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|このシャツ、いいですね。試着できますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このシャツ、いいですね。試着できますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|このシャツは 安いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このシャツは 安いです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|このスマホは、ほぼ新品です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このスマホは、ほぼ新品です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|このタグには、属性が2つついています。前回学んだ、名前イコール値の形ですね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このタグには、属性が2つついています。前回学んだ、名前イコール値の形ですね。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|このテーブルの高さは70センチです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このテーブルの高さは70センチです。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|このテレビは 新しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このテレビは 新しいです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|このページは日本語で書かれています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このページは日本語で書かれています。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|このように、タグの中にタグを入れることを、「入れいれこ」と言います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このように、タグの中にタグを入れることを、「入れいれこ」と言います。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|このランプはいくらですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このランプはいくらですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|このランプはとても安いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このランプはとても安いです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|この品物はとても人気です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この品物はとても人気です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|この報告書の題名は何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この報告書の題名は何ですか？",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|この情報の出どころは何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この情報の出どころは何ですか？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|この手順のとおりにやってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この手順のとおりにやってください。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|この書類を読んでください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この書類を読んでください。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|この段落は長すぎます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この段落は長すぎます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|この用紙に記入してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この用紙に記入してください。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|これが短いまとめです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これが短いまとめです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|これだけで、画面に押せるボタンがあらわれます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これだけで、画面に押せるボタンがあらわれます。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|これだと、「コーヒーが、わたしを好き」という意味になってしまいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これだと、「コーヒーが、わたしを好き」という意味になってしまいます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|これで、エイチティーエムエルの基礎の7回はおしまいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これで、エイチティーエムエルの基礎の7回はおしまいです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|これにします。カードで払えますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これにします。カードで払えますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|これにします（買います）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これにします（買います）",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|これにします（買います）。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これにします（買います）。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|これは すてきなテーブルです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは すてきなテーブルです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|これは 赤いかばんです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは 赤いかばんです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|これは、オーエルというタグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは、オーエルというタグで作ります。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|これは、たつやさんのことですね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは、たつやさんのことですね。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|これは、ユーエルというタグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは、ユーエルというタグで作ります。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|これは、前回のリンクの文字と同じ考え方ですね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは、前回のリンクの文字と同じ考え方ですね。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|これはすてきないすです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これはすてきないすです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|これは何の種類のいすですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは何の種類のいすですか？",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|これを「ぞくせい」と呼びます。属性は、タグにつける、追加の情報です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これを「ぞくせい」と呼びます。属性は、タグにつける、追加の情報です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|これをください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これをください。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは、2人です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは、2人です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは、たつやです。はじめまして。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは、たつやです。はじめまして。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。2回目のテーマは、「見出しと段落」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。2回目のテーマは、「見出しと段落」です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。3回目のテーマは、「リンク」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。3回目のテーマは、「リンク」です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。4回目のテーマは、「画像」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。4回目のテーマは、「画像」です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。5回目のテーマは、「リスト」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。5回目のテーマは、「リスト」です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。6回目のテーマは、「ボタン」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。6回目のテーマは、「ボタン」です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。7回目は、これまでのまとめです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。7回目は、これまでのまとめです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。クレアです。今日も、いっしょに学びましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。クレアです。今日も、いっしょに学びましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。今日から、いっしょにWebページの作り方を学んでいきましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。今日から、いっしょにWebページの作り方を学んでいきましょう。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。今日から、英語の「語順」を学びます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。今日から、英語の「語順」を学びます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|こんにちは。今日から、英語の日常会話を始めます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こんにちは。今日から、英語の日常会話を始めます。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ご参考までに。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ご参考までに。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|さて、イメージタグには、終わりのタグがありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "さて、イメージタグには、終わりのタグがありません。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|さて、このタグには、今までになかったものがついています。エイチレフという部分です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "さて、このタグには、今までになかったものがついています。エイチレフという部分です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|じつは、プロの人も、このまちがいをよくします。まちがえるのは、ふつうのことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "じつは、プロの人も、このまちがいをよくします。まちがえるのは、ふつうのことです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|じつは、第1回の ラングも属性でした。「言語は日本語」という追加の情報でしたね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "じつは、第1回の ラングも属性でした。「言語は日本語」という追加の情報でしたね。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|じゃあ、トマトのパスタにします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "じゃあ、トマトのパスタにします。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|すてきですね。試着してもいいですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "すてきですね。試着してもいいですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|すてきな・いい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "すてきな・いい",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|スマホを再起動する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スマホを再起動する",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|すみません、お会計をお願いします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "すみません、お会計をお願いします。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|すみません、お水をもらえますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "すみません、お水をもらえますか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|ソースに、画像の場所。オルトに、画像の説明の文。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ソースに、画像の場所。オルトに、画像の説明の文。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|ソースには、画像のファイルの場所を書きます。どの画像を出すか、という指定です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ソースには、画像のファイルの場所を書きます。どの画像を出すか、という指定です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|そうだね。いい週末だった？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そうだね。いい週末だった？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|そして、「赤いかばん」。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そして、「赤いかばん」。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|そして、始まりのタグと終わりのタグではさんだ文字が、画面に出る、押せる文字になります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そして、始まりのタグと終わりのタグではさんだ文字が、画面に出る、押せる文字になります。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|そのあとに、「どこで」の アット・ア・ショップ、お店で。最後に、「いつ」の エブリデイ、毎日。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そのあとに、「どこで」の アット・ア・ショップ、お店で。最後に、「いつ」の エブリデイ、毎日。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|そのソファは、わたしの部屋には大きすぎます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そのソファは、わたしの部屋には大きすぎます。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|そのまま改行される",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そのまま改行される",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|その下に、ひとことの紹介文。ピーを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "その下に、ひとことの紹介文。ピーを使います。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|その下に、好きなことの箇条書き。ユーエルと エルアイを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "その下に、好きなことの箇条書き。ユーエルと エルアイを使います。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|その中の、1つ1つの項目は、エルアイというタグではさみます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "その中の、1つ1つの項目は、エルアイというタグではさみます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|それから、目の見えない人が、読み上げでページを聞くとき、オルトの文が読まれます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "それから、目の見えない人が、読み上げでページを聞くとき、オルトの文が読まれます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|だいじょうぶ。次にいきましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だいじょうぶ。次にいきましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|タイトルタグを打って、ページの名前を、たつやのページ、にしてみましょう。始まりのタグと、終わりのタグで、文字をはさみます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タイトルタグを打って、ページの名前を、たつやのページ、にしてみましょう。始まりのタグと、終わりのタグで、文字をはさみます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|タイトルは head に入ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タイトルは head に入ります。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|タイプは「種類」という意味です。ボタンと書くと、「ふつうのボタン」という意味になります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タイプは「種類」という意味です。ボタンと書くと、「ふつうのボタン」という意味になります。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|だから、段落を分けたいときは、ピータグを分けて書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だから、段落を分けたいときは、ピータグを分けて書きます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|だから英語では、順番がとても大事なのです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だから英語では、順番がとても大事なのです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|タグではさんだ文字",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タグではさんだ文字",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|タグには、「始まりのタグ」と「終わりのタグ」があります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タグには、「始まりのタグ」と「終わりのタグ」があります。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|タグの記号（< > / = \"）は、半角で打ちます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タグの記号（< > / = \"）は、半角で打ちます。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|タグは、小なり記号と、大なり記号で、言葉をはさんだものです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タグは、小なり記号と、大なり記号で、言葉をはさんだものです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|タグを打ったのに表示がおかしい。まず確かめることは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タグを打ったのに表示がおかしい。まず確かめることは？",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|ただし、ビーアールを使いすぎるのはおすすめしません。段落を分けるなら、ピーを使いましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ただし、ビーアールを使いすぎるのはおすすめしません。段落を分けるなら、ピーを使いましょう。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ただし、今の時点では、押しても何も起きません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ただし、今の時点では、押しても何も起きません。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|たとえば、「このシャツは、安いです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たとえば、「このシャツは、安いです。」",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|たとえば、「家電」という項目の中に、テレビ、冷蔵庫、という小さなリストを入れられます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たとえば、「家電」という項目の中に、テレビ、冷蔵庫、という小さなリストを入れられます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|たとえば、タイトルタグに書いた文字は、ブラウザのタブや、ブックマークの名前になります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たとえば、タイトルタグに書いた文字は、ブラウザのタブや、ブックマークの名前になります。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ダブルクォーテーションは、上の方にある、点が2つの記号です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ダブルクォーテーションは、上の方にある、点が2つの記号です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、アイ。どうする、イート、食べる。なにを、ライス、ごはん。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、アイ。どうする、イート、食べる。なにを、ライス、ごはん。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、アイ。どうする、ワーク、働く。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、アイ。どうする、ワーク、働く。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、いつ、どこで、なにを、どうする",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、いつ、どこで、なにを、どうする",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、どうする、なにを",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、どうする、なにを",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、どうする、なにを、どこで、いつ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、どうする、なにを、どこで、いつ",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|だれが、なにを、どうする",
+   "lang": "ja",
+   "semi": 0,
+   "text": "だれが、なにを、どうする",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|チープは「安い」。このような、ようすを表す言葉を、けいようしと言います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "チープは「安い」。このような、ようすを表す言葉を、けいようしと言います。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|チームにページを共有します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "チームにページを共有します。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|つなぐもの・リンク",
+   "lang": "ja",
+   "semi": 0,
+   "text": "つなぐもの・リンク",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|つまり、エイチレフは行き先。はさんだ文字は、看板。そう覚えると、わかりやすいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "つまり、エイチレフは行き先。はさんだ文字は、看板。そう覚えると、わかりやすいです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|つまり、ユーエルが「入れ物」で、エルアイが「中身」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "つまり、ユーエルが「入れ物」で、エルアイが「中身」です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|できました。すばらしいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "できました。すばらしいです。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|では、ページ全体の骨組みを見てみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "では、ページ全体の骨組みを見てみましょう。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|では、まとめです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "では、まとめです。",
+   "lessons": [
+    "grammar-01",
+    "grammar-02",
+    "grammar-03",
+    "html-02",
+    "html-03",
+    "html-04",
+    "html-05",
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|では、自己紹介ページの設計図を考えましょう。いきなり書かずに、先に中身を決めるのがコツです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "では、自己紹介ページの設計図を考えましょう。いきなり書かずに、先に中身を決めるのがコツです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|でも英語は、順番を入れかえると、意味が変わってしまいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "でも英語は、順番を入れかえると、意味が変わってしまいます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|どうしても段落の中で改行したいときは、ビーアールというタグを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どうしても段落の中で改行したいときは、ビーアールというタグを使います。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|どうぞ。試着室はあちらです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どうぞ。試着室はあちらです。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|どこにも出ない",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どこにも出ない",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|どちらでもよい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どちらでもよい",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|どちらも押せますが、役わりがちがいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どちらも押せますが、役わりがちがいます。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|どちらを使うか迷ったら、「順番を入れかえたら、意味が変わるかな」と考えてみてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どちらを使うか迷ったら、「順番を入れかえたら、意味が変わるかな」と考えてみてください。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|とてもおいしかったです。お会計をお願いします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "とてもおいしかったです。お会計をお願いします。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|どの画像を出すかを書く属性は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どの画像を出すかを書く属性は？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|トマトのパスタがとても人気です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "トマトのパスタがとても人気です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|どれもおいしそう。おすすめは何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どれもおいしそう。おすすめは何ですか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|と聞かれたけど、見ているだけのときは、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "と聞かれたけど、見ているだけのときは、どれでしょう？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|と聞かれました。2人のときは、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "と聞かれました。2人のときは、どれでしょう？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|と聞かれました。もう注文はないときは、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "と聞かれました。もう注文はないときは、どれでしょう？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|と聞かれました。返事として自然なのは、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "と聞かれました。返事として自然なのは、どれでしょう？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|と言われました。返事は、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "と言われました。返事は、どれでしょう？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|なにを、だれが、どうする",
+   "lang": "ja",
+   "semi": 0,
+   "text": "なにを、だれが、どうする",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|の意味は、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "の意味は、どれでしょう？",
+   "lessons": [
+    "common",
+    "talk-01",
+    "talk-02",
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、〜にします（注文するとき）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、〜にします（注文するとき）、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、〜を探しています、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、〜を探しています、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、2人です（2人の席をお願いします）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、2人です（2人の席をお願いします）、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、Webサイト、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、Webサイト、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、アップロードする（上げる）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、アップロードする（上げる）、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、いくらですか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、いくらですか？、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、おいしかったです、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おいしかったです、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、おすすめは何ですか、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おすすめは何ですか、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、おすすめは何ですか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おすすめは何ですか？、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、おはようございます、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おはようございます、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、お会計をお願いします、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お会計をお願いします、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、お客さん、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お客さん、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、お水をもらえますか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お水をもらえますか？、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、カードで払えますか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、カードで払えますか？、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、クリックする・押す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、クリックする・押す、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、これにします、という意味です。買うと決めたときの一言です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、これにします、という意味です。買うと決めたときの一言です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、これにします（買います）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、これにします（買います）、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、すてきな・いい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、すてきな・いい、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、つなぐもの・リンク、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、つなぐもの・リンク、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、どんなときに言うでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、どんなときに言うでしょう？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、はじめまして（会えてうれしいです）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、はじめまして（会えてうれしいです）、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、ひさしぶり、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ひさしぶり、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、ファイル、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ファイル、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、ボタン、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ボタン、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、またあとで、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、またあとで、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、またあとで。別れるときのあいさつです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、またあとで。別れるときのあいさつです。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、まとめ・要約、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、まとめ・要約、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、もっと小さいのはありますか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、もっと小さいのはありますか？、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、よい一日を、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、よい一日を、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、わたしも、なので、ここでは合いません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、わたしも、なので、ここでは合いません。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、一覧・リスト、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、一覧・リスト、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、下見・プレビュー、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、下見・プレビュー、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、代わりの・別の案、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、代わりの・別の案、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、以上です、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、以上です、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、会う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、会う、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、住所・アドレス、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、住所・アドレス、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、体・本文、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、体・本文、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、作業・仕事、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、作業・仕事、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、使える・手が空いている、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、使える・手が空いている、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、保存する・ためる、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、保存する・ためる、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、働く、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、働く、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、元気です、ありがとう、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、元気です、ありがとう、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、元気ですか、という意味です。毎日のあいさつで、よく使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、元気ですか、という意味です。毎日のあいさつで、よく使います。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、元気ですか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、元気ですか？、という意味です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、共有する・分ける、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、共有する・分ける、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、出どころ・元、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、出どころ・元、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、勉強する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、勉強する、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、区切り・休けい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、区切り・休けい、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、参照・参考、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、参照・参考、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、取り消す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、取り消す、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、古い、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、古い、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、在庫、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、在庫、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、報告・報告書、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、報告・報告書、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、売る、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、売る、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、大きい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、大きい、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、好き（好む）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、好き（好む）、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、安い、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、安い、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、小さい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、小さい、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、幅、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、幅、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、手順・一歩、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、手順・一歩、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、提出する・送信する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、提出する・送信する、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、文字・文章、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、文字・文章、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、文書・書類、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、文書・書類、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、新しい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、新しい、という意味です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、札・目印、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、札・目印、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、構造・組み立て、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、構造・組み立て、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、段落、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、段落、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、毎日、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、毎日、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、用紙・入力欄、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、用紙・入力欄、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、画像、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、画像、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、確かめる・確定する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、確かめる・確定する、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、確認する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、確認する、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、種類・型、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、種類・型、という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、紹介する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、紹介する、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、経験、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、経験、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、自己紹介・プロフィール、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、自己紹介・プロフィール、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、行・線、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、行・線、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、見ているだけです、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、見ているだけです、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、見る（じっと見る）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、見る（じっと見る）、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、見出し、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、見出し、という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、言語・ことば、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、言語・ことば、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、試着してもいいですか、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、試着してもいいですか、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、試着してもいいですか？、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、試着してもいいですか？、という意味です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、買う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、買う、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、趣味、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、趣味、という意味です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、連絡する・連絡先、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、連絡する・連絡先、という意味です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、週末、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、週末、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、運転する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、運転する、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、項目・品物、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、項目・品物、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、順番・注文、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、順番・注文、という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、頭・先頭、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、頭・先頭、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、題名・タイトル、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、題名・タイトル、という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、食べる、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、食べる、という意味です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、駅、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、駅、という意味です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、高さ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、高さ、という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|はい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "はい",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|はい、ジャケットを探しています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "はい、ジャケットを探しています。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|はい。こちらです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "はい。こちらです。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|はじめて会ったとき",
+   "lang": "ja",
+   "semi": 0,
+   "text": "はじめて会ったとき",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|はじめまして（会えてうれしいです）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "はじめまして（会えてうれしいです）",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ばっちりです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ばっちりです。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|ばっちり伝わりました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ばっちり伝わりました。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|ビーアールには、終わりのタグがありません。中に何もはさまないからです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ビーアールには、終わりのタグがありません。中に何もはさまないからです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ビーアールは、ブレイクの略です。「区切る」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ビーアールは、ブレイクの略です。「区切る」という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ピータグを2つ並べると、段落と段落のあいだに、少しすき間があきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ピータグを2つ並べると、段落と段落のあいだに、少しすき間があきます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ピーは、英語の パラグラフの頭文字です。paragraph は「段落」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ピーは、英語の パラグラフの頭文字です。paragraph は「段落」という意味です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ひさしぶり",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ひさしぶり",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ひさしぶり！元気にしてた？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ひさしぶり！元気にしてた？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ぴったりです。いくらですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ぴったりです。いくらですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|ひとつ、気をつけたいことがあります。インターネットで見つけた画像を、勝手に使ってはいけません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ひとつ、気をつけたいことがあります。インターネットで見つけた画像を、勝手に使ってはいけません。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|ファイル",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイル",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|ファイルの保存を忘れないでね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイルの保存を忘れないでね。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|ファイルをスマホに保存しました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイルをスマホに保存しました。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|フォームは、もう少し先で学びます。今は、タイプで種類を決められる、と知っておけば大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "フォームは、もう少し先で学びます。今は、タイプで種類を決められる、と知っておけば大丈夫です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|フォルダの中にある画像なら、フォルダの名前、スラッシュ、ファイルの名前、と書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "フォルダの中にある画像なら、フォルダの名前、スラッシュ、ファイルの名前、と書きます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|ふだんスマホで見ているWebページは、エイチティーエムエルという言葉で書かれています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ふだんスマホで見ているWebページは、エイチティーエムエルという言葉で書かれています。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ブラウザが自動でつける",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブラウザが自動でつける",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|ブラウザとは、ChromeやSafariのような、Webページを見るためのアプリのことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブラウザとは、ChromeやSafariのような、Webページを見るためのアプリのことです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ブラウザのタブの名前",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブラウザのタブの名前",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ブラウザは、改行やたくさんの空白を、1つの空白として扱うからです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブラウザは、改行やたくさんの空白を、1つの空白として扱うからです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|ブラウザは改行を空白1つとして扱います。段落を分けるなら p を分けます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブラウザは改行を空白1つとして扱います。段落を分けるなら p を分けます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|プロフィールを新しくしてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "プロフィールを新しくしてください。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|ページが日本語であること",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページが日本語であること",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ページでいちばん大事な見出しは h1 です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページでいちばん大事な見出しは h1 です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|ページとページを、いかりでつなぎとめる、というイメージです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページとページを、いかりでつなぎとめる、というイメージです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|ページの真ん中に大きく",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページの真ん中に大きく",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ページの組み立ては、かんたんです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページの組み立ては、かんたんです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ページの色",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページの色",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ヘッドには、ページの名前など、画面には直接出ない情報を書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ヘッドには、ページの名前など、画面には直接出ない情報を書きます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ボタン",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタン",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンにも、属性をつけることができます。よく使うのは、タイプという属性です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンにも、属性をつけることができます。よく使うのは、タイプという属性です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンの文字として、いちばんわかりやすいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンの文字として、いちばんわかりやすいのは？",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンの文字は、押すと何が起きるかが、すぐわかる言葉にしましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンの文字は、押すと何が起きるかが、すぐわかる言葉にしましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンは button タグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンは button タグで作ります。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンは ボタンタグ。はさんだ文字が、ボタンの上に出る。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンは ボタンタグ。はさんだ文字が、ボタンの上に出る。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンは、「その場で何かをする」ためのもの。保存する、送る、消す、などの操作です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンは、「その場で何かをする」ためのもの。保存する、送る、消す、などの操作です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンは、そのまま ボタンというタグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンは、そのまま ボタンというタグで作ります。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンを作るタグは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンを作るタグは？",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボタンを押したときに何をするかは、ジャバスクリプトという、別の言葉で書くからです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタンを押したときに何をするかは、ジャバスクリプトという、別の言葉で書くからです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ボディに書いたものが、画面に表示されます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボディに書いたものが、画面に表示されます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|まあまあ元気。今日は寒いね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まあまあ元気。今日は寒いね。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|まず、6回で学んだことを、ふり返ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まず、6回で学んだことを、ふり返ってみましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|まず、日本語の文を見てみましょう。「わたしは、コーヒーが、好きです。」",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まず、日本語の文を見てみましょう。「わたしは、コーヒーが、好きです。」",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|まずは、前回の復習です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まずは、前回の復習です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|まずは見出しです。見出しは、エイチワンというタグで書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まずは見出しです。見出しは、エイチワンというタグで書きます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|またあとで",
+   "lang": "ja",
+   "semi": 0,
+   "text": "またあとで",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|まちがいを見つけて直せることが、いちばん大事な力です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まちがいを見つけて直せることが、いちばん大事な力です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|まとめ・要約",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まとめ・要約",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|みなさん、おはようございます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "みなさん、おはようございます。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|メールアドレスを書いてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "メールアドレスを書いてください。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|メールで連絡してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "メールで連絡してください。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|メッセージは本文に書いてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "メッセージは本文に書いてください。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|もうひとつ。「わたしは、ごはんを、食べます。」英語では、こうです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もうひとつ。「わたしは、ごはんを、食べます。」英語では、こうです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|もう一度、お手本のあとに言ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もう一度、お手本のあとに言ってみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|もう一度、順番を変えて出します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もう一度、順番を変えて出します。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|もう行かなきゃ。またね！",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もう行かなきゃ。またね！",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|もちろんです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もちろんです。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|もっと小さいのはありますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もっと小さいのはありますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|やあ、サム。元気？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "やあ、サム。元気？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ユーアールエルは、エイチティーティーピーエスから始まる、Webページの住所です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ユーアールエルは、エイチティーティーピーエスから始まる、Webページの住所です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|ユーエルと、エルアイを使って、テレビ、冷蔵庫、洗濯機、の箇条書きを作りましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ユーエルと、エルアイを使って、テレビ、冷蔵庫、洗濯機、の箇条書きを作りましょう。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|ユーエルは、アンオーダード リストの略です。「順番のない一覧」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ユーエルは、アンオーダード リストの略です。「順番のない一覧」という意味です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|よい一日を",
+   "lang": "ja",
+   "semi": 0,
+   "text": "よい一日を",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|ようすを表す形容詞は、名詞の前。「安いシャツ」は ア・チープ・シャツ。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ようすを表す形容詞は、名詞の前。「安いシャツ」は ア・チープ・シャツ。今日はここまでです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|ようすを表す言葉（安い・赤い など）を、何と言う？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ようすを表す言葉（安い・赤い など）を、何と言う？",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|ようすを表す言葉はけいようし。cheap や red が形容詞です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ようすを表す言葉はけいようし。cheap や red が形容詞です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|ラングは、「このページは日本語です」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ラングは、「このページは日本語です」という意味です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|リストには、大きく2つの種類があります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リストには、大きく2つの種類があります。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|リストの中に、さらにリストを入れることもできます。前回出てきた「入れ子」ですね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リストの中に、さらにリストを入れることもできます。前回出てきた「入れ子」ですね。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|リンク",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンク",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|リンクの文字として、いちばん親切なのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクの文字として、いちばん親切なのは？",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクの文字は、何のページに行くのかがわかる言葉にしましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクの文字は、何のページに行くのかがわかる言葉にしましょう。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクの文字は、行き先がわかる言葉にする。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクの文字は、行き先がわかる言葉にする。今日はここまでです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは a（anchor）タグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは a（anchor）タグで作ります。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは エータグ。行き先は エイチレフという属性に書く。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは エータグ。行き先は エイチレフという属性に書く。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは、「別の場所へ行く」ためのもの。行き先がある、道案内です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは、「別の場所へ行く」ためのもの。行き先がある、道案内です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは、Webのいちばん大事な仕組みのひとつです。ページとページを、糸のようにつないでいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは、Webのいちばん大事な仕組みのひとつです。ページとページを、糸のようにつないでいます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは、エーというタグで作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは、エーというタグで作ります。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクは、文章の途中にも入れられます。ピータグの中に、エータグを入れます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクは、文章の途中にも入れられます。ピータグの中に、エータグを入れます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクを作るタグは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクを作るタグは？",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクを押すと、値段が見られます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクを押すと、値段が見られます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|リンクを送りますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクを送りますね。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|わかりました、これにします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わかりました、これにします。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|わたしたちは 土曜日に 家具を 売ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしたちは 土曜日に 家具を 売ります。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしたちは 家具を 売ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしたちは 家具を 売ります。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしたちは中古のゲームを売っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしたちは中古のゲームを売っています。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしたちは正午にお昼ごはんを食べます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしたちは正午にお昼ごはんを食べます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは コーヒーが 好きです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは コーヒーが 好きです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは ごはんを 食べます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは ごはんを 食べます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは たつやです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは たつやです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは テレビを 見ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは テレビを 見ます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは 日曜日に サッカーを 見ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは 日曜日に サッカーを 見ます。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは 毎日 お店で 働きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは 毎日 お店で 働きます。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは 毎朝 英語を 勉強します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは 毎朝 英語を 勉強します。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは 車を 運転します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは 車を 運転します。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは 駅で 友だちに 会います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは 駅で 友だちに 会います。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしはリサイクルショップで働いています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしはリサイクルショップで働いています。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは古いカメラが好きです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは古いカメラが好きです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは毎日、在庫を確認します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは毎日、在庫を確認します。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは車で仕事に行きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは車で仕事に行きます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは車の中で英語を勉強します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは車の中で英語を勉強します。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは週末に映画を見ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは週末に映画を見ます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|一覧・リスト",
+   "lang": "ja",
+   "semi": 0,
+   "text": "一覧・リスト",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|一覧の「1つ1つの項目」に使うタグは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "一覧の「1つ1つの項目」に使うタグは？",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|下見・プレビュー",
+   "lang": "ja",
+   "semi": 0,
+   "text": "下見・プレビュー",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|中のタグを、少し右にずらして書いているのは、読みやすくするためです。ずらさなくても動きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中のタグを、少し右にずらして書いているのは、読みやすくするためです。ずらさなくても動きます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|中身の項目は、こちらも エルアイを使います。入れ物だけが ユーエルと オーエルでちがいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中身の項目は、こちらも エルアイを使います。入れ物だけが ユーエルと オーエルでちがいます。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|人の体にたとえると、わかりやすいです。頭で考えて、体で見せる、という感じです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "人の体にたとえると、わかりやすいです。頭で考えて、体で見せる、という感じです。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|今夜、写真をアップロードします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今夜、写真をアップロードします。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|今日、売上の報告書を送ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日、売上の報告書を送ります。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|今日のフレーズは、7個です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日のフレーズは、7個です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|今日の分は、おしまいです。おつかれさまでした。また明日、いっしょに学びましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日の分は、おしまいです。おつかれさまでした。また明日、いっしょに学びましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|今日の英単語は、6個です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日の英単語は、6個です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|今日の英単語は、7個です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日の英単語は、7個です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|今日は、その ボディの中に、文章を書いていきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は、その ボディの中に、文章を書いていきます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|今日は、学んだタグを組み合わせて、小さな自己紹介のページを作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は、学んだタグを組み合わせて、小さな自己紹介のページを作ります。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|今日は作業が3つあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は作業が3つあります。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|代わりの・別の案",
+   "lang": "ja",
+   "semi": 0,
+   "text": "代わりの・別の案",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|以上です",
+   "lang": "ja",
+   "semi": 0,
+   "text": "以上です",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|以上です、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "以上です、という意味です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|会う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "会う",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|会話はここまでです。次は、短い問題です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "会話はここまでです。次は、短い問題です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|住所・アドレス",
+   "lang": "ja",
+   "semi": 0,
+   "text": "住所・アドレス",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|体・本文",
+   "lang": "ja",
+   "semi": 0,
+   "text": "体・本文",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|何も起きない",
+   "lang": "ja",
+   "semi": 0,
+   "text": "何も起きない",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|何を食べましたか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "何を食べましたか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|何時ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "何時ですか？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|作業・仕事",
+   "lang": "ja",
+   "semi": 0,
+   "text": "作業・仕事",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|作業の手順なら、順番が大事なので オーエル。お店の商品の一覧なら、ユーエルです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "作業の手順なら、順番が大事なので オーエル。お店の商品の一覧なら、ユーエルです。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|使える・手が空いている",
+   "lang": "ja",
+   "semi": 0,
+   "text": "使える・手が空いている",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|保存する・ためる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "保存する・ためる",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|保存する、と書かれたボタンを、タイプ、イコール、ボタン、つきで作ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "保存する、と書かれたボタンを、タイプ、イコール、ボタン、つきで作ってみましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|値札を確認してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値札を確認してください。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|値段を確認してもらえますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値段を確認してもらえますか？",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|値段を聞きたいとき、何と言う？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値段を聞きたいとき、何と言う？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|働く",
+   "lang": "ja",
+   "semi": 0,
+   "text": "働く",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|元気だよ、ありがとう。きみは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元気だよ、ありがとう。きみは？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|元気です、ありがとう",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元気です、ありがとう",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|元気です、ありがとう、と答えます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元気です、ありがとう、と答えます。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|元気です、ありがとう。あなたは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元気です、ありがとう。あなたは？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|元気ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元気ですか？",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|先に下見させてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "先に下見させてください。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|入れ子にするときは、内側のタグから先に閉じます。箱の中の箱を、先に閉じるイメージです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入れ子にするときは、内側のタグから先に閉じます。箱の中の箱を、先に閉じるイメージです。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|入れ子は、少しむずかしいので、今は「そういうこともできる」と知っておくだけで十分です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入れ子は、少しむずかしいので、今は「そういうこともできる」と知っておくだけで十分です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|入れ物の  ユーエルタグ  がありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入れ物の  ユーエルタグ  がありません。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|入力の用紙、つまりフォームの中では、サブミットという種類もあります。「送信する」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入力の用紙、つまりフォームの中では、サブミットという種類もあります。「送信する」という意味です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|全体をつなげると、こうなります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "全体をつなげると、こうなります。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|全体をまとめると、こうなります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "全体をまとめると、こうなります。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|全角で打つ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "全角で打つ",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|全部を一度に打たなくて大丈夫です。1行ずつ打って、結果を見ながら進めましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "全部を一度に打たなくて大丈夫です。1行ずつ打って、結果を見ながら進めましょう。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|共有する・分ける",
+   "lang": "ja",
+   "semi": 0,
+   "text": "共有する・分ける",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|最初から全部覚えなくて大丈夫です。何回も見るうちに、自然になじんできます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最初から全部覚えなくて大丈夫です。何回も見るうちに、自然になじんできます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|最初の行を読んでください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最初の行を読んでください。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|最後に  ユーエルの閉じタグ  で閉じましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最後に  ユーエルの閉じタグ  で閉じましょう。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|最後に、もっと知りたい人のためのリンク。エーを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最後に、もっと知りたい人のためのリンク。エーを使います。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|最後に、今日のまとめを、もう一度聞きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最後に、今日のまとめを、もう一度聞きましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|最後に、英語だけで、通して聞いてみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最後に、英語だけで、通して聞いてみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|最後に、言ってみる練習です。お手本のあと、合図の音が鳴ったら、続けて言ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最後に、言ってみる練習です。お手本のあと、合図の音が鳴ったら、続けて言ってみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|出どころ・元",
+   "lang": "ja",
+   "semi": 0,
+   "text": "出どころ・元",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|別のページに行く",
+   "lang": "ja",
+   "semi": 0,
+   "text": "別のページに行く",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|別の場所へ行くならリンク。その場で何かするならボタン。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "別の場所へ行くならリンク。その場で何かするならボタン。今日はここまでです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|別の案はありますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "別の案はありますか？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|別れるとき",
+   "lang": "ja",
+   "semi": 0,
+   "text": "別れるとき",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|前回の「どうする」と、同じ場所です。英語は、2番目に「どうする」か「です」が来る、と覚えると楽です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "前回の「どうする」と、同じ場所です。英語は、2番目に「どうする」か「です」が来る、と覚えると楽です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|前回は、ページの骨組みを学びました。画面に見えるものは、ボディの中に書くのでしたね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "前回は、ページの骨組みを学びました。画面に見えるものは、ボディの中に書くのでしたね。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|勉強する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "勉強する",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|動き（どうする）を表す言葉を、何と言う？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動き（どうする）を表す言葉を、何と言う？",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|動きを表す言葉はどうし。like や eat が動詞です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動きを表す言葉はどうし。like や eat が動詞です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|動詞",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動詞",
+   "lessons": [
+    "grammar-01",
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|区切り・休けい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "区切り・休けい",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|半角で打つ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "半角で打つ",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|参照・参考",
+   "lang": "ja",
+   "semi": 0,
+   "text": "参照・参考",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|友だちと2人で、レストランに入る場面です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "友だちと2人で、レストランに入る場面です。",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|取り消す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "取り消す",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|古い",
+   "lang": "ja",
+   "semi": 0,
+   "text": "古い",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|同じサイトの中の、別のページに飛ぶこともできます。そのときは、ファイルの名前だけを書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "同じサイトの中の、別のページに飛ぶこともできます。そのときは、ファイルの名前だけを書きます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|同じフォルダにある画像なら、ファイルの名前だけで大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "同じフォルダにある画像なら、ファイルの名前だけで大丈夫です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|名前は、今は覚えなくて大丈夫です。「だれが、どうする、なにを」の順番だけ覚えましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "名前は、今は覚えなくて大丈夫です。「だれが、どうする、なにを」の順番だけ覚えましょう。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|名前を大きな見出しにするなら？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "名前を大きな見出しにするなら？",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|名詞",
+   "lang": "ja",
+   "semi": 0,
+   "text": "名詞",
+   "lessons": [
+    "grammar-01",
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|商品の画像をアップロードしてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "商品の画像をアップロードしてください。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|問題は4問です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "問題は4問です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|営業時間を見る",
+   "lang": "ja",
+   "semi": 0,
+   "text": "営業時間を見る",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|在庫",
+   "lang": "ja",
+   "semi": 0,
+   "text": "在庫",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|報告・報告書",
+   "lang": "ja",
+   "semi": 0,
+   "text": "報告・報告書",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|報告書に見出しをつけてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "報告書に見出しをつけてください。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|声で聞いても、行き先がわかる言葉が親切です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "声で聞いても、行き先がわかる言葉が親切です。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|売る",
+   "lang": "ja",
+   "semi": 0,
+   "text": "売る",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|大きい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大きい",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|大きさは ウィズで決められる。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大きさは ウィズで決められる。今日はここまでです。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|大きすぎます。小さいのはありますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大きすぎます。小さいのはありますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|大事なのは、見た目の大きさではなく、「どれくらい大事な見出しか」で選ぶことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大事なのは、見た目の大きさではなく、「どれくらい大事な見出しか」で選ぶことです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|好き（好む）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "好き（好む）",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|始まりのタグ  タイトルタグ  がまだありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まりのタグ  タイトルタグ  がまだありません。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|始まりのタグと終わりのタグではさんだ文字が、ボタンの上に出る文字になります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まりのタグと終わりのタグではさんだ文字が、ボタンの上に出る文字になります。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|始まりのタグの中に type=\"button\" を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まりのタグの中に type=\"button\" を書きましょう。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|始まりのタグの中に、名前=\"値\" の形で書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まりのタグの中に、名前=\"値\" の形で書きます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|安い",
+   "lang": "ja",
+   "semi": 0,
+   "text": "安い",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|小さい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "小さい",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|小さいかばんはありますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "小さいかばんはありますか？",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|小なり記号は、左がとがった山の形。大なり記号は、右がとがった山の形です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "小なり記号は、左がとがった山の形。大なり記号は、右がとがった山の形です。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|少し休けいしましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "少し休けいしましょう。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|少し大きいです。もっと小さいのはありますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "少し大きいです。もっと小さいのはありますか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|属性の書き方で正しいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "属性の書き方で正しいのは？",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|属性は、名前イコール、ダブルクォーテーションで囲んだ値。始まりのタグの中に書く。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "属性は、名前イコール、ダブルクォーテーションで囲んだ値。始まりのタグの中に書く。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|属性は、始まりのタグの中に、名前、イコール、ダブルクォーテーションで囲んだ値、の形で書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "属性は、始まりのタグの中に、名前、イコール、ダブルクォーテーションで囲んだ値、の形で書きます。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|幅",
+   "lang": "ja",
+   "semi": 0,
+   "text": "幅",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|形容詞",
+   "lang": "ja",
+   "semi": 0,
+   "text": "形容詞",
+   "lessons": [
+    "grammar-01",
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|形容詞（cheap）は、名詞（shirt）の前。日本語と同じ順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "形容詞（cheap）は、名詞（shirt）の前。日本語と同じ順番です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|形容詞は、「です」のあとにも、名詞の前にも置けます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "形容詞は、「です」のあとにも、名詞の前にも置けます。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|形容詞は、名詞の前にも置けます。「安いシャツ」は、こうです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "形容詞は、名詞の前にも置けます。「安いシャツ」は、こうです。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|手順・一歩",
+   "lang": "ja",
+   "semi": 0,
+   "text": "手順・一歩",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|打ってみる時間では、この中から、エイチワンと ピーと、リストを打ってみます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "打ってみる時間では、この中から、エイチワンと ピーと、リストを打ってみます。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|打つ課題は、画面を見られるときに、やってみてください。次に進みます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "打つ課題は、画面を見られるときに、やってみてください。次に進みます。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|押したときの動きは JavaScript で書きます。HTMLは「置く」だけです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "押したときの動きは JavaScript で書きます。HTMLは「置く」だけです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|押したときの動きは、ジャバスクリプトで、あとから書く。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "押したときの動きは、ジャバスクリプトで、あとから書く。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|押すと何が起きるかが、すぐわかる言葉が親切です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "押すと何が起きるかが、すぐわかる言葉が親切です。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|提出する・送信する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "提出する・送信する",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|改行されない（空白1つになる）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "改行されない（空白1つになる）",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|数字が小さいほど、大事で大きな見出しです。エイチワンがいちばん大きい見出しです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "数字が小さいほど、大事で大きな見出しです。エイチワンがいちばん大きい見出しです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|数字が小さいほど大事な見出しです。h1 がいちばん上です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "数字が小さいほど大事な見出しです。h1 がいちばん上です。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|文字・文章",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字・文章",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|文字が小さすぎます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字が小さすぎます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|文字だけのページより、写真や絵があると、ぐっとわかりやすくなりますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字だけのページより、写真や絵があると、ぐっとわかりやすくなりますね。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|文字の大きさ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字の大きさ",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|文字を全部消す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字を全部消す",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|文書・書類",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文書・書類",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|文章のかたまり（段落）を書くタグは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文章のかたまり（段落）を書くタグは？",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|文章のかたまりは ピー。コードで改行しても、画面では改行されない。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文章のかたまりは ピー。コードで改行しても、画面では改行されない。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|新しい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "新しい",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|新しい商品の一覧を作ってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "新しい商品の一覧を作ってください。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|新聞や雑誌には、大きな文字の見出しと、ふつうの大きさの文章がありますよね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "新聞や雑誌には、大きな文字の見出しと、ふつうの大きさの文章がありますよね。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|日にちを確認させてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日にちを確認させてください。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|日本語では、「毎日」や「お店で」は前のほうに来ますが、英語では、うしろにつけます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日本語では、「毎日」や「お店で」は前のほうに来ますが、英語では、うしろにつけます。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|日本語と同じで、「安い」が「シャツ」の前に来ます。ここは日本語と同じなので、安心ですね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日本語と同じで、「安い」が「シャツ」の前に来ます。ここは日本語と同じなので、安心ですね。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|日本語は、「だれが」「なにを」「どうする」の順番です。いちばん大事な「好き」は、最後に来ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日本語は、「だれが」「なにを」「どうする」の順番です。いちばん大事な「好き」は、最後に来ます。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|日本語は、最後まで聞かないと、何をするのかわかりません。英語は、2番目で、すぐにわかります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日本語は、最後まで聞かないと、何をするのかわかりません。英語は、2番目で、すぐにわかります。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|日本語は、順番を入れかえても通じることがあります。「コーヒーが、わたしは、好きです。」でも、わかりますよね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "日本語は、順番を入れかえても通じることがあります。「コーヒーが、わたしは、好きです。」でも、わかりますよね。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|明日は空いていますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "明日は空いていますか？",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|服のお店で、ジャケットを買う場面です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "服のお店で、ジャケットを買う場面です。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|朝、職場で、同僚のサムに会った場面です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "朝、職場で、同僚のサムに会った場面です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|札・目印",
+   "lang": "ja",
+   "semi": 0,
+   "text": "札・目印",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|来てくれてありがとう。よい一日を！",
+   "lang": "ja",
+   "semi": 0,
+   "text": "来てくれてありがとう。よい一日を！",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|棚の幅を確認してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "棚の幅を確認してください。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|構造・組み立て",
+   "lang": "ja",
+   "semi": 0,
+   "text": "構造・組み立て",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|次に、「好きなこと」という小さな見出し。エイチツーを使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "次に、「好きなこと」という小さな見出し。エイチツーを使います。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|次に、エイチティーエムエルタグで、ページ全体を包みます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "次に、エイチティーエムエルタグで、ページ全体を包みます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|次は、シーエスエスで、色や大きさを変えて、ページを見やすくしていく予定です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "次は、シーエスエスで、色や大きさを変えて、ページを見やすくしていく予定です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|次は、思い出す練習です。英語を聞いて、意味を思い出してみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "次は、思い出す練習です。英語を聞いて、意味を思い出してみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|次は、文章です。文章のかたまりは、ピーというタグで書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "次は、文章です。文章のかたまりは、ピーというタグで書きます。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|正しいタグを使うと、読み上げの機能を使う人にも、「これはボタンです」と、きちんと伝わります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "正しいタグを使うと、読み上げの機能を使う人にも、「これはボタンです」と、きちんと伝わります。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|正解です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "正解です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|段落",
+   "lang": "ja",
+   "semi": 0,
+   "text": "段落",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|段落とは、文章の中の、ひとまとまりのことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "段落とは、文章の中の、ひとまとまりのことです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|段落の中で改行したいときだけ、ビーアール。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "段落の中で改行したいときだけ、ビーアール。今日はここまでです。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|毎日",
+   "lang": "ja",
+   "semi": 0,
+   "text": "毎日",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|毎週月曜日に在庫を確認します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "毎週月曜日に在庫を確認します。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|注文を取り消す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "注文を取り消す",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|用紙・入力欄",
+   "lang": "ja",
+   "semi": 0,
+   "text": "用紙・入力欄",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|画像",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像が読みこめなかったとき、この文が代わりに表示されます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像が読みこめなかったとき、この文が代わりに表示されます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像にも、作った人の権利があります。自分で撮った写真や、使ってよいと書かれた画像を使いましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像にも、作った人の権利があります。自分で撮った写真や、使ってよいと書かれた画像を使いましょう。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像の大きさ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像の大きさ",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像の大きさは、ウィズという属性で決めることもできます。width は「幅」という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像の大きさは、ウィズという属性で決めることもできます。width は「幅」という意味です。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像の色",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像の色",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像の説明の文",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像の説明の文",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像は img タグでのせます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像は img タグでのせます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像は イメージタグ。終わりのタグはいらない。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像は イメージタグ。終わりのタグはいらない。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像は、イメージというタグでのせます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像は、イメージというタグでのせます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像をのせるタグは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像をのせるタグは？",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画面に表示される中身を書くのは、どの部屋？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画面に表示される中身を書くのは、どの部屋？",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|画面を見ないで聞く人にも、何の画像かが伝わるように。オルトは、そのための思いやりです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画面を見ないで聞く人にも、何の画像かが伝わるように。オルトは、そのための思いやりです。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|番号つきの一覧（手順など）に使うのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号つきの一覧（手順など）に使うのは？",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|番号で答えてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号で答えてください。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|番号は、ブラウザが自動でつけてくれます。自分で1、2、3と打たなくて大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号は、ブラウザが自動でつけてくれます。自分で1、2、3と打たなくて大丈夫です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|番号は、ブラウザが自動でつけてくれる。今日はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号は、ブラウザが自動でつけてくれる。今日はここまでです。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|番号はつけられない",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号はつけられない",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|確かめる・確定する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "確かめる・確定する",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|確認する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "確認する",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|種類・型",
+   "lang": "ja",
+   "semi": 0,
+   "text": "種類・型",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|第1回は、ページの骨組み。ヘッドは見えない情報、ボディは見える中身でした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第1回は、ページの骨組み。ヘッドは見えない情報、ボディは見える中身でした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|第2回の ビーアールと同じです。中に文字をはさまないからです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第2回の ビーアールと同じです。中に文字をはさまないからです。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|第2回は、見出しと段落。見出しは エイチワン、文章のかたまりは ピーでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第2回は、見出しと段落。見出しは エイチワン、文章のかたまりは ピーでした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|第3回は、リンク。エータグと、行き先を書く エイチレフでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第3回は、リンク。エータグと、行き先を書く エイチレフでした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|第4回は、画像。イメージタグと、ソースと オルトでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第4回は、画像。イメージタグと、ソースと オルトでした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|第5回は、リスト。ユーエルと オーエル、そして項目の エルアイでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第5回は、リスト。ユーエルと オーエル、そして項目の エルアイでした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|第6回は、ボタン。ボタンタグでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "第6回は、ボタン。ボタンタグでした。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、1番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、1番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、1番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、1番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、2番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、2番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、2番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、2番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、3番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、3番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、3番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、3番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、4番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、4番。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|答えは、4番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは、4番です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|箱を順番に並べてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "箱を順番に並べてください。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|紹介する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "紹介する",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグ  タイトルの閉じタグ  がまだありません。スラッシュを忘れずに。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグ  タイトルの閉じタグ  がまだありません。スラッシュを忘れずに。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグ  ビーアールの閉じタグ  が必要",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグ  ビーアールの閉じタグ  が必要",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグがいらない",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグがいらない",
+   "lessons": [
+    "html-02",
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグとスラッシュがあるか",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグとスラッシュがあるか",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグには、名前の前に、ななめの線、スラッシュがつきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグには、名前の前に、ななめの線、スラッシュがつきます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグの中",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグの中",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグの書き忘れや、スラッシュの忘れがよくある原因です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグの書き忘れや、スラッシュの忘れがよくある原因です。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグは、どれ？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグは、どれ？",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|終わりのタグは、名前の前にスラッシュ（/）がつきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わりのタグは、名前の前にスラッシュ（/）がつきます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|経験",
+   "lang": "ja",
+   "semi": 0,
+   "text": "経験",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|考えてみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "考えてみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|自分で 1. 2. と打つ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "自分で 1. 2. と打つ",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|自動で保存される",
+   "lang": "ja",
+   "semi": 0,
+   "text": "自動で保存される",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|自己紹介・プロフィール",
+   "lang": "ja",
+   "semi": 0,
+   "text": "自己紹介・プロフィール",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|自己紹介させてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "自己紹介させてください。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|英語、日本語の意味、もう一度英語、の順に読みます。まずは、聞くだけで大丈夫です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語、日本語の意味、もう一度英語、の順に読みます。まずは、聞くだけで大丈夫です。",
+   "lessons": [
+    "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語の文の順番で、正しいのは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語の文の順番で、正しいのは？",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|英語の文の順番は？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語の文の順番は？",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語の文は、「だれが、どうする、なにを、どこで、いつ」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語の文は、「だれが、どうする、なにを、どこで、いつ」の順番です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|英語の順番で、言ってみましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語の順番で、言ってみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|英語は、「だれが、どうする、なにを、どこで、いつ」。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は、「だれが、どうする、なにを、どこで、いつ」。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|英語は、「だれが、どうする、なにを」の順番。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は、「だれが、どうする、なにを」の順番。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語は、「だれが」「どうする」「なにを」の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は、「だれが」「どうする」「なにを」の順番です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語は、ちがいます。英語では、こう言います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は、ちがいます。英語では、こう言います。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語は「だれが、どうする、なにを、どこで、いつ」。日本語とほぼ反対の順番です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は「だれが、どうする、なにを、どこで、いつ」。日本語とほぼ反対の順番です。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|英語は「どうする」が2番目。日本語は「どうする」が最後です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は「どうする」が2番目。日本語は「どうする」が最後です。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|英語はここまでです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語はここまでです。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|行・線",
+   "lang": "ja",
+   "semi": 0,
+   "text": "行・線",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|行き先があるなら、リンク（a タグ）を使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "行き先があるなら、リンク（a タグ）を使います。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|見た目がボタンのようでも、行き先があるならリンクを使う。これが、正しい使い分けです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見た目がボタンのようでも、行き先があるならリンクを使う。これが、正しい使い分けです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|見ているだけです",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見ているだけです",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|見ているだけです、ありがとう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見ているだけです、ありがとう。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|見ているだけです、ありがとう。やわらかく断れます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見ているだけです、ありがとう。やわらかく断れます。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|見ているだけです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見ているだけです。",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|見る（じっと見る）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見る（じっと見る）",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|見出し",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出し",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|見出しには、エイチワンから エイチシックスまで、6つの大きさがあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出しには、エイチワンから エイチシックスまで、6つの大きさがあります。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|見出しは エイチワンから エイチシックス。数字が小さいほど大事な見出し。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出しは エイチワンから エイチシックス。数字が小さいほど大事な見出し。",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|見出しも、文章も、画像も、ボタンも、ぜんぶ ボディの中に書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出しも、文章も、画像も、ボタンも、ぜんぶ ボディの中に書きます。",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|見出しを作るタグ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出しを作るタグ",
+   "lessons": [
+    "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|見本のサイト、という文字で、エグザンプル・ドット・コムに飛ぶリンクを作ってみましょう。エータグと、エイチレフ属性を使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見本のサイト、という文字で、エグザンプル・ドット・コムに飛ぶリンクを作ってみましょう。エータグと、エイチレフ属性を使います。",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|解説はここまでです。次は、短い問題です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "解説はここまでです。次は、短い問題です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|言語・ことば",
+   "lang": "ja",
+   "semi": 0,
+   "text": "言語・ことば",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|記号について気をつけることは？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "記号について気をつけることは？",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|試着してもいいですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "試着してもいいですか？",
+   "lessons": [
+    "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|語順とは、言葉を並べる順番のことです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "語順とは、言葉を並べる順番のことです。",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|販売の経験が5年あります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "販売の経験が5年あります。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|買い物かごが ユーエルで、その中に入っている品物の1つ1つが エルアイ、という感じです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "買い物かごが ユーエルで、その中に入っている品物の1つ1つが エルアイ、という感じです。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|買い物メモや、やることの一覧。箇条書きは、毎日の仕事でもよく使いますよね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "買い物メモや、やることの一覧。箇条書きは、毎日の仕事でもよく使いますよね。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|買う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "買う",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|赤いボタンを押してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "赤いボタンを押してください。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|趣味",
+   "lang": "ja",
+   "semi": 0,
+   "text": "趣味",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|趣味は動画づくりです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "趣味は動画づくりです。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|迷ったら、「押したら別のページに行くかな」と考えます。行くなら エー、その場で何かするなら ボタンです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "迷ったら、「押したら別のページに行くかな」と考えます。行くなら エー、その場で何かするなら ボタンです。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|途中に項目を足しても、番号は自動でずれてくれるので、便利です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "途中に項目を足しても、番号は自動でずれてくれるので、便利です。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|連絡する・連絡先",
+   "lang": "ja",
+   "semi": 0,
+   "text": "連絡する・連絡先",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|週末",
+   "lang": "ja",
+   "semi": 0,
+   "text": "週末",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|週末は忙しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "週末は忙しいです。",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|運転する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "運転する",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|金曜日までに用紙を提出してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "金曜日までに用紙を提出してください。",
+   "lessons": [
+    "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|項目・品物",
+   "lang": "ja",
+   "semi": 0,
+   "text": "項目・品物",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|順番・注文",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番・注文",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|順番のない箇条書きは ユーエル。順番のある一覧は オーエル。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番のない箇条書きは ユーエル。順番のある一覧は オーエル。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|順番のない箇条書きは、ul の中に li を書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番のない箇条書きは、ul の中に li を書きます。",
+   "lessons": [
+    "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|順番は、「これは、です、安いシャツ」です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番は、「これは、です、安いシャツ」です。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|順番は、「だれが、です、なに」。「です」が、また2番目に来ていますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番は、「だれが、です、なに」。「です」が、また2番目に来ていますね。",
+   "lessons": [
+    "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|順番を入れかえても意味が変わらないなら、ul を使います。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番を入れかえても意味が変わらないなら、ul を使います。",
+   "lessons": [
+    "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|頭・先頭",
+   "lang": "ja",
+   "semi": 0,
+   "text": "頭・先頭",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|題名・タイトル",
+   "lang": "ja",
+   "semi": 0,
+   "text": "題名・タイトル",
+   "lessons": [
+    "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|飛び先のURLは、どこに書く？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "飛び先のURLは、どこに書く？",
+   "lessons": [
+    "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|食べる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "食べる",
+   "lessons": [
+    "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|飲み物はいかがですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "飲み物はいかがですか？",
+   "lessons": [
+    "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|駅",
+   "lang": "ja",
+   "semi": 0,
+   "text": "駅",
+   "lessons": [
+    "grammar-03"
+   ]
+  },
+  {
+   "key": "ja|0|高さ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "高さ",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|高さは、ハイトという属性です。幅だけ書けば、高さは、形をくずさずに合わせてくれます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "高さは、ハイトという属性です。幅だけ書けば、高さは、形をくずさずに合わせてくれます。",
+   "lessons": [
+    "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|黒いかばんを探しています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "黒いかばんを探しています。",
+   "lessons": [
+    "talk-02"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+# 鍵・秘密の情報は、ぜったいにリポジトリに入れない
+gcp-key.json
+*-key.json
+*key*.json
+*credentials*.json
+service-account*.json
+.env
+.env.*
+
+# パソコンの一時ファイル
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

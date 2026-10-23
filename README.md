@@ -35,7 +35,8 @@ index.html            入り口
 css/style.css         見た目
 js/storage.js         進み具合の保存（スマホの中だけ）
 js/ui.js              画面づくりの小さな道具・コピー・画面を消えにくくする
-js/speech.js          読み上げ（声の選び方もここ）
+js/phrases.js         読み上げる言葉づくり（アプリと音声づくりのスクリプトで共通）
+js/speech.js          読み上げ（声のファイルがあれば再生、なければブラウザの読み上げ）
 js/listen.js          声の聞き取り・発音のチェック・効果音
 js/editor.js          コードを打つ場所（打ってみる・書く練習で共通）
 js/session.js         1回分の進め方（復習→解説→問題→打つ→英語）
@@ -46,6 +47,9 @@ lessons/html-01.js …  教材（1回分ずつ。書き方は html-01.js の先�
 lessons/html-drills.js 書く練習の問題
 manifest.webmanifest  ホーム画面に置くための情報（PWA）
 sw.js                 電波がなくても開けるようにする係（service worker）
+audio/                声のファイル（mp3）と、その一覧（manifest.json・texts.json）
+tools/list_texts.mjs  読み上げる文を全部ひろい出す
+tools/make_audio.py   声のファイルを作る（Google Cloud Text-to-Speech）
 ```
 
 ## 教材を足すとき
@@ -63,3 +67,30 @@ sw.js                 電波がなくても開けるようにする係（service
 ## わかっている弱点
 
 - スマホの画面を消すと、読み上げが止まることが多いです。いまは「画面をつけたまま聞く」前提です（レッスン中は画面が自動で消えにくくしています）。音声ファイルを先に作って再生する方法は、次の版で相談します。
+
+## 声のファイル（画面を消しても止まりにくい声）
+
+ブラウザの読み上げは、スマホの画面を消すと止まりやすいので、Google Cloud Text-to-Speech で前もって音声ファイル（mp3）を作れるようにしてあります。
+
+- アプリは、`audio/manifest.json` に音声ファイルがある文はそれを再生し、ない文は今までどおりブラウザの読み上げを使います
+- 声：日本語 `ja-JP-Neural2-B`（女性）、英語 `en-US-Neural2-F`（女性）。会話の2人は声の高さを変えます
+- 料金：Neural2 は毎月 100万文字まで無料（それをこえると 100万文字あたり 16ドル）。いまの教材は全部で約2.2万文字です
+  - LRC など、同じ請求先で作った文字数も同じ無料分から引かれます
+- レッスンを始めると、その回の音声は自動でスマホに保存されます（設定の「📥 すべての音声を保存する」でまとめて保存もできます）
+
+### 作り方（鍵があるパソコンで）
+
+```
+pip install google-auth requests        # はじめの1回だけ
+node tools/list_texts.mjs               # 教材を変えたときだけ（audio/texts.json を作り直す）
+python tools/make_audio.py --dry-run    # 作る文の数と文字数を見るだけ（お金はかからない）
+python tools/make_audio.py              # まだない文だけ作る（確認が出るので y）
+git add audio tools/tts-usage.json
+git commit -m "音声ファイルを作成"
+git push
+```
+
+- 鍵の場所は、初期値が `C:/Users/user/.gemini/antigravity/scratch/gcp-key.json`。ちがうときは `--key 場所` か、環境変数 `GOOGLE_APPLICATION_CREDENTIALS`
+- **鍵のファイルとその中身は、リポジトリに入れない・コミットしない・チャットに貼らない**（`.gitignore` で `*key*.json` などを除外しています）
+- 同じ文は二度と作りません。作った文字数は画面に出て、`tools/tts-usage.json` に月ごとに記録されます
+- 1回に作る文字数は、初期値で20万文字までに制限しています（`--limit` で変更）

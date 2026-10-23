@@ -80,15 +80,38 @@
       let solved = false;
       const editor = CodeEditor(t.p, {
         onResult: (ok) => {
-          if (ok && !solved) {
+          badge.className = `badge ${ok ? 'ok' : 'ng'}`;
+          badge.textContent = ok ? '◎ 正解' : '△ まだ';
+          nextBtn.textContent = last ? 'おわる ✓' : '次の問題 →';
+          if (!ok) {
+            Sound.wrong();
+            return;
+          }
+          Sound.right();
+          if (!solved) {
             solved = true;
             solvedCount++;
-            Sound.right();
             Store.addDrill(t.lesson.id);
             Store.markStudied();
           }
         },
       });
+
+      // まだ答え合わせをしていなければ、先に答え合わせをする（正解か分からないまま進まないように）
+      const nextBtn = h('button', {
+        class: 'btn btn-primary btn-big',
+        onclick: () => {
+          if (!editor.checked) {
+            editor.check();
+            return;
+          }
+          if (last) finish();
+          else {
+            i++;
+            show();
+          }
+        },
+      }, '答え合わせして次へ');
 
       const ask = async () => {
         const text = [
@@ -104,27 +127,19 @@
       };
 
       const last = i === tasks.length - 1;
+      const badge = h('span', { class: 'badge' }, '未回答');
       root.replaceChildren(
         h('div', { class: 'session-head' },
           h('div', { class: 'session-title' }, '✍ 書く練習　', h('span', { class: 'lesson-no' }, title)),
         ),
-        h('p', { class: 'muted' }, `${i + 1} / ${tasks.length}`,
+        h('p', { class: 'muted' }, badge, ' ', `${i + 1} / ${tasks.length}`,
           key === 'mix' ? `　（第${t.lesson.no}回 ${t.lesson.title}）` : ''),
         editor.el,
         h('div', { class: 'row' },
           h('button', { class: 'btn btn-ghost', onclick: () => editor.reset() }, '↺ 書き直す'),
           h('button', { class: 'btn btn-ask', onclick: ask }, '？ わからないを聞く'),
         ),
-        h('button', {
-          class: 'btn btn-primary btn-big',
-          onclick: () => {
-            if (last) finish();
-            else {
-              i++;
-              show();
-            }
-          },
-        }, last ? 'おわる ✓' : '次の問題 →'),
+        nextBtn,
       );
       window.scrollTo(0, 0);
     };

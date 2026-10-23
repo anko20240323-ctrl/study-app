@@ -366,3 +366,16 @@ h1, h2 { line-height: 1.4; }
   touch-action: manipulation;
 }
 .chip-word.on { background: var(--primary); color: var(--primary-ink); }
+
+/* 答え合わせの結果 */
+.result-box { margin-top: 12px; padding: 12px 14px; border-radius: 14px; border: 3px solid; }
+.result-box.ok { border-color: var(--right); background: var(--right-bg); }
+.result-box.ng { border-color: var(--wrong); background: var(--wrong-bg); }
+.result-head { font-size: 22px; font-weight: 800; margin: 0 0 4px; }
+.result-box.ok .result-head { color: var(--right); }
+.result-box.ng .result-head { color: var(--wrong); }
+.result-box ul { margin: 4px 0; padding-left: 1.2em; }
+.btn-check { flex: 1; }
+.badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 14px; font-weight: 700; background: var(--line); color: var(--text); }
+.badge.ok { background: var(--right); color: #fff; }
+.badge.ng { background: var(--wrong); color: #fff; }

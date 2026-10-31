@@ -46,16 +46,16 @@
     ['new', '新しい', 'This TV is new.', 'このテレビは新しいです。'],
     ['nice', 'すてきな・いい', 'This is a nice table.', 'これはすてきなテーブルです。'],
     ['popular', '人気の', 'This game is very popular.', 'このゲームはとても人気です。'],
-    ['delicious', 'おいしい', 'The pasta was delicious.', 'パスタはとてもおいしかったです。'],
+    ['delicious', 'おいしい', 'The pasta was delicious.', 'パスタはおいしかったです。'],
     ['weekend', '週末', 'We are busy on the weekend.', '週末は忙しいです。'],
     ['every day', '毎日', 'I walk my dog every day.', 'わたしは毎日、犬の散歩をします。'],
     ['morning', '朝', 'I study English every morning.', 'わたしは毎朝、英語を勉強します。'],
   ]);
 
   lesson(4, '日常', '基本の動き①', 'よく使う動きの単語を覚える', [
-    ['go', '行く', 'I go to work by car.', 'わたしは車で仕事に行きます。'],
-    ['come', '来る', 'Please come again.', 'またお越しください。'],
-    ['get', '手に入れる・もらう', 'I got a new phone.', '新しいスマホを手に入れました。'],
+    ['go', '行く', 'I go to work at eight.', 'わたしは8時に仕事に行きます。'],
+    ['come', '来る', 'Can you come tomorrow?', '明日、来られますか？'],
+    ['get', '手に入れる・もらう', 'Can I get a receipt?', 'レシートをもらえますか？'],
     ['make', '作る', 'I make videos on weekends.', 'わたしは週末に動画を作ります。'],
     ['use', '使う', 'Can I use this pen?', 'このペンを使ってもいいですか？'],
     ['know', '知っている', 'I know this song.', 'この歌を知っています。'],
@@ -64,7 +64,7 @@
   ]);
 
   lesson(5, '日常', '基本の動き②', '見る・聞く・話すなどの単語を覚える', [
-    ['see', '見える・会う', 'See you tomorrow.', 'また明日ね。'],
+    ['see', '見える・会う', 'Can you see that sign?', 'あの看板が見えますか？'],
     ['hear', '聞こえる', 'Can you hear me?', 'わたしの声が聞こえますか？'],
     ['say', '言う', 'Please say it again.', 'もう一度言ってください。'],
     ['tell', '伝える・教える', 'Please tell me the price.', '値段を教えてください。'],
@@ -78,7 +78,7 @@
     ['big', '大きい', 'This sofa is too big.', 'このソファは大きすぎます。'],
     ['small', '小さい', 'Do you have a small bag?', '小さいかばんはありますか？'],
     ['old', '古い', 'This clock is very old.', 'この時計はとても古いです。'],
-    ['good', 'よい', 'This is a good price.', 'これはいい値段です。'],
+    ['good', 'よい', 'This is a good bag.', 'これはいいかばんです。'],
     ['bad', '悪い', 'The weather is bad today.', '今日は天気が悪いです。'],
     ['easy', 'かんたんな', 'This question is easy.', 'この問題はかんたんです。'],
     ['difficult', 'むずかしい', 'English is a little difficult.', '英語は少しむずかしいです。'],
@@ -155,7 +155,7 @@
   lesson(13, 'コード', 'リンク・画像・ボタンの単語', 'リンク・画像・ボタンの回に出てくる単語を覚える', [
     ['link', 'リンク・つなぐもの', 'Click the link.', 'リンクを押してください。'],
     ['image', '画像', 'Upload the product image.', '商品の画像をアップロードしてください。'],
-    ['source', '出どころ・元', 'Write the source of the image.', '画像の場所を書きましょう。'],
+    ['source', '出どころ・元', 'Check the source of the image.', '画像の元（どこにあるか）を確認してください。'],
     ['button', 'ボタン', 'Press the blue button.', '青いボタンを押してください。'],
     ['click', 'クリックする・押す', 'Click here to start.', 'ここを押すと始まります。'],
     ['width', '幅', 'Set the width to 100.', '幅を100にしましょう。'],
@@ -179,7 +179,7 @@
     ['warning', '注意・警告', 'Read the warning first.', '先に注意を読んでください。'],
     ['not found', '見つからない', 'The page was not found.', 'ページが見つかりませんでした。'],
     ['failed', '失敗した', 'The upload failed.', 'アップロードに失敗しました。'],
-    ['success', '成功', 'The update was a success.', '更新は成功しました。'],
+    ['success', '成功', 'The update was a success.', '更新は成功でした。'],
     ['fix', '直す', 'Can you fix this error?', 'このエラーを直せますか？'],
     ['update', '更新する・更新', 'Please update the app.', 'アプリを更新してください。'],
     ['loading', '読みこみ中', 'The page is loading.', 'ページを読みこみ中です。'],
@@ -191,15 +191,15 @@
     ['data', 'データ', 'The data is saved on the phone.', 'データはスマホに保存されます。'],
     ['input', '入力', 'Type your name in the input box.', '入力欄に名前を打ってください。'],
     ['output', '出力', 'Check the output.', '出てきた結果を確認してください。'],
-    ['true', '正しい', 'The answer is true.', '答えは正しいです。'],
-    ['false', 'まちがい（正しくない）', 'This is false.', 'これはまちがいです。'],
-    ['version', '版・バージョン', 'This is version seven.', 'これは第7版です。'],
+    ['true', '正しい', 'This sentence is true.', 'この文は正しいです。'],
+    ['false', 'まちがい（正しくない）', 'That sentence is false.', 'その文はまちがいです。'],
+    ['version', '版・バージョン', 'This is version eight.', 'これは第8版です。'],
   ]);
 
   // ---- お店 ----
   lesson(17, 'お店', '値段と会計', '値段やお会計で使う単語を覚える', [
     ['price', '値段', 'What is the price of this lamp?', 'このランプの値段はいくらですか？'],
-    ['discount', '割引', 'This item has a discount.', 'この品物は割引中です。'],
+    ['discount', '割引', 'Is there a discount?', '割引はありますか？'],
     ['total', '合計', 'The total is 3,000 yen.', '合計は3000円です。'],
     ['change', 'おつり・変える', 'Here is your change.', 'おつりです。'],
     ['receipt', 'レシート', 'Do you need a receipt?', 'レシートはいりますか？'],
@@ -226,8 +226,8 @@
     ['staff', 'スタッフ・店員', 'Please ask our staff.', 'スタッフにおたずねください。'],
     ['customer', 'お客さん', 'The customer is waiting.', 'お客さんが待っています。'],
     ['counter', 'カウンター・レジ', 'Please pay at the counter.', 'レジでお支払いください。'],
-    ['opening hours', '営業時間', 'Our opening hours are ten to seven.', '営業時間は10時から7時です。'],
-    ['closed', '閉店した・閉まっている', 'We are closed on Wednesdays.', '水曜日は定休日です。'],
+    ['opening hours', '営業時間', 'Our opening hours are from ten to seven.', '営業時間は10時から7時です。'],
+    ['closed', '閉まっている・休み', 'We are closed on Wednesdays.', '水曜日は定休日です。'],
   ]);
 
   lesson(20, 'お店', 'お客さんへの一言', 'お客さんに声をかけるときの単語を覚える', [

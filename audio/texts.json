@@ -1,7 +1,7 @@
 {
  "note": "tools/list_texts.mjs が作る一覧です。手で書きかえないでください。",
- "count": 1090,
- "chars": 22368,
+ "count": 1833,
+ "chars": 31826,
  "items": [
   {
    "key": "en|-0.9|Anything to drink?",
@@ -175,6 +175,15 @@
    ]
   },
   {
+   "key": "en|0|Add a heading to the page.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Add a heading to the page.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "en|0|Add a heading to the report.",
    "lang": "en",
    "semi": 0,
@@ -190,6 +199,15 @@
    "text": "address",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "en|0|again",
+   "lang": "en",
+   "semi": 0,
+   "text": "again",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -211,12 +229,30 @@
    ]
   },
   {
+   "key": "en|0|answer",
+   "lang": "en",
+   "semi": 0,
+   "text": "answer",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "en|0|Anything else?",
    "lang": "en",
    "semi": 0,
    "text": "Anything else?",
    "lessons": [
     "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|Anything to drink?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Anything to drink?",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -229,6 +265,15 @@
    ]
   },
   {
+   "key": "en|0|ask",
+   "lang": "en",
+   "semi": 0,
+   "text": "ask",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "en|0|available",
    "lang": "en",
    "semi": 0,
@@ -238,12 +283,31 @@
    ]
   },
   {
+   "key": "en|0|bad",
+   "lang": "en",
+   "semi": 0,
+   "text": "bad",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|bag",
+   "lang": "en",
+   "semi": 0,
+   "text": "bag",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "en|0|big",
    "lang": "en",
    "semi": 0,
    "text": "big",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
    ]
   },
   {
@@ -252,7 +316,26 @@
    "semi": 0,
    "text": "body",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|box",
+   "lang": "en",
+   "semi": 0,
+   "text": "box",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|brand",
+   "lang": "en",
+   "semi": 0,
+   "text": "brand",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -265,12 +348,31 @@
    ]
   },
   {
+   "key": "en|0|broken",
+   "lang": "en",
+   "semi": 0,
+   "text": "broken",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|busy",
+   "lang": "en",
+   "semi": 0,
+   "text": "busy",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "en|0|button",
    "lang": "en",
    "semi": 0,
    "text": "button",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-13"
    ]
   },
   {
@@ -279,7 +381,26 @@
    "semi": 0,
    "text": "buy",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|Can I ask a question?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I ask a question?",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Can I exchange this?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I exchange this?",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -306,7 +427,8 @@
    "semi": 0,
    "text": "Can I have the check?",
    "lessons": [
-    "talk-03"
+    "talk-03",
+    "vocab-02"
    ]
   },
   {
@@ -315,7 +437,8 @@
    "semi": 0,
    "text": "Can I help you?",
    "lessons": [
-    "talk-02"
+    "talk-02",
+    "vocab-02"
    ]
   },
   {
@@ -333,7 +456,8 @@
    "semi": 0,
    "text": "Can I pay by card?",
    "lessons": [
-    "talk-02"
+    "talk-02",
+    "vocab-02"
    ]
   },
   {
@@ -343,7 +467,17 @@
    "text": "Can I try it on?",
    "lessons": [
     "talk-02",
-    "talk-03"
+    "talk-03",
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|Can I use this pen?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I use this pen?",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -356,6 +490,24 @@
    ]
   },
   {
+   "key": "en|0|Can you fix this error?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can you fix this error?",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|Can you hear me?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can you hear me?",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "en|0|cancel",
    "lang": "en",
    "semi": 0,
@@ -365,12 +517,76 @@
    ]
   },
   {
+   "key": "en|0|car",
+   "lang": "en",
+   "semi": 0,
+   "text": "car",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|card",
+   "lang": "en",
+   "semi": 0,
+   "text": "card",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|cash",
+   "lang": "en",
+   "semi": 0,
+   "text": "cash",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|Cash or card?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Cash or card?",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|change",
+   "lang": "en",
+   "semi": 0,
+   "text": "change",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|Change the file name.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Change the file name.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Change the value to 10.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Change the value to 10.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "en|0|cheap",
    "lang": "en",
    "semi": 0,
    "text": "cheap",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
    ]
   },
   {
@@ -379,7 +595,35 @@
    "semi": 0,
    "text": "check",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|Check the first line.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Check the first line.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|Check the height of the shelf.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Check the height of the shelf.",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|Check the output.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Check the output.",
+   "lessons": [
+    "vocab-16"
    ]
   },
   {
@@ -401,12 +645,31 @@
    ]
   },
   {
+   "key": "en|0|clean",
+   "lang": "en",
+   "semi": 0,
+   "text": "clean",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "en|0|click",
    "lang": "en",
    "semi": 0,
    "text": "click",
    "lessons": [
-    "html-03"
+    "html-03",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|Click here to start.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Click here to start.",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -419,12 +682,66 @@
    ]
   },
   {
+   "key": "en|0|Click the link.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Click the link.",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|close",
+   "lang": "en",
+   "semi": 0,
+   "text": "close",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Close the tag with a slash.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Close the tag with a slash.",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|closed",
+   "lang": "en",
+   "semi": 0,
+   "text": "closed",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|Coffee likes me.",
    "lang": "en",
    "semi": 0,
    "text": "Coffee likes me.",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|come",
+   "lang": "en",
+   "semi": 0,
+   "text": "come",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|condition",
+   "lang": "en",
+   "semi": 0,
+   "text": "condition",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -446,12 +763,49 @@
    ]
   },
   {
+   "key": "en|0|content",
+   "lang": "en",
+   "semi": 0,
+   "text": "content",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|copy",
+   "lang": "en",
+   "semi": 0,
+   "text": "copy",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Copy this text.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Copy this text.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|counter",
+   "lang": "en",
+   "semi": 0,
+   "text": "counter",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|customer",
    "lang": "en",
    "semi": 0,
    "text": "customer",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-19"
    ]
   },
   {
@@ -464,12 +818,67 @@
    ]
   },
   {
+   "key": "en|0|data",
+   "lang": "en",
+   "semi": 0,
+   "text": "data",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|delete",
+   "lang": "en",
+   "semi": 0,
+   "text": "delete",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Delete the old file.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Delete the old file.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|delicious",
+   "lang": "en",
+   "semi": 0,
+   "text": "delicious",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|difficult",
+   "lang": "en",
+   "semi": 0,
+   "text": "difficult",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|discount",
+   "lang": "en",
+   "semi": 0,
+   "text": "discount",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "en|0|Do you have a small bag?",
    "lang": "en",
    "semi": 0,
    "text": "Do you have a small bag?",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
    ]
   },
   {
@@ -491,12 +900,39 @@
    ]
   },
   {
+   "key": "en|0|Do you need a bag?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Do you need a bag?",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|Do you need a receipt?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Do you need a receipt?",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "en|0|document",
    "lang": "en",
    "semi": 0,
    "text": "document",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "en|0|dog",
+   "lang": "en",
+   "semi": 0,
+   "text": "dog",
+   "lessons": [
+    "vocab-09"
    ]
   },
   {
@@ -509,12 +945,67 @@
    ]
   },
   {
+   "key": "en|0|Don't forget to save.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Don't forget to save.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|download",
+   "lang": "en",
+   "semi": 0,
+   "text": "download",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Download the app.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Download the app.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|drink",
+   "lang": "en",
+   "semi": 0,
+   "text": "drink",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
    "key": "en|0|drive",
    "lang": "en",
    "semi": 0,
    "text": "drive",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|early",
+   "lang": "en",
+   "semi": 0,
+   "text": "early",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|easy",
+   "lang": "en",
+   "semi": 0,
+   "text": "easy",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -523,7 +1014,35 @@
    "semi": 0,
    "text": "eat",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|end",
+   "lang": "en",
+   "semi": 0,
+   "text": "end",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|English is a little difficult.",
+   "lang": "en",
+   "semi": 0,
+   "text": "English is a little difficult.",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|error",
+   "lang": "en",
+   "semi": 0,
+   "text": "error",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -532,7 +1051,8 @@
    "semi": 0,
    "text": "every day",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
    ]
   },
   {
@@ -542,6 +1062,15 @@
    "text": "Everything looks good. What do you recommend?",
    "lessons": [
     "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|exchange",
+   "lang": "en",
+   "semi": 0,
+   "text": "exchange",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -572,12 +1101,49 @@
    ]
   },
   {
+   "key": "en|0|failed",
+   "lang": "en",
+   "semi": 0,
+   "text": "failed",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|false",
+   "lang": "en",
+   "semi": 0,
+   "text": "false",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|family",
+   "lang": "en",
+   "semi": 0,
+   "text": "family",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|far",
+   "lang": "en",
+   "semi": 0,
+   "text": "far",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "en|0|file",
    "lang": "en",
    "semi": 0,
    "text": "file",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-14"
    ]
   },
   {
@@ -587,6 +1153,24 @@
    "text": "Fill out this form, please.",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "en|0|fix",
+   "lang": "en",
+   "semi": 0,
+   "text": "fix",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|folder",
+   "lang": "en",
+   "semi": 0,
+   "text": "folder",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -605,6 +1189,60 @@
    "text": "form",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "en|0|friend",
+   "lang": "en",
+   "semi": 0,
+   "text": "friend",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|front",
+   "lang": "en",
+   "semi": 0,
+   "text": "front",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|function",
+   "lang": "en",
+   "semi": 0,
+   "text": "function",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|get",
+   "lang": "en",
+   "semi": 0,
+   "text": "get",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|go",
+   "lang": "en",
+   "semi": 0,
+   "text": "go",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|good",
+   "lang": "en",
+   "semi": 0,
+   "text": "good",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -635,6 +1273,15 @@
    ]
   },
   {
+   "key": "en|0|happy",
+   "lang": "en",
+   "semi": 0,
+   "text": "happy",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "en|0|Have a good day.",
    "lang": "en",
    "semi": 0,
@@ -644,12 +1291,22 @@
    ]
   },
   {
+   "key": "en|0|He is my friend.",
+   "lang": "en",
+   "semi": 0,
+   "text": "He is my friend.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "en|0|head",
    "lang": "en",
    "semi": 0,
    "text": "head",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
    ]
   },
   {
@@ -658,7 +1315,17 @@
    "semi": 0,
    "text": "heading",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|hear",
+   "lang": "en",
+   "semi": 0,
+   "text": "hear",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -667,7 +1334,8 @@
    "semi": 0,
    "text": "height",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
    ]
   },
   {
@@ -680,12 +1348,48 @@
    ]
   },
   {
+   "key": "en|0|help",
+   "lang": "en",
+   "semi": 0,
+   "text": "help",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|here",
+   "lang": "en",
+   "semi": 0,
+   "text": "here",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "en|0|Here is a short summary.",
    "lang": "en",
    "semi": 0,
    "text": "Here is a short summary.",
    "lessons": [
     "html-02"
+   ]
+  },
+  {
+   "key": "en|0|Here is the menu.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Here is the menu.",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|Here is your change.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Here is your change.",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -734,6 +1438,15 @@
    ]
   },
   {
+   "key": "en|0|home",
+   "lang": "en",
+   "semi": 0,
+   "text": "home",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "en|0|How are you?",
    "lang": "en",
    "semi": 0,
@@ -768,6 +1481,24 @@
    "text": "How much is this lamp?",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "en|0|I am busy now.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I am busy now.",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|I am busy today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I am busy today.",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -821,7 +1552,17 @@
    "semi": 0,
    "text": "I drive to work.",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|I eat rice every day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I eat rice every day.",
+   "lessons": [
+    "vocab-01"
    ]
   },
   {
@@ -840,6 +1581,42 @@
    "text": "I every day at a shop work.",
    "lessons": [
     "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I get up early.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I get up early.",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|I go home at seven.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I go home at seven.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|I go to work by car.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I go to work by car.",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|I got a new phone.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I got a new phone.",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -870,12 +1647,31 @@
    ]
   },
   {
+   "key": "en|0|I know the answer.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I know the answer.",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|I know this song.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I know this song.",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "en|0|I like coffee.",
    "lang": "en",
    "semi": 0,
    "text": "I like coffee.",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -897,12 +1693,48 @@
    ]
   },
   {
+   "key": "en|0|I listen to English in the car.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I listen to English in the car.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|I live with my family.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I live with my family.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|I make videos on weekends.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I make videos on weekends.",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "en|0|I meet my friend at the station.",
    "lang": "en",
    "semi": 0,
    "text": "I meet my friend at the station.",
    "lessons": [
     "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I need your help.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I need your help.",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -938,7 +1770,8 @@
    "semi": 0,
    "text": "I study English every morning.",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
    ]
   },
   {
@@ -956,7 +1789,17 @@
    "semi": 0,
    "text": "I study English in the car.",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|I study on my phone.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I study on my phone.",
+   "lessons": [
+    "vocab-09"
    ]
   },
   {
@@ -978,6 +1821,51 @@
    ]
   },
   {
+   "key": "en|0|I walk my dog every day.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I walk my dog every day.",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|I want a cup of coffee.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I want a cup of coffee.",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|I want to buy a jacket.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I want to buy a jacket.",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|I want to save money.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I want to save money.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|I was tired yesterday.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I was tired yesterday.",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "en|0|I watch movies on weekends.",
    "lang": "en",
    "semi": 0,
@@ -993,6 +1881,15 @@
    "text": "I watch soccer on Sunday.",
    "lessons": [
     "grammar-03"
+   ]
+  },
+  {
+   "key": "en|0|I watch TV at night.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I watch TV at night.",
+   "lessons": [
+    "vocab-01"
    ]
   },
   {
@@ -1059,6 +1956,33 @@
    ]
   },
   {
+   "key": "en|0|I work at a shop.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I work at a shop.",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|I work five days a week.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I work five days a week.",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|I'll call you later.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'll call you later.",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "en|0|I'll have ...",
    "lang": "en",
    "semi": 0,
@@ -1087,6 +2011,15 @@
    ]
   },
   {
+   "key": "en|0|I'm a little tired today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm a little tired today.",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "en|0|I'm good, thanks.",
    "lang": "en",
    "semi": 0,
@@ -1102,6 +2035,15 @@
    "text": "I'm good, thanks. And you?",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "en|0|I'm happy to see you.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm happy to see you.",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -1132,6 +2074,15 @@
    ]
   },
   {
+   "key": "en|0|I'm looking for a bag.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm looking for a bag.",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
    "key": "en|0|I'm looking for a black bag.",
    "lang": "en",
    "semi": 0,
@@ -1141,12 +2092,40 @@
    ]
   },
   {
+   "key": "en|0|I'm sorry for the wait.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I'm sorry for the wait.",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "en|0|image",
    "lang": "en",
    "semi": 0,
    "text": "image",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|input",
+   "lang": "en",
+   "semi": 0,
+   "text": "input",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|inside",
+   "lang": "en",
+   "semi": 0,
+   "text": "inside",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -1168,12 +2147,48 @@
    ]
   },
   {
+   "key": "en|0|It comes with the original box.",
+   "lang": "en",
+   "semi": 0,
+   "text": "It comes with the original box.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|It has a three-month warranty.",
+   "lang": "en",
+   "semi": 0,
+   "text": "It has a three-month warranty.",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|It takes five minutes.",
+   "lang": "en",
+   "semi": 0,
+   "text": "It takes five minutes.",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "en|0|It was delicious.",
    "lang": "en",
    "semi": 0,
    "text": "It was delicious.",
    "lessons": [
     "talk-03"
+   ]
+  },
+  {
+   "key": "en|0|It was really fun.",
+   "lang": "en",
+   "semi": 0,
+   "text": "It was really fun.",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -1191,7 +2206,17 @@
    "semi": 0,
    "text": "item",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|know",
+   "lang": "en",
+   "semi": 0,
+   "text": "know",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -1201,6 +2226,33 @@
    "text": "language",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "en|0|late",
+   "lang": "en",
+   "semi": 0,
+   "text": "late",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|later",
+   "lang": "en",
+   "semi": 0,
+   "text": "later",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|left",
+   "lang": "en",
+   "semi": 0,
+   "text": "left",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -1245,7 +2297,8 @@
    "semi": 0,
    "text": "like",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -1263,7 +2316,8 @@
    "semi": 0,
    "text": "line",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -1272,7 +2326,8 @@
    "semi": 0,
    "text": "link",
    "lessons": [
-    "html-03"
+    "html-03",
+    "vocab-13"
    ]
   },
   {
@@ -1281,7 +2336,17 @@
    "semi": 0,
    "text": "list",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|loading",
+   "lang": "en",
+   "semi": 0,
+   "text": "loading",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -1304,6 +2369,51 @@
    ]
   },
   {
+   "key": "en|0|look for",
+   "lang": "en",
+   "semi": 0,
+   "text": "look for",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|make",
+   "lang": "en",
+   "semi": 0,
+   "text": "make",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|Make a list of items.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Make a list of items.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|maybe",
+   "lang": "en",
+   "semi": 0,
+   "text": "maybe",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|Maybe tomorrow.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Maybe tomorrow.",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "en|0|Me too.",
    "lang": "en",
    "semi": 0,
@@ -1322,6 +2432,51 @@
    ]
   },
   {
+   "key": "en|0|menu",
+   "lang": "en",
+   "semi": 0,
+   "text": "menu",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|minute",
+   "lang": "en",
+   "semi": 0,
+   "text": "minute",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|money",
+   "lang": "en",
+   "semi": 0,
+   "text": "money",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|morning",
+   "lang": "en",
+   "semi": 0,
+   "text": "morning",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|My dog Anko is cute.",
+   "lang": "en",
+   "semi": 0,
+   "text": "My dog Anko is cute.",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "en|0|My hobby is making videos.",
    "lang": "en",
    "semi": 0,
@@ -1331,12 +2486,49 @@
    ]
   },
   {
+   "key": "en|0|My house is not far.",
+   "lang": "en",
+   "semi": 0,
+   "text": "My house is not far.",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|name",
+   "lang": "en",
+   "semi": 0,
+   "text": "name",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|near",
+   "lang": "en",
+   "semi": 0,
+   "text": "near",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|need",
+   "lang": "en",
+   "semi": 0,
+   "text": "need",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "en|0|new",
    "lang": "en",
    "semi": 0,
    "text": "new",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
    ]
   },
   {
@@ -1345,7 +2537,8 @@
    "semi": 0,
    "text": "nice",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
    ]
   },
   {
@@ -1368,6 +2561,33 @@
    ]
   },
   {
+   "key": "en|0|not found",
+   "lang": "en",
+   "semi": 0,
+   "text": "not found",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|now",
+   "lang": "en",
+   "semi": 0,
+   "text": "now",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|number",
+   "lang": "en",
+   "semi": 0,
+   "text": "number",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "en|0|OK, I'll take it.",
    "lang": "en",
    "semi": 0,
@@ -1382,7 +2602,35 @@
    "semi": 0,
    "text": "old",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|open",
+   "lang": "en",
+   "semi": 0,
+   "text": "open",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Open the file.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Open the file.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|opening hours",
+   "lang": "en",
+   "semi": 0,
+   "text": "opening hours",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -1391,7 +2639,17 @@
    "semi": 0,
    "text": "order",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|Our opening hours are ten to seven.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Our opening hours are ten to seven.",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -1404,12 +2662,95 @@
    ]
   },
   {
+   "key": "en|0|output",
+   "lang": "en",
+   "semi": 0,
+   "text": "output",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|page",
+   "lang": "en",
+   "semi": 0,
+   "text": "page",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
    "key": "en|0|paragraph",
    "lang": "en",
    "semi": 0,
    "text": "paragraph",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|pay",
+   "lang": "en",
+   "semi": 0,
+   "text": "pay",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|phone",
+   "lang": "en",
+   "semi": 0,
+   "text": "phone",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|please",
+   "lang": "en",
+   "semi": 0,
+   "text": "please",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|Please ask our staff.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please ask our staff.",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "en|0|Please close the window.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please close the window.",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Please come again.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please come again.",
+   "lessons": [
+    "vocab-04",
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|Please come to the front.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please come to the front.",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -1431,6 +2772,24 @@
    ]
   },
   {
+   "key": "en|0|Please open the door.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please open the door.",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Please pay at the counter.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please pay at the counter.",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|Please read the first line.",
    "lang": "en",
    "semi": 0,
@@ -1449,12 +2808,39 @@
    ]
   },
   {
+   "key": "en|0|Please say it again.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please say it again.",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "en|0|Please submit the form by Friday.",
    "lang": "en",
    "semi": 0,
    "text": "Please submit the form by Friday.",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "en|0|Please tell me the price.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please tell me the price.",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|Please update the app.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please update the app.",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -1476,12 +2862,57 @@
    ]
   },
   {
+   "key": "en|0|Please wait a moment.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please wait a moment.",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|Please wait here.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please wait here.",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|Please wait inside.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please wait inside.",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "en|0|Please write your email address.",
    "lang": "en",
    "semi": 0,
    "text": "Please write your email address.",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "en|0|popular",
+   "lang": "en",
+   "semi": 0,
+   "text": "popular",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|Press the blue button.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Press the blue button.",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -1503,6 +2934,15 @@
    ]
   },
   {
+   "key": "en|0|price",
+   "lang": "en",
+   "semi": 0,
+   "text": "price",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "en|0|profile",
    "lang": "en",
    "semi": 0,
@@ -1518,6 +2958,60 @@
    "text": "Put the boxes in order.",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "en|0|Put the file in this folder.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Put the file in this folder.",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Put them in order.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Put them in order.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|Read the warning first.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Read the warning first.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|really",
+   "lang": "en",
+   "semi": 0,
+   "text": "really",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|receipt",
+   "lang": "en",
+   "semi": 0,
+   "text": "receipt",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|recommend",
+   "lang": "en",
+   "semi": 0,
+   "text": "recommend",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -1539,12 +3033,67 @@
    ]
   },
   {
+   "key": "en|0|return",
+   "lang": "en",
+   "semi": 0,
+   "text": "return",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|right",
+   "lang": "en",
+   "semi": 0,
+   "text": "right",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|sale",
+   "lang": "en",
+   "semi": 0,
+   "text": "sale",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|save",
    "lang": "en",
    "semi": 0,
    "text": "save",
    "lessons": [
-    "html-07"
+    "html-07",
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|say",
+   "lang": "en",
+   "semi": 0,
+   "text": "say",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "en|0|scratch",
+   "lang": "en",
+   "semi": 0,
+   "text": "scratch",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|see",
+   "lang": "en",
+   "semi": 0,
+   "text": "see",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -1557,12 +3106,32 @@
    ]
   },
   {
+   "key": "en|0|See you tomorrow.",
+   "lang": "en",
+   "semi": 0,
+   "text": "See you tomorrow.",
+   "lessons": [
+    "vocab-05",
+    "vocab-07"
+   ]
+  },
+  {
    "key": "en|0|sell",
    "lang": "en",
    "semi": 0,
    "text": "sell",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|Set the width to 100.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Set the width to 100.",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -1575,6 +3144,15 @@
    ]
   },
   {
+   "key": "en|0|shelf",
+   "lang": "en",
+   "semi": 0,
+   "text": "shelf",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|shirt a cheap",
    "lang": "en",
    "semi": 0,
@@ -1584,12 +3162,40 @@
    ]
   },
   {
+   "key": "en|0|size",
+   "lang": "en",
+   "semi": 0,
+   "text": "size",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
    "key": "en|0|small",
    "lang": "en",
    "semi": 0,
    "text": "small",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|sorry",
+   "lang": "en",
+   "semi": 0,
+   "text": "sorry",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|Sorry, I'm late.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Sorry, I'm late.",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -1598,7 +3204,26 @@
    "semi": 0,
    "text": "source",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|staff",
+   "lang": "en",
+   "semi": 0,
+   "text": "staff",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "en|0|start",
+   "lang": "en",
+   "semi": 0,
+   "text": "start",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -1620,6 +3245,15 @@
    ]
   },
   {
+   "key": "en|0|stock",
+   "lang": "en",
+   "semi": 0,
+   "text": "stock",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|structure",
    "lang": "en",
    "semi": 0,
@@ -1634,7 +3268,8 @@
    "semi": 0,
    "text": "study",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
    ]
   },
   {
@@ -1647,12 +3282,39 @@
    ]
   },
   {
+   "key": "en|0|success",
+   "lang": "en",
+   "semi": 0,
+   "text": "success",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "en|0|summary",
    "lang": "en",
    "semi": 0,
    "text": "summary",
    "lessons": [
     "html-02"
+   ]
+  },
+  {
+   "key": "en|0|sure",
+   "lang": "en",
+   "semi": 0,
+   "text": "sure",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|Sure, no problem.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Sure, no problem.",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -1670,7 +3332,8 @@
    "semi": 0,
    "text": "tag",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
    ]
   },
   {
@@ -1683,12 +3346,49 @@
    ]
   },
   {
+   "key": "en|0|tax",
+   "lang": "en",
+   "semi": 0,
+   "text": "tax",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|tell",
+   "lang": "en",
+   "semi": 0,
+   "text": "tell",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "en|0|text",
    "lang": "en",
    "semi": 0,
    "text": "text",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|thank you",
+   "lang": "en",
+   "semi": 0,
+   "text": "thank you",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "en|0|Thank you very much.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Thank you very much.",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -1728,12 +3428,48 @@
    ]
   },
   {
+   "key": "en|0|The answer is true.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The answer is true.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "en|0|The bag is red.",
    "lang": "en",
    "semi": 0,
    "text": "The bag is red.",
    "lessons": [
     "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|The bags are on the right.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The bags are on the right.",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|The condition is very good.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The condition is very good.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|The content goes between the tags.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The content goes between the tags.",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -1746,12 +3482,48 @@
    ]
   },
   {
+   "key": "en|0|The customer is waiting.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The customer is waiting.",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|The customer wants to cancel the order.",
    "lang": "en",
    "semi": 0,
    "text": "The customer wants to cancel the order.",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "en|0|The data is saved on the phone.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The data is saved on the phone.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|The fitting room is over there.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The fitting room is over there.",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|The games are on that shelf.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The games are on that shelf.",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -1764,12 +3536,85 @@
    ]
   },
   {
+   "key": "en|0|The inside is very clean.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The inside is very clean.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|The numbers are added automatically.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The numbers are added automatically.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "en|0|The page is loading.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The page is loading.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|The page was not found.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The page was not found.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|The pasta was delicious.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The pasta was delicious.",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|The price includes tax.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The price includes tax.",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|The sale starts tomorrow.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The sale starts tomorrow.",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "en|0|The shop is near the station.",
    "lang": "en",
    "semi": 0,
    "text": "The shop is near the station.",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|The shop is open today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The shop is open today.",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -1796,7 +3641,8 @@
    "semi": 0,
    "text": "The text is too small.",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -1805,7 +3651,107 @@
    "semi": 0,
    "text": "The title goes in the head.",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|The title is shown on the tab.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The title is shown on the tab.",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|The total is 3,000 yen.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The total is 3,000 yen.",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|The update was a success.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The update was a success.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|The upload failed.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The upload failed.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|The weather is bad today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "The weather is bad today.",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|there",
+   "lang": "en",
+   "semi": 0,
+   "text": "there",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "en|0|There is a small scratch here.",
+   "lang": "en",
+   "semi": 0,
+   "text": "There is a small scratch here.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|There is an error on this page.",
+   "lang": "en",
+   "semi": 0,
+   "text": "There is an error on this page.",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|This clock is very old.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This clock is very old.",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "en|0|This function plays the sound.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This function plays the sound.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|This game is very popular.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This game is very popular.",
+   "lessons": [
+    "vocab-03"
    ]
   },
   {
@@ -1815,6 +3761,15 @@
    "text": "This is a cheap shirt.",
    "lessons": [
     "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This is a good price.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a good price.",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -1832,7 +3787,8 @@
    "semi": 0,
    "text": "This is a nice table.",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
    ]
   },
   {
@@ -1845,12 +3801,48 @@
    ]
   },
   {
+   "key": "en|0|This is a used camera.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is a used camera.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|This is false.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is false.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "en|0|This is for your reference.",
    "lang": "en",
    "semi": 0,
    "text": "This is for your reference.",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "en|0|This is the end tag.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is the end tag.",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|This is the start tag.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is the start tag.",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -1863,6 +3855,33 @@
    ]
   },
   {
+   "key": "en|0|This is version seven.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This is version seven.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|This item has a discount.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This item has a discount.",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|This item is popular.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This item is popular.",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "en|0|This item is very popular.",
    "lang": "en",
    "semi": 0,
@@ -1872,12 +3891,30 @@
    ]
   },
   {
+   "key": "en|0|This lamp is broken.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This lamp is broken.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "en|0|This lamp is very cheap.",
    "lang": "en",
    "semi": 0,
    "text": "This lamp is very cheap.",
    "lessons": [
     "grammar-02"
+   ]
+  },
+  {
+   "key": "en|0|This page is in Japanese.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This page is in Japanese.",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -1908,12 +3945,31 @@
    ]
   },
   {
+   "key": "en|0|This question is easy.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This question is easy.",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "en|0|This shirt is cheap.",
    "lang": "en",
    "semi": 0,
    "text": "This shirt is cheap.",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|This sofa is too big.",
+   "lang": "en",
+   "semi": 0,
+   "text": "This sofa is too big.",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -1922,7 +3978,8 @@
    "semi": 0,
    "text": "This TV is new.",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
    ]
   },
   {
@@ -1935,12 +3992,85 @@
    ]
   },
   {
+   "key": "en|0|time",
+   "lang": "en",
+   "semi": 0,
+   "text": "time",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "en|0|tired",
+   "lang": "en",
+   "semi": 0,
+   "text": "tired",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "en|0|title",
    "lang": "en",
    "semi": 0,
    "text": "title",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|today",
+   "lang": "en",
+   "semi": 0,
+   "text": "today",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|tomorrow",
+   "lang": "en",
+   "semi": 0,
+   "text": "tomorrow",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|total",
+   "lang": "en",
+   "semi": 0,
+   "text": "total",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "en|0|true",
+   "lang": "en",
+   "semi": 0,
+   "text": "true",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|try on",
+   "lang": "en",
+   "semi": 0,
+   "text": "try on",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|Turn left at the corner.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Turn left at the corner.",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -1950,6 +4080,15 @@
    "text": "TV I watch.",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|Two coffees, please.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Two coffees, please.",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -1985,7 +4124,26 @@
    "semi": 0,
    "text": "type",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "en|0|Type your name in the input box.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Type your name in the input box.",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|update",
+   "lang": "en",
+   "semi": 0,
+   "text": "update",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -1998,12 +4156,103 @@
    ]
   },
   {
+   "key": "en|0|Upload the product image.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Upload the product image.",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|use",
+   "lang": "en",
+   "semi": 0,
+   "text": "use",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|used",
+   "lang": "en",
+   "semi": 0,
+   "text": "used",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|value",
+   "lang": "en",
+   "semi": 0,
+   "text": "value",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|version",
+   "lang": "en",
+   "semi": 0,
+   "text": "version",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "en|0|wait",
+   "lang": "en",
+   "semi": 0,
+   "text": "wait",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|want",
+   "lang": "en",
+   "semi": 0,
+   "text": "want",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "en|0|warning",
+   "lang": "en",
+   "semi": 0,
+   "text": "warning",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "en|0|warranty",
+   "lang": "en",
+   "semi": 0,
+   "text": "warranty",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "en|0|watch",
    "lang": "en",
    "semi": 0,
    "text": "watch",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|We accept cards.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We accept cards.",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -2012,7 +4261,17 @@
    "semi": 0,
    "text": "We are busy on the weekend.",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|We are closed on Wednesdays.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We are closed on Wednesdays.",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -2025,12 +4284,30 @@
    ]
   },
   {
+   "key": "en|0|We checked that it is working.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We checked that it is working.",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "en|0|We eat lunch at noon.",
    "lang": "en",
    "semi": 0,
    "text": "We eat lunch at noon.",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "en|0|We have it in stock.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We have it in stock.",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -2052,6 +4329,15 @@
    ]
   },
   {
+   "key": "en|0|We sell used furniture.",
+   "lang": "en",
+   "semi": 0,
+   "text": "We sell used furniture.",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
    "key": "en|0|We sell used games.",
    "lang": "en",
    "semi": 0,
@@ -2070,12 +4356,49 @@
    ]
   },
   {
+   "key": "en|0|week",
+   "lang": "en",
+   "semi": 0,
+   "text": "week",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "en|0|weekend",
    "lang": "en",
    "semi": 0,
    "text": "weekend",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "en|0|welcome",
+   "lang": "en",
+   "semi": 0,
+   "text": "welcome",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|Welcome to our shop.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Welcome to our shop.",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "en|0|What brand is this bag?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What brand is this bag?",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -2084,7 +4407,17 @@
    "semi": 0,
    "text": "What do you recommend?",
    "lessons": [
-    "talk-03"
+    "talk-03",
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "en|0|What is the price of this lamp?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What is the price of this lamp?",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -2106,12 +4439,39 @@
    ]
   },
   {
+   "key": "en|0|What size is this jacket?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What size is this jacket?",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|What time is it?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What time is it?",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "en|0|What type of chair is this?",
    "lang": "en",
    "semi": 0,
    "text": "What type of chair is this?",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "en|0|What type of file is this?",
+   "lang": "en",
+   "semi": 0,
+   "text": "What type of file is this?",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -2129,7 +4489,8 @@
    "semi": 0,
    "text": "width",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
    ]
   },
   {
@@ -2138,7 +4499,26 @@
    "semi": 0,
    "text": "work",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "en|0|working",
+   "lang": "en",
+   "semi": 0,
+   "text": "working",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "en|0|Write one paragraph.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Write one paragraph.",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -2148,6 +4528,42 @@
    "text": "Write the message in the body.",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "en|0|Write the source of the image.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Write the source of the image.",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "en|0|Write the text in the body.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Write the text in the body.",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "en|0|yesterday",
+   "lang": "en",
+   "semi": 0,
+   "text": "yesterday",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "en|0|You can return it within a week.",
+   "lang": "en",
+   "semi": 0,
+   "text": "You can return it within a week.",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -3122,6 +5538,15 @@
    ]
   },
   {
+   "key": "ja|0|1週間以内なら返品できます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "1週間以内なら返品できます。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|2つの形を、並べてみましょう。「そのかばんは、赤いです。」",
    "lang": "ja",
    "semi": 0,
@@ -3230,6 +5655,15 @@
    ]
   },
   {
+   "key": "ja|0|3か月の保証がついています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "3か月の保証がついています。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|3つ目。全体は エイチティーエムエルタグで包む。",
    "lang": "ja",
    "semi": 0,
@@ -3290,6 +5724,15 @@
    "text": "5000円です。",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|5分かかります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "5分かかります。",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -3626,6 +6069,24 @@
    ]
   },
   {
+   "key": "ja|0|アップロードに失敗しました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アップロードに失敗しました。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|あとで",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あとで",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|あとで来ます。",
    "lang": "ja",
    "semi": 0,
@@ -3635,12 +6096,30 @@
    ]
   },
   {
+   "key": "ja|0|あとで電話しますね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あとで電話しますね。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|あと少しです。",
    "lang": "ja",
    "semi": 0,
    "text": "あと少しです。",
    "lessons": [
     "common"
+   ]
+  },
+  {
+   "key": "ja|0|あなたの助けが必要です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "あなたの助けが必要です。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -3680,12 +6159,39 @@
    ]
   },
   {
+   "key": "ja|0|アプリをダウンロードしてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アプリをダウンロードしてください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|アプリを更新してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "アプリを更新してください。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|アムは、「です」のような役わりの言葉です。",
    "lang": "ja",
    "semi": 0,
    "text": "アムは、「です」のような役わりの言葉です。",
    "lessons": [
     "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|ありがとう",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ありがとう",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -3825,12 +6331,30 @@
    ]
   },
   {
+   "key": "ja|0|いらっしゃいませ・ようこそ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いらっしゃいませ・ようこそ",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|いらっしゃいませ！何名様ですか？",
    "lang": "ja",
    "semi": 0,
    "text": "いらっしゃいませ！何名様ですか？",
    "lessons": [
     "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|いらっしゃいませ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "いらっしゃいませ。",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -3870,6 +6394,15 @@
    ]
   },
   {
+   "key": "ja|0|うちの犬のあんこは、かわいいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うちの犬のあんこは、かわいいです。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "ja|0|うまく聞き取れませんでした。",
    "lang": "ja",
    "semi": 0,
@@ -3885,6 +6418,15 @@
    "text": "うまく表示されないときは、次の3つを確かめてみてください。",
    "lessons": [
     "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|うれしい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "うれしい",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -3996,6 +6538,15 @@
    ]
   },
   {
+   "key": "ja|0|エラー・まちがい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "エラー・まちがい",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|エラーになる",
    "lang": "ja",
    "semi": 0,
@@ -4029,6 +6580,15 @@
    "text": "オーエルは、オーダード リストの略です。「順番のある一覧」という意味です。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|おいしい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おいしい",
+   "lessons": [
+    "vocab-03"
    ]
   },
   {
@@ -4136,7 +6696,35 @@
    "semi": 0,
    "text": "おすすめは何ですか？",
    "lessons": [
-    "talk-03"
+    "talk-03",
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|おつり・変える",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おつり・変える",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|おつり・変える、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おつり・変える、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|おつりです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "おつりです。",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -4190,7 +6778,26 @@
    "semi": 0,
    "text": "お会いできてうれしいです。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|お会計・確認する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計・確認する",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|お会計・確認する、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計・確認する、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -4221,12 +6828,22 @@
    ]
   },
   {
+   "key": "ja|0|お会計をお願いします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お会計をお願いします。",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
    "key": "ja|0|お客さん",
    "lang": "ja",
    "semi": 0,
    "text": "お客さん",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-19"
    ]
   },
   {
@@ -4236,6 +6853,15 @@
    "text": "お客さんがレジで待っています。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|お客さんが待っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お客さんが待っています。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -4284,12 +6910,31 @@
    ]
   },
   {
+   "key": "ja|0|お店は今日、開いています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お店は今日、開いています。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|お店は駅の近くです。",
    "lang": "ja",
    "semi": 0,
    "text": "お店は駅の近くです。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|お待たせしてすみません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お待たせしてすみません。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -4311,12 +6956,58 @@
    ]
   },
   {
+   "key": "ja|0|お金",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お金",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|お金をためたいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お金をためたいです。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|お願いします・どうぞ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "お願いします・どうぞ",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|カード",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カード",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|カードが使えます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カードが使えます。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|カードで払えますか？",
    "lang": "ja",
    "semi": 0,
    "text": "カードで払えますか？",
    "lessons": [
-    "talk-02"
+    "talk-02",
+    "vocab-02"
    ]
   },
   {
@@ -4329,12 +7020,48 @@
    ]
   },
   {
+   "key": "ja|0|カウンター・レジ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カウンター・レジ",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|カウンター・レジ、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "カウンター・レジ、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|かしこまりました。ほかにはございますか？",
    "lang": "ja",
    "semi": 0,
    "text": "かしこまりました。ほかにはございますか？",
    "lessons": [
     "talk-03"
+   ]
+  },
+  {
+   "key": "ja|0|かばんは右にあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "かばんは右にあります。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|かばんを探しています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "かばんを探しています。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -4347,6 +7074,24 @@
    ]
   },
   {
+   "key": "ja|0|かんたんな",
+   "lang": "ja",
+   "semi": 0,
+   "text": "かんたんな",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|かんたんな、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "かんたんな、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|きみもね。またあとで。",
    "lang": "ja",
    "semi": 0,
@@ -4356,12 +7101,31 @@
    ]
   },
   {
+   "key": "ja|0|きれいな",
+   "lang": "ja",
+   "semi": 0,
+   "text": "きれいな",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|クリックする・押す",
    "lang": "ja",
    "semi": 0,
    "text": "クリックする・押す",
    "lessons": [
-    "html-03"
+    "html-03",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|ゲームはあの棚にあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ゲームはあの棚にあります。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -4371,6 +7135,24 @@
    "text": "コードの中で Enter を押して改行すると、画面ではどうなる？",
    "lessons": [
     "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|コーヒーが1杯ほしいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "コーヒーが1杯ほしいです。",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|コーヒーを2つお願いします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "コーヒーを2つお願いします。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -4406,7 +7188,8 @@
    "semi": 0,
    "text": "ここ",
    "lessons": [
-    "html-03"
+    "html-03",
+    "vocab-08"
    ]
   },
   {
@@ -4446,6 +7229,24 @@
    ]
   },
   {
+   "key": "ja|0|ここでお待ちください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここでお待ちください。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|ここに小さな傷があります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここに小さな傷があります。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|ここまで続けてきたこと、本当にすばらしいです。今日はここまでです。",
    "lang": "ja",
    "semi": 0,
@@ -4455,12 +7256,30 @@
    ]
   },
   {
+   "key": "ja|0|ここを押すと始まります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ここを押すと始まります。",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
    "key": "ja|0|こちら",
    "lang": "ja",
    "semi": 0,
    "text": "こちら",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|こちらがメニューです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こちらがメニューです。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -4491,6 +7310,42 @@
    ]
   },
   {
+   "key": "ja|0|このエラーを直せますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このエラーを直せますか？",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|このかばんはどのブランドですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このかばんはどのブランドですか？",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|このゲームはとても人気です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このゲームはとても人気です。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|このジャケットのサイズは何ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このジャケットのサイズは何ですか？",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
    "key": "ja|0|このシャツ、いいですね。試着できますか？",
    "lang": "ja",
    "semi": 0,
@@ -4509,12 +7364,30 @@
    ]
   },
   {
+   "key": "ja|0|このシャツは安いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このシャツは安いです。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
    "key": "ja|0|このスマホは、ほぼ新品です。",
    "lang": "ja",
    "semi": 0,
    "text": "このスマホは、ほぼ新品です。",
    "lessons": [
     "grammar-02"
+   ]
+  },
+  {
+   "key": "ja|0|このソファは大きすぎます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このソファは大きすぎます。",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -4545,12 +7418,48 @@
    ]
   },
   {
+   "key": "ja|0|このテレビは新しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このテレビは新しいです。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|このページにエラーがあります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このページにエラーがあります。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|このページは日本語です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このページは日本語です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
    "key": "ja|0|このページは日本語で書かれています。",
    "lang": "ja",
    "semi": 0,
    "text": "このページは日本語で書かれています。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|このペンを使ってもいいですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このペンを使ってもいいですか？",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -4563,12 +7472,30 @@
    ]
   },
   {
+   "key": "ja|0|このランプの値段はいくらですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このランプの値段はいくらですか？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|このランプはいくらですか？",
    "lang": "ja",
    "semi": 0,
    "text": "このランプはいくらですか？",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|このランプはこわれています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "このランプはこわれています。",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -4581,12 +7508,48 @@
    ]
   },
   {
+   "key": "ja|0|この値段は税込みです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この値段は税込みです。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|この品物はとても人気です。",
    "lang": "ja",
    "semi": 0,
    "text": "この品物はとても人気です。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|この品物は人気です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この品物は人気です。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|この品物は割引中です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この品物は割引中です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|この問題はかんたんです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この問題はかんたんです。",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -4617,12 +7580,39 @@
    ]
   },
   {
+   "key": "ja|0|この文字をコピーしてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この文字をコピーしてください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|この時計はとても古いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この時計はとても古いです。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|この書類を読んでください。",
    "lang": "ja",
    "semi": 0,
    "text": "この書類を読んでください。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|この歌を知っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この歌を知っています。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -4641,6 +7631,51 @@
    "text": "この用紙に記入してください。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|この関数は音を鳴らします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "この関数は音を鳴らします。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|コピー・写す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "コピー・写す",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|コピー・写す、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "コピー・写す、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|ごめんなさい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ごめんなさい",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|ごめんなさい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ごめんなさい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -4761,6 +7796,15 @@
    ]
   },
   {
+   "key": "ja|0|これはいい値段です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これはいい値段です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|これはすてきないすです。",
    "lang": "ja",
    "semi": 0,
@@ -4770,12 +7814,75 @@
    ]
   },
   {
+   "key": "ja|0|これはすてきなテーブルです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これはすてきなテーブルです。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|これはまちがいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これはまちがいです。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|これは中古のカメラです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは中古のカメラです。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|これは何の種類のいすですか？",
    "lang": "ja",
    "semi": 0,
    "text": "これは何の種類のいすですか？",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|これは何の種類のファイルですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは何の種類のファイルですか？",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|これは始まりのタグです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは始まりのタグです。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|これは第7版です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは第7版です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|これは終わりのタグです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これは終わりのタグです。",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -4794,6 +7901,33 @@
    "text": "これをください。",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|これを交換できますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "これを交換できますか？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|こわれた",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こわれた",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|こわれた、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こわれた、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -4959,6 +8093,51 @@
    ]
   },
   {
+   "key": "ja|0|ジャケットを買いたいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ジャケットを買いたいです。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|すすめる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "すすめる",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|スタッフ・店員",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スタッフ・店員",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|スタッフ・店員、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スタッフ・店員、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|スタッフにおたずねください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スタッフにおたずねください。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|すてきですね。試着してもいいですか？",
    "lang": "ja",
    "semi": 0,
@@ -4973,7 +8152,26 @@
    "semi": 0,
    "text": "すてきな・いい",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|スマホ・電話",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スマホ・電話",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|スマホ・電話、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スマホ・電話、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-09"
    ]
   },
   {
@@ -5004,6 +8202,33 @@
    ]
   },
   {
+   "key": "ja|0|スラッシュでタグを閉じます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "スラッシュでタグを閉じます。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|セール",
+   "lang": "ja",
+   "semi": 0,
+   "text": "セール",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|セールは明日からです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "セールは明日からです。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|ソースに、画像の場所。オルトに、画像の説明の文。",
    "lang": "ja",
    "semi": 0,
@@ -5028,6 +8253,24 @@
    "text": "そうだね。いい週末だった？",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|そこ・あそこ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そこ・あそこ",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|そこ・あそこ、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "そこ・あそこ、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -5135,7 +8378,17 @@
    "semi": 0,
    "text": "タイトルは head に入ります。",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|タイトルはタブに表示されます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "タイトルはタブに表示されます。",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -5145,6 +8398,24 @@
    "text": "タイプは「種類」という意味です。ボタンと書くと、「ふつうのボタン」という意味になります。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|ダウンロードする",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ダウンロードする",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|ダウンロードする、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ダウンロードする、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -5211,6 +8482,15 @@
    ]
   },
   {
+   "key": "ja|0|たずねる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たずねる",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|ただし、ビーアールを使いすぎるのはおすすめしません。段落を分けるなら、ピーを使いましょう。",
    "lang": "ja",
    "semi": 0,
@@ -5262,6 +8542,24 @@
    "text": "ダブルクォーテーションは、上の方にある、点が2つの記号です。",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|たぶん",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たぶん",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|たぶん明日です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "たぶん明日です。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -5364,6 +8662,24 @@
    ]
   },
   {
+   "key": "ja|0|データ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "データ",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|データはスマホに保存されます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "データはスマホに保存されます。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|できました。すばらしいです。",
    "lang": "ja",
    "semi": 0,
@@ -5416,6 +8732,15 @@
    ]
   },
   {
+   "key": "ja|0|ドアを開けてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ドアを開けてください。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|どうしても段落の中で改行したいときは、ビーアールというタグを使います。",
    "lang": "ja",
    "semi": 0,
@@ -5431,6 +8756,15 @@
    "text": "どうぞ。試着室はあちらです。",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|どうもありがとうございます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "どうもありがとうございます。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -5568,7 +8902,27 @@
     "common",
     "talk-01",
     "talk-02",
-    "talk-03"
+    "talk-03",
+    "vocab-01",
+    "vocab-02",
+    "vocab-03",
+    "vocab-04",
+    "vocab-05",
+    "vocab-06",
+    "vocab-07",
+    "vocab-08",
+    "vocab-09",
+    "vocab-10",
+    "vocab-11",
+    "vocab-12",
+    "vocab-13",
+    "vocab-14",
+    "vocab-15",
+    "vocab-16",
+    "vocab-17",
+    "vocab-18",
+    "vocab-19",
+    "vocab-20"
    ]
   },
   {
@@ -5617,12 +8971,66 @@
    ]
   },
   {
+   "key": "ja|0|は、あとで、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、あとで、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、ありがとう、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ありがとう、という意味です。",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
    "key": "ja|0|は、いくらですか？、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、いくらですか？、という意味です。",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、いらっしゃいませ・ようこそ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、いらっしゃいませ・ようこそ、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、うれしい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、うれしい、という意味です。",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|は、エラー・まちがい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、エラー・まちがい、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|は、おいしい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おいしい、という意味です。",
+   "lessons": [
+    "vocab-03"
    ]
   },
   {
@@ -5653,12 +9061,30 @@
    ]
   },
   {
+   "key": "ja|0|は、おつり・変える、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、おつり・変える、という意味です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|は、おはようございます、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、おはようございます、という意味です。",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、お会計・確認する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お会計・確認する、という意味です。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -5676,7 +9102,8 @@
    "semi": 0,
    "text": "は、お客さん、という意味です。",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-19"
    ]
   },
   {
@@ -5689,6 +9116,33 @@
    ]
   },
   {
+   "key": "ja|0|は、お金、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お金、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、お願いします・どうぞ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、お願いします・どうぞ、という意味です。",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|は、カード、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、カード、という意味です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|は、カードで払えますか？、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -5698,12 +9152,67 @@
    ]
   },
   {
+   "key": "ja|0|は、カウンター・レジ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、カウンター・レジ、という意味です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|は、かんたんな、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、かんたんな、という意味です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、きれいな、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、きれいな、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|は、クリックする・押す、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、クリックする・押す、という意味です。",
    "lessons": [
-    "html-03"
+    "html-03",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、ここ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ここ、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、コピー・写す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、コピー・写す、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、ごめんなさい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ごめんなさい、という意味です。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -5725,12 +9234,94 @@
    ]
   },
   {
+   "key": "ja|0|は、こわれた、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、こわれた、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|は、すすめる、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、すすめる、という意味です。",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、スタッフ・店員、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、スタッフ・店員、という意味です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|は、すてきな・いい、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、すてきな・いい、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、スマホ・電話、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、スマホ・電話、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、セール、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、セール、という意味です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|は、そこ・あそこ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、そこ・あそこ、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、ダウンロードする、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ダウンロードする、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、たずねる、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、たずねる、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、たぶん、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、たぶん、という意味です。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -5740,6 +9331,15 @@
    "text": "は、つなぐもの・リンク、という意味です。",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、データ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、データ、という意味です。",
+   "lessons": [
+    "vocab-16"
    ]
   },
   {
@@ -5775,7 +9375,44 @@
    "semi": 0,
    "text": "は、ファイル、という意味です。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、フォルダ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、フォルダ、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、ブランド・メーカー、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ブランド・メーカー、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|は、ページ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ページ、という意味です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|は、ほしい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、ほしい、という意味です。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -5784,7 +9421,17 @@
    "semi": 0,
    "text": "は、ボタン、という意味です。",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、また・もう一度、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、また・もう一度、という意味です。",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -5806,12 +9453,48 @@
    ]
   },
   {
+   "key": "ja|0|は、まちがい（正しくない）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、まちがい（正しくない）、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|は、まとめ・要約、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、まとめ・要約、という意味です。",
    "lessons": [
     "html-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、むずかしい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、むずかしい、という意味です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、メニュー、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、メニュー、という意味です。",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、もちろん、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、もちろん、という意味です。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -5824,12 +9507,39 @@
    ]
   },
   {
+   "key": "ja|0|は、よい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、よい、という意味です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|は、よい一日を、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、よい一日を、という意味です。",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、リンク・つなぐもの、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、リンク・つなぐもの、という意味です。",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、レシート、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、レシート、という意味です。",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -5851,12 +9561,84 @@
    ]
   },
   {
+   "key": "ja|0|は、一覧、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、一覧、という意味です。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "ja|0|は、下見・プレビュー、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、下見・プレビュー、という意味です。",
    "lessons": [
     "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、中に・中で、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、中に・中で、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、中古の、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、中古の、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|は、中身、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、中身、という意味です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|は、交換する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、交換する、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、人気の、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、人気の、という意味です。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、今、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、今、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、今日、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、今日、という意味です。",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -5887,6 +9669,15 @@
    ]
   },
   {
+   "key": "ja|0|は、伝える・教える、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、伝える・教える、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|は、住所・アドレス、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -5901,7 +9692,17 @@
    "semi": 0,
    "text": "は、体・本文、という意味です。",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|は、作る、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、作る、という意味です。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -5911,6 +9712,15 @@
    "text": "は、作業・仕事、という意味です。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、使う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、使う、という意味です。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -5932,12 +9742,58 @@
    ]
   },
   {
+   "key": "ja|0|は、保存する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、保存する、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、保証、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、保証、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、値、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、値、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|は、値段、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、値段、という意味です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|は、傷、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、傷、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|は、働く、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、働く、という意味です。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
    ]
   },
   {
@@ -5968,6 +9824,15 @@
    ]
   },
   {
+   "key": "ja|0|は、入力、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、入力、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|は、共有する・分ける、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -5982,7 +9847,44 @@
    "semi": 0,
    "text": "は、出どころ・元、という意味です。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、出力、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、出力、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|は、分、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、分、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、前、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、前、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、割引、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、割引、という意味です。",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -5991,7 +9893,17 @@
    "semi": 0,
    "text": "は、勉強する、という意味です。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、動く・使える、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、動く・使える、という意味です。",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -6013,6 +9925,15 @@
    ]
   },
   {
+   "key": "ja|0|は、友だち、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、友だち、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "ja|0|は、取り消す、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -6027,7 +9948,44 @@
    "semi": 0,
    "text": "は、古い、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、右、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、右、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、合計、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、合計、という意味です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|は、名前、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、名前、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、営業時間、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、営業時間、という意味です。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -6036,7 +9994,8 @@
    "semi": 0,
    "text": "は、在庫、という意味です。",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-19"
    ]
   },
   {
@@ -6054,7 +10013,8 @@
    "semi": 0,
    "text": "は、売る、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -6063,7 +10023,26 @@
    "semi": 0,
    "text": "は、大きい、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、大きさ・サイズ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、大きさ・サイズ、という意味です。",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、失敗した、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、失敗した、という意味です。",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -6072,7 +10051,17 @@
    "semi": 0,
    "text": "は、好き（好む）、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、始まり・始める、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、始まり・始める、という意味です。",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -6081,7 +10070,26 @@
    "semi": 0,
    "text": "は、安い、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、家、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、家、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、家族、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、家族、という意味です。",
+   "lessons": [
+    "vocab-09"
    ]
   },
   {
@@ -6090,7 +10098,17 @@
    "semi": 0,
    "text": "は、小さい、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、左、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、左、という意味です。",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -6099,7 +10117,71 @@
    "semi": 0,
    "text": "は、幅、という意味です。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、待つ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、待つ、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、必要とする、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、必要とする、という意味です。",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、忙しい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、忙しい、という意味です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、悪い、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、悪い、という意味です。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、成功、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、成功、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|は、手に入れる・もらう、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、手に入れる・もらう、という意味です。",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、手伝う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、手伝う、という意味です。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -6109,6 +10191,24 @@
    "text": "は、手順・一歩、という意味です。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、払う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、払う、という意味です。",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、探す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、探す、という意味です。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -6126,7 +10226,8 @@
    "semi": 0,
    "text": "は、文字・文章、という意味です。",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -6144,7 +10245,71 @@
    "semi": 0,
    "text": "は、新しい、という意味です。",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、早い・早く、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、早い・早く、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、明日、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、明日、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、昨日、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、昨日、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、時間、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、時間、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、更新する・更新、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、更新する・更新、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|は、朝、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、朝、という意味です。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、本当に、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、本当に、という意味です。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -6157,6 +10322,24 @@
    ]
   },
   {
+   "key": "ja|0|は、来る、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、来る、という意味です。",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、棚、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、棚、という意味です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|は、構造・組み立て、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -6166,12 +10349,22 @@
    ]
   },
   {
+   "key": "ja|0|は、正しい、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、正しい、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|は、段落、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、段落、という意味です。",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -6180,7 +10373,62 @@
    "semi": 0,
    "text": "は、毎日、という意味です。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、注意・警告、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、注意・警告、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|は、消す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、消す、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、版・バージョン、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、版・バージョン、という意味です。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|は、犬、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、犬、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、状態、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、状態、という意味です。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|は、現金、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、現金、という意味です。",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -6198,7 +10446,53 @@
    "semi": 0,
    "text": "は、画像、という意味です。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|は、番号・数、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、番号・数、という意味です。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|は、疲れた、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、疲れた、という意味です。",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|は、目印・札、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、目印・札、という意味です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|は、直す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、直す、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|は、知っている、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、知っている、という意味です。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -6220,12 +10514,48 @@
    ]
   },
   {
+   "key": "ja|0|は、税・消費税、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、税・消費税、という意味です。",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|は、種類・型、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、種類・型、という意味です。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|は、種類・打つ、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、種類・打つ、という意味です。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|は、答える・答え、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、答える・答え、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、箱、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、箱、という意味です。",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -6238,12 +10568,30 @@
    ]
   },
   {
+   "key": "ja|0|は、終わり、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、終わり、という意味です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
    "key": "ja|0|は、経験、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、経験、という意味です。",
    "lessons": [
     "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|は、聞こえる、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、聞こえる、という意味です。",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -6261,7 +10609,44 @@
    "semi": 0,
    "text": "は、行・線、という意味です。",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|は、行く、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、行く、という意味です。",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|は、袋・かばん、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、袋・かばん、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|は、見える・会う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、見える・会う、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、見つからない、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、見つからない、という意味です。",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -6279,7 +10664,8 @@
    "semi": 0,
    "text": "は、見る（じっと見る）、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -6288,7 +10674,17 @@
    "semi": 0,
    "text": "は、見出し、という意味です。",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|は、言う、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、言う、という意味です。",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -6319,12 +10715,31 @@
    ]
   },
   {
+   "key": "ja|0|は、試着する、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、試着する、という意味です。",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|は、読みこみ中、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、読みこみ中、という意味です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|は、買う、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、買う、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -6337,6 +10752,33 @@
    ]
   },
   {
+   "key": "ja|0|は、車、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、車、という意味です。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|は、近くに、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、近くに、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、返品する・返す、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、返品する・返す、という意味です。",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|は、連絡する・連絡先、という意味です。",
    "lang": "ja",
    "semi": 0,
@@ -6346,12 +10788,31 @@
    ]
   },
   {
+   "key": "ja|0|は、週、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、週、という意味です。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|は、週末、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、週末、という意味です。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|は、遅い・遅れて、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、遅い・遅れて、という意味です。",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -6360,7 +10821,53 @@
    "semi": 0,
    "text": "は、運転する、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、遠い、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、遠い、という意味です。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|は、閉める、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、閉める、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、閉店した・閉まっている、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、閉店した・閉まっている、という意味です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|は、開ける、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、開ける、という意味です。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|は、関数（決まった仕事をする命令のまとまり）、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、関数（決まった仕事をする命令のまとまり）、という意味です。",
+   "lessons": [
+    "vocab-16"
    ]
   },
   {
@@ -6369,7 +10876,8 @@
    "semi": 0,
    "text": "は、項目・品物、という意味です。",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
    ]
   },
   {
@@ -6378,7 +10886,8 @@
    "semi": 0,
    "text": "は、順番・注文、という意味です。",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
    ]
   },
   {
@@ -6387,7 +10896,8 @@
    "semi": 0,
    "text": "は、頭・先頭、という意味です。",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
    ]
   },
   {
@@ -6400,12 +10910,31 @@
    ]
   },
   {
+   "key": "ja|0|は、題名、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、題名、という意味です。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
    "key": "ja|0|は、食べる、という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "は、食べる、という意味です。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|は、飲み物・飲む、という意味です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "は、飲み物・飲む、という意味です。",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -6423,7 +10952,8 @@
    "semi": 0,
    "text": "は、高さ、という意味です。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
    ]
   },
   {
@@ -6469,6 +10999,15 @@
    "text": "はじめまして（会えてうれしいです）",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|パスタはとてもおいしかったです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "パスタはとてもおいしかったです。",
+   "lessons": [
+    "vocab-03"
    ]
   },
   {
@@ -6567,7 +11106,8 @@
    "semi": 0,
    "text": "ファイル",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-14"
    ]
   },
   {
@@ -6580,6 +11120,24 @@
    ]
   },
   {
+   "key": "ja|0|ファイルの名前を変えてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイルの名前を変えてください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|ファイルをこのフォルダに入れてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイルをこのフォルダに入れてください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
    "key": "ja|0|ファイルをスマホに保存しました。",
    "lang": "ja",
    "semi": 0,
@@ -6589,12 +11147,39 @@
    ]
   },
   {
+   "key": "ja|0|ファイルを開いてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ファイルを開いてください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
    "key": "ja|0|フォームは、もう少し先で学びます。今は、タイプで種類を決められる、と知っておけば大丈夫です。",
    "lang": "ja",
    "semi": 0,
    "text": "フォームは、もう少し先で学びます。今は、タイプで種類を決められる、と知っておけば大丈夫です。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|フォルダ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "フォルダ",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|フォルダ、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "フォルダ、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -6661,6 +11246,15 @@
    ]
   },
   {
+   "key": "ja|0|ブランド・メーカー",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ブランド・メーカー",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|プロフィールを新しくしてください。",
    "lang": "ja",
    "semi": 0,
@@ -6670,12 +11264,30 @@
    ]
   },
   {
+   "key": "ja|0|ページ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページ",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
    "key": "ja|0|ページが日本語であること",
    "lang": "ja",
    "semi": 0,
    "text": "ページが日本語であること",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|ページが見つかりませんでした。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページが見つかりませんでした。",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -6694,6 +11306,15 @@
    "text": "ページとページを、いかりでつなぎとめる、というイメージです。",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|ページに見出しをつけましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページに見出しをつけましょう。",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -6724,6 +11345,15 @@
    ]
   },
   {
+   "key": "ja|0|ページを読みこみ中です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ページを読みこみ中です。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|ヘッドには、ページの名前など、画面には直接出ない情報を書きます。",
    "lang": "ja",
    "semi": 0,
@@ -6733,12 +11363,31 @@
    ]
   },
   {
+   "key": "ja|0|ほしい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ほしい",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "ja|0|ボタン",
    "lang": "ja",
    "semi": 0,
    "text": "ボタン",
    "lessons": [
-    "html-06"
+    "html-06",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|ボタン、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ボタン、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -6841,6 +11490,15 @@
    ]
   },
   {
+   "key": "ja|0|マイクが使えないので、今回は、番号を心の中で答えてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "マイクが使えないので、今回は、番号を心の中で答えてください。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
    "key": "ja|0|まず、6回で学んだことを、ふり返ってみましょう。",
    "lang": "ja",
    "semi": 0,
@@ -6877,12 +11535,59 @@
    ]
   },
   {
+   "key": "ja|0|また・もう一度",
+   "lang": "ja",
+   "semi": 0,
+   "text": "また・もう一度",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|また・もう一度、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "また・もう一度、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|またあとで",
    "lang": "ja",
    "semi": 0,
    "text": "またあとで",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|またお越しください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "またお越しください。",
+   "lessons": [
+    "vocab-04",
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|また明日ね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "また明日ね。",
+   "lessons": [
+    "vocab-05",
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|まちがい（正しくない）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "まちがい（正しくない）",
+   "lessons": [
+    "vocab-16"
    ]
   },
   {
@@ -6913,6 +11618,15 @@
    ]
   },
   {
+   "key": "ja|0|むずかしい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "むずかしい",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|メールアドレスを書いてください。",
    "lang": "ja",
    "semi": 0,
@@ -6937,6 +11651,15 @@
    "text": "メッセージは本文に書いてください。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|メニュー",
+   "lang": "ja",
+   "semi": 0,
+   "text": "メニュー",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -6967,12 +11690,48 @@
    ]
   },
   {
+   "key": "ja|0|もう一度言ってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もう一度言ってください。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|もう行かなきゃ。またね！",
    "lang": "ja",
    "semi": 0,
    "text": "もう行かなきゃ。またね！",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|もちろん",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もちろん",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|もちろん、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もちろん、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|もちろん、大丈夫ですよ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もちろん、大丈夫ですよ。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -7027,6 +11786,24 @@
    "text": "ユーエルは、アンオーダード リストの略です。「順番のない一覧」という意味です。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|よい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "よい",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|よい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "よい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -7099,6 +11876,15 @@
    "text": "リンク",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|リンク・つなぐもの",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンク・つなぐもの",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -7192,6 +11978,15 @@
    ]
   },
   {
+   "key": "ja|0|リンクを押してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "リンクを押してください。",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
    "key": "ja|0|リンクを押すと、値段が見られます。",
    "lang": "ja",
    "semi": 0,
@@ -7207,6 +12002,33 @@
    "text": "リンクを送りますね。",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|レシート",
+   "lang": "ja",
+   "semi": 0,
+   "text": "レシート",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|レシートはいりますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "レシートはいりますか？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|レジでお支払いください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "レジでお支払いください。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -7246,12 +12068,39 @@
    ]
   },
   {
+   "key": "ja|0|わたしたちは中古の家具を売っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしたちは中古の家具を売っています。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
    "key": "ja|0|わたしたちは正午にお昼ごはんを食べます。",
    "lang": "ja",
    "semi": 0,
    "text": "わたしたちは正午にお昼ごはんを食べます。",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしの声が聞こえますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしの声が聞こえますか？",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|わたしの家は遠くありません。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしの家は遠くありません。",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -7336,6 +12185,42 @@
    ]
   },
   {
+   "key": "ja|0|わたしは7時に家に帰ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは7時に家に帰ります。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|わたしはお店で働いています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしはお店で働いています。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしはコーヒーが好きです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしはコーヒーが好きです。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしはスマホで勉強します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしはスマホで勉強します。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "ja|0|わたしはリサイクルショップで働いています。",
    "lang": "ja",
    "semi": 0,
@@ -7354,6 +12239,33 @@
    ]
   },
   {
+   "key": "ja|0|わたしは夜にテレビを見ます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは夜にテレビを見ます。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは家族と住んでいます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは家族と住んでいます。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは早く起きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは早く起きます。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|わたしは毎日、在庫を確認します。",
    "lang": "ja",
    "semi": 0,
@@ -7363,12 +12275,50 @@
    ]
   },
   {
+   "key": "ja|0|わたしは毎日、犬の散歩をします。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは毎日、犬の散歩をします。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは毎日ごはんを食べます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは毎日ごはんを食べます。",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは毎朝、英語を勉強します。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは毎朝、英語を勉強します。",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは答えを知っています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは答えを知っています。",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|わたしは車で仕事に行きます。",
    "lang": "ja",
    "semi": 0,
    "text": "わたしは車で仕事に行きます。",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01",
+    "vocab-04"
    ]
   },
   {
@@ -7377,7 +12327,35 @@
    "semi": 0,
    "text": "わたしは車の中で英語を勉強します。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは車の中で英語を聞きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは車の中で英語を聞きます。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは週に5日働きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは週に5日働きます。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|わたしは週末に動画を作ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "わたしは週末に動画を作ります。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -7387,6 +12365,15 @@
    "text": "わたしは週末に映画を見ます。",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|一覧",
+   "lang": "ja",
+   "semi": 0,
+   "text": "一覧",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -7417,12 +12404,75 @@
    ]
   },
   {
+   "key": "ja|0|中でお待ちください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中でお待ちください。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|中に・中で",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中に・中で",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|中に・中で、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中に・中で、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "ja|0|中のタグを、少し右にずらして書いているのは、読みやすくするためです。ずらさなくても動きます。",
    "lang": "ja",
    "semi": 0,
    "text": "中のタグを、少し右にずらして書いているのは、読みやすくするためです。ずらさなくても動きます。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|中はとてもきれいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中はとてもきれいです。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|中古の",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中古の",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|中身",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中身",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|中身、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中身、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -7435,6 +12485,33 @@
    ]
   },
   {
+   "key": "ja|0|中身はタグのあいだに入ります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "中身はタグのあいだに入ります。",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|交換する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "交換する",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|交換する、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "交換する、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|人の体にたとえると、わかりやすいです。頭で考えて、体で見せる、という感じです。",
    "lang": "ja",
    "semi": 0,
@@ -7444,12 +12521,75 @@
    ]
   },
   {
+   "key": "ja|0|人気の",
+   "lang": "ja",
+   "semi": 0,
+   "text": "人気の",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|人気の、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "人気の、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|今",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|今、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|今、何時ですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今、何時ですか？",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|今、忙しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今、忙しいです。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|今夜、写真をアップロードします。",
    "lang": "ja",
    "semi": 0,
    "text": "今夜、写真をアップロードします。",
    "lessons": [
     "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|今日",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -7498,6 +12638,15 @@
    ]
   },
   {
+   "key": "ja|0|今日の英単語は、8個です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日の英単語は、8個です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
    "key": "ja|0|今日は、その ボディの中に、文章を書いていきます。",
    "lang": "ja",
    "semi": 0,
@@ -7522,6 +12671,33 @@
    "text": "今日は作業が3つあります。",
    "lessons": [
     "html-05"
+   ]
+  },
+  {
+   "key": "ja|0|今日は天気が悪いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は天気が悪いです。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|今日は少し疲れています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は少し疲れています。",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|今日は忙しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日は忙しいです。",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -7570,6 +12746,24 @@
    ]
   },
   {
+   "key": "ja|0|伝える・教える",
+   "lang": "ja",
+   "semi": 0,
+   "text": "伝える・教える",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|伝える・教える、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "伝える・教える、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|住所・アドレス",
    "lang": "ja",
    "semi": 0,
@@ -7584,7 +12778,17 @@
    "semi": 0,
    "text": "体・本文",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|何かお手伝いしましょうか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "何かお手伝いしましょうか？",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -7615,6 +12819,24 @@
    ]
   },
   {
+   "key": "ja|0|作る",
+   "lang": "ja",
+   "semi": 0,
+   "text": "作る",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|作る、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "作る、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "ja|0|作業・仕事",
    "lang": "ja",
    "semi": 0,
@@ -7633,12 +12855,30 @@
    ]
   },
   {
+   "key": "ja|0|使う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "使う",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "ja|0|使える・手が空いている",
    "lang": "ja",
    "semi": 0,
    "text": "使える・手が空いている",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|保存する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "保存する",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -7660,12 +12900,66 @@
    ]
   },
   {
+   "key": "ja|0|保存を忘れないでね。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "保存を忘れないでね。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|保証",
+   "lang": "ja",
+   "semi": 0,
+   "text": "保証",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|値",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|値を10に変えてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値を10に変えてください。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|値札を確認してください。",
    "lang": "ja",
    "semi": 0,
    "text": "値札を確認してください。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|値段",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値段",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|値段を教えてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "値段を教えてください。",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -7687,12 +12981,31 @@
    ]
   },
   {
+   "key": "ja|0|傷",
+   "lang": "ja",
+   "semi": 0,
+   "text": "傷",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|働く",
    "lang": "ja",
    "semi": 0,
    "text": "働く",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|元の箱がついています。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "元の箱がついています。",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -7750,6 +13063,15 @@
    ]
   },
   {
+   "key": "ja|0|先に注意を読んでください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "先に注意を読んでください。",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|入れ子にするときは、内側のタグから先に閉じます。箱の中の箱を、先に閉じるイメージです。",
    "lang": "ja",
    "semi": 0,
@@ -7777,12 +13099,39 @@
    ]
   },
   {
+   "key": "ja|0|入力",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入力",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|入力、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入力、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|入力の用紙、つまりフォームの中では、サブミットという種類もあります。「送信する」という意味です。",
    "lang": "ja",
    "semi": 0,
    "text": "入力の用紙、つまりフォームの中では、サブミットという種類もあります。「送信する」という意味です。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|入力欄に名前を打ってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "入力欄に名前を打ってください。",
+   "lessons": [
+    "vocab-16"
    ]
   },
   {
@@ -7840,6 +13189,15 @@
    ]
   },
   {
+   "key": "ja|0|最初の行を確認してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "最初の行を確認してください。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "ja|0|最初の行を読んでください。",
    "lang": "ja",
    "semi": 0,
@@ -7894,12 +13252,40 @@
    ]
   },
   {
+   "key": "ja|0|出てきた結果を確認してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "出てきた結果を確認してください。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|出どころ・元",
    "lang": "ja",
    "semi": 0,
    "text": "出どころ・元",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|出力",
+   "lang": "ja",
+   "semi": 0,
+   "text": "出力",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|分",
+   "lang": "ja",
+   "semi": 0,
+   "text": "分",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -7939,6 +13325,24 @@
    ]
   },
   {
+   "key": "ja|0|前",
+   "lang": "ja",
+   "semi": 0,
+   "text": "前",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|前のほうへどうぞ。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "前のほうへどうぞ。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "ja|0|前回の「どうする」と、同じ場所です。英語は、2番目に「どうする」か「です」が来る、と覚えると楽です。",
    "lang": "ja",
    "semi": 0,
@@ -7957,12 +13361,40 @@
    ]
   },
   {
+   "key": "ja|0|割引",
+   "lang": "ja",
+   "semi": 0,
+   "text": "割引",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|割引、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "割引、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|勉強する",
    "lang": "ja",
    "semi": 0,
    "text": "勉強する",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|勉強する、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "勉強する、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-01"
    ]
   },
   {
@@ -7981,6 +13413,33 @@
    "text": "動きを表す言葉はどうし。like や eat が動詞です。",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|動く・使える",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動く・使える",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|動く・使える、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動く・使える、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|動くことを確認しました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "動くことを確認しました。",
+   "lessons": [
+    "vocab-18"
    ]
   },
   {
@@ -8021,6 +13480,24 @@
    ]
   },
   {
+   "key": "ja|0|友だち",
+   "lang": "ja",
+   "semi": 0,
+   "text": "友だち",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|友だち、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "友だち、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
    "key": "ja|0|友だちと2人で、レストランに入る場面です。",
    "lang": "ja",
    "semi": 0,
@@ -8044,7 +13521,53 @@
    "semi": 0,
    "text": "古い",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|古いファイルを消してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "古いファイルを消してください。",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|右",
+   "lang": "ja",
+   "semi": 0,
+   "text": "右",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|右、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "右、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|合計",
+   "lang": "ja",
+   "semi": 0,
+   "text": "合計",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|合計は3000円です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "合計は3000円です。",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -8063,6 +13586,24 @@
    "text": "同じフォルダにある画像なら、ファイルの名前だけで大丈夫です。",
    "lessons": [
     "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|名前",
+   "lang": "ja",
+   "semi": 0,
+   "text": "名前",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|名前、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "名前、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-14"
    ]
   },
   {
@@ -8094,12 +13635,22 @@
    ]
   },
   {
+   "key": "ja|0|商品の一覧を作りましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "商品の一覧を作りましょう。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "ja|0|商品の画像をアップロードしてください。",
    "lang": "ja",
    "semi": 0,
    "text": "商品の画像をアップロードしてください。",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
    ]
   },
   {
@@ -8109,6 +13660,33 @@
    "text": "問題は4問です。",
    "lessons": [
     "common"
+   ]
+  },
+  {
+   "key": "ja|0|問題は8問です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "問題は8問です。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|営業時間",
+   "lang": "ja",
+   "semi": 0,
+   "text": "営業時間",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|営業時間は10時から7時です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "営業時間は10時から7時です。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -8126,7 +13704,26 @@
    "semi": 0,
    "text": "在庫",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|在庫、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "在庫、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|在庫があります。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "在庫があります。",
+   "lessons": [
+    "vocab-19"
    ]
   },
   {
@@ -8162,7 +13759,17 @@
    "semi": 0,
    "text": "売る",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|売る、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "売る、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-01"
    ]
   },
   {
@@ -8171,7 +13778,26 @@
    "semi": 0,
    "text": "大きい",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|大きさ・サイズ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大きさ・サイズ",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|大きさ・サイズ、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "大きさ・サイズ、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -8202,12 +13828,49 @@
    ]
   },
   {
+   "key": "ja|0|失敗した",
+   "lang": "ja",
+   "semi": 0,
+   "text": "失敗した",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|失敗した、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "失敗した、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|好き（好む）",
    "lang": "ja",
    "semi": 0,
    "text": "好き（好む）",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|始まり・始める",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まり・始める",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|始まり・始める、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "始まり・始める、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -8252,7 +13915,35 @@
    "semi": 0,
    "text": "安い",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|家",
+   "lang": "ja",
+   "semi": 0,
+   "text": "家",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|家、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "家、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|家族",
+   "lang": "ja",
+   "semi": 0,
+   "text": "家族",
+   "lessons": [
+    "vocab-09"
    ]
   },
   {
@@ -8261,7 +13952,17 @@
    "semi": 0,
    "text": "小さい",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|小さい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "小さい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-06"
    ]
   },
   {
@@ -8270,7 +13971,8 @@
    "semi": 0,
    "text": "小さいかばんはありますか？",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-06"
    ]
   },
   {
@@ -8280,6 +13982,15 @@
    "text": "小なり記号は、左がとがった山の形。大なり記号は、右がとがった山の形です。",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|少々お待ちください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "少々お待ちください。",
+   "lessons": [
+    "vocab-20"
    ]
   },
   {
@@ -8328,12 +14039,40 @@
    ]
   },
   {
+   "key": "ja|0|左",
+   "lang": "ja",
+   "semi": 0,
+   "text": "左",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "ja|0|幅",
    "lang": "ja",
    "semi": 0,
    "text": "幅",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|幅、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "幅、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|幅を100にしましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "幅を100にしましょう。",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -8374,6 +14113,105 @@
    ]
   },
   {
+   "key": "ja|0|彼はわたしの友だちです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "彼はわたしの友だちです。",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|待つ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "待つ",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|待つ、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "待つ、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|必要とする",
+   "lang": "ja",
+   "semi": 0,
+   "text": "必要とする",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|必要とする、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "必要とする、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|忙しい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "忙しい",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|忙しい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "忙しい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|悪い",
+   "lang": "ja",
+   "semi": 0,
+   "text": "悪い",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
+   "key": "ja|0|成功",
+   "lang": "ja",
+   "semi": 0,
+   "text": "成功",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|手に入れる・もらう",
+   "lang": "ja",
+   "semi": 0,
+   "text": "手に入れる・もらう",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|手伝う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "手伝う",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
    "key": "ja|0|手順・一歩",
    "lang": "ja",
    "semi": 0,
@@ -8401,6 +14239,24 @@
    ]
   },
   {
+   "key": "ja|0|払う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "払う",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|払う、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "払う、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
    "key": "ja|0|押したときの動きは JavaScript で書きます。HTMLは「置く」だけです。",
    "lang": "ja",
    "semi": 0,
@@ -8425,6 +14281,24 @@
    "text": "押すと何が起きるかが、すぐわかる言葉が親切です。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|探す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "探す",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|探す、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "探す、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -8469,7 +14343,8 @@
    "semi": 0,
    "text": "文字・文章",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -8478,7 +14353,8 @@
    "semi": 0,
    "text": "文字が小さすぎます。",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -8497,6 +14373,15 @@
    "text": "文字の大きさ",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|文字は body の中に書きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "文字は body の中に書きます。",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -8541,7 +14426,26 @@
    "semi": 0,
    "text": "新しい",
    "lessons": [
-    "grammar-02"
+    "grammar-02",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|新しい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "新しい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|新しいスマホを手に入れました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "新しいスマホを手に入れました。",
+   "lessons": [
+    "vocab-04"
    ]
   },
   {
@@ -8617,12 +14521,102 @@
    ]
   },
   {
+   "key": "ja|0|早い・早く",
+   "lang": "ja",
+   "semi": 0,
+   "text": "早い・早く",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|早い・早く、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "早い・早く、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|明日",
+   "lang": "ja",
+   "semi": 0,
+   "text": "明日",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|明日、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "明日、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|明日は空いていますか？",
    "lang": "ja",
    "semi": 0,
    "text": "明日は空いていますか？",
    "lessons": [
     "html-03"
+   ]
+  },
+  {
+   "key": "ja|0|昨日",
+   "lang": "ja",
+   "semi": 0,
+   "text": "昨日",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|昨日は疲れていました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "昨日は疲れていました。",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|時間",
+   "lang": "ja",
+   "semi": 0,
+   "text": "時間",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|時間、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "時間、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|更新する・更新",
+   "lang": "ja",
+   "semi": 0,
+   "text": "更新する・更新",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|更新は成功しました。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "更新は成功しました。",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -8635,12 +14629,57 @@
    ]
   },
   {
+   "key": "ja|0|朝",
+   "lang": "ja",
+   "semi": 0,
+   "text": "朝",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|朝、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "朝、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-03"
+   ]
+  },
+  {
    "key": "ja|0|朝、職場で、同僚のサムに会った場面です。",
    "lang": "ja",
    "semi": 0,
    "text": "朝、職場で、同僚のサムに会った場面です。",
    "lessons": [
     "talk-01"
+   ]
+  },
+  {
+   "key": "ja|0|本当に",
+   "lang": "ja",
+   "semi": 0,
+   "text": "本当に",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|本当に、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "本当に、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|本当に楽しかったです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "本当に楽しかったです。",
+   "lessons": [
+    "vocab-10"
    ]
   },
   {
@@ -8662,12 +14701,48 @@
    ]
   },
   {
+   "key": "ja|0|来る",
+   "lang": "ja",
+   "semi": 0,
+   "text": "来る",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|来る、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "来る、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|棚",
+   "lang": "ja",
+   "semi": 0,
+   "text": "棚",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
    "key": "ja|0|棚の幅を確認してください。",
    "lang": "ja",
    "semi": 0,
    "text": "棚の幅を確認してください。",
    "lessons": [
     "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|棚の高さを確認してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "棚の高さを確認してください。",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -8725,6 +14800,24 @@
    ]
   },
   {
+   "key": "ja|0|正しい",
+   "lang": "ja",
+   "semi": 0,
+   "text": "正しい",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|正しい、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "正しい、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
    "key": "ja|0|正しいタグを使うと、読み上げの機能を使う人にも、「これはボタンです」と、きちんと伝わります。",
    "lang": "ja",
    "semi": 0,
@@ -8748,7 +14841,8 @@
    "semi": 0,
    "text": "段落",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
    ]
   },
   {
@@ -8770,12 +14864,22 @@
    ]
   },
   {
+   "key": "ja|0|段落を1つ書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "段落を1つ書きましょう。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "ja|0|毎日",
    "lang": "ja",
    "semi": 0,
    "text": "毎日",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
    ]
   },
   {
@@ -8788,12 +14892,129 @@
    ]
   },
   {
+   "key": "ja|0|水曜日は定休日です。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "水曜日は定休日です。",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|注意・警告",
+   "lang": "ja",
+   "semi": 0,
+   "text": "注意・警告",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|注意・警告、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "注意・警告、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
    "key": "ja|0|注文を取り消す",
    "lang": "ja",
    "semi": 0,
    "text": "注文を取り消す",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|消す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "消す",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|版・バージョン",
+   "lang": "ja",
+   "semi": 0,
+   "text": "版・バージョン",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|版・バージョン、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "版・バージョン、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|犬",
+   "lang": "ja",
+   "semi": 0,
+   "text": "犬",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|状態",
+   "lang": "ja",
+   "semi": 0,
+   "text": "状態",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|状態、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "状態、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|状態はとてもいいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "状態はとてもいいです。",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|現金",
+   "lang": "ja",
+   "semi": 0,
+   "text": "現金",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|現金、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "現金、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|現金ですか、カードですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "現金ですか、カードですか？",
+   "lessons": [
+    "vocab-17"
    ]
   },
   {
@@ -8811,7 +15032,17 @@
    "semi": 0,
    "text": "画像",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
+   ]
+  },
+  {
+   "key": "ja|0|画像、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -8830,6 +15061,15 @@
    "text": "画像にも、作った人の権利があります。自分で撮った写真や、使ってよいと書かれた画像を使いましょう。",
    "lessons": [
     "html-04"
+   ]
+  },
+  {
+   "key": "ja|0|画像の場所を書きましょう。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "画像の場所を書きましょう。",
+   "lessons": [
+    "vocab-13"
    ]
   },
   {
@@ -8923,6 +15163,24 @@
    ]
   },
   {
+   "key": "ja|0|番号・数",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号・数",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|番号・数、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号・数、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
    "key": "ja|0|番号つきの一覧（手順など）に使うのは？",
    "lang": "ja",
    "semi": 0,
@@ -8968,6 +15226,78 @@
    ]
   },
   {
+   "key": "ja|0|番号は自動でつきます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "番号は自動でつきます。",
+   "lessons": [
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|疲れた",
+   "lang": "ja",
+   "semi": 0,
+   "text": "疲れた",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|疲れた、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "疲れた、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-10"
+   ]
+  },
+  {
+   "key": "ja|0|目印・札",
+   "lang": "ja",
+   "semi": 0,
+   "text": "目印・札",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|直す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "直す",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|直す、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "直す、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|知っている",
+   "lang": "ja",
+   "semi": 0,
+   "text": "知っている",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|知っている、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "知っている、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
    "key": "ja|0|確かめる・確定する",
    "lang": "ja",
    "semi": 0,
@@ -8986,12 +15316,48 @@
    ]
   },
   {
+   "key": "ja|0|税・消費税",
+   "lang": "ja",
+   "semi": 0,
+   "text": "税・消費税",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
+   "key": "ja|0|税・消費税、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "税・消費税、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-17"
+   ]
+  },
+  {
    "key": "ja|0|種類・型",
    "lang": "ja",
    "semi": 0,
    "text": "種類・型",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|種類・打つ",
+   "lang": "ja",
+   "semi": 0,
+   "text": "種類・打つ",
+   "lessons": [
+    "vocab-14"
+   ]
+  },
+  {
+   "key": "ja|0|窓を閉めてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "窓を閉めてください。",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -9139,6 +15505,51 @@
    ]
   },
   {
+   "key": "ja|0|答えは正しいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答えは正しいです。",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|答える・答え",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答える・答え",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|答える・答え、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "答える・答え、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|箱",
+   "lang": "ja",
+   "semi": 0,
+   "text": "箱",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
+   "key": "ja|0|箱、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "箱、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-18"
+   ]
+  },
+  {
    "key": "ja|0|箱を順番に並べてください。",
    "lang": "ja",
    "semi": 0,
@@ -9154,6 +15565,15 @@
    "text": "紹介する",
    "lessons": [
     "html-07"
+   ]
+  },
+  {
+   "key": "ja|0|終わり",
+   "lang": "ja",
+   "semi": 0,
+   "text": "終わり",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -9248,12 +15668,39 @@
    ]
   },
   {
+   "key": "ja|0|続けて次の回に進むときは、次へのボタンを押してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "続けて次の回に進むときは、次へのボタンを押してください。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
    "key": "ja|0|考えてみましょう。",
    "lang": "ja",
    "semi": 0,
    "text": "考えてみましょう。",
    "lessons": [
     "common"
+   ]
+  },
+  {
+   "key": "ja|0|聞こえる",
+   "lang": "ja",
+   "semi": 0,
+   "text": "聞こえる",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|聞こえる、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "聞こえる、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -9401,12 +15848,31 @@
    ]
   },
   {
+   "key": "ja|0|英語は少しむずかしいです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "英語は少しむずかしいです。",
+   "lessons": [
+    "vocab-06"
+   ]
+  },
+  {
    "key": "ja|0|行・線",
    "lang": "ja",
    "semi": 0,
    "text": "行・線",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|行・線、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "行・線、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -9419,12 +15885,66 @@
    ]
   },
   {
+   "key": "ja|0|行く",
+   "lang": "ja",
+   "semi": 0,
+   "text": "行く",
+   "lessons": [
+    "vocab-04"
+   ]
+  },
+  {
+   "key": "ja|0|袋・かばん",
+   "lang": "ja",
+   "semi": 0,
+   "text": "袋・かばん",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|袋・かばん、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "袋・かばん、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|袋はいりますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "袋はいりますか？",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
+   "key": "ja|0|見える・会う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見える・会う",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
    "key": "ja|0|見た目がボタンのようでも、行き先があるならリンクを使う。これが、正しい使い分けです。",
    "lang": "ja",
    "semi": 0,
    "text": "見た目がボタンのようでも、行き先があるならリンクを使う。これが、正しい使い分けです。",
    "lessons": [
     "html-06"
+   ]
+  },
+  {
+   "key": "ja|0|見つからない",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見つからない",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -9469,7 +15989,8 @@
    "semi": 0,
    "text": "見る（じっと見る）",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
    ]
   },
   {
@@ -9478,7 +15999,17 @@
    "semi": 0,
    "text": "見出し",
    "lessons": [
-    "html-02"
+    "html-02",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|見出し、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "見出し、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -9527,12 +16058,30 @@
    ]
   },
   {
+   "key": "ja|0|角を左に曲がってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "角を左に曲がってください。",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
    "key": "ja|0|解説はここまでです。次は、短い問題です。",
    "lang": "ja",
    "semi": 0,
    "text": "解説はここまでです。次は、短い問題です。",
    "lessons": [
     "common"
+   ]
+  },
+  {
+   "key": "ja|0|言う",
+   "lang": "ja",
+   "semi": 0,
+   "text": "言う",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -9559,7 +16108,26 @@
    "semi": 0,
    "text": "試着してもいいですか？",
    "lessons": [
-    "talk-02"
+    "talk-02",
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|試着する",
+   "lang": "ja",
+   "semi": 0,
+   "text": "試着する",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|試着室はあちらです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "試着室はあちらです。",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -9569,6 +16137,24 @@
    "text": "語順とは、言葉を並べる順番のことです。",
    "lessons": [
     "grammar-01"
+   ]
+  },
+  {
+   "key": "ja|0|読みこみ中",
+   "lang": "ja",
+   "semi": 0,
+   "text": "読みこみ中",
+   "lessons": [
+    "vocab-15"
+   ]
+  },
+  {
+   "key": "ja|0|読みこみ中、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "読みこみ中、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-15"
    ]
   },
   {
@@ -9604,7 +16190,17 @@
    "semi": 0,
    "text": "買う",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|質問してもいいですか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "質問してもいいですか？",
+   "lessons": [
+    "vocab-05"
    ]
   },
   {
@@ -9635,6 +16231,33 @@
    ]
   },
   {
+   "key": "ja|0|車",
+   "lang": "ja",
+   "semi": 0,
+   "text": "車",
+   "lessons": [
+    "vocab-09"
+   ]
+  },
+  {
+   "key": "ja|0|近くに",
+   "lang": "ja",
+   "semi": 0,
+   "text": "近くに",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|返品する・返す",
+   "lang": "ja",
+   "semi": 0,
+   "text": "返品する・返す",
+   "lessons": [
+    "vocab-20"
+   ]
+  },
+  {
    "key": "ja|0|迷ったら、「押したら別のページに行くかな」と考えます。行くなら エー、その場で何かするなら ボタンです。",
    "lang": "ja",
    "semi": 0,
@@ -9662,12 +16285,40 @@
    ]
   },
   {
+   "key": "ja|0|週",
+   "lang": "ja",
+   "semi": 0,
+   "text": "週",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|週、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "週、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
    "key": "ja|0|週末",
    "lang": "ja",
    "semi": 0,
    "text": "週末",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|週末、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "週末、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-03"
    ]
   },
   {
@@ -9676,7 +16327,26 @@
    "semi": 0,
    "text": "週末は忙しいです。",
    "lessons": [
-    "grammar-03"
+    "grammar-03",
+    "vocab-03"
+   ]
+  },
+  {
+   "key": "ja|0|遅い・遅れて",
+   "lang": "ja",
+   "semi": 0,
+   "text": "遅い・遅れて",
+   "lessons": [
+    "vocab-07"
+   ]
+  },
+  {
+   "key": "ja|0|遅れてごめんなさい。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "遅れてごめんなさい。",
+   "lessons": [
+    "vocab-07"
    ]
   },
   {
@@ -9685,7 +16355,35 @@
    "semi": 0,
    "text": "運転する",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|運転する、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "運転する、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|遠い",
+   "lang": "ja",
+   "semi": 0,
+   "text": "遠い",
+   "lessons": [
+    "vocab-08"
+   ]
+  },
+  {
+   "key": "ja|0|遠い、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "遠い、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-08"
    ]
   },
   {
@@ -9698,12 +16396,94 @@
    ]
   },
   {
+   "key": "ja|0|閉める",
+   "lang": "ja",
+   "semi": 0,
+   "text": "閉める",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|閉める、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "閉める、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|閉店した・閉まっている",
+   "lang": "ja",
+   "semi": 0,
+   "text": "閉店した・閉まっている",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|閉店した・閉まっている、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "閉店した・閉まっている、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-19"
+   ]
+  },
+  {
+   "key": "ja|0|開ける",
+   "lang": "ja",
+   "semi": 0,
+   "text": "開ける",
+   "lessons": [
+    "vocab-05"
+   ]
+  },
+  {
+   "key": "ja|0|関数（決まった仕事をする命令のまとまり）",
+   "lang": "ja",
+   "semi": 0,
+   "text": "関数（決まった仕事をする命令のまとまり）",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|関数（決まった仕事をする命令のまとまり）、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "関数（決まった仕事をする命令のまとまり）、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-16"
+   ]
+  },
+  {
+   "key": "ja|0|青いボタンを押してください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "青いボタンを押してください。",
+   "lessons": [
+    "vocab-13"
+   ]
+  },
+  {
    "key": "ja|0|項目・品物",
    "lang": "ja",
    "semi": 0,
    "text": "項目・品物",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|項目・品物、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "項目・品物、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -9712,7 +16492,17 @@
    "semi": 0,
    "text": "順番・注文",
    "lessons": [
-    "html-05"
+    "html-05",
+    "vocab-12"
+   ]
+  },
+  {
+   "key": "ja|0|順番に並べてください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "順番に並べてください。",
+   "lessons": [
+    "vocab-12"
    ]
   },
   {
@@ -9766,7 +16556,26 @@
    "semi": 0,
    "text": "頭・先頭",
    "lessons": [
-    "html-01"
+    "html-01",
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|頭・先頭、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "頭・先頭、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-11"
+   ]
+  },
+  {
+   "key": "ja|0|題名",
+   "lang": "ja",
+   "semi": 0,
+   "text": "題名",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -9776,6 +16585,15 @@
    "text": "題名・タイトル",
    "lessons": [
     "html-01"
+   ]
+  },
+  {
+   "key": "ja|0|題名、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "題名、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-11"
    ]
   },
   {
@@ -9793,7 +16611,35 @@
    "semi": 0,
    "text": "食べる",
    "lessons": [
-    "grammar-01"
+    "grammar-01",
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|食べる、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "食べる、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-01"
+   ]
+  },
+  {
+   "key": "ja|0|飲み物・飲む",
+   "lang": "ja",
+   "semi": 0,
+   "text": "飲み物・飲む",
+   "lessons": [
+    "vocab-02"
+   ]
+  },
+  {
+   "key": "ja|0|飲み物・飲む、は英語で、どれでしょう？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "飲み物・飲む、は英語で、どれでしょう？",
+   "lessons": [
+    "vocab-02"
    ]
   },
   {
@@ -9802,7 +16648,8 @@
    "semi": 0,
    "text": "飲み物はいかがですか？",
    "lessons": [
-    "talk-03"
+    "talk-03",
+    "vocab-02"
    ]
   },
   {
@@ -9820,7 +16667,8 @@
    "semi": 0,
    "text": "高さ",
    "lessons": [
-    "html-04"
+    "html-04",
+    "vocab-13"
    ]
   },
   {

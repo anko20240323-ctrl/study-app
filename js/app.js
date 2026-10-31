@@ -338,7 +338,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：7（2026-10-21　答え合わせを見やすく・声のファイルに対応）'),
+        h('p', { class: 'muted small' }, 'アプリの版：8（2026-10-31　英単語・部品ボタン・マイクの許可を先に・車のボタンで次へ）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -371,8 +371,13 @@
     Speech.stop();
     const hash = location.hash || '#/';
     const m = hash.match(/^#\/lesson\/([\w-]+)/);
+    const auto = /[?&]auto=1/.test(hash); // 聞くだけモードで「続けて次の回へ」のとき、すぐ始める
     const d = hash.match(/^#\/drill\/([\w-]+)/);
-    if (m) renderLessonIntro(m[1]);
+    if (m) {
+      renderLessonIntro(m[1]);
+      const start = app.querySelector('.btn-big');
+      if (auto && start) start.click();
+    }
     else if (d) Drill.run(app, d[1]);
     else if (hash.startsWith('#/drill')) Drill.menu(app);
     else if (hash.startsWith('#/settings')) renderSettings();

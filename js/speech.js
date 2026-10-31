@@ -130,7 +130,8 @@
     return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
   }
 
-  function keepAlive(on, title, onToggle) {
+  // remote：{ next, prev } 車のハンドルやイヤホンの「次へ」「前へ」ボタンで呼ぶ関数
+  function keepAlive(on, title, onToggle, remote = {}) {
     if (!player) return;
     const has = Object.keys(manifest.files).length > 0;
     if (on && has) {
@@ -146,6 +147,8 @@
         try {
           navigator.mediaSession.setActionHandler('pause', onToggle || null);
           navigator.mediaSession.setActionHandler('play', onToggle || null);
+          navigator.mediaSession.setActionHandler('nexttrack', remote.next || null);
+          navigator.mediaSession.setActionHandler('previoustrack', remote.prev || null);
         } catch (e) { /* 対応していない */ }
       }
     } else if (silence) {

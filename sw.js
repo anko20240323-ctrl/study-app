@@ -1,7 +1,7 @@
 // 電波がない所でも、前に開いたページが動くようにする係（service worker）。
 // 教材や画面を直したら、下の VERSION の数字を1つ上げてください（古い保存が入れかわります）。
 
-const VERSION = 'v7';
+const VERSION = 'v8';
 const CACHE = `manabi-${VERSION}`;
 
 const PRECACHE = [

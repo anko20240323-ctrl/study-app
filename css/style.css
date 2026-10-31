@@ -379,3 +379,17 @@ h1, h2 { line-height: 1.4; }
 .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 14px; font-weight: 700; background: var(--line); color: var(--text); }
 .badge.ok { background: var(--right); color: #fff; }
 .badge.ng { background: var(--wrong); color: #fff; }
+
+/* 書く練習の部品ボタン */
+.parts-wrap { margin: 8px 0; padding: 10px; border: 2px dashed var(--line); border-radius: 12px; }
+.parts { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0; }
+.part {
+  min-width: 44px; min-height: 48px; padding: 4px 12px; border-radius: 10px;
+  border: 2px solid var(--line); background: var(--card); color: var(--text);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 18px;
+  touch-action: manipulation; overflow-wrap: anywhere;
+}
+.part-sym { border-color: var(--primary); color: var(--primary); font-weight: 700; min-width: 48px; }
+.part-name, .part-tag { background: var(--code-bg); color: var(--code-ink); border-color: var(--code-bg); }
+.part-attr, .part-val { border-style: dashed; }
+.part-text { font-family: inherit; background: var(--accent); }

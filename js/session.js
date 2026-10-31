@@ -40,7 +40,7 @@
 
   // 英語を学ぶコース（会話・語順）かどうか
   function isEnglish(l) {
-    return l.course === 'talk' || l.course === 'grammar';
+    return l.course === 'talk' || l.course === 'grammar' || l.course === 'vocab';
   }
 
   function shuffle(arr) {
@@ -104,6 +104,8 @@
       this.reviewItems = buildReviewItems();
       const STEPS = {
         talk: ['talk', 'quiz', 'words', 'done'],
+        // 英単語：先に単語を覚えて（思い出す練習・言ってみる練習つき）、そのあと全部の単語で問題
+        vocab: ['words', 'quiz', 'done'],
         grammar: ['explain', 'quiz', 'order', 'words', 'recap', 'done'],
         html: ['explain', 'quiz', 'practice', 'words', 'recap', 'done'],
       };
@@ -118,7 +120,10 @@
     start() {
       keepAwake(true);
       // 音声ファイルがあれば、画面を消しても止まりにくくする（ロック画面から止める・続きからもできる）
-      Speech.keepAlive(true, lessonLabel(this.lesson), () => this.togglePause());
+      Speech.keepAlive(true, lessonLabel(this.lesson), () => this.togglePause(), {
+        next: () => this.remoteNext(),
+        prev: () => this.remotePrev(),
+      });
       Speech.prefetch([this.lesson.id, 'common']);
       this.render();
     }
@@ -161,6 +166,18 @@
     setIdle() {
       this.paused = true;
       this.updatePauseBtn('▶', 'もう一度');
+    }
+
+    // 車のハンドル・イヤホンの「次へ」：次の文・次の問題へ（場面ごとに決めていなければ「次へ」ボタンと同じ）
+    remoteNext() {
+      if (this.current && this.current.skip) this.current.skip();
+      else this.onNextClick();
+    }
+
+    // 「前へ」：いまの文・問題をもう一度
+    remotePrev() {
+      if (this.current && this.current.again) this.current.again();
+      else if (this.current && this.current.resume) this.current.resume();
     }
 
     togglePause() {
@@ -525,6 +542,8 @@
         ctx: () => [`■ いま聞いていた説明：「${segs[cur].text}」`]
           .concat(segs[cur].code ? [`■ 説明のコード：\n${segs[cur].code}`] : []),
         resume: () => play(ended ? 0 : cur),
+        skip: () => (cur < segs.length - 1 ? play(cur + 1) : this.onNextClick()),
+        again: () => play(cur),
       };
     }
 
@@ -533,7 +552,9 @@
     stepQuiz(body) {
       const qs = this.lesson.quiz;
       const n = qs.length;
-      const order = [...qs.keys(), ...shuffle([...qs.keys()])];
+      // 英単語の回は、問題が単語の数だけあるので1周。ほかの回は2周
+      const twice = this.lesson.course !== 'vocab';
+      const order = twice ? [...qs.keys(), ...shuffle([...qs.keys()])] : shuffle([...qs.keys()]);
       let i = 0;
       let q = null;
       let right = 0;
@@ -546,7 +567,7 @@
         const round = i < n ? 1 : 2;
         q = this.question(area, qs[idx], {
           onAuto: () => this.onNextClick(),
-          label: round === 1 ? `1周目　${i + 1} / ${n}` : `2周目（順番を変えて）　${i - n + 1} / ${n}`,
+          label: !twice ? `${i + 1} / ${n}` : round === 1 ? `1周目　${i + 1} / ${n}` : `2周目（順番を変えて）　${i - n + 1} / ${n}`,
           onResult: (correct, byTap) => {
             if (!byTap || round !== 1) return;
             if (correct) right++;
@@ -554,7 +575,7 @@
           },
         });
         this.setNextLabel(i < order.length - 1 ? '次の問題 →' : '次へ →');
-        if (i === 0 || i === n) {
+        if (i === 0 || (twice && i === n)) {
           const gen = this.begin();
           const intro = i === 0 ? `問題は${n}問です。` : 'もう一度、順番を変えて出します。';
           if (!(await Speech.say(intro, { gen }))) return;
@@ -665,6 +686,8 @@
           return [`■ いま聞いていたセリフ：${l.roles[ln.who] || ln.who}「${ln.en}」（${ln.ja}）`];
         },
         resume: () => play(ended ? 0 : cur),
+        skip: () => (cur < lines.length - 1 ? play(cur + 1) : this.onNextClick()),
+        again: () => play(cur),
       };
     }
 
@@ -870,6 +893,8 @@
 
       return {
         resume: () => (ended ? playAll(0, 1) : playAll(cur, pass)),
+        skip: () => (cur < words.length - 1 ? playAll(cur + 1, pass) : this.onNextClick()),
+        again: () => playAll(cur, pass),
         ctx: () => {
           const w = words[cur];
           return [`■ 英単語：${w.en}（意味：${w.ja}）`, `■ 例文：${w.ex}（${w.exJa}）`];
@@ -1045,6 +1070,8 @@
       return {
         ctx: () => [`■ まとめの文：「${list[cur].text}」`],
         resume: () => play(ended ? 0 : cur),
+        skip: () => (cur < list.length - 1 ? play(cur + 1) : this.onNextClick()),
+        again: () => play(cur),
       };
     }
 
@@ -1055,30 +1082,43 @@
         Store.markDone(this.lesson.id);
         Store.markStudied();
       }
-      keepAwake(false);
-      Speech.keepAlive(false);
       const streak = Store.streak();
       const total = Store.totalDays();
       const nextLesson = window.LESSONS.find((l) => l.course === this.lesson.course && l.no === this.lesson.no + 1);
+      // 聞くだけモードで次の回があるときは、「次へ」で続けて次の回を始められる（運転中でも進めるように）
+      const canContinue = this.handsFree && !!nextLesson;
+      const goNext = () => { location.hash = `#/lesson/${nextLesson.id}?auto=1`; };
+      if (!canContinue) {
+        keepAwake(false);
+        Speech.keepAlive(false);
+      }
 
       body.append(
         h('div', { class: 'done' },
           h('div', { class: 'done-mark', 'aria-hidden': 'true' }, '🌱'),
           h('h2', null, '今日の分は、おしまいです'),
-          h('p', { class: 'lead' }, 'おつかれさまでした。15分、よくがんばりました。'),
+          h('p', { class: 'lead' }, 'おつかれさまでした。よくがんばりました。'),
           h('p', { class: 'stat' }, `${streak}日つづいています`),
           h('p', { class: 'muted' }, `これまでに学んだ日：${total}日`),
           h('div', { class: 'col' },
-            h('a', { class: 'btn btn-primary', href: '#/' }, 'ホームへ'),
-            nextLesson ? h('a', { class: 'btn', href: `#/lesson/${nextLesson.id}` }, `次の回へ：${nextLesson.title}`) : null,
+            canContinue ? h('button', { class: 'btn btn-primary', onclick: goNext }, `▶ 続けて次の回へ：${nextLesson.title}`) : null,
+            h('a', { class: canContinue ? 'btn' : 'btn btn-primary', href: '#/' }, 'ホームへ'),
+            nextLesson && !canContinue ? h('a', { class: 'btn', href: `#/lesson/${nextLesson.id}` }, `次の回へ：${nextLesson.title}`) : null,
             this.lesson.course === 'html'
               ? h('a', { class: 'btn btn-second', href: `#/drill/${this.lesson.id}` }, '✍ この回の書く練習をする')
               : null,
           ),
         ),
       );
-      Speech.say('今日の分は、おしまいです。おつかれさまでした。また明日、いっしょに学びましょう。');
-      return {};
+      (async () => {
+        const gen = this.begin();
+        if (!(await Speech.say('今日の分は、おしまいです。おつかれさまでした。また明日、いっしょに学びましょう。', { gen }))) return;
+        if (canContinue) {
+          await Speech.say('続けて次の回に進むときは、次へのボタンを押してください。', { gen });
+        }
+        this.setIdle();
+      })();
+      return canContinue ? { skip: goNext } : {};
     }
   }
 

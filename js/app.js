@@ -44,7 +44,15 @@
       type: 'checkbox',
       checked: !!Store.settings[key] && !disabled,
       disabled: !!disabled,
-      onchange: (e) => Store.setSetting(key, e.target.checked),
+      onchange: async (e) => {
+        Store.setSetting(key, e.target.checked);
+        // 「声で練習する」をオンにしたら、その場でマイクの許可を済ませる
+        if (key === 'voice' && e.target.checked) {
+          const p = await Listen.prime();
+          if (p === 'granted') toast('マイクが使えるようになりました');
+          else if (p === 'denied') toast('マイクが許可されませんでした。iPhone の設定で、マイクと音声認識を許可してください');
+        }
+      },
     });
     return h('label', { class: 'toggle' },
       cb,
@@ -129,7 +137,13 @@
         h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
         h('h1', { class: 'intro-title' }, l.title),
         h('p', { class: 'lead' }, l.goal),
-        l.course === 'grammar'
+        l.course === 'vocab'
+          ? h('ol', { class: 'plan' },
+            reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
+            h('li', null, `英単語（${l.words.length}語）：単語 → 意味 → 例文、思い出す練習${Store.settings.voice ? '、言ってみる練習' : ''}`),
+            h('li', null, `短い問題（${l.quiz.length}問）`),
+          )
+          : l.course === 'grammar'
           ? h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `聞く解説（${l.explain.length}文）`),
@@ -158,9 +172,24 @@
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
       h('button', {
         class: 'btn btn-primary btn-big',
-        onclick: () => {
+        onclick: async () => {
           session = new Session(l.id, app);
           Sound.unlock();
+          if (session.voice) {
+            // 1問目より前に、マイクと音声認識の許可を済ませる
+            Speech.unlock();
+            const s = session;
+            s.root.replaceChildren(h('p', { class: 'lead center' }, '🎤 マイクの準備をしています…'));
+            const p = await Listen.prime();
+            if (s !== session) return; // 待っているあいだに、別の画面に移った
+            if (p === 'denied') {
+              s.voice = false;
+              toast('マイクが使えないので、今回は番号を心の中で答えてください');
+              // 車の中では画面を見られないので、声でも伝える
+              await Speech.say('マイクが使えないので、今回は、番号を心の中で答えてください。');
+              if (s !== session) return;
+            }
+          }
           session.start();
         },
       }, '▶ はじめる'),
@@ -284,6 +313,17 @@
         rateOut,
       ),
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      h('section', { class: 'card' },
+        h('h2', null, '書く練習の部品ボタン'),
+        h('select', {
+          class: 'select',
+          'aria-label': '部品の大きさ',
+          onchange: (e) => Store.setSetting('parts', e.target.value),
+        },
+        [['symbol', '記号ごと（< / title > に分ける）'], ['tag', 'タグごと（<title> </title> に分ける）'], ['off', '使わない（キーボードで打つ）']]
+          .map(([v, t]) => h('option', { value: v, selected: Store.settings.parts === v }, t))),
+        h('p', { class: 'muted small' }, 'はじめは「記号ごと」がおすすめです。/ があるかないかで、始まりのタグか閉じるタグかがはっきりわかります。慣れてきたら「タグごと」にすると、サクサク進みます。'),
+      ),
       audioCard(),
       Listen.supported ? h('section', { class: 'card' },
         h('h2', null, '声の聞き取りをためす'),
@@ -298,7 +338,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：7（2026-10-21　答え合わせを見やすく・声のファイルに対応）'),
+        h('p', { class: 'muted small' }, 'アプリの版：8（2026-10-31　英単語・部品ボタン・マイクの許可を先に・車のボタンで次へ）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -331,8 +371,13 @@
     Speech.stop();
     const hash = location.hash || '#/';
     const m = hash.match(/^#\/lesson\/([\w-]+)/);
+    const auto = /[?&]auto=1/.test(hash); // 聞くだけモードで「続けて次の回へ」のとき、すぐ始める
     const d = hash.match(/^#\/drill\/([\w-]+)/);
-    if (m) renderLessonIntro(m[1]);
+    if (m) {
+      renderLessonIntro(m[1]);
+      const start = app.querySelector('.btn-big');
+      if (auto && start) start.click();
+    }
     else if (d) Drill.run(app, d[1]);
     else if (hash.startsWith('#/drill')) Drill.menu(app);
     else if (hash.startsWith('#/settings')) renderSettings();

@@ -130,7 +130,8 @@
     return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
   }
 
-  function keepAlive(on, title, onToggle) {
+  // remote：{ next, prev } 車のハンドルやイヤホンの「次へ」「前へ」ボタンで呼ぶ関数
+  function keepAlive(on, title, onToggle, remote = {}) {
     if (!player) return;
     const has = Object.keys(manifest.files).length > 0;
     if (on && has) {
@@ -146,6 +147,8 @@
         try {
           navigator.mediaSession.setActionHandler('pause', onToggle || null);
           navigator.mediaSession.setActionHandler('play', onToggle || null);
+          navigator.mediaSession.setActionHandler('nexttrack', remote.next || null);
+          navigator.mediaSession.setActionHandler('previoustrack', remote.prev || null);
         } catch (e) { /* 対応していない */ }
       }
     } else if (silence) {
@@ -266,8 +269,24 @@
     }
   }
 
+  // ボタンを押した瞬間に呼んで、声を出せる状態にしておく（スマホの決まり）。
+  // このあとマイクの許可を待っても、声が出なくならないようにするため
+  function unlock() {
+    try {
+      if (player && !player.src) {
+        player.src = silentWav();
+        const p = player.play();
+        if (p && p.then) p.then(() => player.pause()).catch(() => {});
+      }
+    } catch (e) { /* 使えない環境では何もしない */ }
+    try {
+      if (supported) synth.speak(new SpeechSynthesisUtterance(''));
+    } catch (e) { /* 使えない環境では何もしない */ }
+  }
+
   window.Speech = {
     supported,
+    unlock,
     keepAlive,
     prefetch,
     manifestReady,

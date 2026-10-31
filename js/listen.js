@@ -169,8 +169,48 @@
     return -1;
   }
 
+  // マイクと音声認識の許可を、先に済ませておく（1問目で許可の確認が出て、答えられないのを防ぐ）。
+  // iPhone は「マイク」と「音声認識」の許可が別々なので、聞き取りを一度だけ短く始めて止める。
+  // 'granted'（使える）／'denied'（許可されなかった）／'unknown'（わからない）を返す
+  let permission = 'unknown';
+  function prime() {
+    return new Promise((resolve) => {
+      if (!SR) return resolve((permission = 'denied'));
+      let rec;
+      try {
+        rec = new SR();
+      } catch (e) {
+        return resolve((permission = 'denied'));
+      }
+      rec.lang = 'ja-JP';
+      rec.interimResults = false;
+      let done = false;
+      const finish = (v) => {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        rec.onstart = rec.onerror = rec.onend = rec.onaudiostart = null;
+        try { rec.abort(); } catch (e) { /* もう止まっている */ }
+        resolve((permission = v));
+      };
+      // 許可の画面でたつやさんが選ぶのを待つ（20秒まで）
+      const timer = setTimeout(() => finish('unknown'), 20000);
+      rec.onaudiostart = () => finish('granted');
+      rec.onstart = () => setTimeout(() => finish('granted'), 300);
+      rec.onerror = (e) => finish(e && (e.error === 'not-allowed' || e.error === 'service-not-allowed') ? 'denied' : 'unknown');
+      rec.onend = () => finish('unknown');
+      try {
+        rec.start();
+      } catch (e) {
+        finish('unknown');
+      }
+    });
+  }
+
   window.Listen = {
     supported: !!SR,
+    prime,
+    get permission() { return permission; },
     hear,
     compare,
     best,

@@ -129,7 +129,13 @@
         h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
         h('h1', { class: 'intro-title' }, l.title),
         h('p', { class: 'lead' }, l.goal),
-        l.course === 'grammar'
+        l.course === 'vocab'
+          ? h('ol', { class: 'plan' },
+            reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
+            h('li', null, `英単語（${l.words.length}語）：単語 → 意味 → 例文、思い出す練習${Store.settings.voice ? '、言ってみる練習' : ''}`),
+            h('li', null, `短い問題（${l.quiz.length}問）`),
+          )
+          : l.course === 'grammar'
           ? h('ol', { class: 'plan' },
             reviewN ? h('li', null, `前回の復習（${reviewN}個）`) : null,
             h('li', null, `聞く解説（${l.explain.length}文）`),

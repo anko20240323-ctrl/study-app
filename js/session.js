@@ -40,7 +40,7 @@
 
   // 英語を学ぶコース（会話・語順）かどうか
   function isEnglish(l) {
-    return l.course === 'talk' || l.course === 'grammar';
+    return l.course === 'talk' || l.course === 'grammar' || l.course === 'vocab';
   }
 
   function shuffle(arr) {
@@ -104,6 +104,8 @@
       this.reviewItems = buildReviewItems();
       const STEPS = {
         talk: ['talk', 'quiz', 'words', 'done'],
+        // 英単語：先に単語を覚えて（思い出す練習・言ってみる練習つき）、そのあと全部の単語で問題
+        vocab: ['words', 'quiz', 'done'],
         grammar: ['explain', 'quiz', 'order', 'words', 'recap', 'done'],
         html: ['explain', 'quiz', 'practice', 'words', 'recap', 'done'],
       };
@@ -533,7 +535,9 @@
     stepQuiz(body) {
       const qs = this.lesson.quiz;
       const n = qs.length;
-      const order = [...qs.keys(), ...shuffle([...qs.keys()])];
+      // 英単語の回は、問題が単語の数だけあるので1周。ほかの回は2周
+      const twice = this.lesson.course !== 'vocab';
+      const order = twice ? [...qs.keys(), ...shuffle([...qs.keys()])] : shuffle([...qs.keys()]);
       let i = 0;
       let q = null;
       let right = 0;
@@ -546,7 +550,7 @@
         const round = i < n ? 1 : 2;
         q = this.question(area, qs[idx], {
           onAuto: () => this.onNextClick(),
-          label: round === 1 ? `1周目　${i + 1} / ${n}` : `2周目（順番を変えて）　${i - n + 1} / ${n}`,
+          label: !twice ? `${i + 1} / ${n}` : round === 1 ? `1周目　${i + 1} / ${n}` : `2周目（順番を変えて）　${i - n + 1} / ${n}`,
           onResult: (correct, byTap) => {
             if (!byTap || round !== 1) return;
             if (correct) right++;
@@ -554,7 +558,7 @@
           },
         });
         this.setNextLabel(i < order.length - 1 ? '次の問題 →' : '次へ →');
-        if (i === 0 || i === n) {
+        if (i === 0 || (twice && i === n)) {
           const gen = this.begin();
           const intro = i === 0 ? `問題は${n}問です。` : 'もう一度、順番を変えて出します。';
           if (!(await Speech.say(intro, { gen }))) return;

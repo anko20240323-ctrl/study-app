@@ -33,6 +33,7 @@ const PRECACHE = [
   'lessons/grammar-02.js',
   'lessons/grammar-03.js',
   'lessons/html-drills.js',
+  'lessons/vocab.js',
   'img/cat.svg',
   'icons/icon.svg',
   'icons/icon-192.png',

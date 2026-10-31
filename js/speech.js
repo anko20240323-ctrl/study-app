@@ -266,8 +266,24 @@
     }
   }
 
+  // ボタンを押した瞬間に呼んで、声を出せる状態にしておく（スマホの決まり）。
+  // このあとマイクの許可を待っても、声が出なくならないようにするため
+  function unlock() {
+    try {
+      if (player && !player.src) {
+        player.src = silentWav();
+        const p = player.play();
+        if (p && p.then) p.then(() => player.pause()).catch(() => {});
+      }
+    } catch (e) { /* 使えない環境では何もしない */ }
+    try {
+      if (supported) synth.speak(new SpeechSynthesisUtterance(''));
+    } catch (e) { /* 使えない環境では何もしない */ }
+  }
+
   window.Speech = {
     supported,
+    unlock,
     keepAlive,
     prefetch,
     manifestReady,

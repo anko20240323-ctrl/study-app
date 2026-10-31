@@ -44,7 +44,15 @@
       type: 'checkbox',
       checked: !!Store.settings[key] && !disabled,
       disabled: !!disabled,
-      onchange: (e) => Store.setSetting(key, e.target.checked),
+      onchange: async (e) => {
+        Store.setSetting(key, e.target.checked);
+        // 「声で練習する」をオンにしたら、その場でマイクの許可を済ませる
+        if (key === 'voice' && e.target.checked) {
+          const p = await Listen.prime();
+          if (p === 'granted') toast('マイクが使えるようになりました');
+          else if (p === 'denied') toast('マイクが許可されませんでした。iPhone の設定で、マイクと音声認識を許可してください');
+        }
+      },
     });
     return h('label', { class: 'toggle' },
       cb,
@@ -164,9 +172,24 @@
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
       h('button', {
         class: 'btn btn-primary btn-big',
-        onclick: () => {
+        onclick: async () => {
           session = new Session(l.id, app);
           Sound.unlock();
+          if (session.voice) {
+            // 1問目より前に、マイクと音声認識の許可を済ませる
+            Speech.unlock();
+            const s = session;
+            s.root.replaceChildren(h('p', { class: 'lead center' }, '🎤 マイクの準備をしています…'));
+            const p = await Listen.prime();
+            if (s !== session) return; // 待っているあいだに、別の画面に移った
+            if (p === 'denied') {
+              s.voice = false;
+              toast('マイクが使えないので、今回は番号を心の中で答えてください');
+              // 車の中では画面を見られないので、声でも伝える
+              await Speech.say('マイクが使えないので、今回は、番号を心の中で答えてください。');
+              if (s !== session) return;
+            }
+          }
           session.start();
         },
       }, '▶ はじめる'),
@@ -290,6 +313,17 @@
         rateOut,
       ),
       h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      h('section', { class: 'card' },
+        h('h2', null, '書く練習の部品ボタン'),
+        h('select', {
+          class: 'select',
+          'aria-label': '部品の大きさ',
+          onchange: (e) => Store.setSetting('parts', e.target.value),
+        },
+        [['symbol', '記号ごと（< / title > に分ける）'], ['tag', 'タグごと（<title> </title> に分ける）'], ['off', '使わない（キーボードで打つ）']]
+          .map(([v, t]) => h('option', { value: v, selected: Store.settings.parts === v }, t))),
+        h('p', { class: 'muted small' }, 'はじめは「記号ごと」がおすすめです。/ があるかないかで、始まりのタグか閉じるタグかがはっきりわかります。慣れてきたら「タグごと」にすると、サクサク進みます。'),
+      ),
       audioCard(),
       Listen.supported ? h('section', { class: 'card' },
         h('h2', null, '声の聞き取りをためす'),

@@ -11,6 +11,7 @@
       rate: 1.0,
       handsFree: false, // 聞くだけモード
       voice: false,     // 声で練習する（マイクを使う）
+      parts: 'symbol',  // 書く練習の部品ボタン：'symbol' 記号ごと／'tag' タグごと／'off' 使わない
     },
     studyDays: [],      // 学んだ日 'YYYY-MM-DD'
     done: {},           // レッスンID → 終えた回数

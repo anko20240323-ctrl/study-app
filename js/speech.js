@@ -62,6 +62,7 @@
     return new Promise((resolve) => {
       const start = Date.now();
       const tick = () => {
+        ensureSilence();
         if (gen !== undefined && gen !== generation) return resolve(false);
         if (Date.now() - start >= ms) return resolve(true);
         setTimeout(tick, 100);
@@ -96,6 +97,7 @@
         done = true;
         clearInterval(guard);
         player.onended = player.onerror = null;
+        ensureSilence(); // 声のファイルを鳴らすと無音が止まるので、流し直す
         resolve(v);
       };
       const guard = setInterval(() => {
@@ -115,11 +117,17 @@
     });
   }
 
-  // 画面を消しても止まらないように、レッスン中は無音の音を流し続ける（音声ファイルがあるときだけ）
+  // ---- レッスン中は「再生中」と iPhone に認めてもらう ----
+  // iPhone は、音が流れているアプリだけを「再生中」とみなし、ロック画面や車のハンドルのボタン（曲送り）を届ける。
+  // そこで、レッスン中は無音の音を流し続ける。気をつけること：
+  //  - 無音を最初に鳴らすのは「▶ はじめる」を押したその瞬間（startAudio）。あとからだと iPhone が止める
+  //  - iPhone は音を1つしか同時に流さないので、声のファイルを鳴らすと無音が止まる → 声が終わるたびに無音を流し直す
   let silence = null;
-  function silentWav() {
+  let active = false;     // レッスン中か
+  let userPaused = false; // ⏸ で止めているか
+  function silentWav(sec = 1) {
     const rate = 8000;
-    const n = rate; // 1秒
+    const n = rate * sec;
     const buf = new ArrayBuffer(44 + n * 2);
     const v = new DataView(buf);
     const w = (o, str) => { for (let i = 0; i < str.length; i++) v.setUint8(o + i, str.charCodeAt(i)); };
@@ -130,30 +138,80 @@
     return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
   }
 
-  // remote：{ next, prev } 車のハンドルやイヤホンの「次へ」「前へ」ボタンで呼ぶ関数
-  function keepAlive(on, title, onToggle, remote = {}) {
+  function setState(state) {
+    try {
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = state;
+    } catch (e) { /* 対応していない */ }
+  }
+
+  // 無音が止まっていたら、流し直す（声のファイルが終わったあと・待ち時間に呼ぶ）
+  function ensureSilence() {
+    if (!active || userPaused || !silence || !silence.paused) return;
+    const p = silence.play();
+    if (p && p.catch) p.catch(() => {});
+  }
+
+  // 「▶ はじめる」を押したその瞬間に呼ぶ（マイクの許可を待つ前に）
+  function startAudio() {
     if (!player) return;
-    const has = Object.keys(manifest.files).length > 0;
-    if (on && has) {
+    try {
       if (!silence) {
-        silence = new Audio(silentWav());
+        silence = new Audio(silentWav(5));
         silence.loop = true;
-        silence.volume = 0.01;
       }
-      silence.play().catch(() => {});
-      // ロック画面に、レッスン名と止める・続きからのボタンを出す
-      if ('mediaSession' in navigator && typeof MediaMetadata !== 'undefined') {
-        navigator.mediaSession.metadata = new MediaMetadata({ title: title || 'まなびノート', artist: 'まなびノート' });
-        try {
-          navigator.mediaSession.setActionHandler('pause', onToggle || null);
-          navigator.mediaSession.setActionHandler('play', onToggle || null);
-          navigator.mediaSession.setActionHandler('nexttrack', remote.next || null);
-          navigator.mediaSession.setActionHandler('previoustrack', remote.prev || null);
-        } catch (e) { /* 対応していない */ }
+      active = true;
+      userPaused = false;
+      const p = silence.play();
+      if (p && p.catch) p.catch(() => {});
+    } catch (e) { /* 使えない環境では何もしない */ }
+    unlock();
+  }
+
+  // handlers：{ play, pause, next, prev } ロック画面・車のハンドル・イヤホンのボタンで呼ぶ関数
+  function keepAlive(on, title, handlers = {}) {
+    if (!player) return;
+    const ms = 'mediaSession' in navigator ? navigator.mediaSession : null;
+    const set = (name, fn) => {
+      try { if (ms) ms.setActionHandler(name, fn || null); } catch (e) { /* 対応していない */ }
+    };
+    if (on) {
+      active = true;
+      userPaused = false;
+      ensureSilence();
+      if (ms && typeof MediaMetadata !== 'undefined') {
+        ms.metadata = new MediaMetadata({ title: title || 'まなびノート', artist: 'まなびノート', album: 'たつやさんの学習' });
       }
-    } else if (silence) {
-      silence.pause();
+      set('play', handlers.play);
+      set('pause', handlers.pause);
+      set('nexttrack', handlers.next);
+      set('previoustrack', handlers.prev);
+      setState('playing');
+    } else {
+      active = false;
+      if (silence) silence.pause();
+      for (const name of ['play', 'pause', 'nexttrack', 'previoustrack']) set(name, null);
+      setState('none');
     }
+  }
+
+  // マイクを使ったあとに呼ぶ。iPhone はマイクを使うと Bluetooth を「通話用」に切りかえるので、
+  // 無音を一度読みこみ直して流し、「音楽用」のつなぎ方にもどるのを助ける（効くかは車による）
+  function kick() {
+    if (!active || userPaused || !silence) return;
+    try {
+      silence.load();
+      const p = silence.play();
+      if (p && p.catch) p.catch(() => {});
+    } catch (e) { /* 使えない環境では何もしない */ }
+  }
+
+  // ⏸ 止める／▶ 続きから（画面のボタン・ロック画面・ハンドルのどれでも）
+  function setPlaying(playing) {
+    if (!active) return;
+    userPaused = !playing;
+    if (playing) ensureSilence();
+    else if (silence) silence.pause();
+    setState(playing ? 'playing' : 'paused');
   }
 
   // その回の音声ファイルを、前もって保存しておく（電波がない所でも聞けるように）
@@ -288,6 +346,9 @@
     supported,
     unlock,
     keepAlive,
+    startAudio,
+    setPlaying,
+    kick,
     prefetch,
     manifestReady,
     get audioInfo() {

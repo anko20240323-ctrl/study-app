@@ -14,6 +14,7 @@ window.COURSES = [
 ];
 
 window.LESSON_FILES = [
+  'lessons/kana.js', // 英単語のカタカナの読み（ほかの教材より先に読む）
   'lessons/html-01.js',
   'lessons/html-02.js',
   'lessons/html-03.js',
@@ -42,6 +43,10 @@ window.LESSONS = [];
 window.registerLesson = function (lesson) {
   // course を書いていないレッスンは、HTMLの基礎のレッスンとして扱う
   if (!lesson.course) lesson.course = 'html';
+  // 英単語にカタカナの読みをつける（単語に kana が書いていなければ、lessons/kana.js から）
+  for (const w of lesson.words || []) {
+    if (!w.kana && window.KANA) w.kana = window.KANA[w.en];
+  }
   // 英単語の回は、問題を単語から自動で作る
   if (lesson.course === 'vocab' && !lesson.quiz) lesson.quiz = makeVocabQuiz(lesson);
   window.LESSONS.push(lesson);

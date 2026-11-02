@@ -194,6 +194,17 @@
     }
   }
 
+  // マイクを使ったあとに呼ぶ。iPhone はマイクを使うと Bluetooth を「通話用」に切りかえるので、
+  // 無音を一度読みこみ直して流し、「音楽用」のつなぎ方にもどるのを助ける（効くかは車による）
+  function kick() {
+    if (!active || userPaused || !silence) return;
+    try {
+      silence.load();
+      const p = silence.play();
+      if (p && p.catch) p.catch(() => {});
+    } catch (e) { /* 使えない環境では何もしない */ }
+  }
+
   // ⏸ 止める／▶ 続きから（画面のボタン・ロック画面・ハンドルのどれでも）
   function setPlaying(playing) {
     if (!active) return;
@@ -337,6 +348,7 @@
     keepAlive,
     startAudio,
     setPlaying,
+    kick,
     prefetch,
     manifestReady,
     get audioInfo() {

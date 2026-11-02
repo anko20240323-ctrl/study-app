@@ -92,7 +92,7 @@
   function voiceToggle() {
     return toggle('voice', '声で練習する（ためし）',
       Listen.supported
-        ? '問題に番号を声で答えたり、英語を言ってみて伝わるかを確かめたりします。声は文字にするために Apple（Android は Google）へ送られることがあります'
+        ? '問題に番号を声で答えたり、英語を言ってみて伝わるかを確かめたりします。声は文字にするために Apple（Android は Google）へ送られることがあります。⚠ 車の Bluetooth では、マイクを使うと接続が切れることがあります。運転中は 🚗 運転モードがおすすめです'
         : 'このブラウザでは、声の聞き取りが使えません',
       !Listen.supported);
   }

@@ -81,6 +81,8 @@
         clearTimeout(timer);
         clearInterval(guard);
         try { rec.abort(); } catch (e) { /* もう止まっている */ }
+        // マイクを使い終わったら、音楽用のつなぎ方にもどるのを助ける
+        if (window.Speech && Speech.kick) setTimeout(() => Speech.kick(), 300);
         resolve(results);
       };
       rec.onresult = (e) => {
@@ -191,6 +193,7 @@
         clearTimeout(timer);
         rec.onstart = rec.onerror = rec.onend = rec.onaudiostart = null;
         try { rec.abort(); } catch (e) { /* もう止まっている */ }
+        if (window.Speech && Speech.kick) setTimeout(() => Speech.kick(), 300);
         resolve((permission = v));
       };
       // 許可の画面でたつやさんが選ぶのを待つ（20秒まで）

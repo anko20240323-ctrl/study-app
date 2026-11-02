@@ -1,4 +1,4 @@
-// 英単語のコース（20回・160語）
+// 英単語のコース（40回・320語）
 //   日常：第1〜10回（第1〜3回は、会話・語順の回に出てくる単語）
 //   コード：第11〜16回（HTMLの回・エラー画面でよく見る単語）
 //   お店：第17〜20回（リサイクルショップの売り場の言葉）
@@ -240,5 +240,234 @@
     ['exchange', '交換する', 'Can I exchange this?', 'これを交換できますか？'],
     ['warranty', '保証', 'It has a three-month warranty.', '3か月の保証がついています。'],
     ['again', 'また・もう一度', 'Please come again.', 'またお越しください。'],
+  ]);
+  // ================================================================
+  // ここから第21〜40回（2026-11-02 追加：日常8・お店と仕事4・車と移動2・コード4・競馬2）
+  // 5つ目がカタカナの読み
+  // ================================================================
+
+  // ---- 日常（第21〜28回）----
+  lesson(21, '日常', '毎日の動き①', '起きる・寝る・料理する など、毎日の動きの単語を覚える', [
+    ['wake up', '起きる・目がさめる', 'I wake up at six.', 'わたしは6時に起きます。', 'ウェイク アップ'],
+    ['sleep', '寝る', 'I sleep well at night.', '夜はよく眠れます。', 'スリープ'],
+    ['cook', '料理する', 'I cook dinner on Sundays.', '日曜日は晩ごはんを作ります。', 'クック'],
+    ['wash', '洗う', 'Please wash your hands.', '手を洗ってください。', 'ウォッシュ'],
+    ['walk', '歩く・散歩する', 'I walk Anko in the morning.', '朝、あんこの散歩をします。', 'ウォーク'],
+    ['run', '走る', 'My dog likes to run.', 'うちの犬は走るのが好きです。', 'ラン'],
+    ['sit', 'すわる', 'Please sit here.', 'ここにおすわりください。', 'シット'],
+    ['stand', '立つ', 'Please stand in line.', '列に並んでください。', 'スタンド'],
+  ]);
+
+  lesson(22, '日常', '毎日の動き②', '読む・書く・話す・送る など、伝えるときの単語を覚える', [
+    ['read', '読む', 'I read the news on my phone.', 'スマホでニュースを読みます。', 'リード'],
+    ['write', '書く', 'Please write your name here.', 'ここにお名前を書いてください。', 'ライト'],
+    ['listen', '聞く（耳をかたむける）', 'I listen to English in the car.', '車の中で英語を聞きます。', 'リッスン'],
+    ['speak', '話す', 'Do you speak Japanese?', '日本語を話せますか？', 'スピーク'],
+    ['call', '電話する・呼ぶ', 'I will call you tonight.', '今夜、電話しますね。', 'コール'],
+    ['send', '送る', 'Please send me the photo.', 'その写真を送ってください。', 'センド'],
+    ['bring', '持ってくる', 'Please bring your receipt.', 'レシートを持ってきてください。', 'ブリング'],
+    ['carry', '運ぶ・持ち歩く', 'Can you carry this box?', 'この箱を運べますか？', 'キャリー'],
+  ]);
+
+  lesson(23, '日常', '考える・感じる', '思う・忘れる・わかる など、頭や心の動きの単語を覚える', [
+    ['think', '思う・考える', 'I think so too.', 'わたしもそう思います。', 'シンク'],
+    ['feel', '感じる', 'I feel good today.', '今日は気分がいいです。', 'フィール'],
+    ['remember', '覚えている・思い出す', 'I remember his name.', '彼の名前を覚えています。', 'リメンバー'],
+    ['forget', '忘れる', "Don't forget your bag.", 'かばんを忘れないでね。', 'フォゲット'],
+    ['understand', 'わかる・理解する', 'I understand now.', '今、わかりました。', 'アンダースタンド'],
+    ['believe', '信じる', 'I believe in you.', 'あなたを信じています。', 'ビリーブ'],
+    ['hope', '望む・願う', 'I hope you like it.', '気に入ってもらえるとうれしいです。', 'ホープ'],
+    ['worry', '心配する', "Don't worry about it.", '心配しないでね。', 'ウォーリー'],
+  ]);
+
+  lesson(24, '日常', 'ようすを表す言葉②', '暑い・速い・重い など、ようすを表す単語を覚える', [
+    ['hot', '暑い・熱い', "It's hot today.", '今日は暑いです。', 'ホット'],
+    ['cold', '寒い・冷たい', 'This water is cold.', 'この水は冷たいです。', 'コールド'],
+    ['fast', '速い', 'This car is very fast.', 'この車はとても速いです。', 'ファスト'],
+    ['slow', 'ゆっくりした・遅い（速さ）', 'Please speak slowly.', 'ゆっくり話してください。', 'スロー'],
+    ['heavy', '重い', 'This sofa is heavy.', 'このソファは重いです。', 'ヘビー'],
+    ['light', '軽い・明かり', 'This chair is light.', 'このいすは軽いです。', 'ライト'],
+    ['long', '長い', 'It was a long day.', '長い一日でした。', 'ロング'],
+    ['short', '短い', 'This cable is too short.', 'このケーブルは短すぎます。', 'ショート'],
+  ]);
+
+  lesson(25, '日常', '気持ちの言葉②', '悲しい・おどろいた・眠い など、気持ちの単語を覚える', [
+    ['glad', 'よかった・うれしい', "I'm glad to hear that.", 'それを聞いてよかったです。', 'グラッド'],
+    ['sad', '悲しい', 'The movie was sad.', 'その映画は悲しかったです。', 'サッド'],
+    ['angry', '怒った', "Please don't be angry.", '怒らないでください。', 'アングリー'],
+    ['excited', 'わくわくした', "I'm excited about the race.", 'レースが楽しみです。', 'エキサイテッド'],
+    ['worried', '心配した', "I'm worried about the weather.", '天気が心配です。', 'ウォーリード'],
+    ['surprised', 'おどろいた', 'I was surprised by the price.', '値段におどろきました。', 'サプライズド'],
+    ['bored', '退屈した', "I'm never bored with Anko.", 'あんこといると退屈しません。', 'ボアード'],
+    ['sleepy', '眠い', "I'm sleepy this morning.", '今朝は眠いです。', 'スリーピー'],
+  ]);
+
+  lesson(26, '日常', '回数と時間の言葉', 'いつも・ときどき・もうすぐ など、回数や時間の単語を覚える', [
+    ['always', 'いつも', 'I always drink coffee in the morning.', '朝はいつもコーヒーを飲みます。', 'オールウェイズ'],
+    ['usually', 'ふだんは', 'I usually get home at seven.', 'ふだんは7時に家に帰ります。', 'ユージュアリー'],
+    ['sometimes', 'ときどき', 'I sometimes watch horse races.', 'ときどき競馬を見ます。', 'サムタイムズ'],
+    ['never', '一度も〜ない', 'I never forget my phone.', 'スマホは絶対に忘れません。', 'ネバー'],
+    ['often', 'よく（何度も）', 'We often have sales.', 'うちはよくセールをします。', 'オフン'],
+    ['once', '一度・1回', 'I go to the bank once a week.', '週に1回、銀行に行きます。', 'ワンス'],
+    ['twice', '二度・2回', 'I walk my dog twice a day.', '1日に2回、犬の散歩をします。', 'トワイス'],
+    ['soon', 'もうすぐ', 'The sale will start soon.', 'セールはもうすぐ始まります。', 'スーン'],
+  ]);
+
+  lesson(27, '日常', '天気と季節', '雨・晴れ・雪・夏 など、天気と季節の単語を覚える', [
+    ['weather', '天気', 'How is the weather today?', '今日の天気はどうですか？', 'ウェザー'],
+    ['rain', '雨・雨がふる', "It's going to rain.", '雨がふりそうです。', 'レイン'],
+    ['sunny', '晴れた', "It's sunny today.", '今日は晴れています。', 'サニー'],
+    ['cloudy', 'くもった', "It's cloudy this morning.", '今朝はくもっています。', 'クラウディ'],
+    ['wind', '風', 'The wind is strong today.', '今日は風が強いです。', 'ウィンド'],
+    ['snow', '雪・雪がふる', 'It rarely snows here.', 'ここではめったに雪がふりません。', 'スノー'],
+    ['summer', '夏', 'Summer in Fukuoka is hot.', '福岡の夏は暑いです。', 'サマー'],
+    ['winter', '冬', 'Heaters sell well in winter.', '冬はヒーターがよく売れます。', 'ウィンター'],
+  ]);
+
+  lesson(28, '日常', '食事の言葉', '朝ごはん・パン・お茶 など、食事の単語を覚える', [
+    ['breakfast', '朝ごはん', 'I eat breakfast at seven.', '7時に朝ごはんを食べます。', 'ブレックファスト'],
+    ['lunch', '昼ごはん', "Let's have lunch together.", 'いっしょにお昼ごはんを食べましょう。', 'ランチ'],
+    ['dinner', '晩ごはん', 'What do you want for dinner?', '晩ごはんは何がいい？', 'ディナー'],
+    ['rice', 'ごはん・米', 'I eat rice every day.', '毎日ごはんを食べます。', 'ライス'],
+    ['bread', 'パン', 'I had bread this morning.', '今朝はパンを食べました。', 'ブレッド'],
+    ['water', '水', 'Can I have some water?', 'お水をもらえますか？', 'ウォーター'],
+    ['tea', 'お茶・紅茶', 'Would you like some tea?', 'お茶はいかがですか？', 'ティー'],
+    ['hungry', 'おなかがすいた', "I'm hungry.", 'おなかがすきました。', 'ハングリー'],
+  ]);
+
+  // ---- お店・仕事（第29〜32回）----
+  lesson(29, 'お店', '買い取りの言葉', '買い取りや査定で使う単語を覚える', [
+    ['purchase', '買い取る・購入', 'We purchase used games.', '中古のゲームを買い取っています。', 'パーチェス'],
+    ['appraise', '査定する（値段をつける）', 'We will appraise it now.', 'これから査定します。', 'アプレイズ'],
+    ['estimate', '見積もり', 'Here is the estimate.', 'こちらが見積もりです。', 'エスティメイト'],
+    ['offer', '申し出る・提示する', 'We can offer 2,000 yen.', '2000円でお買い取りできます。', 'オファー'],
+    ['accept', '受け入れる・受け取る', 'Do you accept this price?', 'この値段でよろしいですか？', 'アクセプト'],
+    ['decline', '断る', 'You can decline the offer.', 'お断りいただいてもかまいません。', 'ディクライン'],
+    ['ID', '身分証', 'Please show me your ID.', '身分証を見せてください。', 'アイディー'],
+    ['signature', '署名・サイン', 'I need your signature here.', 'ここにサインをお願いします。', 'シグネチャー'],
+  ]);
+
+  lesson(30, 'お店', '品出しと在庫', '届いた商品を並べるときの単語を覚える', [
+    ['arrive', '届く・着く', 'The new items arrived today.', '今日、新しい商品が届きました。', 'アライブ'],
+    ['deliver', '配達する・届ける', 'We can deliver the sofa.', 'ソファは配達できます。', 'デリバー'],
+    ['display', '並べる・陳列する', 'Please display these on the shelf.', 'これらを棚に並べてください。', 'ディスプレイ'],
+    ['price tag', '値札', 'Please put a price tag on it.', '値札をつけてください。', 'プライス タグ'],
+    ['label', 'ラベル・札', 'Check the label on the box.', '箱のラベルを確認してください。', 'レイベル'],
+    ['storage', '倉庫・保管', 'Put the extra items in storage.', '残りの商品は倉庫に入れてください。', 'ストーリッジ'],
+    ['count', '数える', "Let's count the items.", '商品を数えましょう。', 'カウント'],
+    ['missing', '足りない・見当たらない', 'One part is missing.', '部品が1つ足りません。', 'ミッシング'],
+  ]);
+
+  lesson(31, 'お店', 'お客さんとのやりとり', 'お客さんが選ぶとき・迷うときの単語を覚える', [
+    ['try', 'ためす', 'You can try it here.', 'ここで試せます。', 'トライ'],
+    ['look', '見る・〜に見える', 'It looks new.', '新品のように見えます。', 'ルック'],
+    ['choose', '選ぶ', 'Please choose one.', '1つお選びください。', 'チューズ'],
+    ['decide', '決める', 'Take your time to decide.', 'ゆっくりお決めください。', 'ディサイド'],
+    ['compare', '比べる', 'You can compare the two.', '2つを比べてみてください。', 'コンペア'],
+    ['expensive', '高い（値段）', 'This one is a bit expensive.', 'こちらは少し高いです。', 'エクスペンシブ'],
+    ['cheaper', 'もっと安い', 'Do you have a cheaper one?', 'もっと安いのはありますか？', 'チーパー'],
+    ['deal', 'お買い得・取引', "That's a good deal.", 'それはお買い得です。', 'ディール'],
+  ]);
+
+  lesson(32, 'お店', '職場の言葉', '会議・シフト・残業 など、職場の単語を覚える', [
+    ['meeting', '会議・打ち合わせ', 'We have a meeting at nine.', '9時に会議があります。', 'ミーティング'],
+    ['schedule', '予定・スケジュール', "Let's check the schedule.", '予定を確認しましょう。', 'スケジュール'],
+    ['shift', 'シフト・勤務時間', 'My shift starts at ten.', 'わたしのシフトは10時からです。', 'シフト'],
+    ['manager', '店長・責任者', 'I am the store manager.', 'わたしが店長です。', 'マネージャー'],
+    ['coworker', '同僚', 'My coworkers are kind.', '同僚はみんな親切です。', 'コワーカー'],
+    ['day off', '休みの日', 'Tomorrow is my day off.', '明日はわたしの休みです。', 'デイ オフ'],
+    ['overtime', '残業', 'I worked overtime yesterday.', '昨日は残業しました。', 'オーバータイム'],
+    ['finish', '終える・終わる', 'I finish work at six.', '6時に仕事が終わります。', 'フィニッシュ'],
+  ]);
+
+  // ---- 車・移動（第33〜34回）----
+  lesson(33, '車', '運転の言葉', '信号・曲がる・駐車する など、運転の単語を覚える', [
+    ['traffic light', '信号', 'Turn right at the traffic light.', '信号を右に曲がってください。', 'トラフィック ライト'],
+    ['stop', '止まる・止める', 'Please stop here.', 'ここで止めてください。', 'ストップ'],
+    ['turn', '曲がる', 'Turn left at the next corner.', '次の角を左に曲がってください。', 'ターン'],
+    ['straight', 'まっすぐ', 'Go straight for 500 meters.', '500メートルまっすぐ進んでください。', 'ストレイト'],
+    ['park', '駐車する・公園', 'Can I park here?', 'ここに車をとめてもいいですか？', 'パーク'],
+    ['parking lot', '駐車場', 'The parking lot is behind the shop.', '駐車場はお店のうしろです。', 'パーキング ロット'],
+    ['gas station', 'ガソリンスタンド', 'I need to go to a gas station.', 'ガソリンスタンドに行かないと。', 'ガス ステーション'],
+    ['slow down', 'スピードを落とす', 'Please slow down here.', 'ここではスピードを落としてください。', 'スロー ダウン'],
+  ]);
+
+  lesson(34, '車', '道と移動の言葉', '道路・渋滞・地図 など、移動の単語を覚える', [
+    ['road', '道路', 'This road is very busy.', 'この道路はとても混んでいます。', 'ロード'],
+    ['traffic', '交通・車の流れ', 'The traffic is bad today.', '今日は渋滞しています。', 'トラフィック'],
+    ['map', '地図', 'Let me check the map.', '地図を確認させてください。', 'マップ'],
+    ['on time', '時間どおりに', 'I arrived on time.', '時間どおりに着きました。', 'オン タイム'],
+    ['crowded', '混んでいる', 'The store is crowded on Sundays.', '日曜日はお店が混んでいます。', 'クラウディッド'],
+    ['accident', '事故', 'There was an accident on the highway.', '高速道路で事故がありました。', 'アクシデント'],
+    ['corner', '角', 'The shop is on the corner.', 'お店は角にあります。', 'コーナー'],
+    ['highway', '高速道路・幹線道路', 'I take the highway to work.', '高速道路で仕事に行きます。', 'ハイウェイ'],
+  ]);
+
+  // ---- コード（第35〜38回）----
+  lesson(35, 'コード', 'ページの部品の名前', 'ホームページのコードでよく見る、部品の名前を覚える', [
+    ['header', 'ヘッダー（ページの上の部分）', 'The logo is in the header.', 'ロゴはヘッダーにあります。', 'ヘッダー'],
+    ['footer', 'フッター（ページの下の部分）', 'The address is in the footer.', '住所はフッターにあります。', 'フッター'],
+    ['nav', 'ナビ（案内のリンクの部分）', 'The menu links are in the nav.', 'メニューのリンクはナビにあります。', 'ナブ'],
+    ['section', 'セクション（区切り・章）', 'Each section has a heading.', 'それぞれのセクションに見出しがあります。', 'セクション'],
+    ['main', 'メイン（主な部分）', 'The main content goes here.', '主な中身はここに入ります。', 'メイン'],
+    ['article', '記事', 'This article is about horse racing.', 'この記事は競馬についてです。', 'アーティクル'],
+    ['sidebar', 'サイドバー（横の欄）', 'The sidebar shows new posts.', 'サイドバーに新しい投稿が出ます。', 'サイドバー'],
+    ['logo', 'ロゴ', 'Click the logo to go home.', 'ロゴを押すとトップにもどります。', 'ロゴ'],
+  ]);
+
+  lesson(36, 'コード', '見た目を決める言葉（CSS）', '色や余白など、見た目を決めるコードの単語を覚える', [
+    ['style', '見た目・スタイル', 'Change the style of the button.', 'ボタンの見た目を変えましょう。', 'スタイル'],
+    ['class', 'クラス（見た目のグループ名）', 'Give this box a class name.', 'この箱にクラス名をつけましょう。', 'クラス'],
+    ['color', '色', 'Change the text color to red.', '文字の色を赤にしましょう。', 'カラー'],
+    ['font', 'フォント（文字の形）', 'This font is easy to read.', 'このフォントは読みやすいです。', 'フォント'],
+    ['background', '背景', 'The background is white.', '背景は白です。', 'バックグラウンド'],
+    ['border', '枠線', 'Add a border to the picture.', '写真に枠線をつけましょう。', 'ボーダー'],
+    ['margin', 'マージン（外側の余白）', 'Add some margin around the box.', '箱のまわりに余白をとりましょう。', 'マージン'],
+    ['padding', 'パディング（内側の余白）', 'The button needs more padding.', 'ボタンの内側の余白を増やしましょう。', 'パディング'],
+  ]);
+
+  lesson(37, 'コード', '動きをつける言葉（JavaScript）', 'ボタンを押したときの動きなど、プログラムの単語を覚える', [
+    ['script', 'スクリプト（プログラム）', 'The script runs when the page opens.', 'ページを開くとスクリプトが動きます。', 'スクリプト'],
+    ['event', 'イベント（できごと）', 'A click is an event.', 'クリックはイベントの1つです。', 'イベント'],
+    ['variable', '変数（値を入れる箱）', 'Save the score in a variable.', '点数を変数に入れておきます。', 'ヴァリアブル'],
+    ['if', 'もし〜なら', 'If the answer is right, play a sound.', 'もし答えが正しければ、音を鳴らします。', 'イフ'],
+    ['loop', 'ループ（くり返し）', 'This loop runs ten times.', 'このループは10回くり返します。', 'ループ'],
+    ['array', '配列（値の並び）', 'The words are in an array.', '単語は配列に入っています。', 'アレイ'],
+    ['console', 'コンソール（確認用の画面）', 'Check the error in the console.', 'コンソールでエラーを確認しましょう。', 'コンソール'],
+    ['alert', 'お知らせ・警告の表示', 'The page shows an alert.', 'ページにお知らせが出ます。', 'アラート'],
+  ]);
+
+  lesson(38, 'コード', 'サイトの仕組みの言葉', 'サーバーやアカウントなど、サイトの仕組みの単語を覚える', [
+    ['server', 'サーバー（ページを置いておくコンピューター）', 'The site is on a server.', 'サイトはサーバーに置いてあります。', 'サーバー'],
+    ['browser', 'ブラウザ（ページを見るアプリ）', 'Open the page in your browser.', 'ブラウザでページを開いてください。', 'ブラウザー'],
+    ['domain', 'ドメイン（サイトの住所の名前）', 'We bought a new domain.', '新しいドメインを買いました。', 'ドメイン'],
+    ['URL', 'URL（ページの住所）', 'Copy the URL and send it to me.', 'URLをコピーして送ってください。', 'ユーアールエル'],
+    ['account', 'アカウント', 'Make a new account.', '新しいアカウントを作りましょう。', 'アカウント'],
+    ['password', 'パスワード', 'Never share your password.', 'パスワードはだれにも教えないでね。', 'パスワード'],
+    ['login', 'ログイン（入ること）', 'The login button is at the top.', 'ログインのボタンは上にあります。', 'ログイン'],
+    ['publish', '公開する', 'I will publish the page today.', '今日、ページを公開します。', 'パブリッシュ'],
+  ]);
+
+  // ---- 競馬（第39〜40回）----
+  lesson(39, '競馬', '馬と人の言葉', '騎手・調教師・血統 など、競馬の馬と人の単語を覚える', [
+    ['horse', '馬', 'This horse is very fast.', 'この馬はとても速いです。', 'ホース'],
+    ['jockey', '騎手・ジョッキー', 'The jockey rode well.', 'ジョッキーはうまく乗りました。', 'ジョッキー'],
+    ['trainer', '調教師', 'The trainer is happy with the horse.', '調教師はその馬に満足しています。', 'トレーナー'],
+    ['owner', '馬主・持ち主', 'The owner watched the race.', '馬主はレースを見ていました。', 'オーナー'],
+    ['stallion', '種牡馬・おす馬', 'He became a famous stallion.', '彼は有名な種牡馬になりました。', 'スタリオン'],
+    ['mare', 'めす馬（大人）', 'The mare won the big race.', 'そのめす馬は大きなレースを勝ちました。', 'メア'],
+    ['foal', '子馬', 'The foal was born in spring.', 'その子馬は春に生まれました。', 'フォール'],
+    ['pedigree', '血統', 'This horse has a great pedigree.', 'この馬はすばらしい血統です。', 'ペディグリー'],
+  ]);
+
+  lesson(40, '競馬', 'レースの言葉', 'ハロン・芝・1番人気 など、レースの単語を覚える', [
+    ['race', 'レース', 'The race starts at three.', 'レースは3時に始まります。', 'レース'],
+    ['furlong', 'ハロン（約200メートル）', 'The race is ten furlongs.', 'そのレースは10ハロンです。', 'ファーロング'],
+    ['turf', '芝（のコース）', 'He is strong on turf.', '彼は芝に強いです。', 'ターフ'],
+    ['dirt', 'ダート（土のコース）', 'This is a dirt race.', 'これはダートのレースです。', 'ダート'],
+    ['gate', 'ゲート（スタートの門）', 'The horses are in the gate.', '馬たちがゲートに入りました。', 'ゲイト'],
+    ['favorite', '1番人気・お気に入り', 'The favorite won easily.', '1番人気が楽に勝ちました。', 'フェイバリット'],
+    ['win', '勝つ', 'Which horse will win?', 'どの馬が勝つでしょう？', 'ウィン'],
+    ['finish line', 'ゴール（決勝線）', 'He crossed the finish line first.', '彼が1着でゴールしました。', 'フィニッシュ ライン'],
   ]);
 })();

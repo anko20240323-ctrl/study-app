@@ -130,6 +130,9 @@ h1, h2 { line-height: 1.4; }
 .btn-danger { color: var(--wrong); border-color: var(--wrong); }
 .btn-big { display: flex; width: 100%; flex-direction: column; gap: 0; min-height: 76px; font-size: 21px; margin: 0 0 14px; text-align: center; line-height: 1.35; }
 .btn-big br { display: none; }
+.resume-row { display: flex; gap: 10px; align-items: stretch; margin: 0 0 14px; }
+.resume-row .btn-big { flex: 1; min-width: 0; margin: 0; }
+.resume-close { flex: 0 0 56px; min-height: 76px; padding: 0; font-size: 28px; line-height: 1; }
 .btn-small { min-height: 48px; padding: 8px 12px; font-size: 16px; }
 .btn-play { flex: 1; }
 .btn-ask { background: var(--ask); color: var(--ask-ink); border-color: transparent; flex: 1; font-size: 16px; }

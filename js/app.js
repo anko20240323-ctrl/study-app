@@ -122,10 +122,18 @@
           h('div', { class: 'stat-box' }, h('b', null, reviewN), '個 今日の復習'),
         ),
       ),
-      progLesson ? h('a', { class: 'btn btn-primary btn-big', href: `#/lesson/${progLesson.id}?resume=1` },
-        h('span', { class: 'small' }, '途中でやめた回'),
-        h('br'),
-        `▶ 続きから：第${progLesson.no}回 ${progLesson.title}`,
+      // 「×」で続きからを消せる（ちょっと開いただけの回が残ったとき）
+      progLesson ? h('div', { class: 'resume-row' },
+        h('a', { class: 'btn btn-primary btn-big', href: `#/lesson/${progLesson.id}?resume=1` },
+          h('span', { class: 'small' }, '途中でやめた回'),
+          h('br'),
+          `▶ 続きから：第${progLesson.no}回 ${progLesson.title}`,
+        ),
+        h('button', {
+          class: 'btn resume-close',
+          'aria-label': '続きからを消す',
+          onclick: () => { Store.setProgress(null); renderHome(); },
+        }, '×'),
       ) : null,
       courses.length ? courses.map((c, k) => {
         const nl = nextLesson(c.id);
@@ -370,7 +378,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：10（2026-11-02　🚗 運転モード・カタカナの読み・英単語40回・続きから・復習の日にち）'),
+        h('p', { class: 'muted small' }, 'アプリの版：11（2026-11-02　「続きから」を × で消せるように）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),

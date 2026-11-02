@@ -405,3 +405,11 @@ body.drive .ex { font-size: 22px; }
 body.drive .line-en { font-size: 26px; }
 body.drive .line-ja { font-size: 20px; }
 body.drive .bottom-bar .btn { min-height: 64px; }
+
+/* 英単語のカードを大きく・カタカナの読み（フリガナ） */
+.word-top { align-items: flex-end; }
+.en-box { display: inline-flex; flex-direction: column; line-height: 1.15; }
+.word .en { font-size: 34px; }
+.kana { font-size: 22px; font-weight: 700; color: var(--primary); letter-spacing: 0.02em; margin-top: 2px; }
+.word .ja { font-size: 20px; }
+body.drive .kana { font-size: 28px; }

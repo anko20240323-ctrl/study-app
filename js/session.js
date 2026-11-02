@@ -750,7 +750,11 @@
         const ngBtn = h('button', { class: 'mark', onclick: (e) => { e.stopPropagation(); setMark(i, 'unsure'); } }, 'あやしい');
         const card = h('li', { class: 'word', onclick: () => playOne(i) },
           h('div', { class: 'word-top' },
-            h('span', { class: 'en', lang: 'en' }, w.en),
+            h('span', { class: 'en-box' },
+              h('span', { class: 'en', lang: 'en' }, w.en),
+              // カタカナの読み（フリガナ）。読み方の雰囲気をつかむため。声には使わない
+              w.kana ? h('span', { class: 'kana' }, w.kana) : null,
+            ),
             h('span', { class: 'ja' }, w.ja),
           ),
           h('p', { class: 'ex', lang: 'en' }, w.ex),

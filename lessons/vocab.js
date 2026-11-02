@@ -15,7 +15,8 @@
     group,
     title: `${group}：${title}`,
     goal,
-    words: list.map(([en, ja, ex, exJa]) => ({ en, ja, ex, exJa })),
+    // 5つ目にカタカナの読みを書いてもよい（書かなければ lessons/kana.js から）
+    words: list.map(([en, ja, ex, exJa, kana]) => ({ en, ja, ex, exJa, kana })),
   });
 
   // ---- 日常 ----

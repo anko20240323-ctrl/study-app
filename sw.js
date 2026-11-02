@@ -19,6 +19,7 @@ const PRECACHE = [
   'js/drill.js',
   'js/app.js',
   'lessons/catalog.js',
+  'lessons/kana.js',
   'lessons/html-01.js',
   'lessons/html-02.js',
   'lessons/html-03.js',

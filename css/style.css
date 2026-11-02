@@ -393,3 +393,15 @@ h1, h2 { line-height: 1.4; }
 .part-name, .part-tag { background: var(--code-bg); color: var(--code-ink); border-color: var(--code-bg); }
 .part-attr, .part-val { border-style: dashed; }
 .part-text { font-family: inherit; background: var(--accent); }
+
+/* 🚗 運転モード：文字を大きく（ちらっと見ても読めるように） */
+body.drive .seg p { font-size: 24px; line-height: 1.6; }
+body.drive .seg-en { font-size: 26px; }
+body.drive .q-text { font-size: 26px; }
+body.drive .choice { font-size: 24px; min-height: 72px; }
+body.drive .word .en { font-size: 40px; }
+body.drive .word .ja { font-size: 24px; }
+body.drive .ex { font-size: 22px; }
+body.drive .line-en { font-size: 26px; }
+body.drive .line-ja { font-size: 20px; }
+body.drive .bottom-bar .btn { min-height: 64px; }

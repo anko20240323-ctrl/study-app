@@ -99,8 +99,10 @@
     constructor(lessonId, root) {
       this.lesson = findLesson(lessonId);
       this.root = root;
-      this.handsFree = !!Store.settings.handsFree;
-      this.voice = !!Store.settings.voice && Listen.supported;
+      // 運転モード：聞くだけモード＋マイクを使わない（Bluetooth が通話用に切りかわらないように）
+      this.drive = !!Store.settings.drive;
+      this.handsFree = this.drive || !!Store.settings.handsFree;
+      this.voice = !this.drive && !!Store.settings.voice && Listen.supported;
       this.reviewItems = buildReviewItems();
       const STEPS = {
         talk: ['talk', 'quiz', 'words', 'done'],
@@ -119,8 +121,10 @@
 
     start() {
       keepAwake(true);
-      // 音声ファイルがあれば、画面を消しても止まりにくくする（ロック画面から止める・続きからもできる）
-      Speech.keepAlive(true, lessonLabel(this.lesson), () => this.togglePause(), {
+      // レッスン中は「再生中」にして、ロック画面・車のハンドル・イヤホンのボタンで操作できるようにする
+      Speech.keepAlive(true, lessonLabel(this.lesson), {
+        play: () => { if (this.paused) this.togglePause(); },
+        pause: () => { if (!this.paused) this.togglePause(); },
         next: () => this.remoteNext(),
         prev: () => this.remotePrev(),
       });
@@ -128,9 +132,10 @@
       this.render();
     }
 
-    stop() {
+    // keepAudio：続けて次の回を始めるときは、無音を止めない（止めると、ボタンを押さずに流し直せないため）
+    stop({ keepAudio = false } = {}) {
       Speech.stop();
-      Speech.keepAlive(false);
+      if (!keepAudio) Speech.keepAlive(false);
       keepAwake(false);
     }
 
@@ -159,6 +164,7 @@
     begin() {
       this.paused = false;
       this.updatePauseBtn();
+      Speech.setPlaying(true);
       return Speech.begin();
     }
 
@@ -185,6 +191,7 @@
         if (this.current && this.current.resume) this.current.resume();
       } else {
         Speech.stop();
+        Speech.setPlaying(false);
         this.paused = true;
         this.updatePauseBtn();
       }
@@ -222,7 +229,8 @@
       const head = h('div', { class: 'session-head' },
         h('div', { class: 'session-title' },
           h('span', { class: 'lesson-no' }, `第${l.no}回`), ' ', l.title,
-          this.handsFree ? h('span', { class: 'chip' }, '聞くだけモード') : null,
+          this.drive ? h('span', { class: 'chip' }, '🚗 運転モード')
+            : this.handsFree ? h('span', { class: 'chip' }, '聞くだけモード') : null,
         ),
         name !== 'done' ? dots : null,
       );

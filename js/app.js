@@ -69,6 +69,26 @@
     return toggle('handsFree', '聞くだけモード', '画面を見なくても、声だけで最後まで進みます');
   }
 
+  // 🚗 運転モード：聞くだけモード＋マイクを使わない＋大きな文字。操作はハンドル・ロック画面のボタンだけでできる
+  function driveToggle() {
+    const el = toggle('drive', '🚗 運転モード',
+      '聞くだけ＋マイクを使わない＋大きな文字。ハンドル・ロック画面の ⏭ 次へ／⏮ もう一度／⏯ 止める・続き で操作します');
+    el.querySelector('input').addEventListener('change', () => {
+      document.body.classList.toggle('drive', !!Store.settings.drive);
+      route();
+    });
+    return el;
+  }
+
+  // 運転モードのときは、聞くだけモードと声で練習の切りかえは使わない（運転モードが優先）
+  function modeCard() {
+    if (Store.settings.drive) {
+      return h('section', { class: 'card' }, driveToggle(),
+        h('p', { class: 'muted small' }, '運転モードの間は、聞くだけモードがオン、声で練習（マイク）がオフになります。'));
+    }
+    return h('section', { class: 'card' }, driveToggle(), h('hr', { class: 'sep' }), handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle());
+  }
+
   function voiceToggle() {
     return toggle('voice', '声で練習する（ためし）',
       Listen.supported
@@ -107,7 +127,7 @@
           `▶ 第${nl.no}回 ${nl.title}`,
         );
       }) : h('p', null, '教材が読みこめませんでした。'),
-      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      modeCard(),
       h('a', { class: 'btn btn-big btn-second', href: '#/drill' },
         h('span', { class: 'small' }, 'HTMLの基礎　学んだコードを何度でも'),
         h('br'),
@@ -169,15 +189,16 @@
           ),
         h('p', { class: 'muted small' }, 'およそ15分です。画面はつけたままで聞いてください（画面を消すと、声が止まることがあります）。'),
       ),
-      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      modeCard(),
       h('button', {
         class: 'btn btn-primary btn-big',
         onclick: async () => {
-          session = new Session(l.id, app);
+          // 押したその瞬間に、無音を流し始めて「再生中」にする（マイクの許可を待つ前に。あとからだと iPhone が止める）
+          Speech.startAudio();
           Sound.unlock();
+          session = new Session(l.id, app);
           if (session.voice) {
             // 1問目より前に、マイクと音声認識の許可を済ませる
-            Speech.unlock();
             const s = session;
             s.root.replaceChildren(h('p', { class: 'lead center' }, '🎤 マイクの準備をしています…'));
             const p = await Listen.prime();
@@ -312,7 +333,7 @@
         h('div', { class: 'rate-row' }, h('span', { class: 'small' }, 'ゆっくり'), rate, h('span', { class: 'small' }, 'はやい')),
         rateOut,
       ),
-      h('section', { class: 'card' }, handsFreeToggle(), h('hr', { class: 'sep' }), voiceToggle()),
+      modeCard(),
       h('section', { class: 'card' },
         h('h2', null, '書く練習の部品ボタン'),
         h('select', {
@@ -338,7 +359,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：8（2026-10-31　英単語・部品ボタン・マイクの許可を先に・車のボタンで次へ）'),
+        h('p', { class: 'muted small' }, 'アプリの版：9（2026-11-02　🚗 運転モード・ハンドルの曲送りを直す）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -364,14 +385,15 @@
 
   // ---- 画面の切りかえ ----
   function route() {
+    const hash = location.hash || '#/';
+    const auto = /[?&]auto=1/.test(hash); // 聞くだけモードで「続けて次の回へ」のとき、すぐ始める
     if (session) {
-      session.stop();
+      session.stop({ keepAudio: auto });
       session = null;
     }
     Speech.stop();
-    const hash = location.hash || '#/';
+    document.body.classList.toggle('drive', !!Store.settings.drive);
     const m = hash.match(/^#\/lesson\/([\w-]+)/);
-    const auto = /[?&]auto=1/.test(hash); // 聞くだけモードで「続けて次の回へ」のとき、すぐ始める
     const d = hash.match(/^#\/drill\/([\w-]+)/);
     if (m) {
       renderLessonIntro(m[1]);

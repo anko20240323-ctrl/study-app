@@ -10,6 +10,7 @@
       enVoice: '',
       rate: 1.0,
       handsFree: false, // 聞くだけモード
+      drive: false,     // 運転モード（聞くだけ＋マイクなし＋大きな文字）
       voice: false,     // 声で練習する（マイクを使う）
       parts: 'symbol',  // 書く練習の部品ボタン：'symbol' 記号ごと／'tag' タグごと／'off' 使わない
     },

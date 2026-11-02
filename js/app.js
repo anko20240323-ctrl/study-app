@@ -101,7 +101,10 @@
   function renderHome() {
     const streak = Store.streak();
     const total = Store.totalDays();
-    const reviewN = Store.mistakes.length;
+    const reviewN = Store.dueMistakes().length;
+    // 途中でやめた回があれば「続きから」を出す
+    const prog = Store.progress;
+    const progLesson = prog && SessionHelpers.findLesson(prog.lessonId);
     let greet;
     if (total === 0) greet = 'はじめまして。1回15分、いっしょに始めましょう。';
     else if (Store.isComingBack()) greet = 'おかえりなさい。また会えてうれしいです。今日はここから、ゆっくり再開しましょう。';
@@ -116,9 +119,14 @@
         h('div', { class: 'stats' },
           streak > 0 ? h('div', { class: 'stat-box' }, h('b', null, streak), '日つづいています') : null,
           h('div', { class: 'stat-box' }, h('b', null, total), '日 学びました'),
-          h('div', { class: 'stat-box' }, h('b', null, reviewN), '個 復習待ち'),
+          h('div', { class: 'stat-box' }, h('b', null, reviewN), '個 今日の復習'),
         ),
       ),
+      progLesson ? h('a', { class: 'btn btn-primary btn-big', href: `#/lesson/${progLesson.id}?resume=1` },
+        h('span', { class: 'small' }, '途中でやめた回'),
+        h('br'),
+        `▶ 続きから：第${progLesson.no}回 ${progLesson.title}`,
+      ) : null,
       courses.length ? courses.map((c, k) => {
         const nl = nextLesson(c.id);
         return h('a', { class: `btn btn-big ${k === 0 ? 'btn-primary' : 'btn-second'}`, href: `#/lesson/${nl.id}` },
@@ -145,13 +153,16 @@
   }
 
   // ---- レッスンの入口 ----
-  function renderLessonIntro(id) {
+  // resume：ホームの「続きから」から来たとき、途中の場面から始める
+  function renderLessonIntro(id, resume) {
     const l = SessionHelpers.findLesson(id);
     if (!l) {
       location.hash = '#/';
       return;
     }
-    const reviewN = Math.min(5, Store.mistakes.length);
+    const prog = Store.progress;
+    const resumeStep = resume && prog && prog.lessonId === l.id && prog.step !== 'review' ? prog.step : null;
+    const reviewN = resumeStep ? 0 : Math.min(5, Store.dueMistakes().length);
     app.replaceChildren(
       h('section', { class: 'card' },
         h('p', { class: 'lesson-no' }, `${(window.COURSES.find((c) => c.id === l.course) || {}).title || ''}　第${l.no}回`),
@@ -196,7 +207,7 @@
           // 押したその瞬間に、無音を流し始めて「再生中」にする（マイクの許可を待つ前に。あとからだと iPhone が止める）
           Speech.startAudio();
           Sound.unlock();
-          session = new Session(l.id, app);
+          session = new Session(l.id, app, { resumeStep });
           if (session.voice) {
             // 1問目より前に、マイクと音声認識の許可を済ませる
             const s = session;
@@ -213,7 +224,7 @@
           }
           session.start();
         },
-      }, '▶ はじめる'),
+      }, resumeStep ? '▶ 続きから' : '▶ はじめる'),
       l.course === 'html'
         ? h('a', { class: 'btn btn-second', href: `#/drill/${l.id}` }, `✍ この回の書く練習（${Drill.count(l)}問）`)
         : null,
@@ -359,7 +370,7 @@
           h('li', null, '進み具合は、このスマホの中だけに保存しています。外には送っていません。'),
           h('li', null, 'ブラウザの「履歴やサイトのデータを消す」をすると、記録も消えます。'),
         ),
-        h('p', { class: 'muted small' }, 'アプリの版：9（2026-11-02　🚗 運転モード・ハンドルの曲送りを直す）'),
+        h('p', { class: 'muted small' }, 'アプリの版：10（2026-11-02　🚗 運転モード・カタカナの読み・英単語40回・続きから・復習の日にち）'),
       ),
       h('section', { class: 'card' },
         h('h2', null, '記録を消す'),
@@ -396,7 +407,7 @@
     const m = hash.match(/^#\/lesson\/([\w-]+)/);
     const d = hash.match(/^#\/drill\/([\w-]+)/);
     if (m) {
-      renderLessonIntro(m[1]);
+      renderLessonIntro(m[1], /[?&]resume=1/.test(hash));
       const start = app.querySelector('.btn-big');
       if (auto && start) start.click();
     }

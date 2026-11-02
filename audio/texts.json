@@ -1,7 +1,7 @@
 {
  "note": "tools/list_texts.mjs が作る一覧です。手で書きかえないでください。",
- "count": 2715,
- "chars": 43979,
+ "count": 2716,
+ "chars": 43995,
  "items": [
   {
    "key": "en|-0.9|Anything to drink?",
@@ -17302,6 +17302,15 @@
    "lang": "ja",
    "semi": 0,
    "text": "もう一度、お手本のあとに言ってみましょう。",
+   "lessons": [
+    "common"
+   ]
+  },
+  {
+   "key": "ja|0|もう一度、番号を言ってください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "もう一度、番号を言ってください。",
    "lessons": [
     "common"
    ]

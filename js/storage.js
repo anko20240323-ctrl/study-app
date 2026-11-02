@@ -19,6 +19,7 @@
     mistakes: [],       // { kind:'quiz'|'word', lessonId, key, at }
     drills: {},         // レッスンID → 書く練習で「できました」になった回数
     lastVisit: '',
+    progress: null,     // 途中でやめた回 { lessonId, step, at }（ホームの「続きから」）
   };
 
   function load() {
@@ -83,6 +84,14 @@
     return last < dateKey(y);
   }
 
+  // 復習に出す日：まちがえた日の翌日 → 正解するたびに 3日後 → 1週間後 → 卒業（復習から消える）
+  const REVIEW_DAYS = [1, 3, 7];
+  function dayAfter(n) {
+    const d = new Date();
+    d.setDate(d.getDate() + n);
+    return dateKey(d);
+  }
+
   function mistakeId(m) {
     return `${m.kind}:${m.lessonId}:${m.key}`;
   }
@@ -117,11 +126,39 @@
       save();
     },
     get mistakes() { return state.mistakes; },
+    // 今日、復習に出すもの（出す日が来たもの。古い順）。前の版で記録したもの（出す日がない）は、すぐ出す
+    dueMistakes() {
+      const t = today();
+      return state.mistakes.filter((m) => !m.due || m.due <= t)
+        .sort((a, b) => (a.due || '').localeCompare(b.due || '') || a.at - b.at);
+    },
+    // まちがえた・「あやしい」にした：翌日の復習に出す（すでにあれば、はじめからやり直し）
     addMistake(kind, lessonId, key) {
-      const m = { kind, lessonId, key: String(key), at: Date.now() };
+      const m = { kind, lessonId, key: String(key), at: Date.now(), stage: 0, due: dayAfter(REVIEW_DAYS[0]) };
       const id = mistakeId(m);
       state.mistakes = state.mistakes.filter((x) => mistakeId(x) !== id);
       state.mistakes.push(m);
+      save();
+    },
+    // 復習で答えたとき：正解なら次は 3日後 → 1週間後 → 卒業。まちがいなら翌日にもう一度
+    reviewed(kind, lessonId, key, correct) {
+      const id = mistakeId({ kind, lessonId, key: String(key) });
+      const m = state.mistakes.find((x) => mistakeId(x) === id);
+      if (!m) return;
+      if (!correct) {
+        m.stage = 0;
+        m.due = dayAfter(REVIEW_DAYS[0]);
+      } else {
+        m.stage = (m.stage || 0) + 1;
+        if (m.stage >= REVIEW_DAYS.length) state.mistakes = state.mistakes.filter((x) => x !== m);
+        else m.due = dayAfter(REVIEW_DAYS[m.stage]);
+      }
+      save();
+    },
+    // 途中でやめた回（続きから）
+    get progress() { return state.progress; },
+    setProgress(p) {
+      state.progress = p ? { ...p, at: Date.now() } : null;
       save();
     },
     removeMistake(kind, lessonId, key) {

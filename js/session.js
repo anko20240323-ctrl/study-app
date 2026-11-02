@@ -58,7 +58,8 @@
   // 前に間違えたものから、古い順に REVIEW_MAX 個まで
   function buildReviewItems() {
     const out = [];
-    for (const m of Store.mistakes) {
+    // 今日が「出す日」のもの（まちがえた翌日 → 3日後 → 1週間後）
+    for (const m of Store.dueMistakes()) {
       const l = findLesson(m.lessonId);
       if (!l) continue;
       if (m.kind === 'quiz') {
@@ -96,7 +97,8 @@
 
   // ------------------------------------------------------------------
   class Session {
-    constructor(lessonId, root) {
+    // opts.resumeStep：「続きから」のとき、その場面から始める
+    constructor(lessonId, root, opts = {}) {
       this.lesson = findLesson(lessonId);
       this.root = root;
       // 運転モード：聞くだけモード＋マイクを使わない（Bluetooth が通話用に切りかわらないように）
@@ -112,8 +114,8 @@
         html: ['explain', 'quiz', 'practice', 'words', 'recap', 'done'],
       };
       this.steps = STEPS[this.lesson.course] || STEPS.html;
-      if (this.reviewItems.length) this.steps.unshift('review');
-      this.index = 0;
+      if (this.reviewItems.length && !opts.resumeStep) this.steps.unshift('review');
+      this.index = Math.max(0, opts.resumeStep ? this.steps.indexOf(opts.resumeStep) : 0);
       this.current = null;
       this.finished = false;
       this.paused = false;
@@ -208,6 +210,8 @@
     render() {
       Speech.stop();
       const name = this.stepName;
+      // 途中でやめても「続きから」できるように、いまの場面を覚えておく（おしまいまで来たら消す）
+      Store.setProgress(name === 'done' ? null : { lessonId: this.lesson.id, step: name });
       const l = this.lesson;
 
       const dots = h('ol', { class: 'steps', 'aria-label': '今日の流れ' },
@@ -380,9 +384,17 @@
         if (this.voice && !answered) {
           if (!(await Speech.say('番号で答えてください。', { gen }))) return false;
           await Sound.cue();
-          const heard = await Listen.hear({ lang: 'ja', ms: 5000, gen });
+          let heard = await Listen.hear({ lang: 'ja', ms: 5000, gen });
           if (!Speech.alive(gen)) return false;
           if (answered) return true;
+          // 聞き取れなかったときは、もう1回だけ聞く（聞き取れないのは、まちがいに数えない）
+          if (Listen.number(heard, item.choices.length) < 0) {
+            if (!(await Speech.say('もう一度、番号を言ってください。', { gen }))) return false;
+            await Sound.cue();
+            heard = await Listen.hear({ lang: 'ja', ms: 5000, gen });
+            if (!Speech.alive(gen)) return false;
+            if (answered) return true;
+          }
           const n = Listen.number(heard, item.choices.length);
           if (n >= 0) return answer(n, gen);
           if (!(await Speech.say('うまく聞き取れませんでした。', { gen }))) return false;
@@ -460,8 +472,8 @@
           label: `${i + 1} / ${items.length}　（${lessonLabel(it.lesson)}${it.kind === 'word' ? 'の単語' : 'の問題'}）`,
           onResult: (correct, byTap) => {
             if (!byTap) return; // 聞くだけモードの自動回答は記録しない
-            if (correct) Store.removeMistake(it.kind, it.lesson.id, it.key);
-            else Store.addMistake(it.kind, it.lesson.id, it.key);
+            // 正解なら次の復習は 3日後 → 1週間後 → 卒業。まちがいなら翌日にもう一度
+            Store.reviewed(it.kind, it.lesson.id, it.key, correct);
           },
         });
         this.setNextLabel(i < items.length - 1 ? '次の問題 →' : '次へ →');

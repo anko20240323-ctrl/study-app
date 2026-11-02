@@ -254,14 +254,14 @@
     ['wash', '洗う', 'Please wash your hands.', '手を洗ってください。', 'ウォッシュ'],
     ['walk', '歩く・散歩する', 'I walk Anko in the morning.', '朝、あんこの散歩をします。', 'ウォーク'],
     ['run', '走る', 'My dog likes to run.', 'うちの犬は走るのが好きです。', 'ラン'],
-    ['sit', 'すわる', 'Please sit here.', 'ここにおすわりください。', 'シット'],
+    ['sit', 'すわる', 'Please sit here.', 'こちらにおかけください。', 'シット'],
     ['stand', '立つ', 'Please stand in line.', '列に並んでください。', 'スタンド'],
   ]);
 
   lesson(22, '日常', '毎日の動き②', '読む・書く・話す・送る など、伝えるときの単語を覚える', [
     ['read', '読む', 'I read the news on my phone.', 'スマホでニュースを読みます。', 'リード'],
     ['write', '書く', 'Please write your name here.', 'ここにお名前を書いてください。', 'ライト'],
-    ['listen', '聞く（耳をかたむける）', 'I listen to English in the car.', '車の中で英語を聞きます。', 'リッスン'],
+    ['listen', '聞く（耳をかたむける）', 'I listen to the radio in the car.', '車の中でラジオを聞きます。', 'リッスン'],
     ['speak', '話す', 'Do you speak Japanese?', '日本語を話せますか？', 'スピーク'],
     ['call', '電話する・呼ぶ', 'I will call you tonight.', '今夜、電話しますね。', 'コール'],
     ['send', '送る', 'Please send me the photo.', 'その写真を送ってください。', 'センド'],
@@ -277,14 +277,14 @@
     ['understand', 'わかる・理解する', 'I understand now.', '今、わかりました。', 'アンダースタンド'],
     ['believe', '信じる', 'I believe in you.', 'あなたを信じています。', 'ビリーブ'],
     ['hope', '望む・願う', 'I hope you like it.', '気に入ってもらえるとうれしいです。', 'ホープ'],
-    ['worry', '心配する', "Don't worry about it.", '心配しないでね。', 'ウォーリー'],
+    ['worry', '心配する', "Don't worry about it.", '心配しないでね。', 'ワーリー'],
   ]);
 
   lesson(24, '日常', 'ようすを表す言葉②', '暑い・速い・重い など、ようすを表す単語を覚える', [
     ['hot', '暑い・熱い', "It's hot today.", '今日は暑いです。', 'ホット'],
     ['cold', '寒い・冷たい', 'This water is cold.', 'この水は冷たいです。', 'コールド'],
     ['fast', '速い', 'This car is very fast.', 'この車はとても速いです。', 'ファスト'],
-    ['slow', 'ゆっくりした・遅い（速さ）', 'Please speak slowly.', 'ゆっくり話してください。', 'スロー'],
+    ['slow', 'ゆっくりした・遅い（速さ）', 'My computer is slow today.', '今日はパソコンが遅いです。', 'スロー'],
     ['heavy', '重い', 'This sofa is heavy.', 'このソファは重いです。', 'ヘビー'],
     ['light', '軽い・明かり', 'This chair is light.', 'このいすは軽いです。', 'ライト'],
     ['long', '長い', 'It was a long day.', '長い一日でした。', 'ロング'],
@@ -296,7 +296,7 @@
     ['sad', '悲しい', 'The movie was sad.', 'その映画は悲しかったです。', 'サッド'],
     ['angry', '怒った', "Please don't be angry.", '怒らないでください。', 'アングリー'],
     ['excited', 'わくわくした', "I'm excited about the race.", 'レースが楽しみです。', 'エキサイテッド'],
-    ['worried', '心配した', "I'm worried about the weather.", '天気が心配です。', 'ウォーリード'],
+    ['worried', '心配した', "I'm worried about the weather.", '天気が心配です。', 'ワーリード'],
     ['surprised', 'おどろいた', 'I was surprised by the price.', '値段におどろきました。', 'サプライズド'],
     ['bored', '退屈した', "I'm never bored with Anko.", 'あんこといると退屈しません。', 'ボアード'],
     ['sleepy', '眠い', "I'm sleepy this morning.", '今朝は眠いです。', 'スリーピー'],
@@ -328,7 +328,7 @@
     ['breakfast', '朝ごはん', 'I eat breakfast at seven.', '7時に朝ごはんを食べます。', 'ブレックファスト'],
     ['lunch', '昼ごはん', "Let's have lunch together.", 'いっしょにお昼ごはんを食べましょう。', 'ランチ'],
     ['dinner', '晩ごはん', 'What do you want for dinner?', '晩ごはんは何がいい？', 'ディナー'],
-    ['rice', 'ごはん・米', 'I eat rice every day.', '毎日ごはんを食べます。', 'ライス'],
+    ['rice', 'ごはん・米', 'Can I have more rice?', 'ごはんのおかわりをもらえますか？', 'ライス'],
     ['bread', 'パン', 'I had bread this morning.', '今朝はパンを食べました。', 'ブレッド'],
     ['water', '水', 'Can I have some water?', 'お水をもらえますか？', 'ウォーター'],
     ['tea', 'お茶・紅茶', 'Would you like some tea?', 'お茶はいかがですか？', 'ティー'],
@@ -348,7 +348,7 @@
   ]);
 
   lesson(30, 'お店', '品出しと在庫', '届いた商品を並べるときの単語を覚える', [
-    ['arrive', '届く・着く', 'The new items arrived today.', '今日、新しい商品が届きました。', 'アライブ'],
+    ['arrive', '届く・着く', 'The new items arrived today.', '今日、新しい商品が届きました。', 'アライヴ'],
     ['deliver', '配達する・届ける', 'We can deliver the sofa.', 'ソファは配達できます。', 'デリバー'],
     ['display', '並べる・陳列する', 'Please display these on the shelf.', 'これらを棚に並べてください。', 'ディスプレイ'],
     ['price tag', '値札', 'Please put a price tag on it.', '値札をつけてください。', 'プライス タグ'],
@@ -373,7 +373,7 @@
     ['meeting', '会議・打ち合わせ', 'We have a meeting at nine.', '9時に会議があります。', 'ミーティング'],
     ['schedule', '予定・スケジュール', "Let's check the schedule.", '予定を確認しましょう。', 'スケジュール'],
     ['shift', 'シフト・勤務時間', 'My shift starts at ten.', 'わたしのシフトは10時からです。', 'シフト'],
-    ['manager', '店長・責任者', 'I am the store manager.', 'わたしが店長です。', 'マネージャー'],
+    ['manager', '店長・責任者', 'Please call the manager.', '店長を呼んでください。', 'マネージャー'],
     ['coworker', '同僚', 'My coworkers are kind.', '同僚はみんな親切です。', 'コワーカー'],
     ['day off', '休みの日', 'Tomorrow is my day off.', '明日はわたしの休みです。', 'デイ オフ'],
     ['overtime', '残業', 'I worked overtime yesterday.', '昨日は残業しました。', 'オーバータイム'],
@@ -407,7 +407,7 @@
   lesson(35, 'コード', 'ページの部品の名前', 'ホームページのコードでよく見る、部品の名前を覚える', [
     ['header', 'ヘッダー（ページの上の部分）', 'The logo is in the header.', 'ロゴはヘッダーにあります。', 'ヘッダー'],
     ['footer', 'フッター（ページの下の部分）', 'The address is in the footer.', '住所はフッターにあります。', 'フッター'],
-    ['nav', 'ナビ（案内のリンクの部分）', 'The menu links are in the nav.', 'メニューのリンクはナビにあります。', 'ナブ'],
+    ['nav', 'ナビ（案内のリンクの部分）', 'The menu links are in the nav.', 'メニューのリンクはナビにあります。', 'ナヴ'],
     ['section', 'セクション（区切り・章）', 'Each section has a heading.', 'それぞれのセクションに見出しがあります。', 'セクション'],
     ['main', 'メイン（主な部分）', 'The main content goes here.', '主な中身はここに入ります。', 'メイン'],
     ['article', '記事', 'This article is about horse racing.', 'この記事は競馬についてです。', 'アーティクル'],
@@ -429,7 +429,7 @@
   lesson(37, 'コード', '動きをつける言葉（JavaScript）', 'ボタンを押したときの動きなど、プログラムの単語を覚える', [
     ['script', 'スクリプト（プログラム）', 'The script runs when the page opens.', 'ページを開くとスクリプトが動きます。', 'スクリプト'],
     ['event', 'イベント（できごと）', 'A click is an event.', 'クリックはイベントの1つです。', 'イベント'],
-    ['variable', '変数（値を入れる箱）', 'Save the score in a variable.', '点数を変数に入れておきます。', 'ヴァリアブル'],
+    ['variable', '変数（値を入れる箱）', 'Save the score in a variable.', '点数を変数に入れておきます。', 'ヴェアリアブル'],
     ['if', 'もし〜なら', 'If the answer is right, play a sound.', 'もし答えが正しければ、音を鳴らします。', 'イフ'],
     ['loop', 'ループ（くり返し）', 'This loop runs ten times.', 'このループは10回くり返します。', 'ループ'],
     ['array', '配列（値の並び）', 'The words are in an array.', '単語は配列に入っています。', 'アレイ'],
@@ -456,7 +456,7 @@
     ['owner', '馬主・持ち主', 'The owner watched the race.', '馬主はレースを見ていました。', 'オーナー'],
     ['stallion', '種牡馬・おす馬', 'He became a famous stallion.', '彼は有名な種牡馬になりました。', 'スタリオン'],
     ['mare', 'めす馬（大人）', 'The mare won the big race.', 'そのめす馬は大きなレースを勝ちました。', 'メア'],
-    ['foal', '子馬', 'The foal was born in spring.', 'その子馬は春に生まれました。', 'フォール'],
+    ['foal', '子馬', 'The foal was born in spring.', 'その子馬は春に生まれました。', 'フォウル'],
     ['pedigree', '血統', 'This horse has a great pedigree.', 'この馬はすばらしい血統です。', 'ペディグリー'],
   ]);
 

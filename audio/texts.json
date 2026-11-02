@@ -1,7 +1,7 @@
 {
  "note": "tools/list_texts.mjs が作る一覧です。手で書きかえないでください。",
- "count": 2716,
- "chars": 43995,
+ "count": 2718,
+ "chars": 44065,
  "items": [
   {
    "key": "en|-0.9|Anything to drink?",
@@ -2384,15 +2384,6 @@
    ]
   },
   {
-   "key": "en|0|I am the store manager.",
-   "lang": "en",
-   "semi": 0,
-   "text": "I am the store manager.",
-   "lessons": [
-    "vocab-32"
-   ]
-  },
-  {
    "key": "en|0|I arrived on time.",
    "lang": "en",
    "semi": 0,
@@ -2480,8 +2471,7 @@
    "semi": 0,
    "text": "I eat rice every day.",
    "lessons": [
-    "vocab-01",
-    "vocab-28"
+    "vocab-01"
    ]
   },
   {
@@ -2653,8 +2643,7 @@
    "semi": 0,
    "text": "I listen to English in the car.",
    "lessons": [
-    "vocab-09",
-    "vocab-22"
+    "vocab-09"
    ]
   },
   {
@@ -4534,15 +4523,6 @@
    "text": "Please slow down here.",
    "lessons": [
     "vocab-33"
-   ]
-  },
-  {
-   "key": "en|0|Please speak slowly.",
-   "lang": "en",
-   "semi": 0,
-   "text": "Please speak slowly.",
-   "lessons": [
-    "vocab-24"
    ]
   },
   {
@@ -10584,15 +10564,6 @@
    "text": "ここで試せます。",
    "lessons": [
     "vocab-31"
-   ]
-  },
-  {
-   "key": "ja|0|ここにおすわりください。",
-   "lang": "ja",
-   "semi": 0,
-   "text": "ここにおすわりください。",
-   "lessons": [
-    "vocab-21"
    ]
   },
   {
@@ -17496,15 +17467,6 @@
    ]
   },
   {
-   "key": "ja|0|ゆっくり話してください。",
-   "lang": "ja",
-   "semi": 0,
-   "text": "ゆっくり話してください。",
-   "lessons": [
-    "vocab-24"
-   ]
-  },
-  {
    "key": "ja|0|よい",
    "lang": "ja",
    "semi": 0,
@@ -17916,15 +17878,6 @@
    "text": "わくわくした、は英語で、どれでしょう？",
    "lessons": [
     "vocab-25"
-   ]
-  },
-  {
-   "key": "ja|0|わたしが店長です。",
-   "lang": "ja",
-   "semi": 0,
-   "text": "わたしが店長です。",
-   "lessons": [
-    "vocab-32"
    ]
   },
   {
@@ -21966,15 +21919,6 @@
    ]
   },
   {
-   "key": "ja|0|毎日ごはんを食べます。",
-   "lang": "ja",
-   "semi": 0,
-   "text": "毎日ごはんを食べます。",
-   "lessons": [
-    "vocab-28"
-   ]
-  },
-  {
    "key": "ja|0|毎週月曜日に在庫を確認します。",
    "lang": "ja",
    "semi": 0,
@@ -23809,15 +23753,6 @@
    ]
   },
   {
-   "key": "ja|0|車の中で英語を聞きます。",
-   "lang": "ja",
-   "semi": 0,
-   "text": "車の中で英語を聞きます。",
-   "lessons": [
-    "vocab-22"
-   ]
-  },
-  {
    "key": "ja|0|軽い・明かり",
    "lang": "ja",
    "semi": 0,
@@ -24652,6 +24587,87 @@
    "text": "黒いかばんを探しています。",
    "lessons": [
     "talk-02"
+   ]
+  },
+  {
+   "key": "ja|0|こちらにおかけください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "こちらにおかけください。",
+   "lessons": [
+    "vocab-21"
+   ]
+  },
+  {
+   "key": "en|0|I listen to the radio in the car.",
+   "lang": "en",
+   "semi": 0,
+   "text": "I listen to the radio in the car.",
+   "lessons": [
+    "vocab-22"
+   ]
+  },
+  {
+   "key": "ja|0|車の中でラジオを聞きます。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "車の中でラジオを聞きます。",
+   "lessons": [
+    "vocab-22"
+   ]
+  },
+  {
+   "key": "en|0|My computer is slow today.",
+   "lang": "en",
+   "semi": 0,
+   "text": "My computer is slow today.",
+   "lessons": [
+    "vocab-24"
+   ]
+  },
+  {
+   "key": "ja|0|今日はパソコンが遅いです。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "今日はパソコンが遅いです。",
+   "lessons": [
+    "vocab-24"
+   ]
+  },
+  {
+   "key": "en|0|Can I have more rice?",
+   "lang": "en",
+   "semi": 0,
+   "text": "Can I have more rice?",
+   "lessons": [
+    "vocab-28"
+   ]
+  },
+  {
+   "key": "ja|0|ごはんのおかわりをもらえますか？",
+   "lang": "ja",
+   "semi": 0,
+   "text": "ごはんのおかわりをもらえますか？",
+   "lessons": [
+    "vocab-28"
+   ]
+  },
+  {
+   "key": "en|0|Please call the manager.",
+   "lang": "en",
+   "semi": 0,
+   "text": "Please call the manager.",
+   "lessons": [
+    "vocab-32"
+   ]
+  },
+  {
+   "key": "ja|0|店長を呼んでください。",
+   "lang": "ja",
+   "semi": 0,
+   "text": "店長を呼んでください。",
+   "lessons": [
+    "vocab-32"
    ]
   }
  ]
